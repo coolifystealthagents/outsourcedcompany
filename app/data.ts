@@ -62,6 +62,53 @@ export const blogPosts = [
     "minutes": 9
   }
 ] as const;
+
+export const blogDetails = {
+  "outsourced-company-provider-questions": {
+    updated: "2026-07-20",
+    takeaway: "A good outsourcing provider can explain who screens the worker, who checks the work, how tool access is limited, and what happens if the fit is wrong. If the answers stay vague, do not rush the contract.",
+    sections: [
+      {
+        heading: "Ask who owns quality after the first week",
+        body: "Many buyers ask about hourly rates first. Ask about review instead. You want to know who checks the first ten tickets, reports, calls, or admin tasks before the role becomes normal. The provider should name the manager, the review window, and the replacement path. A simple answer is better than a polished one.",
+      },
+      {
+        heading: "Check the access plan before sharing tools",
+        body: "Remote staff often need inboxes, CRMs, drives, phones, or billing systems. That does not mean they need full access on day one. Ask for limited permissions, named accounts, password-manager use, and a rule for sensitive customer data. The FTC tells small businesses to keep only the data they need, limit access, and protect it during use and storage.",
+      },
+      {
+        heading: "Make the provider explain the first 14 days",
+        body: "The safest pilot is narrow. Give the staff member a small set of recurring tasks, examples of good work, and a daily output target. Then review quality at the end of week one and week two. If the provider cannot describe that launch plan, you may end up managing the whole handoff yourself.",
+      },
+      {
+        heading: "Ask what happens when the fit is poor",
+        body: "A provider should be calm about this question. Hiring sometimes misses. Ask how fast they can replace a worker, what notes they keep from the failed match, and whether you restart onboarding from zero. The answer shows whether the company has a real support layer or only a resume pipeline.",
+      },
+    ],
+    comparison: [
+      { weak: "We have great people.", strong: "Your first worker is reviewed by a named manager after the first five sample tasks." },
+      { weak: "We can use all your tools.", strong: "Start with named accounts, limited permissions, and a written access list." },
+      { weak: "We replace people if needed.", strong: "Replacement starts after a written fit review, with notes carried into the next match." },
+    ],
+    script: [
+      "Who reviews the first week of work, and what do they check?",
+      "Which tools should this role have on day one, and which should wait?",
+      "If the worker is not a fit, what is the replacement process and timeline?",
+      "Can you show me a sample weekly report or scorecard?",
+    ],
+    sources: [
+      { name: "FTC", url: "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business", note: "Small-business guidance on limiting access to personal information and protecting customer data." },
+      { name: "NIST Cybersecurity Framework 2.0", url: "https://www.nist.gov/cyberframework", note: "Useful for asking providers how they identify, protect, detect, respond, and recover around systems access." },
+      { name: "SBA", url: "https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees", note: "Plain guidance on hiring and managing workers, useful when building role expectations and review rules." },
+    ],
+    faqs: [
+      { question: "Should I ask an outsourced company about price first?", answer: "Ask about scope and management first. Price matters, but the cheapest plan can become expensive if you have to rebuild the work yourself." },
+      { question: "What is a safe first task for an outsourced worker?", answer: "Start with repeatable work that has examples, clear rules, and low account risk. Tickets, inbox sorting, reporting, and admin updates are easier to check than open-ended judgment work." },
+      { question: "How many provider questions are enough?", answer: "Use six to ten questions. Cover screening, quality review, tool access, reporting, replacement, schedule, and escalation rules." },
+    ],
+  },
+} as const;
+
 export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
 
 export const stealthOffer = {
