@@ -83,7 +83,7 @@ export default async function Post({params}:{params:Promise<{slug:string}>}){
           <div className='card'>
             {details.sections.map((section: any)=><section key={section.heading} style={{marginBottom:22}}>
               <h2>{section.heading}</h2>
-              <p>{section.body}</p>
+              {(Array.isArray(section.body) ? section.body : [section.body]).map((paragraph: string, index: number)=><p key={`${section.heading}-${index}`}>{paragraph}</p>)}
             </section>)}
           </div>
           {details.decisionTable ? <section className='card article-table-wrap'>

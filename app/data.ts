@@ -214,35 +214,73 @@ export const blogDetails = {
     sections: [
       {
         heading: "Why buyers look at the Philippines",
-        body: "The Philippines has a large service workforce. World Bank data says services employed 59.548% of workers in 2025. That figure covers the whole service economy, not outsourcing alone, but it shows the depth of service work in the country. English is also an official language under the Philippine Constitution. Those facts do not prove that every worker or provider will fit your company. You still need a work sample, a clear schedule, and a manager who can answer questions.",
+        body: [
+          "The Philippines has a large service workforce. World Bank data says services employed 59.548% of workers in 2025. That figure covers the whole service economy, not outsourcing alone, but it shows the depth of service work in the country.",
+          "English is also an official language under the Philippine Constitution. Those facts do not prove that every worker or provider will fit your company. You still need a work sample, a clear schedule, and a manager who can answer questions.",
+        ],
       },
       {
         heading: "Choose one queue before you choose a person",
-        body: "A weak outsourcing brief says: 'Help our busy team with admin, support, research, and anything else.' No candidate can tell which skill matters most. A stronger brief names one queue, its daily volume, the tools used, the due time, and the decisions that stay with your team. Good first queues repeat and leave a record. Think ticket sorting, order updates, CRM cleanup, calendar work, weekly reports, or checks against a written list. Bring five finished examples and one example with errors marked. If the work changes every day or depends on the founder's judgment, fix the process before you hire. A staffing partner can find Filipino talent, but it cannot read rules that remain in your head.",
+        body: [
+          "A weak outsourcing brief says: 'Help our busy team with admin, support, research, and anything else.' No candidate can tell which skill matters most.",
+          "A stronger brief names one queue, its daily volume, the tools used, the due time, and the decisions that stay with your team. Good first queues repeat and leave a record. Think ticket sorting, order updates, CRM cleanup, calendar work, weekly reports, or checks against a written list.",
+          "Bring five finished examples and one example with errors marked. If the work changes every day or depends on the founder's judgment, fix the process before you hire. A staffing partner can find Filipino talent, but it cannot read rules that remain in your head.",
+        ],
       },
       {
         heading: "Pick the service model that matches the work",
-        body: "The word outsourcing covers several deals. Direct staffing gives you a person who works inside your process while you manage the daily work. Managed outsourcing gives a provider more control over the process and team. A fixed project has an agreed output and end point. None is always best. Direct staffing can fit a steady role when your manager knows the work. A managed team can fit a larger queue when you want the provider to own staffing and daily checks. A project can fit a defined build or cleanup. Ask who sets priorities, who reviews work, who supplies tools, and who replaces a poor fit. If those answers are missing, the model is still unclear.",
+        body: [
+          "The word outsourcing covers several deals. Direct staffing gives you a person who works inside your process while you manage the daily work.",
+          "Managed outsourcing gives a provider more control over the process and team. A fixed project has an agreed output and end point. None is always best.",
+          "Direct staffing can fit a steady role when your manager knows the work. A managed team can fit a larger queue when you want the provider to own staffing and daily checks. A project can fit a defined build or cleanup.",
+          "Ask who sets priorities, who reviews work, who supplies tools, and who replaces a poor fit. If those answers are missing, the model is still unclear.",
+        ],
       },
       {
         heading: "Plan the hours in plain numbers",
-        body: "The Philippines uses UTC+8. Do the time math before interviews, and account for daylight-saving changes in your own country. A US company may want two to four live hours for questions and handoffs rather than a full night shift. An Australian team may have much more daytime overlap. Write the required hours, paid breaks, meeting times, weekend rules, and public-holiday plan in the role brief. Then ask the provider how it handles shift changes and attendance. Do not hide a night schedule until the last interview. It wastes everyone's time and may leave you with a worker who accepted the skill match but cannot sustain the hours.",
+        body: [
+          "The Philippines uses UTC+8. Do the time math before interviews, and account for daylight-saving changes in your own country.",
+          "A US company may want two to four live hours for questions and handoffs rather than a full night shift. An Australian team may have much more daytime overlap.",
+          "Write the required hours, paid breaks, meeting times, weekend rules, and public-holiday plan in the role brief. Then ask the provider how it handles shift changes and attendance.",
+          "Do not hide a night schedule until the last interview. It wastes everyone's time and may leave you with a worker who accepted the skill match but cannot sustain the hours.",
+        ],
       },
       {
         heading: "Protect data with less access, not more trust",
-        body: "The Philippine Data Privacy Act of 2012 sets rules for processing personal information. Your own country and industry may add more duties. Start with named accounts and the lowest access needed for the first queue. Separate draft rights from send, refund, delete, export, and admin rights. Use a password manager instead of sharing passwords in chat. Turn on multi-factor login when the tool supports it. Keep banking, payroll, legal decisions, hiring decisions, and broad customer-data exports with an internal owner unless you have a reviewed reason to move them. Record each account, permission, owner, and removal date. This is basic access control, not legal advice. Ask qualified counsel about regulated data or cross-border duties.",
+        body: [
+          "The Philippine Data Privacy Act of 2012 sets rules for processing personal information. Your own country and industry may add more duties.",
+          "Start with named accounts and the lowest access needed for the first queue. Separate draft rights from send, refund, delete, export, and admin rights.",
+          "Use a password manager instead of sharing passwords in chat. Turn on multi-factor login when the tool supports it.",
+          "Keep banking, payroll, legal decisions, hiring decisions, and broad customer-data exports with an internal owner unless you have a reviewed reason to move them. Record each account, permission, owner, and removal date.",
+          "This is basic access control, not legal advice. Ask qualified counsel about regulated data or cross-border duties.",
+        ],
       },
       {
         heading: "Compare providers by the work behind the promise",
-        body: "A sales page may promise skill, speed, and low cost. Ask what happens after the call. Who writes the job scorecard? How many work samples does the candidate complete? Who checks identity and references? Who reviews the first ten live items? What happens if the worker leaves or is not a fit? Ask to see a blank weekly report, a sample access checklist, and the written replacement steps. You do not need a provider to name another client or expose private data. You need to see the system it will use for your role. Compare the full deal as well: pay, provider fee, tools, training time, management time, shift costs, taxes, and exit terms. A cheap line item can still create an expensive handoff.",
+        body: [
+          "A sales page may promise skill, speed, and low cost. Ask what happens after the call.",
+          "Who writes the job scorecard? How many work samples does the candidate complete? Who checks identity and references?",
+          "Who reviews the first ten live items? What happens if the worker leaves or is not a fit?",
+          "Ask to see a blank weekly report, a sample access checklist, and the written replacement steps. You do not need a provider to name another client or expose private data. You need to see the system it will use for your role.",
+          "Compare the full deal as well: pay, provider fee, tools, training time, management time, shift costs, taxes, and exit terms. A cheap line item can still create an expensive handoff.",
+        ],
       },
       {
         heading: "Build a scorecard your manager can use",
-        body: "Do not judge the first month by activity alone. A worker can close many tickets and still miss the hard ones. Pick three to five checks tied to the queue. For support, you might track reply accuracy, missed escalations, reopened tickets, and response time. For admin work, check record accuracy, deadlines, and open items that lack an owner. Define each measure before work starts. For example, 'accurate' might mean the right customer, status, date, and source are present. Review every item in a small first batch. Once the process is steady, move to a stated sample, such as ten items each week. Change the sample when risk or error rates change. Keep coaching and employment decisions with the proper manager.",
+        body: [
+          "Do not judge the first month by activity alone. A worker can close many tickets and still miss the hard ones.",
+          "Pick three to five checks tied to the queue. For support, you might track reply accuracy, missed escalations, reopened tickets, and response time. For admin work, check record accuracy, deadlines, and open items that lack an owner.",
+          "Define each measure before work starts. For example, 'accurate' might mean the right customer, status, date, and source are present. Review every item in a small first batch.",
+          "Once the process is steady, move to a stated sample, such as ten items each week. Change the sample when risk or error rates change. Keep coaching and employment decisions with the proper manager.",
+        ],
       },
       {
         heading: "Know what should stay with your team",
-        body: "Outsource work, not ownership of your company. Your team should keep policy choices, final budget approval, legal judgment, staff discipline, and sensitive exceptions unless the contract and controls clearly say otherwise. Write stop rules for the Filipino team member. A support worker might pause on threats, safety issues, chargebacks, or refund requests above a set amount. An operations worker might stop when the source file is missing or a price changed. The stop rule is useful only when it names the person who will reply and the time they have to do it. Clear limits help the worker move faster on normal work because they are not forced to guess at unusual cases.",
+        body: [
+          "Outsource work, not ownership of your company. Your team should keep policy choices, final budget approval, legal judgment, staff discipline, and sensitive exceptions unless the contract and controls clearly say otherwise.",
+          "Write stop rules for the Filipino team member. A support worker might pause on threats, safety issues, chargebacks, or refund requests above a set amount. An operations worker might stop when the source file is missing or a price changed.",
+          "The stop rule is useful only when it names the person who will reply and the time they have to do it. Clear limits help the worker move faster on normal work because they are not forced to guess at unusual cases.",
+        ],
       },
     ],
     decisionTable: {

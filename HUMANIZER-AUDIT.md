@@ -22,13 +22,13 @@ Date: 2026-07-21
 - Kept the writing concrete: examples, access limits, approval lines, review owners, and queue handoffs.
 - Shortened two homepage headings after visual QA found awkward desktop line breaks, and raised the contrast of small routing and footer notes.
 - Shortened the planning-guide H1 and separated the shared CTA from the article card after detail-route visual QA found an orphaned word and cramped section boundary.
-- Added the first Ahrefs-led commercial guide in plain language. It uses short paragraphs, states when a number is a planning example, and separates sourced facts from advice.
+- Added the first Ahrefs-led commercial guide in plain language. Its body paragraphs now contain no more than three sentences, with long sections split into smaller blocks for easier scanning. It states when a number is a planning example and separates sourced facts from advice.
 - Kept the article specific without invented proof. The page has no testimonials, client results, market-rate claims, savings claims, or provider rankings.
 - Replaced vague sales claims with work the buyer can check: five finished samples, the first ten records, named access, written stop rules, and a 30-day launch sequence.
 
 ## Final anti-AI pass
 
-The remaining lists are functional checklists rather than decorative groups. Headings are direct, paragraph lengths vary, and the copy does not use significance claims, chatbot language, vague expert attribution, forced contrasts, or generic upbeat conclusions. A pattern scan of the new article found none of the watched terms such as “delve,” “crucial,” “landscape,” “pivotal,” “showcase,” “at its core,” or “the real question.” The article averages about 13.5 words per sentence. Necessary terms such as “multi-factor,” “Data Privacy Act,” and “outsourcing” raise automated grade estimates, but each is explained with short, direct steps.
+The remaining lists are functional checklists rather than decorative groups. Headings are direct, paragraph lengths vary, and a rendered-HTML audit found zero paragraphs above three sentences. The copy does not use significance claims, chatbot language, vague expert attribution, forced contrasts, or generic upbeat conclusions. A pattern scan of the new article found none of the watched terms such as “delve,” “crucial,” “landscape,” “pivotal,” “showcase,” “at its core,” or “the real question.” The article averages about 13.5 words per sentence. Necessary terms such as “multi-factor,” “Data Privacy Act,” and “outsourcing” raise automated grade estimates, but each is explained with short, direct steps.
 
 ## Exclusions and guardrails
 
