@@ -16,25 +16,109 @@ export const site = {
 } as const;
 export const services = [
   {
-    "slug": "operations-support",
-    "title": "Operations Support",
-    "desc": "Operations Support for teams using outsourced company with clear SOPs, weekly review, and measurable handoffs."
+    slug: "operations-support",
+    title: "Outsourced operations support",
+    desc: "Hand off recurring order, project, and vendor updates while your team keeps approval over exceptions and spending.",
+    bestTasks: [
+      "Update order, project, and vendor records from approved source files",
+      "Prepare daily queue notes and flag missing details",
+      "Chase routine status updates using an approved message",
+      "Keep SOPs and handoff checklists current",
+    ],
+    controls: [
+      "Use named accounts with only the access the role needs",
+      "Send price changes, refunds, and contract decisions to an internal owner",
+      "Review a sample of completed records each week",
+    ],
+    firstWeek: [
+      "Choose one recurring queue and share five good examples",
+      "List the fields, deadlines, and exceptions the worker must check",
+      "Run sample work before granting live access",
+      "Review the first live batch together and update the SOP",
+    ],
+    faqs: [
+      { question: "What should an outsourced operations worker handle first?", answer: "Start with a repeatable queue such as order updates, vendor follow-up, project records, or routine status reports. Keep purchasing, pricing, and exception approvals with your team." },
+      { question: "How do we check operations work?", answer: "Use a short checklist for required fields and deadlines. Review the first batch in full, then sample completed work each week and track repeat errors." },
+    ],
   },
   {
-    "slug": "customer-support",
-    "title": "Customer Support",
-    "desc": "Customer Support for teams using outsourced company with clear SOPs, weekly review, and measurable handoffs."
+    slug: "customer-support",
+    title: "Outsourced customer support",
+    desc: "Add inbox and ticket coverage with approved replies, clear response targets, and a written list of issues that need a manager.",
+    bestTasks: [
+      "Sort incoming tickets by topic, urgency, and customer type",
+      "Answer common questions from an approved help guide",
+      "Record contact reasons and missing help articles",
+      "Send product, billing, safety, and complaint issues to the right owner",
+    ],
+    controls: [
+      "Set written limits for refunds, credits, and account changes",
+      "Review early replies for accuracy and tone before full queue access",
+      "Keep a named escalation owner for sensitive or angry customers",
+    ],
+    firstWeek: [
+      "Share common tickets, approved replies, and words the team should avoid",
+      "Mark the issues that always need an internal decision",
+      "Practice on past tickets and review every draft",
+      "Open a small live queue and check replies at the end of each shift",
+    ],
+    faqs: [
+      { question: "Can outsourced support staff issue refunds?", answer: "Only if you give them a written limit and approval rule. Many teams begin with draft-only replies and keep refunds, credits, and account exceptions with a manager." },
+      { question: "What should a customer support scorecard track?", answer: "Track reply accuracy, response time, reopened tickets, missed escalations, and the most common contact reasons. Avoid judging the role on ticket count alone." },
+    ],
   },
   {
-    "slug": "admin-support",
-    "title": "Admin Support",
-    "desc": "Admin Support for teams using outsourced company with clear SOPs, weekly review, and measurable handoffs."
+    slug: "admin-support",
+    title: "Outsourced admin support",
+    desc: "Move scheduling, inbox sorting, document upkeep, and follow-up off your desk without handing over sensitive decisions.",
+    bestTasks: [
+      "Sort inbox messages and prepare draft replies",
+      "Schedule meetings from written availability rules",
+      "Update CRM records, contact lists, and shared documents",
+      "Prepare meeting notes and follow-up lists",
+    ],
+    controls: [
+      "Separate draft access from send or approval access",
+      "Keep payroll, legal, hiring, and banking decisions with an internal owner",
+      "Use a daily handoff note for open items and blocked work",
+    ],
+    firstWeek: [
+      "Pick two tasks that happen several times each week",
+      "Share examples, naming rules, and a simple done checklist",
+      "Practice with test records or draft-only access",
+      "Review work daily before adding another task",
+    ],
+    faqs: [
+      { question: "Which admin task is safest to outsource first?", answer: "Calendar upkeep, document formatting, CRM cleanup, and draft follow-up are good starting points because the work is easy to show and review." },
+      { question: "Should an admin worker have access to the owner's full inbox?", answer: "Not by default. Start with a shared inbox, delegated mailbox, labels, or draft-only access. Add permissions only when the role needs them." },
+    ],
   },
   {
-    "slug": "reporting-and-qa",
-    "title": "Reporting and QA",
-    "desc": "Reporting and QA for teams using outsourced company with clear SOPs, weekly review, and measurable handoffs."
-  }
+    slug: "reporting-and-qa",
+    title: "Outsourced reporting and quality checks",
+    desc: "Keep routine reports and quality checks moving while your manager owns targets, policy calls, and any action taken from the findings.",
+    bestTasks: [
+      "Collect approved data and update recurring reports",
+      "Check records, tickets, or calls against a written scorecard",
+      "Tag errors and prepare a weekly exception list",
+      "Track whether corrected work was reviewed again",
+    ],
+    controls: [
+      "Lock metric definitions so the report does not change by reviewer",
+      "Keep performance actions and policy decisions with the internal manager",
+      "Trace every reported number to a named source or system view",
+    ],
+    firstWeek: [
+      "Choose one report or review queue and define each field",
+      "Score the same sample with the worker and compare results",
+      "Fix unclear rules before checking live work",
+      "Publish the first report with source notes and manager review",
+    ],
+    faqs: [
+      { question: "Can an outsourced QA worker manage employee performance?", answer: "The worker can check samples, record errors, and prepare a trend report. Your manager should decide coaching, warnings, pay, or other performance actions." },
+      { question: "How do we stop reporting errors?", answer: "Define every metric, name its source, lock the reporting period, and require a second check for totals. Keep an exception note when data is missing or late." },
+    ],
+  },
 ] as const;
 export const blogPosts = [
   {
