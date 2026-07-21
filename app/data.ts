@@ -123,29 +123,77 @@ export const services = [
 export const blogPosts = [
   {
     "slug": "outsourced-company-planning",
-    "title": "Outsourced Company: What does it plan?",
-    "excerpt": "A plain-English guide to staffing details, scope, and hidden planning.",
+    "title": "Plan a company function before you outsource it",
+    "excerpt": "Write down the work, approval limits, tool access, and review owner before you look for Filipino talent.",
     "minutes": 6
   },
   {
     "slug": "outsourced-company-tasks-to-outsource",
-    "title": "Outsourced Company: What tasks should you outsource first?",
-    "excerpt": "Start with recurring work that has examples and clear review rules.",
+    "title": "Which company tasks should you outsource first?",
+    "excerpt": "Start with a queue your team can show, check, and hand back when a decision is needed.",
     "minutes": 7
   },
   {
     "slug": "outsourced-company-provider-questions",
-    "title": "Outsourced Company: Questions to ask before hiring",
-    "excerpt": "Use these questions before you sign with a provider or freelancer.",
+    "title": "Questions to ask an outsourcing provider",
+    "excerpt": "Ask who screens Filipino candidates, checks early work, limits access, and handles a poor fit.",
     "minutes": 8
   },
   {
     "slug": "outsourced-company-onboarding-checklist",
-    "title": "Outsourced Company: First week onboarding checklist",
-    "excerpt": "A simple checklist for tools, SOPs, calls, QA, and reporting.",
+    "title": "Your first-week outsourcing checklist",
+    "excerpt": "Give a Filipino team member examples, limited access, a review contact, and one small live queue.",
     "minutes": 9
   }
 ] as const;
+
+export const guideDetails = {
+  "outsourced-company-planning": {
+    answer: "Choose one company function and describe the work as it happens now. Name the tools, the schedule, the approval limits, and the person who will review early work. That brief gives a Philippines-focused staffing partner something concrete to hire against.",
+    prepare: [
+      "Five examples of completed work from the same queue",
+      "A list of tools and the lowest access level the role needs",
+      "The choices a Filipino team member may make without approval",
+      "The name of the person who will check the first live batch",
+    ],
+    questions: [
+      "Can another person follow the current steps without asking the owner each time?",
+      "Which mistakes are easy to spot before they reach a customer?",
+      "What must come back to a manager?",
+      "Which part of the work is still too unclear to hand off?",
+    ],
+  },
+  "outsourced-company-tasks-to-outsource": {
+    answer: "Start with work that repeats and leaves a record. Inbox sorting, order updates, CRM cleanup, routine reports, and first-line ticket replies are easier to teach than work built around judgment or one-off decisions.",
+    prepare: [
+      "A short list of tasks that return each day or week",
+      "One good and one poor example for each task",
+      "A clear done check for the first queue",
+      "A list of money, policy, or customer decisions that stay in-house",
+    ],
+    questions: [
+      "Does the task have a clear starting point and finish?",
+      "Can your team review the result without doing the work again?",
+      "Will the role need broad account access to begin?",
+      "Who answers questions when the written guide is not enough?",
+    ],
+  },
+  "outsourced-company-onboarding-checklist": {
+    answer: "Keep the first week small. Let the new Filipino team member practice on past work, check every draft, and open one live queue only after the rules make sense. Add access and responsibility as the work becomes steady.",
+    prepare: [
+      "Named accounts with only the permissions needed for the first queue",
+      "Finished examples and a short checklist for common errors",
+      "A daily handoff note for open questions and blocked work",
+      "A review time with the internal owner at the end of each shift",
+    ],
+    questions: [
+      "Who can approve access changes?",
+      "Where should the new hire record questions?",
+      "Which issue should stop the queue and trigger a manager review?",
+      "What must be true before a second task is added?",
+    ],
+  },
+} as const;
 
 export const blogDetails = {
   "outsourced-company-provider-questions": {
@@ -162,7 +210,7 @@ export const blogDetails = {
       },
       {
         heading: "Make the provider explain the first 14 days",
-        body: "The safest pilot is narrow. Give the staff member a small set of recurring tasks, examples of good work, and a daily output target. Then review quality at the end of week one and week two. If the provider cannot describe that launch plan, you may end up managing the whole handoff yourself.",
+        body: "Keep the first assignment narrow. Give the staff member a small set of recurring tasks, examples of good work, and a clear daily target. Review the work at the end of week one and week two. If the provider cannot describe that launch plan, you may end up managing the whole handoff yourself.",
       },
       {
         heading: "Ask what happens when the fit is poor",
@@ -188,7 +236,7 @@ export const blogDetails = {
     faqs: [
       { question: "Should I ask an outsourced company about price first?", answer: "Ask about scope and management first. Price matters, but the cheapest plan can become expensive if you have to rebuild the work yourself." },
       { question: "What is a safe first task for an outsourced worker?", answer: "Start with repeatable work that has examples, clear rules, and low account risk. Tickets, inbox sorting, reporting, and admin updates are easier to check than open-ended judgment work." },
-      { question: "How many provider questions are enough?", answer: "Use six to ten questions. Cover screening, quality review, tool access, reporting, replacement, schedule, and escalation rules." },
+      { question: "How many provider questions are enough?", answer: "Use enough questions to cover screening, quality review, tool access, reporting, replacement, schedule, and escalation rules. Ask for examples when an answer stays broad." },
     ],
   },
 } as const;

@@ -92,7 +92,7 @@ export default function Home() {
         <div className="container boundary-grid">
           <div className="boundary-copy">
             <p className="eyebrow">Draw the decision line</p>
-            <h2>The hire can run the queue. Your team still owns the call.</h2>
+            <h2>The hire runs the queue. Your team makes the call.</h2>
             <p>Routine work moves faster when everyone knows what can be completed, what needs a draft, and what must come back to a manager.</p>
           </div>
           <div className="decision-ledger">
@@ -140,7 +140,7 @@ export default function Home() {
       <section className="container brief-cta">
         <div>
           <p className="eyebrow">Bring the messy list</p>
-          <h2>Turn it into a role a Filipino hire can actually run.</h2>
+          <h2>Turn the messy list into a workable Filipino role.</h2>
         </div>
         <div>
           <p>Share the recurring work, tools, schedule, and decisions that stay with your team. A Philippines-focused staffing partner may follow up with a practical role scope.</p>
