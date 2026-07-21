@@ -122,6 +122,12 @@ export const services = [
 ] as const;
 export const blogPosts = [
   {
+    "slug": "outsource-to-the-philippines-guide",
+    "title": "Outsource to the Philippines: a practical buyer's guide",
+    "excerpt": "Choose the first role, compare Philippines staffing partners, protect access, and run a 30-day launch you can check.",
+    "minutes": 11
+  },
+  {
     "slug": "outsourced-company-planning",
     "title": "Plan a company function before you outsource it",
     "excerpt": "Write down the work, approval limits, tool access, and review owner before you look for Filipino talent.",
@@ -196,6 +202,102 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  "outsource-to-the-philippines-guide": {
+    updated: "2026-07-21",
+    takeaway: "Outsourcing to the Philippines works best when you start with one clear queue, not a loose list of chores. Pick work that repeats, show what good work looks like, limit access, and name the manager who will check the first batch. Then ask a Philippines-focused staffing partner to hire for that written role.",
+    stats: [
+      { value: "59.5%", label: "Philippine jobs in services", note: "World Bank value for 2025, rounded from 59.548%." },
+      { value: "UTC+8", label: "Philippine time", note: "Use this to plan live overlap with your home team." },
+      { value: "5 samples", label: "Good starting brief", note: "A planning number, not an industry rule. Use real finished work." },
+      { value: "30 days", label: "First launch window", note: "Keep the first month narrow enough to review closely." },
+    ],
+    sections: [
+      {
+        heading: "Why buyers look at the Philippines",
+        body: "The Philippines has a large service workforce. World Bank data says services employed 59.548% of workers in 2025. That figure covers the whole service economy, not outsourcing alone, but it shows the depth of service work in the country. English is also an official language under the Philippine Constitution. Those facts do not prove that every worker or provider will fit your company. You still need a work sample, a clear schedule, and a manager who can answer questions.",
+      },
+      {
+        heading: "Choose one queue before you choose a person",
+        body: "A weak outsourcing brief says: 'Help our busy team with admin, support, research, and anything else.' No candidate can tell which skill matters most. A stronger brief names one queue, its daily volume, the tools used, the due time, and the decisions that stay with your team. Good first queues repeat and leave a record. Think ticket sorting, order updates, CRM cleanup, calendar work, weekly reports, or checks against a written list. Bring five finished examples and one example with errors marked. If the work changes every day or depends on the founder's judgment, fix the process before you hire. A staffing partner can find Filipino talent, but it cannot read rules that remain in your head.",
+      },
+      {
+        heading: "Pick the service model that matches the work",
+        body: "The word outsourcing covers several deals. Direct staffing gives you a person who works inside your process while you manage the daily work. Managed outsourcing gives a provider more control over the process and team. A fixed project has an agreed output and end point. None is always best. Direct staffing can fit a steady role when your manager knows the work. A managed team can fit a larger queue when you want the provider to own staffing and daily checks. A project can fit a defined build or cleanup. Ask who sets priorities, who reviews work, who supplies tools, and who replaces a poor fit. If those answers are missing, the model is still unclear.",
+      },
+      {
+        heading: "Plan the hours in plain numbers",
+        body: "The Philippines uses UTC+8. Do the time math before interviews, and account for daylight-saving changes in your own country. A US company may want two to four live hours for questions and handoffs rather than a full night shift. An Australian team may have much more daytime overlap. Write the required hours, paid breaks, meeting times, weekend rules, and public-holiday plan in the role brief. Then ask the provider how it handles shift changes and attendance. Do not hide a night schedule until the last interview. It wastes everyone's time and may leave you with a worker who accepted the skill match but cannot sustain the hours.",
+      },
+      {
+        heading: "Protect data with less access, not more trust",
+        body: "The Philippine Data Privacy Act of 2012 sets rules for processing personal information. Your own country and industry may add more duties. Start with named accounts and the lowest access needed for the first queue. Separate draft rights from send, refund, delete, export, and admin rights. Use a password manager instead of sharing passwords in chat. Turn on multi-factor login when the tool supports it. Keep banking, payroll, legal decisions, hiring decisions, and broad customer-data exports with an internal owner unless you have a reviewed reason to move them. Record each account, permission, owner, and removal date. This is basic access control, not legal advice. Ask qualified counsel about regulated data or cross-border duties.",
+      },
+      {
+        heading: "Compare providers by the work behind the promise",
+        body: "A sales page may promise skill, speed, and low cost. Ask what happens after the call. Who writes the job scorecard? How many work samples does the candidate complete? Who checks identity and references? Who reviews the first ten live items? What happens if the worker leaves or is not a fit? Ask to see a blank weekly report, a sample access checklist, and the written replacement steps. You do not need a provider to name another client or expose private data. You need to see the system it will use for your role. Compare the full deal as well: pay, provider fee, tools, training time, management time, shift costs, taxes, and exit terms. A cheap line item can still create an expensive handoff.",
+      },
+      {
+        heading: "Build a scorecard your manager can use",
+        body: "Do not judge the first month by activity alone. A worker can close many tickets and still miss the hard ones. Pick three to five checks tied to the queue. For support, you might track reply accuracy, missed escalations, reopened tickets, and response time. For admin work, check record accuracy, deadlines, and open items that lack an owner. Define each measure before work starts. For example, 'accurate' might mean the right customer, status, date, and source are present. Review every item in a small first batch. Once the process is steady, move to a stated sample, such as ten items each week. Change the sample when risk or error rates change. Keep coaching and employment decisions with the proper manager.",
+      },
+      {
+        heading: "Know what should stay with your team",
+        body: "Outsource work, not ownership of your company. Your team should keep policy choices, final budget approval, legal judgment, staff discipline, and sensitive exceptions unless the contract and controls clearly say otherwise. Write stop rules for the Filipino team member. A support worker might pause on threats, safety issues, chargebacks, or refund requests above a set amount. An operations worker might stop when the source file is missing or a price changed. The stop rule is useful only when it names the person who will reply and the time they have to do it. Clear limits help the worker move faster on normal work because they are not forced to guess at unusual cases.",
+      },
+    ],
+    decisionTable: {
+      heading: "A first-role filter",
+      intro: "Score the work before you search for candidates. These are planning ranges, not performance claims.",
+      columns: ["Check", "Good first-role sign", "Pause and fix first"],
+      rows: [
+        ["Frequency", "Returns daily or weekly", "Appears once or changes each time"],
+        ["Examples", "You have 5 good samples", "The standard lives in one person's head"],
+        ["Review", "A manager can check 10 early items", "No one owns quality"],
+        ["Access", "The role can start with limited rights", "It needs full admin access on day one"],
+        ["Decisions", "Stop rules and approval limits are written", "The worker must guess policy"],
+      ],
+    },
+    comparison: [
+      { weak: "We need a rockstar who can do a bit of everything.", strong: "We need a Filipino operations assistant to update 30 to 50 order records each weekday from an approved source file." },
+      { weak: "Quality is very important to us.", strong: "Our manager will check the first 10 records for customer, status, date, and source, then log each error by type." },
+      { weak: "The person can ask us if anything goes wrong.", strong: "Stop the queue when a source is missing, a price changes, or a refund is requested. Tag the operations manager in the handoff log." },
+    ],
+    workflow: [
+      { step: "Days 1–3", title: "Write the role", body: "Choose one queue. Record volume, hours, tools, done rules, approval limits, and five real examples." },
+      { step: "Days 4–10", title: "Screen the match", body: "Review communication, run a paid work sample when allowed, check the schedule, and compare the result with the same scorecard for every candidate." },
+      { step: "Days 11–15", title: "Practice safely", body: "Use past work or a test space. Give limited accounts. Review every item and fix the guide when questions repeat." },
+      { step: "Days 16–23", title: "Open one live queue", body: "Keep the volume small. Hold a short daily handoff and let the internal owner clear blocked or sensitive work." },
+      { step: "Days 24–30", title: "Review the launch", body: "Check quality, volume, open questions, access, and manager load. Add work only when the first queue is steady." },
+    ],
+    script: [
+      "We want to move one queue first: [name the queue]. It averages [number] items per [day or week]. Which parts of your screening test this exact work?",
+      "Please show us the first 30 days. Who checks the work, how often do we meet, and what written report will we receive?",
+      "The role starts with [name the tools] and limited permissions. How do you request, record, change, and remove access?",
+      "If the match is poor, what steps happen before replacement, what is the expected timeline, and which onboarding notes carry over?",
+    ],
+    sources: [
+      { name: "World Bank: Employment in services, Philippines", url: "https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS?locations=PH", note: "Reports that services employed 59.548% of Philippine workers in 2025." },
+      { name: "Lawphil: 1987 Philippine Constitution, Article XIV", url: "https://lawphil.net/consti/cons1987.html", note: "Section 7 names Filipino and English as the official languages for communication and instruction." },
+      { name: "Lawphil: Republic Act No. 10173", url: "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html", note: "The official text of the Philippine Data Privacy Act of 2012." },
+      { name: "IANA Time Zone Database", url: "https://www.iana.org/time-zones", note: "The maintained source for world time-zone rules; the Philippines uses Asia/Manila (UTC+8)." },
+    ],
+    faqs: [
+      { question: "What work should I outsource to the Philippines first?", answer: "Start with one recurring queue that has examples, a clear finish, limited access, and an internal reviewer. Admin updates, ticket sorting, order records, and routine reports can fit when the rules are written." },
+      { question: "How much does it cost to outsource to the Philippines?", answer: "There is no honest single rate for every role. Build a full budget with worker pay, provider fees, required benefits or taxes, tools, shift needs, training, your manager's time, and exit costs. Ask each provider to label every item." },
+      { question: "Is outsourcing to the Philippines safe?", answer: "No location or provider removes risk. Use a written scope, limited named accounts, multi-factor login, access logs, manager review, and clear stop rules. Get legal and security advice when the work uses regulated or sensitive data." },
+      { question: "Do Filipino outsourced staff work US hours?", answer: "Some roles use US hours, but do not assume every candidate wants or can sustain a night shift. State the exact schedule and live-overlap need before interviews. A two-to-four-hour overlap may be enough for some queues." },
+      { question: "How long should the first outsourcing launch take?", answer: "A 30-day launch is a useful planning window, not a guarantee. Use the first days for the brief and screening, then practice before opening one live queue. Add tasks only after the quality and handoff are steady." },
+    ],
+    relatedLinks: [
+      { label: "Plan the company function first", href: "/blog/outsourced-company-planning" },
+      { label: "Questions for an outsourcing provider", href: "/blog/outsourced-company-provider-questions" },
+      { label: "Use the first-week outsourcing checklist", href: "/blog/outsourced-company-onboarding-checklist" },
+      { label: "See outsourced operations support", href: "/services/operations-support" },
+      { label: "See outsourced customer support", href: "/services/customer-support" },
+      { label: "See outsourced admin support", href: "/services/admin-support" },
+      { label: "See reporting and quality checks", href: "/services/reporting-and-qa" },
+    ],
+  },
   "outsourced-company-provider-questions": {
     updated: "2026-07-20",
     takeaway: "A good outsourcing provider can explain who screens the worker, who checks the work, how tool access is limited, and what happens if the fit is wrong. If the answers stay vague, do not rush the contract.",
