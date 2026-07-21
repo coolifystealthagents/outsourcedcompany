@@ -9,9 +9,9 @@ export const site = {
   "dark": "#111111",
   "color": "#111827",
   "accent": "#dc2626",
-  "heroImage": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
-  "serviceImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
-  "alt": "operations team managing outsourced departments",
+  "heroImage": "/images/operations-meeting.jpg",
+  "serviceImage": "/images/operations-meeting.jpg",
+  "alt": "two people with laptops talking across a table in a glass-walled office",
   "badge": "Outsource map"
 } as const;
 export const services = [
@@ -158,7 +158,7 @@ export const blogDetails = {
       },
       {
         heading: "Check the access plan before sharing tools",
-        body: "Remote staff often need inboxes, CRMs, drives, phones, or billing systems. That does not mean they need full access on day one. Ask for limited permissions, named accounts, password-manager use, and a rule for sensitive customer data. The FTC tells small businesses to keep only the data they need, limit access, and protect it during use and storage.",
+        body: "Filipino staff may need inboxes, CRMs, drives, phones, or billing systems. That does not mean they need full access on day one. Ask for limited permissions, named accounts, password-manager use, and a rule for sensitive customer data. The FTC tells small businesses to keep only the data they need, limit access, and protect it during use and storage.",
       },
       {
         heading: "Make the provider explain the first 14 days",
@@ -193,43 +193,47 @@ export const blogDetails = {
   },
 } as const;
 
-export const stats = [{label:'Typical savings target',value:'30-60%',note:'depends on role, management, and local hiring plan'},{label:'Best pilot length',value:'14 days',note:'enough time to test quality before scaling'},{label:'Start with',value:'5-10 tasks',note:'clear recurring tasks beat vague job descriptions'}] as const;
+export const stats = [
+  { label: 'Talent source', value: 'Philippines', note: 'Filipino talent only' },
+  { label: 'Role scope', value: 'One queue', note: 'begin with work that is easy to show and check' },
+  { label: 'First review', value: 'Named owner', note: 'decide who checks the first live batch' },
+] as const;
 
 export const staffingOffer = {
-  partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
+  partner: 'a Philippines-focused staffing partner',
+  promise: 'Get a role brief for Filipino talent built around the work you need to hand off.',
   fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
-    'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
+    'business owners who want Filipino talent but need help turning loose tasks into one role',
+    'teams that want a written handoff and a clear manager path',
+    'companies planning Filipino support for admin, operations, customer service, reporting, development, or marketing work',
   ],
   included: [
-    'role planning call to turn your task list into a clear staffing scope',
-    'candidate matching based on skills, schedule, tools, and communication needs',
-    'onboarding guidance for SOPs, scorecards, reporting, and safe tool access',
-    'managed support so quality, attendance, and replacement questions do not sit only on the owner',
+    'a role outline built from the queue, tools, schedule, and approval limits',
+    'candidate requirements tied to the work rather than a generic wish list',
+    'a first-week handoff for examples, access, review, and open questions',
+    'a simple record of who owns quality checks and escalations',
   ],
   proof: [
     'clear task scope before hiring',
-    'weekly reporting rhythm',
-    'named accountability and escalation path',
-    'simple handoff plan for tools, SOPs, and quality checks',
+    'a written review rhythm',
+    'named accountability and escalation paths',
+    'an access list for tools and shared accounts',
   ],
 } as const;
 
 export const leadQuestions = [
-  'What work do you want off your plate first?',
-  'Which tools, inboxes, phones, CRMs, or systems will the staff member use?',
-  'What hours, time zone, and response time do you need?',
-  'Who checks quality during the first two weeks?',
-  'What should the staff member never decide without approval?',
+  'Which queue or recurring task should move first?',
+  'Which tools, inboxes, phones, CRMs, or systems does the role need?',
+  'Which hours and response windows matter?',
+  'Who checks the first live batch?',
+  'Which decisions must always come back to your team?',
 ] as const;
 
 export const staffingProcess = [
-  { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
-  { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
-  { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
+  { step: '1', title: 'Sort the work', body: 'Pull one recurring queue out of the general task pile. Bring a few examples of work that is already done well.' },
+  { step: '2', title: 'Write the limits', body: 'List the tools the role needs, the choices it can make, and the issues that must come back to your team.' },
+  { step: '3', title: 'Match in the Philippines', body: 'A Philippines-focused staffing partner can look for Filipino talent with the right schedule, communication style, and skill level.' },
+  { step: '4', title: 'Check the first batch', body: 'Review early work closely. Fix the guide while the questions are fresh, then add more responsibility when the queue is steady.' },
 ] as const;
 
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
+export const staffingFitNote = 'Every role depends on the work, schedule, tools, and review load. Requests may be routed to a staffing partner that recruits and hires only in the Philippines.';

@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Site logo">
-  <rect width="96" height="96" rx="24" fill="#17324D"/>
-  <path d="M24 60V29h13l22 28V29h13v38H59L37 39v28H24z" fill="#FFF8EE"/>
-  <circle cx="70" cy="26" r="8" fill="#F27B3D"/>
-  <path d="M22 73c15-8 36-8 52 0" fill="none" stroke="#0F8F73" stroke-width="8" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Outsourced Company operations brief mark</title>
+  <desc id="desc">A dark green folder with a paper brief and orange approval seal</desc>
+  <rect width="64" height="64" rx="14" fill="#173A35"/>
+  <path d="M13 20a4 4 0 0 1 4-4h11l5 5h14a4 4 0 0 1 4 4v23H13V20Z" fill="#A7BE95"/>
+  <path d="M19 25h26a3 3 0 0 1 3 3v23H16V28a3 3 0 0 1 3-3Z" fill="#F7F1E7"/>
+  <path d="M23 33h15M23 39h11" stroke="#173A35" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="42" cy="43" r="8" fill="#E86F45"/>
+  <path d="m38.5 43 2.2 2.2 4.8-5" fill="none" stroke="#FFF8EF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
