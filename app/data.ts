@@ -1,4 +1,5 @@
 import { callCenterOutsourcingPhilippines } from './article-content';
+import { philippinesOutsourcingBusinessContinuityPlan } from './article-continuity';
 
 export const site = {
   "domain": "OutsourcedCompany.com",
@@ -31,6 +32,12 @@ export const services = [
   { slug: "quality-assurance-support", title: "Quality Assurance Support", desc: "Filipino business operations specialists can handle quality assurance support with documented workflows, approval limits, and owner review." },
 ] as const;
 export const blogPosts = [
+  {
+    "slug": "philippines-outsourcing-business-continuity-plan",
+    "title": "Philippines outsourcing business continuity plan",
+    "excerpt": "Protect one customer or operations queue with backup tools, clear owner decisions, safe relief coverage, and a tested handoff.",
+    "minutes": 13
+  },
   {
     "slug": "call-center-outsourcing-philippines",
     "title": "Call center outsourcing Philippines: a launch guide",
@@ -118,6 +125,7 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  "philippines-outsourcing-business-continuity-plan": philippinesOutsourcingBusinessContinuityPlan,
   "call-center-outsourcing-philippines": callCenterOutsourcingPhilippines,
   "outsource-to-the-philippines-guide": {
     updated: "2026-07-21",

@@ -48,8 +48,9 @@ function paragraphChunks(body: string | readonly string[]) {
 }
 
 function ArticleChart({ chart }: { chart: any }) {
-  return <section className="card article-visual" data-visual="service-employment-chart">
+  return <section className="card article-visual" data-visual="service-employment-chart" tabIndex={0} aria-label={`${chart.title}. Scroll horizontally on a small screen to view the full chart.`}>
     <h2>{chart.title}</h2>
+    <p className="visual-swipe-cue">Swipe to view the full chart.</p>
     <svg role="img" viewBox="0 0 760 380" aria-labelledby="service-chart-title service-chart-desc">
       <title id="service-chart-title">{chart.title}</title>
       <desc id="service-chart-desc">{chart.description}</desc>
@@ -74,8 +75,9 @@ function ArticleChart({ chart }: { chart: any }) {
 }
 
 function ProcessGraphic({ graphic }: { graphic: any }) {
-  return <section className="card article-visual" data-visual="customer-case-path">
+  return <section className="card article-visual" data-visual="customer-case-path" tabIndex={0} aria-label={`${graphic.title}. Scroll horizontally on a small screen to view the full graphic.`}>
     <h2>{graphic.title}</h2>
+    <p className="visual-swipe-cue">Swipe to view the full graphic.</p>
     <svg role="img" viewBox="0 0 840 260" aria-labelledby="case-path-title case-path-desc">
       <title id="case-path-title">{graphic.title}</title>
       <desc id="case-path-desc">{graphic.description}</desc>
@@ -173,7 +175,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </section>)}
           </div>
 
-          {details.decisionTable ? <section className="card article-table-wrap">
+          {details.decisionTable ? <section className="card article-table-wrap" tabIndex={0} aria-label={`${details.decisionTable.heading}. Scroll horizontally on a small screen to view all columns.`}>
             <h2>{details.decisionTable.heading}</h2>
             <p>{details.decisionTable.intro}</p>
             <table className="article-table">
