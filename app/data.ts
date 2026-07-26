@@ -1,3 +1,5 @@
+import { callCenterOutsourcingPhilippines } from './article-content';
+
 export const site = {
   "domain": "OutsourcedCompany.com",
   "slug": "outsourcedcompany",
@@ -29,6 +31,12 @@ export const services = [
   { slug: "quality-assurance-support", title: "Quality Assurance Support", desc: "Filipino business operations specialists can handle quality assurance support with documented workflows, approval limits, and owner review." },
 ] as const;
 export const blogPosts = [
+  {
+    "slug": "call-center-outsourcing-philippines",
+    "title": "Call center outsourcing Philippines: a launch guide",
+    "excerpt": "Scope the customer queue, set quality checks, protect access, and plan a steady first month with Filipino support staff.",
+    "minutes": 12
+  },
   {
     "slug": "outsource-to-the-philippines-guide",
     "title": "Outsource to the Philippines: a practical buyer's guide",
@@ -110,6 +118,7 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  "call-center-outsourcing-philippines": callCenterOutsourcingPhilippines,
   "outsource-to-the-philippines-guide": {
     updated: "2026-07-21",
     takeaway: "Outsourcing to the Philippines works best when you start with one clear queue, not a loose list of chores. Pick work that repeats, show what good work looks like, limit access, and name the manager who will check the first batch. Then ask a Philippines-focused staffing partner to hire for that written role.",

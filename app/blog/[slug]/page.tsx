@@ -47,6 +47,51 @@ function paragraphChunks(body: string | readonly string[]) {
   });
 }
 
+function ArticleChart({ chart }: { chart: any }) {
+  return <section className="card article-visual" data-visual="service-employment-chart">
+    <h2>{chart.title}</h2>
+    <svg role="img" viewBox="0 0 760 380" aria-labelledby="service-chart-title service-chart-desc">
+      <title id="service-chart-title">{chart.title}</title>
+      <desc id="service-chart-desc">{chart.description}</desc>
+      <line x1="70" y1="310" x2="730" y2="310" className="chart-axis" />
+      {[55, 60].map((tick) => {
+        const y = 310 - ((tick - 50) * 25);
+        return <g key={tick}><line x1="70" y1={y} x2="730" y2={y} className="chart-grid" /><text x="58" y={y + 5} textAnchor="end">{tick}%</text></g>;
+      })}
+      {chart.data.map((item: any, index: number) => {
+        const height = (item.value - 50) * 25;
+        const x = 105 + index * 125;
+        const y = 310 - height;
+        return <g key={item.year}>
+          <rect x={x} y={y} width="74" height={height} rx="4" className="chart-bar" />
+          <text x={x + 37} y={y - 10} textAnchor="middle" className="chart-value">{item.value.toFixed(2)}%</text>
+          <text x={x + 37} y="338" textAnchor="middle">{item.year}</text>
+        </g>;
+      })}
+    </svg>
+    <p className="visual-methods">{chart.methods}</p>
+  </section>;
+}
+
+function ProcessGraphic({ graphic }: { graphic: any }) {
+  return <section className="card article-visual" data-visual="customer-case-path">
+    <h2>{graphic.title}</h2>
+    <svg role="img" viewBox="0 0 840 260" aria-labelledby="case-path-title case-path-desc">
+      <title id="case-path-title">{graphic.title}</title>
+      <desc id="case-path-desc">{graphic.description}</desc>
+      {graphic.steps.map((step: any, index: number) => {
+        const x = 20 + index * 205;
+        return <g key={step.label}>
+          <rect x={x} y="48" width="170" height="142" rx="8" className="process-box" />
+          <text x={x + 18} y="84" className="process-label">{step.label}</text>
+          <foreignObject x={x + 18} y="100" width="134" height="72"><p className="process-note">{step.note}</p></foreignObject>
+          {index < graphic.steps.length - 1 ? <path d={`M ${x + 174} 119 H ${x + 198}`} className="process-arrow" /> : null}
+        </g>;
+      })}
+    </svg>
+  </section>;
+}
+
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
@@ -90,10 +135,10 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   };
 
   return <>
-    <Header />
+    <Header hideCommercialTerms />
     <main className="section">
       <JsonLd data={schema} />
-      <article className="container guide-article">
+      <article className="container guide-article" data-article-marker={details?.marker}>
         <p className="eyebrow">Philippines staffing guide</p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
@@ -124,7 +169,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           <div className="card">
             {details.sections.map((section: any) => <section key={section.heading} style={{ marginBottom: 22 }}>
               <h2>{section.heading}</h2>
-              {paragraphChunks(section.body).map((paragraph, index) => <p key={`${section.heading}-${index}`}>{paragraph}</p>)}
+              {paragraphChunks(section.body).map((paragraph, index) => <p className="article-narrative" key={`${section.heading}-${index}`}>{paragraph}</p>)}
             </section>)}
           </div>
 
@@ -135,6 +180,22 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
               <thead><tr>{details.decisionTable.columns.map((column: string) => <th key={column} scope="col">{column}</th>)}</tr></thead>
               <tbody>{details.decisionTable.rows.map((row: string[]) => <tr key={row[0]}>{row.map((cell, index) => <td key={cell}>{index === 0 ? <strong>{cell}</strong> : cell}</td>)}</tr>)}</tbody>
             </table>
+          </section> : null}
+
+          {details.expertQuote ? <figure className="article-quote">
+            <blockquote>“{details.expertQuote.text}”</blockquote>
+            <figcaption>{details.expertQuote.attribution}. Source {details.expertQuote.sourceNumber}.</figcaption>
+          </figure> : null}
+
+          {details.chart ? <ArticleChart chart={details.chart} /> : null}
+
+          {details.processGraphic ? <ProcessGraphic graphic={details.processGraphic} /> : null}
+
+          {details.banners ? <section className="article-banner-stack" aria-label="Staffing planning next steps">
+            {details.banners.map((banner: any) => <aside className="article-rotating-banner" data-rotating-banner key={banner.heading}>
+              <div><p className="eyebrow">{banner.eyebrow}</p><h2>{banner.heading}</h2><p>{banner.body}</p></div>
+              <a className="btn primary" href={banner.href}>{banner.label}</a>
+            </aside>)}
           </section> : null}
 
           {details.workflow ? <section className="card">
@@ -151,7 +212,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
           <section className="card">
             <h2>Sources</h2>
-            <ul className="list">{details.sources.map((source: any) => <li key={source.url}><a className="source-link" href={source.url} rel="noreferrer">{source.name}</a>: {source.note}</li>)}</ul>
+            {details.sourcesNumbered
+              ? <ol className="list numbered-sources">{details.sources.map((source: any) => <li key={source.url}><a className="source-link" href={source.url} rel="noreferrer">{source.name}</a>: {source.note}</li>)}</ol>
+              : <ul className="list">{details.sources.map((source: any) => <li key={source.url}><a className="source-link" href={source.url} rel="noreferrer">{source.name}</a>: {source.note}</li>)}</ul>}
           </section>
 
           <section className="card">
@@ -174,6 +237,6 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       </article>
       <CTA />
     </main>
-    <Footer />
+    <Footer hideCommercialTerms />
   </>;
 }
