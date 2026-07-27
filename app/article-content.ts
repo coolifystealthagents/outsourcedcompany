@@ -147,7 +147,7 @@ export const callCenterOutsourcingPhilippines = {
     { label: 'Read the Philippines outsourcing buyer guide', href: '/blog/outsource-to-the-philippines-guide' },
     { label: 'See customer experience support', href: '/services/customer-experience-support' },
     { label: 'See quality assurance support', href: '/services/quality-assurance-support' },
-    { label: 'Prepare provider questions', href: '/blog/outsourced-company-provider-questions' },
-    { label: 'Use the first-week checklist', href: '/blog/outsourced-company-onboarding-checklist' },
+    { label: 'Prepare provider questions', href: '/blog' },
+    { label: 'Use the first-week checklist', href: '/blog' },
   ],
 } as const;

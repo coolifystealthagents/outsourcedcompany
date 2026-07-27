@@ -49,32 +49,7 @@ export const blogPosts = [
     "title": "Outsource to the Philippines: a practical buyer's guide",
     "excerpt": "Choose the first role, compare Philippines staffing partners, protect access, and run a 30-day launch you can check.",
     "minutes": 11
-  },
-  {
-    "slug": "outsourced-company-planning",
-    "title": "Plan a company function before you outsource it",
-    "excerpt": "Write down the work, approval limits, tool access, and review owner before you look for Filipino talent.",
-    "minutes": 6
-  },
-  {
-    "slug": "outsourced-company-tasks-to-outsource",
-    "title": "Which company tasks should you outsource first?",
-    "excerpt": "Start with a queue your team can show, check, and hand back when a decision is needed.",
-    "minutes": 7
-  },
-  {
-    "slug": "outsourced-company-provider-questions",
-    "title": "Questions to ask an outsourcing provider",
-    "excerpt": "Ask who screens Filipino candidates, checks early work, limits access, and handles a poor fit.",
-    "minutes": 8
-  },
-  {
-    "slug": "outsourced-company-onboarding-checklist",
-    "title": "Your first-week outsourcing checklist",
-    "excerpt": "Give a Filipino team member examples, limited access, a review contact, and one small live queue.",
-    "minutes": 9
-  }
-] as const;
+  },] as const;
 
 export const guideDetails = {
   "outsourced-company-planning": {
@@ -252,9 +227,9 @@ export const blogDetails = {
       { question: "How long should the first outsourcing launch take?", answer: "A 30-day launch is a useful planning window, not a guarantee. Use the first days for the brief and screening, then practice before opening one live queue. Add tasks only after the quality and handoff are steady." },
     ],
     relatedLinks: [
-      { label: "Plan the company function first", href: "/blog/outsourced-company-planning" },
-      { label: "Questions for an outsourcing provider", href: "/blog/outsourced-company-provider-questions" },
-      { label: "Use the first-week outsourcing checklist", href: "/blog/outsourced-company-onboarding-checklist" },
+      { label: "Plan the company function first", href: "/blog" },
+      { label: "Questions for an outsourcing provider", href: "/blog" },
+      { label: "Use the first-week outsourcing checklist", href: "/blog" },
       { label: "See back-office operations support", href: "/services/back-office-operations" },
       { label: "See customer experience support", href: "/services/customer-experience-support" },
       { label: "See executive administration support", href: "/services/executive-administration" },

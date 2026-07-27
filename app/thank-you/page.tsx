@@ -1,25 +1,44 @@
-import { Footer, Header } from '../components';
+import type { Metadata } from 'next';
+import { Header, Footer } from '../components';
+import { TestimonialsRail } from '../booking-components';
 
-export default function Thanks() {
-  return <>
-    <Header />
-    <main className="section">
-      <div className="container" style={{ maxWidth: 820 }}>
-        <p className="eyebrow">Request received</p>
-        <h1>Your operations brief starts with this task list.</h1>
-        <p className="lead">A Philippines-focused staffing partner may review the role details and follow up. They will recruit and hire only in the Philippines.</p>
-        <div className="card">
-          <h2>What to gather next</h2>
-          <ul className="list">
-            <li>Two or three examples of finished work</li>
-            <li>The tools and permissions the role needs</li>
-            <li>The decisions that must stay with your team</li>
-            <li>A simple check for the first live batch</li>
-          </ul>
+export const metadata: Metadata = {
+  title: 'Thank You - Book A Meeting',
+  description: 'Choose a convenient time to speak with the Stealth Agents team.',
+  robots: { index: false, follow: false },
+};
+
+export default function ThankYouPage() {
+  return (
+    <>
+      <Header />
+      <main className="sa-booking-page">
+        <div className="container sa-booking-grid">
+          <div className="sa-booking-left">
+            <p className="sa-booking-kicker">You’re one step away.</p>
+            <h1>Step 2 - Book A Meeting</h1>
+            <p className="sa-booking-lead">No commitment. No risk. Just expert guidance.</p>
+            <img className="sa-booking-image" src="/thank-you-hero.png" alt="Stealth Agents team ready to help" width="619" height="402" />
+            <TestimonialsRail />
+          </div>
+          <section className="sa-booking-calendar" aria-labelledby="booking-calendar-title">
+            <h2 id="booking-calendar-title">Pick a Time That Works for You</h2>
+            <iframe
+              src="https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&amp;dt=&amp;em=1&amp;Si=1"
+              id="SOI_StealthAgentsTeam"
+              name="ScheduleOnceIframe"
+              title="Schedule a meeting with Stealth Agents"
+              scrolling="yes"
+              frameBorder="0"
+              height="850"
+              width="100%"
+              className="sa-oncehub-frame"
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
+          </section>
         </div>
-        <a className="btn primary" href="/">Back to the operations desk</a>
-      </div>
-    </main>
-    <Footer />
-  </>;
+      </main>
+      <Footer />
+    </>
+  );
 }
