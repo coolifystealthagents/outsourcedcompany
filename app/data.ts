@@ -1,6 +1,7 @@
 import { callCenterOutsourcingPhilippines } from './article-content';
 import { philippinesOutsourcingBusinessContinuityPlan } from './article-continuity';
 import { philippinesOutsourcingQualityAssuranceChecklist } from './article-quality-assurance';
+import { philippinesOutsourcingFraudEscalationChecklist } from './article-fraud-escalation';
 import { virtualAssistantPhilippinesFirstTasks } from './article-virtual-assistant';
 
 export const site = {
@@ -34,6 +35,12 @@ export const services = [
   { slug: "quality-assurance-support", title: "Quality Assurance Support", desc: "Filipino business operations specialists can handle quality assurance support with documented workflows, approval limits, and owner review." },
 ] as const;
 export const blogPosts = [
+  {
+    "slug": "philippines-outsourcing-fraud-escalation-checklist",
+    "title": "Philippines outsourcing fraud escalation checklist",
+    "excerpt": "Give Filipino outsourced staff clear fraud warning signs, a safe alert route, careful evidence rules, and owner limits before live work starts.",
+    "minutes": 12
+  },
   {
     "slug": "philippines-outsourcing-quality-assurance-checklist",
     "title": "Philippines outsourcing quality assurance checklist",
@@ -114,6 +121,7 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  "philippines-outsourcing-fraud-escalation-checklist": philippinesOutsourcingFraudEscalationChecklist,
   "philippines-outsourcing-quality-assurance-checklist": philippinesOutsourcingQualityAssuranceChecklist,
   "virtual-assistant-philippines-first-tasks": virtualAssistantPhilippinesFirstTasks,
   "philippines-outsourcing-business-continuity-plan": philippinesOutsourcingBusinessContinuityPlan,

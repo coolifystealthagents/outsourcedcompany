@@ -177,6 +177,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
           {details.decisionTable ? <section className="card article-table-wrap" tabIndex={0} aria-label={`${details.decisionTable.heading}. Scroll horizontally on a small screen to view all columns.`}>
             <h2>{details.decisionTable.heading}</h2>
+            <p className="visual-swipe-cue">Swipe to view all columns.</p>
             <p>{details.decisionTable.intro}</p>
             <table className="article-table">
               <thead><tr>{details.decisionTable.columns.map((column: string) => <th key={column} scope="col">{column}</th>)}</tr></thead>
