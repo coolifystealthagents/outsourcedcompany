@@ -26,7 +26,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="ops-home" data-design="philippines-operations-brief-2026-07">
+    <main className="ops-home" data-design="philippines-operations-brief-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
 
       <section className="ops-hero">
@@ -44,16 +44,16 @@ export default function Home() {
 
           <div className="ops-visual">
             <div className="ops-photo-frame">
-              <img src="/images/operations-meeting.jpg" alt="Two people with laptops talking across a table in a glass-walled office" />
+              <img src="/illustrations/getillustrations/goodle-business-illustrations-svg/filipino-operations-partnership.svg" alt="Illustration of a supported operations partnership" />
               <span className="photo-label">Working session / role scope</span>
             </div>
             <aside className="handoff-sheet" aria-label="Example handoff sheet">
               <div className="sheet-top"><span>OC / 01</span><span>Draft brief</span></div>
               <h2>Start with one queue</h2>
               <ul>
-                <li><span>Owner</span><b>Named before access</b></li>
-                <li><span>Decision line</span><b>Written, not assumed</b></li>
-                <li><span>First review</span><b>Set before live work</b></li>
+                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/role-file.svg" alt=""/><span>Owner</span><b>Named before access</b></li>
+                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/access-list.svg" alt=""/><span>Decision line</span><b>Written, not assumed</b></li>
+                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/review-rule.svg" alt=""/><span>First review</span><b>Set before live work</b></li>
               </ul>
               <p>Talent source</p>
               <strong>Philippines only</strong>
@@ -117,6 +117,11 @@ export default function Home() {
             <p>{item.body}</p>
           </article>)}
         </div>
+      </section>
+
+      <section className="container gi-proof" aria-label="Operations brief controls">
+        <img className="gi-proof-art" src="/illustrations/getillustrations/goodle-team-illustrations-svg/operations-brief-review.svg" alt=""/>
+        <div><p className="eyebrow">A brief the team can use</p><h2>Define access and review before the match.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/blueprint-business-icons-svg/role-file.svg" alt=""/>Role file</span><span><img src="/icons/getillustrations/blueprint-business-icons-svg/access-list.svg" alt=""/>Access list</span><span><img src="/icons/getillustrations/blueprint-business-icons-svg/review-rule.svg" alt=""/>Review rule</span></div></div>
       </section>
 
       <section className="notes-section">
