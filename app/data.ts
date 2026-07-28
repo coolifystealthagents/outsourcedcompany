@@ -1,5 +1,6 @@
 import { callCenterOutsourcingPhilippines } from './article-content';
 import { philippinesOutsourcingBusinessContinuityPlan } from './article-continuity';
+import { philippinesOutsourcingQualityAssuranceChecklist } from './article-quality-assurance';
 import { virtualAssistantPhilippinesFirstTasks } from './article-virtual-assistant';
 
 export const site = {
@@ -33,6 +34,12 @@ export const services = [
   { slug: "quality-assurance-support", title: "Quality Assurance Support", desc: "Filipino business operations specialists can handle quality assurance support with documented workflows, approval limits, and owner review." },
 ] as const;
 export const blogPosts = [
+  {
+    "slug": "philippines-outsourcing-quality-assurance-checklist",
+    "title": "Philippines outsourcing quality assurance checklist",
+    "excerpt": "Build a repeatable quality check for Filipino outsourced work with a fair sample, clear owner limits, cause records, and a repair path.",
+    "minutes": 12
+  },
   {
     "slug": "virtual-assistant-philippines-first-tasks",
     "title": "Virtual assistant in the Philippines: what to hand off first",
@@ -107,6 +114,7 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  "philippines-outsourcing-quality-assurance-checklist": philippinesOutsourcingQualityAssuranceChecklist,
   "virtual-assistant-philippines-first-tasks": virtualAssistantPhilippinesFirstTasks,
   "philippines-outsourcing-business-continuity-plan": philippinesOutsourcingBusinessContinuityPlan,
   "call-center-outsourcing-philippines": callCenterOutsourcingPhilippines,
