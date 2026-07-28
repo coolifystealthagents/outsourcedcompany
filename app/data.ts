@@ -1,5 +1,6 @@
 import { callCenterOutsourcingPhilippines } from './article-content';
 import { philippinesOutsourcingBusinessContinuityPlan } from './article-continuity';
+import { virtualAssistantPhilippinesFirstTasks } from './article-virtual-assistant';
 
 export const site = {
   "domain": "OutsourcedCompany.com",
@@ -32,6 +33,12 @@ export const services = [
   { slug: "quality-assurance-support", title: "Quality Assurance Support", desc: "Filipino business operations specialists can handle quality assurance support with documented workflows, approval limits, and owner review." },
 ] as const;
 export const blogPosts = [
+  {
+    "slug": "virtual-assistant-philippines-first-tasks",
+    "title": "Virtual assistant in the Philippines: what to hand off first",
+    "excerpt": "Choose one clear first task, set owner limits, protect access, and give a Filipino virtual assistant a handoff your manager can check.",
+    "minutes": 12
+  },
   {
     "slug": "philippines-outsourcing-business-continuity-plan",
     "title": "Philippines outsourcing business continuity plan",
@@ -100,6 +107,7 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  "virtual-assistant-philippines-first-tasks": virtualAssistantPhilippinesFirstTasks,
   "philippines-outsourcing-business-continuity-plan": philippinesOutsourcingBusinessContinuityPlan,
   "call-center-outsourcing-philippines": callCenterOutsourcingPhilippines,
   "outsource-to-the-philippines-guide": {
