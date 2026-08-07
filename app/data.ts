@@ -4,6 +4,8 @@ import { philippinesOutsourcingQualityAssuranceChecklist } from './article-quali
 import { philippinesOutsourcingFraudEscalationChecklist } from './article-fraud-escalation';
 import { virtualAssistantPhilippinesFirstTasks } from './article-virtual-assistant';
 import { batchBlogPosts, batchBlogDetails } from './article-batch';
+import { researchPosts } from './article-research-batch';
+export { researchPosts } from './article-research-batch';
 
 export const site = {
   "domain": "OutsourcedCompany.com",
@@ -352,6 +354,3 @@ export const staffingProcess = [
 ] as const;
 
 export const staffingFitNote = 'Every role depends on the work, schedule, tools, and review load. Requests may be routed to a staffing partner that recruits and hires only in the Philippines.';
-
-
-export const researchPosts: Array<{ slug: string; title: string; excerpt: string; body: string[] }> = [];
