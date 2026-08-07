@@ -1,17 +1,17 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
-import { blogDetails, blogPosts, guideDetails, site } from '../../data';
+import { allBlogPosts, blogDetails, guideDetails, site } from '../../data';
 
 const base = `https://${site.domain.toLowerCase()}`;
 
 export function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  return allBlogPosts.map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find((item) => item.slug === slug);
+  const post = allBlogPosts.find((item) => item.slug === slug);
 
   if (!post) return { title: 'Guide not found' };
 
@@ -96,7 +96,7 @@ function ProcessGraphic({ graphic }: { graphic: any }) {
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const post = blogPosts.find((item) => item.slug === slug);
+  const post = allBlogPosts.find((item) => item.slug === slug);
 
   if (!post) notFound();
 

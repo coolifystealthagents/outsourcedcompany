@@ -3,6 +3,7 @@ import { philippinesOutsourcingBusinessContinuityPlan } from './article-continui
 import { philippinesOutsourcingQualityAssuranceChecklist } from './article-quality-assurance';
 import { philippinesOutsourcingFraudEscalationChecklist } from './article-fraud-escalation';
 import { virtualAssistantPhilippinesFirstTasks } from './article-virtual-assistant';
+import { batchBlogPosts, batchBlogDetails } from './article-batch';
 
 export const site = {
   "domain": "OutsourcedCompany.com",
@@ -71,6 +72,7 @@ export const blogPosts = [
     "excerpt": "Choose the first role, compare Philippines staffing partners, protect access, and run a 30-day launch you can check.",
     "minutes": 11
   },] as const;
+export const allBlogPosts = [...blogPosts, ...batchBlogPosts] as const;
 
 export const guideDetails = {
   "outsourced-company-planning": {
@@ -303,6 +305,7 @@ export const blogDetails = {
       { question: "How many provider questions are enough?", answer: "Use enough questions to cover screening, quality review, tool access, reporting, replacement, schedule, and escalation rules. Ask for examples when an answer stays broad." },
     ],
   },
+  ...batchBlogDetails,
 } as const;
 
 export const stats = [
