@@ -6,6 +6,7 @@ import { virtualAssistantPhilippinesFirstTasks } from './article-virtual-assista
 import { batchBlogPosts, batchBlogDetails } from './article-batch';
 import { researchPosts } from './article-research-batch';
 import { researchPosts2026_08_08 } from './article-research-batch-2026-08-08';
+import { researchPosts2026_08_09 } from './article-research-batch-2026-08-09';
 export { researchPosts } from './article-research-batch';
 
 export const site = {
@@ -76,7 +77,7 @@ export const blogPosts = [
     "minutes": 11
   },] as const;
 export const allBlogPosts = [...blogPosts, ...batchBlogPosts] as const;
-export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08);
+export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09);
 
 export const guideDetails = {
   "outsourced-company-planning": {
