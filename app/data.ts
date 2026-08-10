@@ -4,6 +4,7 @@ import { philippinesOutsourcingQualityAssuranceChecklist } from './article-quali
 import { philippinesOutsourcingFraudEscalationChecklist } from './article-fraud-escalation';
 import { virtualAssistantPhilippinesFirstTasks } from './article-virtual-assistant';
 import { batchBlogPosts, batchBlogDetails } from './article-batch';
+import { blogBatch2026_08_10Posts, blogBatch2026_08_10Details } from './article-blog-batch-2026-08-10';
 import { researchPosts } from './article-research-batch';
 import { researchPosts2026_08_08 } from './article-research-batch-2026-08-08';
 import { researchPosts2026_08_09 } from './article-research-batch-2026-08-09';
@@ -77,7 +78,7 @@ export const blogPosts = [
     "excerpt": "Choose the first role, compare Philippines staffing partners, protect access, and run a 30-day launch you can check.",
     "minutes": 11
   },] as const;
-export const allBlogPosts = [...blogPosts, ...batchBlogPosts] as const;
+export const allBlogPosts = [...blogPosts, ...batchBlogPosts, ...blogBatch2026_08_10Posts] as const;
 export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10);
 
 export const guideDetails = {
@@ -312,6 +313,7 @@ export const blogDetails = {
     ],
   },
   ...batchBlogDetails,
+  ...blogBatch2026_08_10Details,
 } as const;
 
 export const stats = [
