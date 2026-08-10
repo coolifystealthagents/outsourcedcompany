@@ -10,6 +10,7 @@ import { researchPosts } from './article-research-batch';
 import { researchPosts2026_08_08 } from './article-research-batch-2026-08-08';
 import { researchPosts2026_08_09 } from './article-research-batch-2026-08-09';
 import { researchPosts2026_08_10 } from './article-research-batch-2026-08-10';
+import { researchPosts2026_08_10_run2 } from './article-research-batch-2026-08-10-run-2';
 export { researchPosts } from './article-research-batch';
 
 export const site = {
@@ -80,7 +81,7 @@ export const blogPosts = [
     "minutes": 11
   },] as const;
 export const allBlogPosts = [...blogPosts, ...batchBlogPosts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts] as const;
-export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10);
+export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2);
 
 export const guideDetails = {
   "outsourced-company-planning": {
