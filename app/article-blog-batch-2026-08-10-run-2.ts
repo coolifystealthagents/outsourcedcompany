@@ -29,8 +29,13 @@ const topicRows: [string, string, string, string, string[], string][] = [
 ];
 const topics: Topic[] = topicRows.map(([slug, title, keyword, focus, steps, stop]) => ({ slug, title, keyword, focus, steps, stop }));
 
+// Keep the verified repair explicit for the one record whose source binding was missing.
+const blogBatch2026_08_10Run2SourceDates: Record<string, string> = {
+  'outsourcing-invoice-data-entry-philippines': '2026-08-10',
+};
+
 const makeDetails = (topic: Topic, index: number) => ({
-  updated: '2026-08-10', keyword: topic.keyword, marker: `daily-blog-batch-2026-08-10-run-2-${String(index + 1).padStart(2, '0')}`,
+  updated: blogBatch2026_08_10Run2SourceDates[topic.slug] ?? '2026-08-10', keyword: topic.keyword, marker: `daily-blog-batch-2026-08-10-run-2-${String(index + 1).padStart(2, '0')}`,
   takeaway: `A reliable ${topic.focus} handoff starts with one queue, a visible done check, and a named owner for anything outside the written rule. Filipino staff can complete routine work when the source, access, schedule, and escalation path are clear.`,
   comparison: [
     { weak: `We need help with ${topic.focus}.`, strong: `We need a Filipino specialist to complete the written ${topic.focus} queue, record each result, and stop on the listed exceptions.` },

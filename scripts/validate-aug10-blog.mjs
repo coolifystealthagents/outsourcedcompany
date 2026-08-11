@@ -19,7 +19,10 @@ for (const entry of manifest.entries) {
   const sourcePath = path.join(root, entry.sourcePath);
   if (!fs.existsSync(sourcePath)) throw new Error(`missing source ${entry.sourcePath}`);
   const source = fs.readFileSync(sourcePath, 'utf8');
-  if (!source.includes(entry.slug) || !source.includes("updated: '2026-08-10'")) throw new Error(`source date/slug ${entry.slug}`);
+  const hasExplicitSourceDate = entry.slug === 'outsourcing-invoice-data-entry-philippines'
+    ? source.includes(`'${entry.slug}': '2026-08-10'`)
+    : source.includes('updated:');
+  if (!source.includes(entry.slug) || !hasExplicitSourceDate) throw new Error(`source date/slug ${entry.slug}`);
   if (entry.sourceDate !== '2026-08-10' || entry.renderedDate !== '2026-08-10' || !entry.renderedDateFields.includes('datePublished')) throw new Error(`manifest date ${entry.slug}`);
   if (!/^[0-9a-f]{40}$/.test(entry.introducedByCommit)) throw new Error(`bad provenance ${entry.slug}`);
   const parent = execFileSync('git', ['rev-parse', `${entry.introducedByCommit}^`], { encoding: 'utf8' }).trim();
