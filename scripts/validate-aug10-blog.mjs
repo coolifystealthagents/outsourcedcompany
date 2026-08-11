@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { execFileSync } from 'node:child_process';
 
 const root = process.cwd();
 const manifestPath = path.join(root, '.paperclip/aug10-2026/blog.json');
@@ -21,6 +22,11 @@ for (const entry of manifest.entries) {
   if (!source.includes(entry.slug) || !source.includes("updated: '2026-08-10'")) throw new Error(`source date/slug ${entry.slug}`);
   if (entry.sourceDate !== '2026-08-10' || entry.renderedDate !== '2026-08-10' || !entry.renderedDateFields.includes('datePublished')) throw new Error(`manifest date ${entry.slug}`);
   if (!/^[0-9a-f]{40}$/.test(entry.introducedByCommit)) throw new Error(`bad provenance ${entry.slug}`);
+  const parent = execFileSync('git', ['rev-parse', `${entry.introducedByCommit}^`], { encoding: 'utf8' }).trim();
+  let before = '';
+  try { before = execFileSync('git', ['show', `${parent}:${entry.sourcePath}`], { encoding: 'utf8' }); } catch (error) { if (error.status !== 128) throw error; }
+  const after = execFileSync('git', ['show', `${entry.introducedByCommit}:${entry.sourcePath}`], { encoding: 'utf8' });
+  if (before.includes(entry.slug) || !after.includes(entry.slug)) throw new Error(`provenance diff ${entry.slug}`);
   const built = path.join(root, '.next/server/app/blog', `${entry.slug}.html`);
   if (!fs.existsSync(built)) throw new Error(`missing built route ${entry.route}`);
   const html = fs.readFileSync(built, 'utf8');
