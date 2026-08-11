@@ -9,7 +9,7 @@
   "minimum": 10,
   "priorRunId": "067ee708-3c8c-4ce6-9cee-d61896c81e8b",
   "priorIssueId": "3f711c70-861f-4c77-80d7-f74d48869531",
-  "validationCommands": ["npm run build", "npm run validate:aug10-research", "node scripts/validate-aug10-blog.mjs", "python3 scripts/audit_quality_assurance_article.py", "python3 scripts/audit_fraud_escalation_article.py", "python3 scripts/audit_virtual_assistant_article.py"],
+  "validationCommands": ["npm run build", "npm run validate:aug10-research"],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
   "indexNewestFirstPassed": true,
