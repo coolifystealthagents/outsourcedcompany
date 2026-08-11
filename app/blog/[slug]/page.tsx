@@ -147,6 +147,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
         {details ? <>
           <section className="card">
+            <p className="eyebrow"><time dateTime={details.updated}>Published August 11, 2026</time></p>
             <h2>The short answer</h2>
             <p>{details.takeaway}</p>
           </section>
