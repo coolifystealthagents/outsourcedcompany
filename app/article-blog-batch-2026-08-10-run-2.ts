@@ -32,6 +32,7 @@ const topics: Topic[] = topicRows.map(([slug, title, keyword, focus, steps, stop
 // Keep the verified repair explicit for the one record whose source binding was missing.
 const blogBatch2026_08_10Run2SourceDates: Record<string, string> = {
   'outsourcing-invoice-data-entry-philippines': '2026-08-10',
+  'philippines-outsourcing-crm-cleanup': '2026-08-10',
 };
 
 const makeDetails = (topic: Topic, index: number) => ({
