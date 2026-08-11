@@ -5,12 +5,12 @@ import { execFileSync } from 'node:child_process';
 const root = process.cwd();
 const manifestPath = path.join(root, '.paperclip/aug10-2026/blog.json');
 const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
-if (manifest.entries.length < manifest.minimum || manifest.entries.length !== 22) throw new Error(`accepted count ${manifest.entries.length}`);
+if (manifest.entries.length < manifest.minimum || manifest.entries.length !== 25) throw new Error(`accepted count ${manifest.entries.length}`);
 const seen = new Set();
 const data = fs.readFileSync(path.join(root, 'app/data.ts'), 'utf8');
 const sitemap = fs.readFileSync(path.join(root, 'app/sitemap.xml/route.ts'), 'utf8');
 const index = fs.readFileSync(path.join(root, 'app/blog/page.tsx'), 'utf8');
-if (!data.includes('allBlogPosts = [...blogRepair2026_08_10Posts, ...blogBatch2026_08_10Posts')) throw new Error('target articles are not newest-first');
+if (!data.includes('allBlogPosts = [...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts')) throw new Error('target articles are not newest-first');
 if (!sitemap.includes('...allBlogPosts.map((post) => `/blog/${post.slug}`)')) throw new Error('sitemap source missing');
 for (const entry of manifest.entries) {
   if (seen.has(entry.slug)) throw new Error(`duplicate ${entry.slug}`);
