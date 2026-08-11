@@ -81,7 +81,7 @@ export const blogPosts = [
     "minutes": 11
   },] as const;
 export const allBlogPosts = [...blogRepair2026_08_10Posts, ...blogBatch2026_08_10Posts, ...blogPosts, ...batchBlogPosts] as const;
-export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2);
+export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2).sort((a, b) => b.updated.localeCompare(a.updated));
 
 export const guideDetails = {
   "outsourced-company-planning": {
