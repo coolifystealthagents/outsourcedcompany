@@ -21,6 +21,10 @@ const related = [
 ];
 
 type Topic = [string, string, string, string, string, string];
+const sourceDates: Record<string, string> = {
+  'philippines-outsourcing-order-entry-controls': '2026-08-10',
+};
+
 const topics: Topic[] = [
   ['philippines-outsourcing-order-entry-controls', 'Order-entry controls for outsourced ecommerce operations', 'A source-led framework for separating order entry, exception review, and approval in a distributed ecommerce workflow.', '5', 'Control stages to define', 'Separate intake, validation, exception handling, and final approval so a repeatable order queue does not become hidden authority.'],
   ['philippines-outsourcing-customer-data-minimization', 'Customer-data minimization in outsourced support', 'Use purpose, access, retention, and deletion questions to keep a remote support queue from collecting more data than it needs.', '4', 'Data questions to answer', 'Name the purpose, fields, access group, retention rule, and deletion evidence before the queue goes live.'],
@@ -40,7 +44,7 @@ const topics: Topic[] = [
 
 function makePost([slug, title, excerpt, stat, statLabel, angle]: Topic): ResearchPost & { keyStats: Array<{ value: string; label: string; note: string }>; sections: Array<{ heading: string; body: string[] }>; faqs: Array<{ question: string; answer: string }> } {
   return {
-    slug, title, excerpt, updated: '2026-08-10', image: '/images/operations-meeting.jpg', imageAlt: 'Operations team reviewing a work queue together', sources, related,
+    slug, title, excerpt, updated: '2026-08-10', ...(sourceDates[slug] ? { updated: sourceDates[slug] } : {}), image: '/images/operations-meeting.jpg', imageAlt: 'Operations team reviewing a work queue together', sources, related,
     cta: 'Have a recurring queue to scope? Bring the source, examples, access needs, and review owner to the staffing intake.',
     keyStats: [{ value: stat, label: statLabel, note: `${angle} This is a planning measure, not a performance promise.` }, { value: '11', label: 'Authoritative references reviewed', note: 'Sources are listed so readers can inspect the underlying guidance.' }, { value: '1', label: 'Internal owner required', note: 'A framework does not replace an accountable person for the queue.' }],
     body: [
