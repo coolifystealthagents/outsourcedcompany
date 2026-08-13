@@ -49,6 +49,11 @@ function paragraphChunks(body: string | readonly string[]) {
   });
 }
 
+function visiblePublishedDate(value: string) {
+  const date = new Date(`${value}T00:00:00Z`);
+  return new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(date);
+}
+
 function ArticleChart({ chart }: { chart: any }) {
   return <section className="card article-visual" data-visual="service-employment-chart" tabIndex={0} aria-label={`${chart.title}. Scroll horizontally on a small screen to view the full chart.`}>
     <h2>{chart.title}</h2>
