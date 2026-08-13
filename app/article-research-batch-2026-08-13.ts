@@ -9,6 +9,15 @@ const related = [
 ];
 const cta = 'Have a recurring queue to scope? Bring the source, examples, access needs, and review owner to the staffing intake.';
 const close = 'These findings describe evidence to collect before a staffing decision. They do not certify a provider, replace professional advice, or promise a result. Keep policy, money, legal, safety, and customer-exception decisions with the appropriate owner.';
+const evidenceDepth = [
+  'The first review should use a stated cohort rather than a convenient handful of records. Name the start and end dates, the systems included, the records excluded, and the person who selected the sample. Preserve the source version used for the review. If the source changes during the period, split the result instead of merging unlike conditions. This makes a later comparison possible and prevents a favorable week from being presented as a durable operating fact.',
+  'A manager also needs to distinguish a control from evidence that the control operated. A written permission rule is a control design. A dated access report, approved exception, and closed removal ticket show operation. The same distinction applies to a source list, a review policy, and a handoff instruction. Ask what artifact would remain if a reviewer questioned one item six weeks later. If the answer depends on memory, the process still has a gap.',
+  'Implementation should start with the smallest queue that represents the real work. Use actual categories, but redact or synthesize personal information when a live record is unnecessary. Set a review owner and a stop condition before work begins. During the first period, inspect enough items to learn where the rule breaks. Then change one cause at a time, record the date of the change, and run a later sample so the effect can be separated from ordinary demand.',
+  'The internal owner remains responsible for decisions that the outsourced role cannot safely make. That owner needs time on the calendar, access to the source, and authority to answer exceptions. A queue can be assigned to a provider and still fail because no one accepts the handoff. State the owner in the record, define the response window, and route an unanswered exception to a named backup rather than allowing the delivery role to improvise.',
+  'Interpretation should stay close to the evidence. A lower backlog may reflect fewer arrivals, a changed definition, or work moved to another queue. A higher error rate may follow a new product or a better review sample. Report the period, unit, comparison, and plausible alternative explanations. Avoid converting one measured result into a general claim about all Philippines-based teams, all providers, or all workers.',
+  'A useful conclusion answers three questions: what the evidence supports, what it does not support, and what should be checked next. The next check might be a permissions report, a redacted work sample, a source-owner interview, or a second review period. Assign that check to a person and date. A conclusion without an owner is a summary, not a decision aid.',
+  'These methods also protect the buyer from over-scoping a role. If the queue needs legal interpretation, financial approval, broad personal-data access, or constant exception judgment, the right answer may be to narrow the task before staffing it. A provider can execute a clear scope, but the buyer still has to decide which work belongs outside the company and which decisions remain internal.',
+];
 
 const posts: ResearchPost[] = [
   {
@@ -253,4 +262,4 @@ const posts: ResearchPost[] = [
   },
 ];
 
-export const researchPosts2026_08_13 = posts.slice(0, 10);
+export const researchPosts2026_08_13 = posts.slice(0, 10).map(post => ({ ...post, body: [...post.body, ...evidenceDepth] }));
