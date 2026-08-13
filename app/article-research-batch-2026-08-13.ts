@@ -21,9 +21,9 @@ const evidenceDepth = [
 
 export const researchPosts2026_08_13: ResearchPost[] = [
   {
-    slug: 'philippines-outsourcing-invoice-record-boundaries', title: 'Invoice record boundaries in Philippines outsourcing',
+    slug: 'philippines-outsourcing-invoice-approval-evidence', title: 'Invoice approval evidence in Philippines outsourcing',
     excerpt: 'Research-led questions for protecting invoice records while an outsourced operations role checks, routes, or prepares them.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'Invoice work looks routine until the record contains a supplier bank account, tax identifier, contact details, a disputed amount, or an approval that changes cash movement. A useful outsourcing scope starts by separating observation from action. The delivery role may compare an invoice with a purchase order, flag a missing field, or prepare a draft entry. Payment release, supplier-master changes, credit decisions, and exceptions need an internal owner. Write the boundary beside each field and action so the role does not inherit authority by accident.',
       'The National Institute of Standards and Technology Cybersecurity Framework 2.0 places asset knowledge, access control, and accountability inside a broader risk-management cycle. Applied to invoice operations, that means identifying the source system, the record owner, the people who can view it, and the events that require a review. The framework is not an accounting standard and it does not tell a company which tax treatment is correct. It gives a language for documenting who can do what and how the organization will notice a problem.',
       'Start with the invoice population rather than a software list. Measure a defined period, such as one month of received invoices, and classify the records by supplier, currency, purchase-order status, exception reason, and approval state. The categories should come from the actual queue. A small sample can then show whether most work is matching, data entry, chasing missing information, or deciding whether a purchase is legitimate. Those are different jobs with different training and access needs.',
@@ -41,9 +41,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-customer-ticket-lifecycle', title: 'Customer-ticket lifecycle in Philippines outsourcing',
+    slug: 'philippines-outsourcing-customer-case-retention', title: 'Customer-case retention in Philippines outsourcing',
     excerpt: 'How to decide what an outsourced customer-support queue should retain, for how long, and with which owner.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'Retention is often treated as a storage setting, but a customer queue creates records in several places: the ticket, email thread, call note, attachment, export, quality review, and backup. A Philippines-based support role can follow a retention rule only when the organization names the record, purpose, owner, start event, end event, and disposal method. “Keep it as long as needed” leaves the worker and manager to invent policy after the fact.',
       'The NIST Privacy Framework describes privacy risk in terms of data processing and outcomes that matter to people. For an outsourced queue, translate that idea into a data map. Identify what arrives, why it is used, which fields are copied, who sees the copy, and what happens when the customer asks a question about the record. The framework helps structure the conversation; it does not set a universal retention period for every business.',
       'A useful first pass groups records by purpose rather than by file extension. A message needed to resolve a delivery question may have a different life from a payment dispute, a warranty record, or a staff coaching note. Each category needs a named decision owner. The delivery role should not delete a record simply because it appears old, and it should not preserve every attachment forever because deletion was never discussed.',
@@ -61,9 +61,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-order-exception-routing', title: 'Order-exception routing in Philippines outsourcing',
+    slug: 'philippines-outsourcing-order-source-reconciliation', title: 'Order-source reconciliation in Philippines outsourcing',
     excerpt: 'Evidence-led design for an outsourced order-entry queue, including source authority, exception routing, and review samples.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'Order entry combines transcription with judgment. A role may copy a product code and quantity, but it may also encounter an unavailable item, a conflicting address, a discount outside policy, or a customer request that changes the promise. Treating every line as data entry hides the decisions. Define which values are copied, which values are checked, and which conditions stop the order before a confirmation reaches the customer.',
       'The source hierarchy should be explicit. A current approved order form may control quantity, while an inventory system controls availability and a written policy controls discounts. Record the field, source, effective date, and owner. If two sources conflict, the worker should preserve both references and route the item. Choosing whichever page looks newest is not a control.',
       'A baseline needs a fixed period and unit. Review a month of orders and separate clean orders from edits, cancellations, backorders, address changes, and manually approved exceptions. For each class, record the likely cause of a miss. A number such as “98 percent accurate” has little meaning without saying whether accuracy applies to every field, every order, or only a sampled subset.',
@@ -81,9 +81,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-recruiting-record-integrity', title: 'Recruiting-record integrity in Philippines outsourcing',
+    slug: 'philippines-outsourcing-interview-schedule-integrity', title: 'Interview-schedule integrity in Philippines outsourcing',
     excerpt: 'A bounded research approach to scheduling, candidate records, and handoffs in an outsourced recruiting coordination role.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'Recruiting coordination is administrative work with sensitive consequences. The queue may include resumes, contact details, interview feedback, accommodations, salary expectations, and identity documents. A safe role can schedule an approved interview, send a standard message, or update a status. It should not invent a selection reason, make a protected-class inference, or promise an outcome that belongs to the hiring team.',
       'Define the unit before measuring the role. One candidate can create several touches and several calendar changes, so “tasks completed” can reward activity without showing whether the candidate received the right information. Track scheduled interviews, accurate confirmations, unanswered requests, duplicate records, and escalations for missing or conflicting instructions during a fixed period.',
       'The source authority may differ by field. The approved requisition controls the role title and schedule. The candidate’s confirmed message controls availability. The hiring manager controls interview feedback. When the records disagree, retain the conflict and route it. A coordinator should not resolve uncertainty by quietly editing the record until it looks consistent.',
@@ -101,9 +101,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-research-source-provenance', title: 'Source provenance for outsourced research in the Philippines',
+    slug: 'philippines-outsourcing-research-citation-traceability', title: 'Citation traceability for outsourced research in the Philippines',
     excerpt: 'How a research support role can leave an evidence trail without turning a source list into a false claim of certainty.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'A source log should let a reviewer reconstruct a claim. Capture the source title, publisher, URL, date checked, relevant passage or data point, scope, and limitation. The researcher’s conclusion belongs in a separate field. That separation makes it harder for a confident sentence to masquerade as a quotation or for a search result to become the evidence itself.',
       'Authority depends on the claim. An official statistical table may support a measured population for a stated year. A company’s own policy may support what that company says it does, not what an entire industry does. A research paper may explain a method without proving that the method fits a particular queue. Record the boundary rather than ranking every source on one universal scale.',
       'Use a claim register for a defined assignment. Each row should have one material claim, its evidence, a confidence note, the date checked, and the next review trigger. If a source is unavailable, record that gap instead of filling it with a plausible estimate. A manager can then decide whether the missing evidence blocks publication or only limits the wording.',
@@ -121,9 +121,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-support-escalation-context', title: 'Support-escalation context in Philippines outsourcing',
+    slug: 'philippines-outsourcing-support-handoff-ownership', title: 'Support-handoff ownership in Philippines outsourcing',
     excerpt: 'Research on the small details that keep a customer-support handoff understandable when ownership crosses teams and time zones.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'A handoff is a change in ownership, not a forwarding action. The receiving person needs the customer’s question, current status, source checked, promised next step, owner, and time limit. Do not copy every message into a note and call it context. Preserve the facts that affect the next decision and link to the authoritative record.',
       'The Philippines uses UTC+8, so a support queue can operate while another team sleeps. That creates a useful overlap opportunity and a risk: a note written at the end of one shift can become an unreviewed promise during the next. Record timestamps with a stated time zone, name the response window, and define which issues cannot wait for the next shift.',
       'Measure handoffs by outcome. During a fixed period, count reopened cases, repeated customer questions, missed promises, transfers without an owner, and cases resolved after one clear handoff. Separate channel, case type, and service window. A low transfer count may mean the first team solved more work, or it may mean people kept difficult cases without escalating them.',
@@ -141,9 +141,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-role-access-evidence', title: 'Role-access evidence for Philippines outsourcing',
+    slug: 'philippines-outsourcing-permission-review-trails', title: 'Permission-review trails for Philippines outsourcing',
     excerpt: 'What an access review should prove before and after a Philippines-based outsourced role receives system permissions.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'Access review begins with the work the role must perform. List each action, system, data class, account owner, approval owner, and removal trigger. “Needs CRM access” is too broad. Reading a ticket, editing a status, exporting a contact list, and changing a user permission are separate actions with different consequences.',
       'NIST SP 800-53 and the Cybersecurity Framework describe access control, accountability, and review as practical parts of security management. They are not a substitute for the organization’s risk assessment. Use them to ask whether access is named, justified, logged, reviewed, and removed when the reason ends.',
       'A review should compare intended access with observed access. Keep the request, approval, provisioned role, last-use evidence, exceptions, and closure decision. Check inactive accounts, shared credentials, broad groups, service integrations, and downloaded files. A clean spreadsheet is not proof if the system still grants a wider role than the record describes.',
@@ -161,9 +161,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-queue-constraint-analysis', title: 'Queue-constraint analysis for Philippines outsourcing',
+    slug: 'philippines-outsourcing-backlog-cause-analysis', title: 'Backlog-cause analysis for Philippines outsourcing',
     excerpt: 'A practical research model for separating real capacity limits from unclear scope, blocked work, and uneven queue demand.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'Capacity is not the number of people assigned to a queue. It is the relationship between arriving work, the effort required, available hours, review time, interruptions, and the quality level the owner will accept. A Philippines-based team may have adequate hours while an unclear source or delayed approval creates a backlog. Measure the constraint before asking for more staffing.',
       'Start with a fixed observation period and a defined unit. Count arrivals, completions, reopened items, blocked items, work by type, and time spent on review or clarification. Include the service window and holiday calendar. Do not average unlike work into one number when a simple request and a research-heavy exception have different effort.',
       'The queue record should show why work waits. Useful categories include missing customer detail, unavailable source, approval delay, tool outage, unclear rule, and available capacity. The category needs an owner and a possible action. If “waiting” is the only status, a manager cannot tell whether hiring, policy, access, or system repair is the next move.',
@@ -181,9 +181,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-provider-change-trace', title: 'Provider-change traces in Philippines outsourcing',
+    slug: 'philippines-outsourcing-provider-transition-controls', title: 'Provider-transition controls in Philippines outsourcing',
     excerpt: 'Questions to ask when an outsourcing provider changes people, tools, subprocessors, locations, or operating scope.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'A provider change can be quiet from the buyer’s point of view. A new supervisor, support tool, subcontractor, storage location, or access group may alter the risk while the visible queue keeps moving. Put change categories in the service record and identify which ones require notice, evidence, approval, testing, or a pause.',
       'The change register should name the old state, new state, effective date, affected data or work, owner, and evidence reviewed. A vague note such as “team updated” cannot show whether permissions, training, source authority, and continuity were reconsidered. Keep the record close to the work rather than in a sales-only document.',
       'NIST supply-chain risk guidance recommends identifying dependencies, setting requirements, monitoring changes, and planning responses. It does not certify an outsourcing provider. Apply the logic to one real service chain: who performs the work, which systems they use, which other organizations support it, and how the buyer learns when a dependency changes.',
@@ -201,9 +201,9 @@ export const researchPosts2026_08_13: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-customer-field-purpose', title: 'Customer-field purpose in Philippines outsourcing',
+    slug: 'philippines-outsourcing-customer-data-field-map', title: 'Customer-data field maps for Philippines outsourcing',
     excerpt: 'A field-level method for deciding what a Philippines-based outsourced role actually needs to see and record.', updated: '2026-08-13', image, imageAlt,
-    body: [
+    body: [...evidenceDepth,
       'The safest field is often the field the task never needs. Begin with the decision the role must support, then list the minimum inputs and output required to complete it. A customer-support queue may need an order reference and status while not needing a full address, payment credential, or unrelated profile history. The field list should be an argument, not an export of every available column.',
       'Document each field’s purpose, source, format, access action, retention rule, and owner. Mark whether it is required, optional, masked, derived, or prohibited for the role. When a worker asks for a new field, route the request to the owner rather than adding it informally. That keeps a one-off convenience from becoming permanent exposure.',
       'The Data Privacy Act and NIST Privacy Framework support purpose-aware handling and accountability, but neither produces a universal field list for every company. The organization must apply the relevant law, contract, product, and customer commitments. Qualified counsel should review material processing questions, especially where the parties or systems cross borders.',
