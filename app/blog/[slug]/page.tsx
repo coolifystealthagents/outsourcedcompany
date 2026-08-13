@@ -4,6 +4,8 @@ import { Header, Footer, CTA, JsonLd } from '../../components';
 import { allBlogPosts, blogDetails, guideDetails, site } from '../../data';
 
 const base = `https://${site.domain.toLowerCase()}`;
+const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const formatReaderDate = (value: string) => readerDate.format(new Date(`${value}T00:00:00Z`));
 
 export function generateStaticParams() {
   return allBlogPosts.map((post) => ({ slug: post.slug }));
@@ -147,7 +149,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
         {details ? <>
           <section className="card">
-            <p className="eyebrow"><time dateTime={details.updated}>Published August 11, 2026</time></p>
+            <p className="eyebrow"><time dateTime={details.updated}>Published {formatReaderDate(details.updated)}</time></p>
             <h2>The short answer</h2>
             <p>{details.takeaway}</p>
           </section>
