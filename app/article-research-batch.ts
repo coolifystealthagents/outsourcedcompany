@@ -1,4 +1,4 @@
-export type ResearchPost = { slug:string; title:string; excerpt:string; updated:string; image:string; imageAlt:string; body:string[]; sources:Array<{label:string;href:string}>; related:Array<{label:string;href:string}>; cta:string };
+export type ResearchPost = { slug:string; title:string; excerpt:string; updated:string; datePublished?:string; image:string; imageAlt:string; body:string[]; sources:Array<{label:string;href:string}>; related:Array<{label:string;href:string}>; cta:string };
 const topics = [
  ['philippines-outsourcing-market-overview','Philippines outsourcing market overview','A sourced starting point for understanding the Philippines service workforce, without treating broad labor data as a promise about one provider.'],
  ['philippines-outsourcing-service-workforce','What service-workforce data can tell an outsourcing buyer','Use labor statistics as context, then test the actual queue, schedule, communication, and review system before choosing a partner.'],
