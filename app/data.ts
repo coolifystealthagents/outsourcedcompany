@@ -13,6 +13,7 @@ import { researchPosts2026_08_09 } from './article-research-batch-2026-08-09';
 import { researchPosts2026_08_10 } from './article-research-batch-2026-08-10';
 import { researchPosts2026_08_10_run2 } from './article-research-batch-2026-08-10-run-2';
 import { researchPosts2026_08_11 } from './article-research-batch-2026-08-11';
+import { philippinesOutsourcingSubprocessorAccountability } from './article-research-2026-08-12';
 export { researchPosts } from './article-research-batch';
 
 export const site = {
@@ -83,7 +84,7 @@ export const blogPosts = [
     "minutes": 11
   },] as const;
 export const allBlogPosts = [...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
-export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11).sort((a, b) => b.updated.localeCompare(a.updated));
+export const allResearchPosts = researchPosts.concat(researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability).sort((a, b) => b.updated.localeCompare(a.updated));
 
 export const guideDetails = {
   "outsourced-company-planning": {
