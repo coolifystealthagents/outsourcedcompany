@@ -19,9 +19,9 @@ const evidenceDepth = [
   'These methods also protect the buyer from over-scoping a role. If the queue needs legal interpretation, financial approval, broad personal-data access, or constant exception judgment, the right answer may be to narrow the task before staffing it. A provider can execute a clear scope, but the buyer still has to decide which work belongs outside the company and which decisions remain internal.',
 ];
 
-const posts: ResearchPost[] = [
+export const researchPosts2026_08_13: ResearchPost[] = [
   {
-    slug: 'philippines-outsourcing-invoice-data-controls', title: 'Invoice data controls in Philippines outsourcing',
+    slug: 'philippines-outsourcing-invoice-record-boundaries', title: 'Invoice record boundaries in Philippines outsourcing',
     excerpt: 'Research-led questions for protecting invoice records while an outsourced operations role checks, routes, or prepares them.', updated: '2026-08-13', image, imageAlt,
     body: [
       'Invoice work looks routine until the record contains a supplier bank account, tax identifier, contact details, a disputed amount, or an approval that changes cash movement. A useful outsourcing scope starts by separating observation from action. The delivery role may compare an invoice with a purchase order, flag a missing field, or prepare a draft entry. Payment release, supplier-master changes, credit decisions, and exceptions need an internal owner. Write the boundary beside each field and action so the role does not inherit authority by accident.',
@@ -41,7 +41,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-customer-record-retention', title: 'Customer-record retention in Philippines outsourcing',
+    slug: 'philippines-outsourcing-customer-ticket-lifecycle', title: 'Customer-ticket lifecycle in Philippines outsourcing',
     excerpt: 'How to decide what an outsourced customer-support queue should retain, for how long, and with which owner.', updated: '2026-08-13', image, imageAlt,
     body: [
       'Retention is often treated as a storage setting, but a customer queue creates records in several places: the ticket, email thread, call note, attachment, export, quality review, and backup. A Philippines-based support role can follow a retention rule only when the organization names the record, purpose, owner, start event, end event, and disposal method. “Keep it as long as needed” leaves the worker and manager to invent policy after the fact.',
@@ -61,7 +61,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-order-entry-research', title: 'Order-entry accuracy in Philippines outsourcing',
+    slug: 'philippines-outsourcing-order-exception-routing', title: 'Order-exception routing in Philippines outsourcing',
     excerpt: 'Evidence-led design for an outsourced order-entry queue, including source authority, exception routing, and review samples.', updated: '2026-08-13', image, imageAlt,
     body: [
       'Order entry combines transcription with judgment. A role may copy a product code and quantity, but it may also encounter an unavailable item, a conflicting address, a discount outside policy, or a customer request that changes the promise. Treating every line as data entry hides the decisions. Define which values are copied, which values are checked, and which conditions stop the order before a confirmation reaches the customer.',
@@ -81,7 +81,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-recruiting-coordination-evidence', title: 'Recruiting coordination evidence in Philippines outsourcing',
+    slug: 'philippines-outsourcing-recruiting-record-integrity', title: 'Recruiting-record integrity in Philippines outsourcing',
     excerpt: 'A bounded research approach to scheduling, candidate records, and handoffs in an outsourced recruiting coordination role.', updated: '2026-08-13', image, imageAlt,
     body: [
       'Recruiting coordination is administrative work with sensitive consequences. The queue may include resumes, contact details, interview feedback, accommodations, salary expectations, and identity documents. A safe role can schedule an approved interview, send a standard message, or update a status. It should not invent a selection reason, make a protected-class inference, or promise an outcome that belongs to the hiring team.',
@@ -101,7 +101,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-research-source-log', title: 'Source logs for outsourced research in the Philippines',
+    slug: 'philippines-outsourcing-research-source-provenance', title: 'Source provenance for outsourced research in the Philippines',
     excerpt: 'How a research support role can leave an evidence trail without turning a source list into a false claim of certainty.', updated: '2026-08-13', image, imageAlt,
     body: [
       'A source log should let a reviewer reconstruct a claim. Capture the source title, publisher, URL, date checked, relevant passage or data point, scope, and limitation. The researcher’s conclusion belongs in a separate field. That separation makes it harder for a confident sentence to masquerade as a quotation or for a search result to become the evidence itself.',
@@ -121,7 +121,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-support-handoff-research', title: 'Customer-support handoffs in Philippines outsourcing',
+    slug: 'philippines-outsourcing-support-escalation-context', title: 'Support-escalation context in Philippines outsourcing',
     excerpt: 'Research on the small details that keep a customer-support handoff understandable when ownership crosses teams and time zones.', updated: '2026-08-13', image, imageAlt,
     body: [
       'A handoff is a change in ownership, not a forwarding action. The receiving person needs the customer’s question, current status, source checked, promised next step, owner, and time limit. Do not copy every message into a note and call it context. Preserve the facts that affect the next decision and link to the authoritative record.',
@@ -141,7 +141,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-access-review-evidence', title: 'Access reviews for Philippines outsourced roles',
+    slug: 'philippines-outsourcing-role-access-evidence', title: 'Role-access evidence for Philippines outsourcing',
     excerpt: 'What an access review should prove before and after a Philippines-based outsourced role receives system permissions.', updated: '2026-08-13', image, imageAlt,
     body: [
       'Access review begins with the work the role must perform. List each action, system, data class, account owner, approval owner, and removal trigger. “Needs CRM access” is too broad. Reading a ticket, editing a status, exporting a contact list, and changing a user permission are separate actions with different consequences.',
@@ -161,7 +161,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-workload-capacity-research', title: 'Workload and capacity evidence for Philippines outsourcing',
+    slug: 'philippines-outsourcing-queue-constraint-analysis', title: 'Queue-constraint analysis for Philippines outsourcing',
     excerpt: 'A practical research model for separating real capacity limits from unclear scope, blocked work, and uneven queue demand.', updated: '2026-08-13', image, imageAlt,
     body: [
       'Capacity is not the number of people assigned to a queue. It is the relationship between arriving work, the effort required, available hours, review time, interruptions, and the quality level the owner will accept. A Philippines-based team may have adequate hours while an unclear source or delayed approval creates a backlog. Measure the constraint before asking for more staffing.',
@@ -181,7 +181,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-vendor-change-research', title: 'Vendor-change evidence in Philippines outsourcing',
+    slug: 'philippines-outsourcing-provider-change-trace', title: 'Provider-change traces in Philippines outsourcing',
     excerpt: 'Questions to ask when an outsourcing provider changes people, tools, subprocessors, locations, or operating scope.', updated: '2026-08-13', image, imageAlt,
     body: [
       'A provider change can be quiet from the buyer’s point of view. A new supervisor, support tool, subcontractor, storage location, or access group may alter the risk while the visible queue keeps moving. Put change categories in the service record and identify which ones require notice, evidence, approval, testing, or a pause.',
@@ -201,7 +201,7 @@ const posts: ResearchPost[] = [
     ], related, cta,
   },
   {
-    slug: 'philippines-outsourcing-customer-data-minimum-fields', title: 'Minimum customer-data fields for outsourced work',
+    slug: 'philippines-outsourcing-customer-field-purpose', title: 'Customer-field purpose in Philippines outsourcing',
     excerpt: 'A field-level method for deciding what a Philippines-based outsourced role actually needs to see and record.', updated: '2026-08-13', image, imageAlt,
     body: [
       'The safest field is often the field the task never needs. Begin with the decision the role must support, then list the minimum inputs and output required to complete it. A customer-support queue may need an order reference and status while not needing a full address, payment credential, or unrelated profile history. The field list should be an argument, not an export of every available column.',
@@ -220,46 +220,4 @@ const posts: ResearchPost[] = [
       { label: 'FTC: Protecting Personal Information', href: 'https://www.ftc.gov/business-guidance/privacy-security' },
     ], related, cta,
   },
-  {
-    slug: 'philippines-outsourcing-quality-review-sampling', title: 'Quality-review sampling for Philippines outsourcing',
-    excerpt: 'How to build a review sample that says something useful about an outsourced queue without pretending to inspect everything.', updated: '2026-08-13', image, imageAlt,
-    body: [
-      'A sample is a claim about a population. Name the period, queue, item unit, inclusion rule, reviewer, and error definition before choosing a number. A review of ten easy tickets cannot support a claim about a mixed queue of ten thousand items. The sample should include the work that varies in difficulty and the work that carries the greatest consequence.',
-      'Separate accuracy from completeness and policy adherence. A note may contain the right answer but omit the required source. A response may be polite but promise an action the role cannot approve. Define the observable result for each category and record the evidence used. Avoid one blended score that hides which failure needs repair.',
-      'NIST measurement guidance and the Cybersecurity Framework can help organizations connect outcomes, evidence, and improvement. They do not prescribe a sample size for an outsourced operations queue. Choose a method that fits the population, consequence, and review capacity, and state the limitation in the conclusion.',
-      'Stratify when the queue is mixed. Review separate groups for channel, product, language, exception type, age, or shift if those differences plausibly affect results. Keep the rule stable during the period. Changing the sample after seeing the answer makes the result difficult to interpret.',
-      'A review is more useful when the worker can respond to it. Share the error definition, allow a factual correction, and separate coaching from decisions about employment or a contract. If the same miss recurs, test the source, form, permission, policy, or handoff before blaming individual care. The review owner should have authority to repair the cause.',
-      'Use a redacted sample for a work test. Include an ordinary item, a difficult item, an incomplete source, and a case that must be escalated. Ask the person to identify what is known, what is missing, and what evidence they would retain. This tests judgment without giving access to a live customer population.',
-      'Track review findings by cause and period. Useful fields include source ambiguity, training gap, tool issue, workload pressure, unauthorized action, and reviewer disagreement. Recheck a repaired process with a later sample. A one-time clean result may reflect a quiet week rather than a stable control.',
-      'Sampling cannot prove that every item is correct. Rare severe errors may need a separate trigger, such as review of every item in a high-risk category. Explain what the sample can support and what it cannot. Expand the queue only when the evidence, owner capacity, and escalation path are ready.',
-      close,
-    ],
-    sources: [
-      { label: 'NIST Cybersecurity Framework 2.0', href: 'https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20' },
-      { label: 'NIST SP 800-53 Rev. 5', href: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final' },
-      { label: 'U.S. EEOC: Employment Tests and Selection Procedures', href: 'https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures' },
-    ], related, cta,
-  },
-  {
-    slug: 'philippines-outsourcing-holiday-calendar-evidence', title: 'Holiday-calendar evidence for Philippines outsourcing',
-    excerpt: 'A careful way to connect Philippine holidays, customer commitments, time zones, and backup ownership in an outsourced queue.', updated: '2026-08-13', image, imageAlt,
-    body: [
-      'A calendar does not provide coverage by itself. Coverage means the right person can access the right source, understand the current queue, and make or route the decisions that cannot wait. Start with the customer service window, required response time, Philippine holidays, planned leave, internal holidays, and the owner for exceptions.',
-      'Use a time-zone source and write the zone beside every operating window. The IANA Time Zone Database is a technical reference for time-zone identifiers and rules. It does not decide a company’s staffing plan. Confirm the actual customer and worker locations because a calendar label such as “local time” is ambiguous in a distributed team.',
-      'For each closure or reduced-coverage day, record the work that can wait, the work that needs a backup, the person who approves a change, and the message customers receive. Keep the record close to the queue. A holiday note buried in a general handbook will not help a worker decide whether an item should pause.',
-      'Continuity planning asks what happens when a person, tool, source, or connection is unavailable. NIST SP 800-34 connects contingency planning with impact, recovery objectives, roles, and testing. Apply that to one queue. Identify the last trusted state, alternate contact, temporary scope, and reconciliation step when normal access returns.',
-      'A work sample can use a fictional holiday week. Include an urgent request, a normal request, an absent approver, and an unavailable source. Ask the candidate or provider to create the handoff, name the fallback, and state what must not be attempted. Reward an explicit stop rule instead of a promise that someone will “keep an eye on it.”',
-      'Measure calendar readiness before a holiday period. Check whether dates were confirmed, owners assigned, backup access tested, messages approved, and open items handed off. After the period, compare expected and actual response, missed promises, duplicate work, and unresolved exceptions. Record the cause rather than assuming the holiday itself caused the problem.',
-      'Coverage can become overbuilt. A backup with broad access may create more risk than the short gap it is meant to cover. Use the smallest temporary permission set and an end date. Revoke or review it after the period. Preserve the handoff record without copying unnecessary customer information into personal channels.',
-      'The approach is bounded by local labor, customer, contractual, and legal requirements. It does not replace advice about holidays or employment. Treat each year’s dates and each client’s promise as facts to verify, not assumptions inherited from last year. A tested small queue is a better basis for expansion than a large calendar with no owner.',
-      close,
-    ],
-    sources: [
-      { label: 'IANA Time Zone Database', href: 'https://www.iana.org/time-zones' },
-      { label: 'NIST SP 800-34 Contingency Planning Guide', href: 'https://csrc.nist.gov/pubs/sp/800/34/r1/final' },
-      { label: 'Philippines Official Gazette', href: 'https://www.officialgazette.gov.ph/' },
-    ], related, cta,
-  },
 ];
-
-export const researchPosts2026_08_13 = posts.slice(0, 10).map(post => ({ ...post, body: [...post.body, ...evidenceDepth] }));
