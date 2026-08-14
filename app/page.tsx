@@ -51,9 +51,9 @@ export default function Home() {
               <div className="sheet-top"><span>OC / 01</span><span>Draft brief</span></div>
               <h2>Start with one queue</h2>
               <ul>
-                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/role-file.svg" alt=""/><span>Owner</span><b>Named before access</b></li>
-                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/access-list.svg" alt=""/><span>Decision line</span><b>Written, not assumed</b></li>
-                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/review-rule.svg" alt=""/><span>First review</span><b>Set before live work</b></li>
+                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/role-file.svg" alt="Documented role file"/><span>Owner</span><b>Named before access</b></li>
+                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/access-list.svg" alt="Role access checklist"/><span>Decision line</span><b>Written, not assumed</b></li>
+                <li><img src="/icons/getillustrations/blueprint-business-icons-svg/review-rule.svg" alt="Quality review rule"/><span>First review</span><b>Set before live work</b></li>
               </ul>
               <p>Talent source</p>
               <strong>Philippines only</strong>
@@ -120,8 +120,8 @@ export default function Home() {
       </section>
 
       <section className="container gi-proof" aria-label="Operations brief controls">
-        <img className="gi-proof-art" src="/illustrations/getillustrations/goodle-team-illustrations-svg/operations-brief-review.svg" alt=""/>
-        <div><p className="eyebrow">A brief the team can use</p><h2>Define access and review before the match.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/blueprint-business-icons-svg/role-file.svg" alt=""/>Role file</span><span><img src="/icons/getillustrations/blueprint-business-icons-svg/access-list.svg" alt=""/>Access list</span><span><img src="/icons/getillustrations/blueprint-business-icons-svg/review-rule.svg" alt=""/>Review rule</span></div></div>
+        <img className="gi-proof-art" src="/illustrations/getillustrations/goodle-team-illustrations-svg/operations-brief-review.svg" alt="Operations team reviewing a staffing brief"/>
+        <div><p className="eyebrow">A brief the team can use</p><h2>Define access and review before the match.</h2><div className="gi-icon-row"><span><img src="/icons/getillustrations/blueprint-business-icons-svg/role-file.svg" alt="Documented role file"/>Role file</span><span><img src="/icons/getillustrations/blueprint-business-icons-svg/access-list.svg" alt="Role access checklist"/>Access list</span><span><img src="/icons/getillustrations/blueprint-business-icons-svg/review-rule.svg" alt="Quality review rule"/>Review rule</span></div></div>
       </section>
 
       <section className="notes-section">
