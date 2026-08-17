@@ -19,6 +19,7 @@ import { researchPosts2026_08_11 } from './article-research-batch-2026-08-11';
 import { philippinesOutsourcingSubprocessorAccountability } from './article-research-2026-08-12';
 import { researchPosts2026_08_13 } from './article-research-batch-2026-08-13';
 import { researchPosts2026_08_14 } from './article-research-batch-2026-08-14';
+import { researchPosts2026_08_17 } from './article-research-batch-2026-08-17';
 export { researchPosts } from './article-research-batch';
 
 export const site = {
@@ -89,7 +90,7 @@ export const blogPosts = [
     "minutes": 11
   },] as const;
 export const allBlogPosts = [...blogBatch2026_08_17Posts, ...blogBatch2026_08_14Posts, ...blogBatch2026_08_13Posts, ...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
-export const allResearchPosts = researchPosts.concat(researchPosts2026_08_14, researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability, researchPosts2026_08_13).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
+export const allResearchPosts = researchPosts.concat(researchPosts2026_08_17, researchPosts2026_08_14, researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability, researchPosts2026_08_13).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
 
 export const guideDetails = {
   "outsourced-company-planning": {
