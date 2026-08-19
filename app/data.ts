@@ -10,6 +10,7 @@ import { blogBatch2026_08_11Posts, blogBatch2026_08_11Details } from './article-
 import { blogBatch2026_08_13Posts, blogBatch2026_08_13Details } from './article-blog-batch-2026-08-13';
 import { blogBatch2026_08_14Posts, blogBatch2026_08_14Details } from './article-blog-batch-2026-08-14';
 import { blogBatch2026_08_17Posts, blogBatch2026_08_17Details } from './article-blog-batch-2026-08-17';
+import { blogBatch2026_08_19Posts, blogBatch2026_08_19Details } from './article-blog-batch-2026-08-19';
 import { researchPosts } from './article-research-batch';
 import { researchPosts2026_08_08 } from './article-research-batch-2026-08-08';
 import { researchPosts2026_08_09 } from './article-research-batch-2026-08-09';
@@ -20,6 +21,7 @@ import { philippinesOutsourcingSubprocessorAccountability } from './article-rese
 import { researchPosts2026_08_13 } from './article-research-batch-2026-08-13';
 import { researchPosts2026_08_14 } from './article-research-batch-2026-08-14';
 import { researchPosts2026_08_17 } from './article-research-batch-2026-08-17';
+import { researchPosts2026_08_19 } from './article-research-batch-2026-08-19';
 export { researchPosts } from './article-research-batch';
 
 export const site = {
@@ -89,8 +91,8 @@ export const blogPosts = [
     "excerpt": "Choose the first role, compare Philippines staffing partners, protect access, and run a 30-day launch you can check.",
     "minutes": 11
   },] as const;
-export const allBlogPosts = [...blogBatch2026_08_17Posts, ...blogBatch2026_08_14Posts, ...blogBatch2026_08_13Posts, ...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
-export const allResearchPosts = researchPosts.concat(researchPosts2026_08_17, researchPosts2026_08_14, researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability, researchPosts2026_08_13).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
+export const allBlogPosts = [...blogBatch2026_08_19Posts, ...blogBatch2026_08_17Posts, ...blogBatch2026_08_14Posts, ...blogBatch2026_08_13Posts, ...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
+export const allResearchPosts = researchPosts.concat(researchPosts2026_08_19, researchPosts2026_08_17, researchPosts2026_08_14, researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability, researchPosts2026_08_13).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
 
 export const guideDetails = {
   "outsourced-company-planning": {
@@ -141,6 +143,7 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  ...blogBatch2026_08_19Details,
   ...blogBatch2026_08_17Details,
   ...blogBatch2026_08_14Details,
   ...blogBatch2026_08_13Details,
