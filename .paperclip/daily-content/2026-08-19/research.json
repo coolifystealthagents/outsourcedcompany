@@ -1,0 +1,16 @@
+{
+  "campaignDate": "2026-08-19",
+  "family": "research",
+  "entries": [
+    { "route": "/research/philippines-outsourcing-customer-knowledge-retrieval", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-payment-reconciliation-controls", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-returns-reason-coding", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-contract-obligation-indexing", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-campaign-attribution-lineage", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-project-risk-register-quality", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-quality-sample-design", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-escalation-aging-analysis", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-translation-review-boundaries", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
+    { "route": "/research/philippines-outsourcing-data-export-inventory", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] }
+  ]
+}
