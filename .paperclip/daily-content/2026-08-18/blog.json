@@ -1,0 +1,28 @@
+{
+  "campaignDate": "2026-08-18",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/philippines-outsourcing-customer-refund-intake","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-recurring-report-preparation-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-service-level-evidence-review","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-supplier-invoice-matching-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-customer-account-migrations","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-knowledge-base-search-audits-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-calendar-change-coordination","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-customer-document-collection-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-deduplication-review","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-content-brief-research-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-returns-evidence-review","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-project-risk-register-maintenance-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-vendor-certificate-tracking","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-customer-feedback-follow-up-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-sales-activity-reconciliation","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-employee-file-indexing-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-shipping-exception-queues","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-subscription-plan-change-intake-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-regulatory-record-indexing","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-event-speaker-coordination-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/philippines-outsourcing-product-catalog-change-review","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]},
+    {"route":"/blog/outsourcing-customer-renewal-queue-preparation-philippines","sourcePaths":["app/article-blog-batch-2026-08-19.ts"]}
+  ]
+}
