@@ -2,27 +2,137 @@
   "campaignDate": "2026-08-19",
   "family": "blog",
   "entries": [
-    {"route":"/blog/philippines-outsourcing-inbox-triage-controls","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-order-status-reconciliation","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-appointment-reminder-workflow","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-crm-field-hygiene","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-purchase-request-prechecks","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-customer-onboarding-status","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-knowledge-transfer-indexing","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-shift-handoff-preparation","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-subscription-cancellation-review","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-expense-receipt-indexing","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-product-review-moderation","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-lead-source-audits","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-contract-renewal-calendar","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-qa-sample-selection","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-backlog-aging-reviews","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-vendor-contact-updates","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-customer-identity-document-indexing","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-weekly-kpi-pack-assembly","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-support-macro-review","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-returns-queue-aging","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/philippines-outsourcing-project-decision-log-maintenance","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]},
-    {"route":"/blog/outsourcing-philippines-access-review-preparation","sourcePaths":["app/article-blog-repair-2026-08-19-v2.ts"]}
+    {
+      "route": "/blog/philippines-outsourcing-inbox-triage-controls-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-order-status-reconciliation-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-appointment-reminder-workflow-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-crm-field-hygiene-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-purchase-request-prechecks-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-customer-onboarding-status-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-knowledge-transfer-indexing-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-shift-handoff-preparation-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-subscription-cancellation-review-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-expense-receipt-indexing-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-product-review-moderation-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-lead-source-audits-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-contract-renewal-calendar-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-qa-sample-selection-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-backlog-aging-reviews-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-vendor-contact-updates-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-customer-identity-document-indexing-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-weekly-kpi-pack-assembly-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-support-macro-review-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-returns-queue-aging-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/philippines-outsourcing-project-decision-log-maintenance-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    },
+    {
+      "route": "/blog/outsourcing-philippines-access-review-preparation-field-guide",
+      "sourcePaths": [
+        "app/article-blog-gate-repair-2026-08-19-final.ts"
+      ]
+    }
   ]
 }
