@@ -1,16 +1,25 @@
 {
-  "campaignDate": "2026-08-19",
-  "family": "research",
-  "entries": [
-    { "route": "/research/philippines-outsourcing-customer-knowledge-retrieval", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-payment-reconciliation-controls", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-returns-reason-coding", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-contract-obligation-indexing", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-campaign-attribution-lineage", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-project-risk-register-quality", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-quality-sample-design", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-escalation-aging-analysis", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-translation-review-boundaries", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] },
-    { "route": "/research/philippines-outsourcing-data-export-inventory", "sourcePaths": ["app/article-research-batch-2026-08-19.ts"] }
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/research/company-outsourcing-source-quality-evidence-research",
+      "source": "content/research/company-outsourcing-source-quality-evidence-research.md"
+    },
+    {
+      "route": "/research/company-outsourcing-exception-aging-patterns-research",
+      "source": "content/research/company-outsourcing-exception-aging-patterns-research.md"
+    },
+    {
+      "route": "/research/company-outsourcing-review-consistency-research",
+      "source": "content/research/company-outsourcing-review-consistency-research.md"
+    },
+    {
+      "route": "/research/company-outsourcing-access-governance-research",
+      "source": "content/research/company-outsourcing-access-governance-research.md"
+    },
+    {
+      "route": "/research/company-outsourcing-handoff-reliability-research",
+      "source": "content/research/company-outsourcing-handoff-reliability-research.md"
+    }
   ]
 }

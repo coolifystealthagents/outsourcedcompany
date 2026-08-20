@@ -1,28 +1,53 @@
 {
-  "campaignDate": "2026-08-19",
-  "family": "blog",
-  "entries": [
-    {"route":"/blog/philippines-outsourcing-refund-evidence-ledger","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-recurring-report-source-checks","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-service-level-exception-registers","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-supplier-invoice-match-preparation","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-account-migration-readiness","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-knowledge-search-result-curation","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-calendar-conflict-registers","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-customer-document-chase-preparation","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-record-duplicate-triage","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-content-brief-source-mapping","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-return-claim-evidence-packets","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-customer-profile-change-logs","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-work-queue-reassignment-reviews","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-approval-packet-completeness","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-customer-feedback-theme-indexing","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-knowledge-handoff-freshness-reviews","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-payment-status-reconciliation","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-project-risk-evidence-collection","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-vendor-renewal-packet-indexing","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-support-knowledge-gap-coding","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/philippines-outsourcing-campaign-change-history-review","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]},
-    {"route":"/blog/outsourcing-philippines-fulfillment-exception-aging","sourcePaths":["app/article-blog-2026-08-19-control-room.ts"]}
+  "date": "2026-08-19",
+  "articles": [
+    {
+      "route": "/blog/company-outsourcing-intake-source-register",
+      "source": "content/blog/company-outsourcing-intake-source-register.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-approval-evidence-matrix",
+      "source": "content/blog/company-outsourcing-approval-evidence-matrix.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-exception-queue-triage",
+      "source": "content/blog/company-outsourcing-exception-queue-triage.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-quality-review-cadence",
+      "source": "content/blog/company-outsourcing-quality-review-cadence.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-handoff-acceptance-log",
+      "source": "content/blog/company-outsourcing-handoff-acceptance-log.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-access-recertification-review",
+      "source": "content/blog/company-outsourcing-access-recertification-review.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-weekly-decision-brief",
+      "source": "content/blog/company-outsourcing-weekly-decision-brief.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-source-of-truth-map",
+      "source": "content/blog/company-outsourcing-source-of-truth-map.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-change-control-record",
+      "source": "content/blog/company-outsourcing-change-control-record.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-work-queue-ownership",
+      "source": "content/blog/company-outsourcing-work-queue-ownership.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-escalation-path-design",
+      "source": "content/blog/company-outsourcing-escalation-path-design.md"
+    },
+    {
+      "route": "/blog/company-outsourcing-launch-readiness-review",
+      "source": "content/blog/company-outsourcing-launch-readiness-review.md"
+    }
   ]
 }
