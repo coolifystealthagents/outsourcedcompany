@@ -1,0 +1,7 @@
+[
+  {"route":"/research/philippines-outsourcing-access-removal-evidence","sourcePaths":["app/article-research-batch-2026-08-21.ts"],"imagePath":"public/images/daily-research-2026-08-21/access-removal.png"},
+  {"route":"/research/philippines-outsourcing-queue-sampling-validity","sourcePaths":["app/article-research-batch-2026-08-21.ts"],"imagePath":"public/images/daily-research-2026-08-21/queue-sampling.png"},
+  {"route":"/research/philippines-outsourcing-multilingual-handoff-research","sourcePaths":["app/article-research-batch-2026-08-21.ts"],"imagePath":"public/images/daily-research-2026-08-21/multilingual-handoff.png"},
+  {"route":"/research/philippines-outsourcing-vendor-master-change-evidence","sourcePaths":["app/article-research-batch-2026-08-21.ts"],"imagePath":"public/images/daily-research-2026-08-21/vendor-master-change.png"},
+  {"route":"/research/philippines-outsourcing-continuity-drill-evidence","sourcePaths":["app/article-research-batch-2026-08-21.ts"],"imagePath":"public/images/daily-research-2026-08-21/continuity-drill.png"}
+]
