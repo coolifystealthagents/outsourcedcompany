@@ -1,0 +1,21 @@
+{
+  "campaignDate": "2026-08-20",
+  "family": "blog",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "branch": "main",
+  "sourcePaths": ["app/article-blog-2026-08-20.ts"],
+  "entries": [
+    {"route":"/blog/philippines-outsourcing-queue-intake-design","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/queue-intake-design.webp","promptReceipt":"Gemini 2.5 Flash Image; Filipino operations specialist mapping incoming business requests into abstract lanes; no readable text, logos, or watermark."},
+    {"route":"/blog/outsourcing-philippines-handoff-notes","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/handoff-notes.webp","promptReceipt":"Gemini 2.5 Flash Image; distributed operations teammates reviewing a handoff notebook beside a laptop and clock; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-outsourcing-access-review","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/access-review.webp","promptReceipt":"Gemini 2.5 Flash Image; operations manager reviewing an abstract permissions matrix beside a laptop; no readable text, logos, or watermark."},
+    {"route":"/blog/outsourcing-philippines-backlog-aging","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/backlog-aging.webp","promptReceipt":"Gemini 2.5 Flash Image; operations desk with separated new, waiting, and aged task trays; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-outsourcing-customer-data-correction","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/customer-data-correction.webp","promptReceipt":"Gemini 2.5 Flash Image; data steward comparing a customer record with source documents and a correction checklist; no readable text, logos, or watermark."},
+    {"route":"/blog/outsourcing-philippines-invoice-exception-prep","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/invoice-exception-prep.webp","promptReceipt":"Gemini 2.5 Flash Image; finance specialist comparing invoice, purchase record, and receipt; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-outsourcing-calendar-coordination","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/calendar-coordination.webp","promptReceipt":"Gemini 2.5 Flash Image; executive coordinator reviewing overlapping calendar cards and a time-zone clock; no readable text, logos, or watermark."},
+    {"route":"/blog/outsourcing-philippines-order-status-reconciliation","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/order-status-reconciliation.webp","promptReceipt":"Gemini 2.5 Flash Image; ecommerce specialist comparing order status cards with shipping records; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-outsourcing-recruiting-scheduling","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/recruiting-scheduling.webp","promptReceipt":"Gemini 2.5 Flash Image; recruitment coordinator arranging interview slots with laptop and headset; no readable text, logos, or watermark."},
+    {"route":"/blog/outsourcing-philippines-vendor-onboarding-records","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/vendor-onboarding-records.webp","promptReceipt":"Gemini 2.5 Flash Image; vendor administrator organizing onboarding documents and a supplier checklist; no readable text, logos, or watermark."},
+    {"route":"/blog/philippines-outsourcing-support-macro-governance","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/support-macro-governance.webp","promptReceipt":"Gemini 2.5 Flash Image; customer support lead reviewing response cards and a knowledge-base binder; no readable text, logos, or watermark."},
+    {"route":"/blog/outsourcing-philippines-month-end-operations","sourcePaths":["app/article-blog-2026-08-20.ts"],"imagePath":"public/blog-heroes/month-end-operations.webp","promptReceipt":"Gemini 2.5 Flash Image; month-end operations team reviewing a wall calendar, folders, and checklist; no readable text, logos, or watermark."}
+  ]
+}
