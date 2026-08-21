@@ -1,0 +1,14 @@
+import { aug21Repair1Post, aug21Repair1Detail } from './article-blog-2026-08-21-returns-evidence-routing';
+import { aug21Repair2Post, aug21Repair2Detail } from './article-blog-2026-08-21-renewal-calendar-evidence';
+import { aug21Repair3Post, aug21Repair3Detail } from './article-blog-2026-08-21-quality-review-denominator';
+import { aug21Repair4Post, aug21Repair4Detail } from './article-blog-2026-08-21-inbox-escalation-states';
+import { aug21Repair5Post, aug21Repair5Detail } from './article-blog-2026-08-21-inventory-discrepancy-packets';
+import { aug21Repair6Post, aug21Repair6Detail } from './article-blog-2026-08-21-campaign-approval-lineage';
+import { aug21Repair7Post, aug21Repair7Detail } from './article-blog-2026-08-21-personnel-file-minimum-fields';
+import { aug21Repair8Post, aug21Repair8Detail } from './article-blog-2026-08-21-invoice-exception-routing';
+import { aug21Repair9Post, aug21Repair9Detail } from './article-blog-2026-08-21-handoff-readiness-evidence';
+import { aug21Repair10Post, aug21Repair10Detail } from './article-blog-2026-08-21-account-change-boundaries';
+import { aug21Repair11Post, aug21Repair11Detail } from './article-blog-2026-08-21-metric-definition-lineage';
+import { aug21Repair12Post, aug21Repair12Detail } from './article-blog-2026-08-21-permission-request-evidence';
+export const blogRepairPosts2026_08_21 = [aug21Repair1Post, aug21Repair2Post, aug21Repair3Post, aug21Repair4Post, aug21Repair5Post, aug21Repair6Post, aug21Repair7Post, aug21Repair8Post, aug21Repair9Post, aug21Repair10Post, aug21Repair11Post, aug21Repair12Post] as const;
+export const blogRepairDetails2026_08_21 = { 'returns-evidence-routing': aug21Repair1Detail, 'renewal-calendar-evidence': aug21Repair2Detail, 'quality-review-denominator': aug21Repair3Detail, 'inbox-escalation-states': aug21Repair4Detail, 'inventory-discrepancy-packets': aug21Repair5Detail, 'campaign-approval-lineage': aug21Repair6Detail, 'personnel-file-minimum-fields': aug21Repair7Detail, 'invoice-exception-routing': aug21Repair8Detail, 'handoff-readiness-evidence': aug21Repair9Detail, 'account-change-boundaries': aug21Repair10Detail, 'metric-definition-lineage': aug21Repair11Detail, 'permission-request-evidence': aug21Repair12Detail } as const;
