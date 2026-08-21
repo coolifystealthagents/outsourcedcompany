@@ -44,6 +44,10 @@ Maintain a disagreement register with the case identifier, rule version, competi
 
 ## Limitations
 
+## The decision boundary must be observable
+
+Reviewers need a visible stopping rule for cases that exceed the queue’s authority. For example, the rubric can distinguish “record and route,” “request a missing source,” and “owner must decide.” Without that boundary, agreement may rise because reviewers quietly make decisions that belong elsewhere. Test the rubric with a case that looks routine but contains a policy choice. If both reviewers stop for the same reason and cite the same owner route, the design has measured disciplined uncertainty rather than mere answer matching.
+
 ## What a repair should change
 
 After classifying disagreement, change one thing that addresses its cause and rerun the affected case type. A revised glossary helps a terminology dispute; an authority map helps a policy dispute; a source link helps an evidence dispute; coaching helps a demonstrated reading error. Keep the old result and rule version so improvement is not claimed by erasing the baseline. If disagreement remains reasonable after review, preserve the escalation route rather than forcing a false single answer.

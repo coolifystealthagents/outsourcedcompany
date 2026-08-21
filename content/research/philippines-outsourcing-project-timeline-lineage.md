@@ -44,6 +44,10 @@ Useful measures include source-link completeness, owner assignment, stale status
 
 ## Limitations
 
+## The difference between movement and cause
+
+A useful timeline records both the event and the explanation offered for it, but keeps them in different fields. “Due date changed on Tuesday” is an observable event; “because the client changed scope” is an attribution that needs a source. If the source is a meeting decision, link it. If it is an inference from two updates, label it as analysis. This distinction gives the accountable owner a chance to correct a mistaken cause without losing the underlying chronology maintained by the outsourced coordinator.
+
 ## Handoff as a validity check
 
 Test the timeline by handing a fictional open item to a relief coordinator who has the same approved access. The relief person should locate the source, identify the last confirmed event, understand the waiting state, and know the next owner without asking for a private explanation. If the handoff fails, the timeline may be administratively complete but operationally weak. Record the missing context as a design finding, especially when the regular coordinator works a different local schedule from the project owner.

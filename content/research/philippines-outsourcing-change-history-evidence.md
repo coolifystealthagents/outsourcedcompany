@@ -44,6 +44,10 @@ Use named accounts, field-level permissions where available, and a change reason
 
 ## Limitations
 
+## A practical evidence threshold
+
+Before a change is treated as ready for owner review, require enough information to answer five separate questions: which record changed, which value changed, what source supported it, who could authorize the action, and what remains uncertain. The threshold should be explicit because different queues tolerate different levels of reversible clerical correction. A low-risk formatting fix may need a source and actor; a supplier-bank change needs a stronger approval path. The specialist can apply that published threshold and stop when the evidence does not meet it.
+
 ## How to interpret a correction
 
 The same final value can arise from different causes. A source-backed correction, a manager-directed update, a duplicate merge, and a rollback after a failed import should not share one reason code. Ask whether the change was reversible, whether downstream systems received it, and whether an owner confirmed the effect. For a Philippines outsourcing queue, the specialist can preserve those questions and route them. The accountable owner decides whether downstream repair or communication is required.

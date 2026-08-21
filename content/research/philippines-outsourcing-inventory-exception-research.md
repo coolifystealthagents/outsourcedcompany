@@ -44,6 +44,10 @@ Measure packet completeness, source agreement, identifier continuity, exception 
 
 ## Limitations
 
+## Why sequence matters
+
+The order in which evidence was captured can change its meaning. A carrier scan recorded before a warehouse recount is not equivalent to a scan reviewed after the count was corrected. Preserve capture time, review time, and the time the exception was opened as separate values. This gives the owner a way to distinguish a late-arriving fact from a retrospective explanation. It also lets a Philippines-based specialist hand a case across shifts without presenting the latest entry as though it were the original event.
+
 ## The packet should preserve uncertainty
 
 An exception packet is not improved by filling every blank. Mark a missing scan, disputed quantity, unverified return, or conflicting identifier explicitly. Add the last known fact, the source checked, and the question that needs a decision. This helps an owner prioritize without mistaking a prepared record for a resolved case. If the same missing evidence recurs, review the upstream process, retention, label design, or carrier handoff rather than expanding the outsourced role’s authority.
