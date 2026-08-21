@@ -12,6 +12,7 @@ import { blogBatch2026_08_14Posts, blogBatch2026_08_14Details } from './article-
 import { blogBatch2026_08_17Posts, blogBatch2026_08_17Details } from './article-blog-batch-2026-08-17';
 import { blogControlRoom2026_08_19Posts, blogControlRoom2026_08_19Details } from './article-blog-2026-08-19-control-room';
 import { blogBatch2026_08_20RepairPosts, blogBatch2026_08_20RepairDetails } from './article-blog-2026-08-20-repair';
+import { blogPosts2026_08_21, blogDetails2026_08_21 } from './article-blog-2026-08-21';
 import { researchPosts } from './article-research-batch';
 import { researchPosts2026_08_08 } from './article-research-batch-2026-08-08';
 import { researchPosts2026_08_09 } from './article-research-batch-2026-08-09';
@@ -92,7 +93,7 @@ export const blogPosts = [
     "excerpt": "Choose the first role, compare Philippines staffing partners, protect access, and run a 30-day launch you can check.",
     "minutes": 11
   },] as const;
-export const allBlogPosts = [...blogBatch2026_08_20RepairPosts, ...blogControlRoom2026_08_19Posts, ...blogBatch2026_08_17Posts, ...blogBatch2026_08_14Posts, ...blogBatch2026_08_13Posts, ...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
+export const allBlogPosts = [...blogPosts2026_08_21, ...blogBatch2026_08_20RepairPosts, ...blogControlRoom2026_08_19Posts, ...blogBatch2026_08_17Posts, ...blogBatch2026_08_14Posts, ...blogBatch2026_08_13Posts, ...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
 export const allResearchPosts = researchPosts.concat(researchPosts2026_08_19, researchPosts2026_08_17, researchPosts2026_08_14, researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability, researchPosts2026_08_13).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
 
 export const guideDetails = {
@@ -145,6 +146,7 @@ export const guideDetails = {
 
 export const blogDetails = {
   ...blogBatch2026_08_20RepairDetails,
+  ...blogDetails2026_08_21,
   ...blogControlRoom2026_08_19Details,
   ...blogBatch2026_08_17Details,
   ...blogBatch2026_08_14Details,

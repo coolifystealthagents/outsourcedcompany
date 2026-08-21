@@ -1,0 +1,7 @@
+{
+  "providerAttempted": "Gemini API (configured models returned 404); fallback visual generation used",
+  "routes": [
+    "returns-intake-controls","contract-renewal-tracking","quality-sample-design","inbox-service-level-definitions","inventory-cycle-count-prep","marketing-asset-intake","employee-records-intake","purchase-order-match-prep","knowledge-transfer-acceptance","subscription-change-intake","dashboard-definition-review","access-request-triage"
+  ],
+  "promptPattern": "Distinct editorial productivity illustration for the route topic, wide blog hero, no text, no logos, no watermark; route identity included in each generation request."
+}

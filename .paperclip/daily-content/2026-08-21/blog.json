@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/returns-intake-controls","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/returns-intake-controls.png"},
+    {"route":"/blog/contract-renewal-tracking","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/contract-renewal-tracking.png"},
+    {"route":"/blog/quality-sample-design","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/quality-sample-design.png"},
+    {"route":"/blog/inbox-service-level-definitions","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/inbox-service-level-definitions.png"},
+    {"route":"/blog/inventory-cycle-count-prep","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/inventory-cycle-count-prep.png"},
+    {"route":"/blog/marketing-asset-intake","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/marketing-asset-intake.png"},
+    {"route":"/blog/employee-records-intake","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/employee-records-intake.png"},
+    {"route":"/blog/purchase-order-match-prep","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/purchase-order-match-prep.png"},
+    {"route":"/blog/knowledge-transfer-acceptance","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/knowledge-transfer-acceptance.png"},
+    {"route":"/blog/subscription-change-intake","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/subscription-change-intake.png"},
+    {"route":"/blog/dashboard-definition-review","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/dashboard-definition-review.png"},
+    {"route":"/blog/access-request-triage","sourcePaths":["app/article-blog-2026-08-21.ts"],"image":"public/blog-heroes/access-request-triage.png"}
+  ]
+}
