@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "imageStatus": "Gemini unavailable in execution environment; text and route work completed under explicit fallback",
+  "entries": [
+    {"route":"/blog/philippines-outsourcing-customer-onboarding-checkpoints","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/outsourcing-philippines-knowledge-article-maintenance","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/philippines-outsourcing-renewal-document-chasing","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/outsourcing-philippines-customer-refund-intake","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/philippines-outsourcing-calendar-coordination-controls","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/outsourcing-philippines-crm-field-governance","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/philippines-outsourcing-invoice-exception-preparation","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/outsourcing-philippines-recruitment-scheduling-handoffs","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/philippines-outsourcing-order-status-reconciliation","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/outsourcing-philippines-project-risk-evidence-packets","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/philippines-outsourcing-customer-feedback-coding","sourcePaths":["app/article-blog-2026-08-23.ts"]},
+    {"route":"/blog/outsourcing-philippines-access-review-preparation","sourcePaths":["app/article-blog-2026-08-23.ts"]}
+  ]
+}
