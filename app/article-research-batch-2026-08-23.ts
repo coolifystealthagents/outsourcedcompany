@@ -2,9 +2,15 @@ import type { ResearchPost } from './article-research-batch';
 
 const related = [{ label: 'Research index', href: '/research' }, { label: 'Back-office operations', href: '/services/back-office-operations' }, { label: 'Quality assurance support', href: '/services/quality-assurance-support' }];
 const cta = 'Bring the queue definition, evidence sample, access boundary, and owner decision to a staffing intake.';
-const img = '/images/operations-meeting.jpg';
+const images: Record<string, string> = {
+  'philippines-outsourcing-onboarding-evidence-sufficiency': '/images/daily-research-2026-08-23/onboarding-evidence.png',
+  'philippines-outsourcing-exception-aging-evidence': '/images/daily-research-2026-08-23/exception-aging.png',
+  'philippines-outsourcing-source-of-truth-drift': '/images/daily-research-2026-08-23/source-drift.png',
+  'philippines-outsourcing-customer-complaint-triage': '/images/daily-research-2026-08-23/complaint-triage.png',
+  'philippines-outsourcing-work-instruction-change-adoption': '/images/daily-research-2026-08-23/instruction-change.png',
+};
 const source = (items: Array<[string, string]>) => items.map(([label, href]) => ({ label, href }));
-const post = (slug: string, title: string, excerpt: string, body: string[], sources: Array<{ label: string; href: string }>): ResearchPost => ({ slug, title, excerpt, updated: '2026-08-23', datePublished: '2026-08-23', image: img, imageAlt: title, body, sources, related, cta });
+const post = (slug: string, title: string, excerpt: string, body: string[], sources: Array<{ label: string; href: string }>): ResearchPost => ({ slug, title, excerpt, updated: '2026-08-23', datePublished: '2026-08-23', image: images[slug], imageAlt: title, body, sources, related, cta });
 
 export const researchPosts2026_08_23: ResearchPost[] = [
   post('philippines-outsourcing-onboarding-evidence-sufficiency', 'When is a Philippines outsourcing handoff ready for live work?', 'Research on whether onboarding evidence demonstrates readiness for a defined outsourced operations queue without confusing training completion with authority to act.', [

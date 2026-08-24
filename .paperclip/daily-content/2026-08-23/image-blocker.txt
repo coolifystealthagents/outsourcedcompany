@@ -1,4 +1,0 @@
-Campaign date: 2026-08-23
-Family: research
-Gemini status: unavailable in this repository execution environment; no Gemini image-generation tool or provider was available.
-Fallback applied: text and route work completed; no stock or uncertain new image was generated; the existing site image reference was left unchanged and the blocker is recorded here for fleet review.

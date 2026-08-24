@@ -1,7 +1,7 @@
 [
-  {"route":"/research/philippines-outsourcing-onboarding-evidence-sufficiency","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/operations-meeting.jpg","imageStatus":"GEMINI_UNAVAILABLE_TEXT_COMPLETE"},
-  {"route":"/research/philippines-outsourcing-exception-aging-evidence","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/operations-meeting.jpg","imageStatus":"GEMINI_UNAVAILABLE_TEXT_COMPLETE"},
-  {"route":"/research/philippines-outsourcing-source-of-truth-drift","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/operations-meeting.jpg","imageStatus":"GEMINI_UNAVAILABLE_TEXT_COMPLETE"},
-  {"route":"/research/philippines-outsourcing-customer-complaint-triage","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/operations-meeting.jpg","imageStatus":"GEMINI_UNAVAILABLE_TEXT_COMPLETE"},
-  {"route":"/research/philippines-outsourcing-work-instruction-change-adoption","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/operations-meeting.jpg","imageStatus":"GEMINI_UNAVAILABLE_TEXT_COMPLETE"}
+  {"route":"/research/philippines-outsourcing-onboarding-evidence-sufficiency","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/daily-research-2026-08-23/onboarding-evidence.png","imageStatus":"GEMINI_GENERATED"},
+  {"route":"/research/philippines-outsourcing-exception-aging-evidence","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/daily-research-2026-08-23/exception-aging.png","imageStatus":"GEMINI_GENERATED"},
+  {"route":"/research/philippines-outsourcing-source-of-truth-drift","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/daily-research-2026-08-23/source-drift.png","imageStatus":"GEMINI_GENERATED"},
+  {"route":"/research/philippines-outsourcing-customer-complaint-triage","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/daily-research-2026-08-23/complaint-triage.png","imageStatus":"GEMINI_GENERATED"},
+  {"route":"/research/philippines-outsourcing-work-instruction-change-adoption","sourcePaths":["app/article-research-batch-2026-08-23.ts"],"imagePath":"public/images/daily-research-2026-08-23/instruction-change.png","imageStatus":"GEMINI_GENERATED"}
 ]
