@@ -8,7 +8,8 @@
     "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "next lint",
     "validate:aug10-research": "node scripts/validate-aug10-research.mjs",
-    "validate:aug31-release": "node scripts/validate-aug31-release.mjs"
+    "validate:aug31-release": "node scripts/validate-aug31-release.mjs",
+    "validate:sep1-release": "node scripts/validate-sep1-release.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
