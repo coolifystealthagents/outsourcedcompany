@@ -151,6 +151,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <p className="eyebrow">Philippines staffing guide</p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
+        {details?.updated === '2026-09-04' ? <img src="/images/operations-meeting.jpg" alt="Operations teammates reviewing documented evidence together" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : null}
 
         {details ? <>
           <section className="card">
