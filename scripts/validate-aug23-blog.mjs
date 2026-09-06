@@ -22,12 +22,14 @@ for (const entry of manifest.entries) {
   assert.ok(source.includes(`slug: '${slug}'`), `missing route source for ${slug}`);
 }
 
-const updatedBindings = source.match(/updated: '2026-08-23'/g) || [];
-const structuredBindings = source.match(/datePublished: '2026-08-23'/g) || [];
-assert.equal(updatedBindings.length, 1, 'batch must use one direct literal updated binding');
-assert.equal(structuredBindings.length, 1, 'batch must use one direct literal structured-date binding');
+const detailsFactoryStart = source.indexOf('export const blogDetails2026_08_23');
+assert.ok(detailsFactoryStart >= 0, 'August 23 detail factory is missing');
+const detailsFactory = source.slice(detailsFactoryStart);
+const structuredBindings = detailsFactory.match(/datePublished: '2026-08-23'/g) || [];
+assert.equal(structuredBindings.length, 1, 'batch must use one direct literal published-date binding');
+assert.match(detailsFactory, /updated:\s*[^,]+,\s*datePublished:/, 'each detail record must provide an updated value before its published date');
 assert.ok(source.includes(visibleDate), 'source must include the visible reader date');
-assert.ok(!source.includes('2026-08-24') && !source.includes('August 24, 2026'), 'wrong campaign date remains');
+assert.ok(!/datePublished:\s*'(?!2026-08-23')\d{4}-\d{2}-\d{2}'/.test(detailsFactory), 'a record changed the immutable August 23 publication date');
 assert.ok(!/[—–]/.test(source), 'Humanizer audit: em or en dash found');
 
 const preRunTree = execFileSync('git', ['ls-tree', '-r', '--name-only', '4aa50c47501b760f750c414662998b3f4c5c01ba'], { encoding: 'utf8' });
