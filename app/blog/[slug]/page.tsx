@@ -20,12 +20,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: post.title,
     description: post.excerpt,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical: `${base}/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       url: `/blog/${post.slug}`,
       type: 'article',
+      images: ['/images/operations-meeting.jpg'],
     },
   };
 }
@@ -151,7 +152,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <p className="eyebrow">Philippines staffing guide</p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
-        {details?.updated === '2026-09-04' ? <img src="/images/operations-meeting.jpg" alt="Operations teammates reviewing documented evidence together" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : null}
+        {['2026-09-04', '2026-09-07'].includes(details?.updated) ? <img src="/images/operations-meeting.jpg" alt="Operations teammates reviewing documented evidence together" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : null}
 
         {details ? <>
           <section className="card">
