@@ -152,7 +152,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <p className="eyebrow">Philippines staffing guide</p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
-        {['2026-09-04', '2026-09-07', '2026-09-08'].includes(details?.updated) ? <img src="/images/operations-meeting.jpg" alt="Operations teammates reviewing documented evidence together" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : null}
+        {['2026-09-04', '2026-09-07', '2026-09-08', '2026-09-09'].includes(details?.updated) ? <img src="/images/operations-meeting.jpg" alt="Operations teammates reviewing documented evidence together" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : null}
 
         {details ? <>
           <section className="card">
