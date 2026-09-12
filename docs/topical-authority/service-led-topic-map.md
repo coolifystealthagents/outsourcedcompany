@@ -6,7 +6,7 @@
 
 | Service pillar | Buyer intent | Existing supporting route | Next useful reader path | Status |
 | --- | --- | --- | --- | --- |
-| Back-office operations | Set up a repeatable operations queue with written owner limits. | `/research/philippines-outsourcing-onboarding-evidence-sufficiency` | Explain how a buyer can move from a reviewed handoff sample to a narrowly scoped operations lane. | Candidate for a route-local handoff |
+| Back-office operations | Set up a repeatable operations queue with written owner limits. | `/research/philippines-outsourcing-onboarding-evidence-sufficiency` | Explain how a buyer can move from a reviewed handoff sample to a narrowly scoped operations lane. | Delivered locally; non-duplicable (rendered source: `c45f5413f9824eb15c13e813477f0a4cab060ab0`) |
 | Executive administration | Coordinate meetings without creating commitments by accident. | `/blog/philippines-outsourcing-calendar-coordination-controls` | Help a reader turn calendar controls into an executive administration brief. | Candidate for a route-local handoff |
 | Customer experience support | Triage a customer complaint while preserving remedy and safety decisions for the owner. | `/research/philippines-outsourcing-customer-complaint-triage` | Send readers who need a staffed triage lane to the matching service page. | Candidate for a route-local handoff |
 | Sales administration | Keep CRM changes traceable and reversible. | `/blog/outsourcing-philippines-crm-field-governance` | Give a buyer a sales-administration next step after field rules and ownership are clear. | Candidate for a route-local handoff |
@@ -16,7 +16,7 @@
 | Project coordination | Prepare dated risk evidence while the project owner retains tradeoff decisions. | `/blog/outsourcing-philippines-project-risk-evidence-packets` | Connect a reviewable risk packet to project-coordination support. | Candidate for a route-local handoff |
 | Data management | Check whether a stated permission still matches the work. | `/blog/outsourcing-philippines-access-review-preparation` | Explain the boundary between access-review preparation and data-management support. | Candidate for a route-local handoff |
 | Vendor administration | Follow up on renewal documents without negotiating terms or accepting a commitment. | `/blog/philippines-outsourcing-renewal-document-chasing` | Connect document follow-up to vendor-administration support. | Candidate for a route-local handoff |
-| Quality assurance support | Find the cause of a repeated operating error without treating a sample as a judgment about a worker. | `/research/philippines-outsourcing-exception-aging-evidence` | Help readers apply an exception-age review before choosing a QA support lane. | Candidate for a route-local handoff |
+| Quality assurance support | Find the cause of a repeated operating error without treating a sample as a judgment about a worker. | `/research/philippines-outsourcing-exception-aging-evidence` | Help readers apply an exception-age review before choosing a QA support lane. | Delivered locally; non-duplicable (rendered source: `c45f5413f9824eb15c13e813477f0a4cab060ab0`) |
 | Marketing operations | Keep knowledge guidance current through source, reviewer, and effective-date checks. | `/blog/outsourcing-philippines-knowledge-article-maintenance` | Connect a controlled content-maintenance queue to marketing-operations support. | Candidate for a route-local handoff |
 
 ## First execution candidate
