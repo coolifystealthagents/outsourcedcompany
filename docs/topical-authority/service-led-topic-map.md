@@ -32,6 +32,12 @@ Before changing this public route, confirm all of the following from a clean, sy
 3. The article's real modified date, Article JSON-LD date, Open Graph metadata, and sitemap contract can be verified after the build.
 4. The handoff copy keeps payment approval, bank-detail changes, tax treatment, and supplier allegations with the authorized owner.
 
+## Metadata prerequisite status — 2026-09-14
+
+- Rendered source: `a4b9421a917daaaa8412852cbe4c6ca10ac0514b` preserves the route record's August 23, 2026 publication date in Article JSON-LD and adds Open Graph publication and modified dates. The local artifact has the invoice-exception H1, canonical URL, Article dates, Open Graph dates, and sitemap location; this sitemap intentionally has no `lastmod`.
+- The canonical and www pages both returned HTML 200 with the expected H1 and canonical URL, but neither page contained the new Open Graph article-date tags. No approved deployment target or routine is stored in this repository, so this is `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale` rather than a live release.
+- Preserve rendered-source commit `a4b9421a917daaaa8412852cbe4c6ca10ac0514b`. This status record does not prove rollout and does not change the queued invoice-exception handoff.
+
 ## Guardrails
 
 - One URL serves one reader question. Do not create a near-duplicate page merely to occupy a cluster label.
