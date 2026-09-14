@@ -40,7 +40,8 @@ const routePage = fs.readFileSync('app/blog/[slug]/page.tsx', 'utf8');
 const sitemap = fs.readFileSync('app/sitemap.xml/route.ts', 'utf8');
 assert.ok(data.includes('...blogPosts2026_08_23'), 'family index loader is missing the batch');
 assert.ok(data.includes('...blogDetails2026_08_23'), 'article detail loader is missing the batch');
-assert.ok(routePage.includes('datePublished: details.updated'), 'structured date renderer is missing');
+assert.ok(routePage.includes('datePublished: details.datePublished ?? details.updated'), 'structured date renderer must preserve an explicit publication date');
+assert.ok(routePage.includes('publishedTime: details.datePublished ?? details.updated, modifiedTime: details.updated'), 'Open Graph article dates must preserve the publication date and expose the modified date');
 assert.ok(routePage.includes('formatReaderDate(details.updated)'), 'visible date renderer is missing');
 assert.ok(sitemap.includes('allBlogPosts.map'), 'sitemap does not enumerate blog records');
 

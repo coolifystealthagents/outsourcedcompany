@@ -14,6 +14,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const post = allBlogPosts.find((item) => item.slug === slug);
+  const details = blogDetails[slug as keyof typeof blogDetails] as { datePublished?: string; updated?: string } | undefined;
 
   if (!post) return { title: 'Guide not found' };
 
@@ -27,6 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       url: `/blog/${post.slug}`,
       type: 'article',
       images: ['/images/operations-meeting.jpg'],
+      ...(details?.updated ? { publishedTime: details.datePublished ?? details.updated, modifiedTime: details.updated } : {}),
     },
   };
 }
@@ -119,7 +121,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         headline: post.title,
         description: post.excerpt,
         url,
-        ...(details?.updated ? { datePublished: details.updated, dateModified: details.updated } : {}),
+        ...(details?.updated ? { datePublished: details.datePublished ?? details.updated, dateModified: details.updated } : {}),
         author: { '@type': 'Organization', name: site.brand, url: base },
         publisher: { '@type': 'Organization', name: site.brand, url: base },
         mainEntityOfPage: url,
