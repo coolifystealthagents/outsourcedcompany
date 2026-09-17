@@ -7,7 +7,7 @@
 | Service pillar | Buyer intent | Existing supporting route | Next useful reader path | Status |
 | --- | --- | --- | --- | --- |
 | Back-office operations | Set up a repeatable operations queue with written owner limits. | `/research/philippines-outsourcing-onboarding-evidence-sufficiency` | Explain how a buyer can move from a reviewed handoff sample to a narrowly scoped operations lane. | Delivered locally; non-duplicable (rendered source: `c45f5413f9824eb15c13e813477f0a4cab060ab0`) |
-| Back-office operations research | Test whether a handoff record gives the next reviewer enough source-linked information to act. | `/research/philippines-outsourcing-september-14-handoff-field-utility-study` | After a buyer registers one recurring queue and its evidence rules, offer the existing Back-Office Operations service as the next staffing discussion. | Verified absent in generated route-local main; candidate for one data-owned handoff, not a duplicate of the delivered onboarding path. |
+| Back-office operations research | Test whether a handoff record gives the next reviewer enough source-linked information to act. | `/research/philippines-outsourcing-september-14-handoff-field-utility-study` | After a buyer registers one recurring queue and its evidence rules, offer the existing Back-Office Operations service as the next staffing discussion. | Delivered locally; public verification pending (rendered source: `f54953fc40da5ab35e155d9ea51158b3ae532da7`). |
 | Executive administration | Coordinate meetings without creating commitments by accident. | `/blog/philippines-outsourcing-calendar-coordination-controls` | Help a reader turn calendar controls into an executive administration brief. | Candidate for a route-local handoff |
 | Customer experience support | Triage a customer complaint while preserving remedy and safety decisions for the owner. | `/research/philippines-outsourcing-customer-complaint-triage` | Send readers who need a staffed triage lane to the matching service page. | Candidate for a route-local handoff |
 | Sales administration | Keep CRM changes traceable and reversible. | `/blog/outsourcing-philippines-crm-field-governance` | Give a buyer a sales-administration next step after field rules and ownership are clear. | Candidate for a route-local handoff |
@@ -38,6 +38,12 @@ Before changing this public route, confirm all of the following from a clean, sy
 - Rendered source: `a4b9421a917daaaa8412852cbe4c6ca10ac0514b` preserves the route record's August 23, 2026 publication date in Article JSON-LD and adds Open Graph publication and modified dates. The local artifact has the invoice-exception H1, canonical URL, Article dates, Open Graph dates, and sitemap location; this sitemap intentionally has no `lastmod`.
 - The canonical and www pages both returned HTML 200 with the expected H1 and canonical URL, but neither page contained the new Open Graph article-date tags. No approved deployment target or routine is stored in this repository, so this is `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale` rather than a live release.
 - Preserve rendered-source commit `a4b9421a917daaaa8412852cbe4c6ca10ac0514b`. This status record does not prove rollout and does not change the queued invoice-exception handoff.
+
+## Public verification status — 2026-09-17
+
+- Rendered source: `f54953fc40da5ab35e155d9ea51158b3ae532da7` added one route-local Back-Office Operations link for the handoff-field study. The fresh local artifact has the exact H1, canonical URL, one `/services/back-office-operations` link inside `<main>`, Article `datePublished` `2026-09-14`, Article `dateModified` `2026-09-17`, and a sitemap `<loc>`; this sitemap intentionally has no `lastmod`.
+- Cache-busted canonical and www responses both returned HTML 200 with the expected H1 and canonical URL, but neither rendered the new link, its label, or the September 17 visible date. Both served sitemaps include the route and intentionally omit `lastmod`; that does not prove this rendered change reached production.
+- Preserve rendered-source commit `f54953fc40da5ab35e155d9ea51158b3ae532da7`. No approved deployment target or routine is stored in this repository, so this remains `deployment_pending_public_verification / deployment_configuration_unavailable / public_stale`.
 
 ## Guardrails
 
