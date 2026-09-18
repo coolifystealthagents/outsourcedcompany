@@ -1,0 +1,27 @@
+{
+  "routine": "daily-research",
+  "required": 5,
+  "publicationDate": "2026-09-18",
+  "siteTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "585f227ccd7560735d6d039a820f00a2b66ae8b3",
+  "deploymentResource": "Coolify3 application configured for OutsourcedCompany.com",
+  "deploymentConfigurationNote": "COOLIFY_BRANCH reports master, but the remote has no master branch; main is the GitHub default and verified production history.",
+  "sourceCheckedDate": "2026-09-18",
+  "sources": [
+    "https://www.gao.gov/products/gao-25-107721",
+    "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+    "https://www.ftc.gov/business-guidance/resources/start-security-guide-business",
+    "https://privacy.gov.ph/data-privacy-act/",
+    "https://aapor.org/standards-and-ethics/transparency-initiative/"
+  ],
+  "articles": [
+    {"family":"sales-administration-research","topic":"quote-to-order field drift","slug":"philippines-outsourcing-sales-quote-to-order-field-drift-study","contentHash":"9350b795b2c4b875c9a1de3ddd46005f6ee0d08b618ed35d10a73e654e435598","publicationDate":"2026-09-18","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-sales-quote-to-order-field-drift-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"recruitment-coordination-research","topic":"candidate reschedule paths","slug":"philippines-outsourcing-candidate-reschedule-path-study","contentHash":"6f3f2c17e17a95e11c3190eefcfe9d65cf3f987a68ec5cbd509eb3d62caab1c8","publicationDate":"2026-09-18","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-candidate-reschedule-path-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"marketing-operations-research","topic":"campaign asset approval latency","slug":"philippines-outsourcing-campaign-asset-approval-latency-study","contentHash":"c3c4d141644af2f91ad63e10dcdafb72ecd383dc95d0cff9b594be90474acbdc","publicationDate":"2026-09-18","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-campaign-asset-approval-latency-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"vendor-administration-research","topic":"vendor credential expiry","slug":"philippines-outsourcing-vendor-credential-expiry-study","contentHash":"7b8975ab53d7142ad8d67c9ae5ff5aa885dde47bf04040bf548e13dd8331ede9","publicationDate":"2026-09-18","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-vendor-credential-expiry-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"executive-administration-research","topic":"calendar change dependencies","slug":"philippines-outsourcing-executive-calendar-dependency-study","contentHash":"c83b78be52d68763efa98a80010cc59e213c7e5be71aebdd1295d7bb3d1ff1d6","publicationDate":"2026-09-18","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-executive-calendar-dependency-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null}
+  ],
+  "validation": {"articleCount":5,"minimumWords":1200,"cleanBuild":"passed","liveVerified":0}
+}
