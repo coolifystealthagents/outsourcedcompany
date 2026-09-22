@@ -1,0 +1,213 @@
+{
+  "run": "OUTA-67",
+  "family": "blog",
+  "required": 12,
+  "publicationDate": "2026-09-22",
+  "timezone": "Etc/UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "7cc957c7a1a41d7daf3239524b236e3f163fc9af",
+  "contentCommit": "pending-commit",
+  "deploymentResource": "Coolify3 application from COOLIFY_APPLICATION_UUID",
+  "deploymentStatus": "pending",
+  "validation": {
+    "typescript": "pass",
+    "productionBuild": "pass",
+    "staticRoutes": 12,
+    "minimumArticleWords": 1480
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "document destruction approval queue",
+      "slug": "philippines-outsourcing-document-destruction-approval-queue",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/resources/disposing-consumer-report-information-rule-tells-how",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "90148153b4a2b2fc902cf89c58917d72053661e7947959bf84e6bd2f22cf1d62",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-document-destruction-approval-queue",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "business travel change tracking",
+      "slug": "philippines-outsourcing-business-travel-change-log",
+      "sources": [
+        "https://www.transportation.gov/airconsumer",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "89716a0ebf964781876a7b1cb94506fc814170e4cd0f128c20c041fbaf21ef9e",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-business-travel-change-log",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "customer accommodation request intake",
+      "slug": "philippines-outsourcing-customer-accommodation-request-intake",
+      "sources": [
+        "https://www.ada.gov/resources/title-iii-primer/",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "a7a5e5b15f24bfa1884681d80a2008859c3f63cbcb7156f74e720c5b11513570",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-customer-accommodation-request-intake",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "CRM duplicate account review",
+      "slug": "philippines-outsourcing-crm-duplicate-account-review",
+      "sources": [
+        "https://csrc.nist.gov/projects/data-security",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "1511d9126712162aae9d8e390a2befbb3197854975e6bbf8ddcb86f4bb75f250",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-crm-duplicate-account-review",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "credit memo evidence preparation",
+      "slug": "philippines-outsourcing-credit-memo-evidence-packet",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "b2bb9d9e58d6a389e761f55c5d8dc66574f17762a79c134e32fff50008aaee34",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-credit-memo-evidence-packet",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "interview feedback completion follow-up",
+      "slug": "philippines-outsourcing-interview-feedback-completion-queue",
+      "sources": [
+        "https://www.eeoc.gov/prohibited-employment-policiespractices",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "59d9dd82219d0fad61a65533b7d27c172a5ac5dc7a4963df84a4bed9ce9e3f44",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-interview-feedback-completion-queue",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "campaign link tagging register",
+      "slug": "philippines-outsourcing-campaign-link-tagging-register",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "113bdac732980572d15f1fd207f997aa7c362ff214363c998a672d56301f2a36",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-campaign-link-tagging-register",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "product recall notice routing",
+      "slug": "philippines-outsourcing-product-recall-notice-routing",
+      "sources": [
+        "https://www.cpsc.gov/Recalls",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "98619c53ebda99ff41d8ee6fbc63f9eb2007c945180ed109d4423168a7acd025",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-product-recall-notice-routing",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "project dependency acceptance tracking",
+      "slug": "philippines-outsourcing-dependency-acceptance-register",
+      "sources": [
+        "https://csrc.nist.gov/projects/risk-management/about-rmf",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "adc50ac6c673e5e3d3261913010ab946fe7fdb4c06818a25bdb452f1981e5758",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-dependency-acceptance-register",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "records retention hold inventory",
+      "slug": "philippines-outsourcing-records-retention-hold-inventory",
+      "sources": [
+        "https://www.nist.gov/privacy-framework",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "196fea171a68897dee17fc6f635d1efdba0b14a5ca86f3e45be374c50599ebb3",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-records-retention-hold-inventory",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "supplier insurance certificate tracking",
+      "slug": "philippines-outsourcing-supplier-insurance-certificate-expiry",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "6f4105318b9b28c474121e277071f145b4cd8b6f9beb709fb6d5f7a56f0726ed",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-supplier-insurance-certificate-expiry",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "defect reproduction evidence preparation",
+      "slug": "philippines-outsourcing-defect-reproduction-evidence-packet",
+      "sources": [
+        "https://csrc.nist.gov/Projects/ssdf",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "b750c54e71713f0e526cc15c14ce7e38dd43281d762211667d39def3d8059e32",
+      "publicationDate": "2026-09-22",
+      "commitSha": "pending-commit",
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-defect-reproduction-evidence-packet",
+      "verificationTime": null,
+      "verification": "pending"
+    }
+  ]
+}

@@ -11,7 +11,8 @@
     "validate:aug23-blog": "node scripts/validate-aug23-blog.mjs",
     "validate:aug31-release": "node scripts/validate-aug31-release.mjs",
     "validate:sep1-release": "node scripts/validate-sep1-release.mjs",
-    "validate:sep18-blog": "node scripts/validate-sep18-blog.mjs"
+    "validate:sep18-blog": "node scripts/validate-sep18-blog.mjs",
+    "validate:sep22-blog": "node scripts/validate-sep22-blog.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
