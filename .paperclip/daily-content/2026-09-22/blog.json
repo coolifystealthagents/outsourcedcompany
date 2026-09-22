@@ -8,8 +8,16 @@
   "productionBranch": "main",
   "baseSha": "7cc957c7a1a41d7daf3239524b236e3f163fc9af",
   "contentCommit": "342905056698632c88aea7e7ffcd67bd3a052ca1",
+  "remoteSha": "d3779110d785de05db7c7bfa0f0e49724b61a2a7",
   "deploymentResource": "Coolify3 application from COOLIFY_APPLICATION_UUID",
-  "deploymentStatus": "pending",
+  "deploymentStatus": "blocked",
+  "deploymentEvidence": {
+    "platformApi": "403 Forbidden for configured Coolify application credential",
+    "publicChecks": 3,
+    "result": "All 12 canonical URLs returned HTTP 404; public rollout did not transition during the bounded verification window",
+    "unblockOwner": "Coolify3 application administrator",
+    "recoveryAction": "Restore API authorization or trigger and confirm deployment of remote main SHA d3779110d785de05db7c7bfa0f0e49724b61a2a7, then rerun all 12 live checks and update publication evidence"
+  },
   "validation": {
     "typescript": "pass",
     "productionBuild": "pass",
