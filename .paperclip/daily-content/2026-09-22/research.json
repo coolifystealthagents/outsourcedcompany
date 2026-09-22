@@ -1,0 +1,26 @@
+{
+  "routine": "daily-research",
+  "required": 5,
+  "publicationDate": "2026-09-22",
+  "siteTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "7cc957c7a1a41d7daf3239524b236e3f163fc9af",
+  "deploymentResource": "Coolify3 application configured for OutsourcedCompany.com",
+  "sourceCheckedDate": "2026-09-22",
+  "sources": [
+    "https://www.gao.gov/products/gao-25-107721",
+    "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+    "https://www.ftc.gov/business-guidance/resources/start-security-guide-business",
+    "https://privacy.gov.ph/data-privacy-act/",
+    "https://aapor.org/standards-and-ethics/transparency-initiative/"
+  ],
+  "articles": [
+    {"family":"finance-operations-research","topic":"invoice three-way-match exceptions","slug":"philippines-outsourcing-invoice-three-way-match-exception-study","contentHash":"084c19e0f6487f7e9dc929d7f43e13ba606249be5dab945c09463f4bded6c72a","publicationDate":"2026-09-22","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-invoice-three-way-match-exception-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"ecommerce-administration-research","topic":"return status handoff completeness","slug":"philippines-outsourcing-return-status-handoff-completeness-study","contentHash":"18acce1a8f7150a17dc21e99fdec58f36f798ac36312ae1b0bde6558f931dae9","publicationDate":"2026-09-22","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-return-status-handoff-completeness-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"data-management-research","topic":"customer record merge provenance","slug":"philippines-outsourcing-customer-record-merge-provenance-study","contentHash":"e59e59b65742dccc2a5243a7a3304ba2dcef28738903224315622d5770cd362f","publicationDate":"2026-09-22","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-customer-record-merge-provenance-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"project-coordination-research","topic":"project dependency acceptance evidence","slug":"philippines-outsourcing-project-dependency-acceptance-study","contentHash":"2df084570235aadfa51e23d667a1d248362084cd26fb72aae41bae157abeaf1b","publicationDate":"2026-09-22","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-project-dependency-acceptance-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null},
+    {"family":"customer-experience-research","topic":"customer commitment traceability","slug":"philippines-outsourcing-customer-commitment-traceability-study","contentHash":"8d5c040cb24bff88d214b1247056e11d59355464ee83915343910c332711e134","publicationDate":"2026-09-22","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-customer-commitment-traceability-study","commitSha":null,"deploymentEvidence":null,"verifiedAt":null}
+  ],
+  "validation": {"articleCount":5,"minimumWords":1200,"cleanBuild":"passed","liveVerified":0,"status":"pre_publish"}
+}
