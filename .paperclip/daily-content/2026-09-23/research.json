@@ -1,0 +1,21 @@
+{
+  "routine": "daily-research",
+  "required": 5,
+  "publicationDate": "2026-09-23",
+  "siteTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "6f3bdbf21f8643533ff2e441481c3e732810fba7",
+  "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2 configured for OutsourcedCompany.com",
+  "deploymentConfigurationNote": "COOLIFY_BRANCH reports master, but the GitHub repository has no master branch; main is the verified production branch.",
+  "sourceCheckedDate": "2026-09-23",
+  "sources": ["https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping", "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "https://www.ftc.gov/business-guidance/resources/start-security-guide-business", "https://privacy.gov.ph/data-privacy-act/", "https://www.gao.gov/products/gao-25-107721"],
+  "articles": [
+    {"family":"finance-operations-research","topic":"payroll change authorization evidence","slug":"philippines-outsourcing-payroll-change-authorization-study","contentHash":"8fef2e73f226c5413d972b2e242f8d7d31321d2f25b03bf11b73ae4d5ff73327","publicationDate":"2026-09-23","commitSha":"cbb83f431293af762ec2ca5470b43c48cb377926","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-payroll-change-authorization-study","deploymentEvidence":null,"verifiedAt":null},
+    {"family":"data-management-research","topic":"user access offboarding completeness","slug":"philippines-outsourcing-user-access-offboarding-completeness-study","contentHash":"86baae933a0356e317670ae3a5cac9162a48e7623cda8ccdb439caad4ea40aac","publicationDate":"2026-09-23","commitSha":"cbb83f431293af762ec2ca5470b43c48cb377926","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-user-access-offboarding-completeness-study","deploymentEvidence":null,"verifiedAt":null},
+    {"family":"sales-administration-research","topic":"sales order amendment lineage","slug":"philippines-outsourcing-sales-order-amendment-lineage-study","contentHash":"53f635d4df624ed980db3d1cea15418b62fdb6a851305e55b7e6c2b8ce378f47","publicationDate":"2026-09-23","commitSha":"cbb83f431293af762ec2ca5470b43c48cb377926","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-sales-order-amendment-lineage-study","deploymentEvidence":null,"verifiedAt":null},
+    {"family":"marketing-operations-research","topic":"marketing content approval provenance","slug":"philippines-outsourcing-marketing-content-approval-provenance-study","contentHash":"17c7c1c4ca02e5d6d6f25c97f5a2b57363816735f0405937360bca9245792072","publicationDate":"2026-09-23","commitSha":"cbb83f431293af762ec2ca5470b43c48cb377926","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-marketing-content-approval-provenance-study","deploymentEvidence":null,"verifiedAt":null},
+    {"family":"vendor-administration-research","topic":"supplier master change evidence","slug":"philippines-outsourcing-supplier-master-change-evidence-study","contentHash":"d337c447af705a84c9da0b022e9ed5fa283d6668d4f0c2f526ea1d2392c8b9a8","publicationDate":"2026-09-23","commitSha":"cbb83f431293af762ec2ca5470b43c48cb377926","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-supplier-master-change-evidence-study","deploymentEvidence":null,"verifiedAt":null}
+  ],
+  "validation": {"articleCount":5,"minimumWords":1200,"typecheck":"passed","cleanBuild":"passed","liveVerified":0,"status":"awaiting_deployment"}
+}
