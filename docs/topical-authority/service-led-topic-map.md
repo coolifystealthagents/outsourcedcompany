@@ -11,7 +11,7 @@
 | Executive administration | Coordinate meetings without creating commitments by accident. | `/blog/philippines-outsourcing-calendar-coordination-controls` | Help a reader turn calendar controls into an executive administration brief. | Candidate for a route-local handoff |
 | Customer experience support | Triage a customer complaint while preserving remedy and safety decisions for the owner. | `/research/philippines-outsourcing-customer-complaint-triage` | Send readers who need a staffed triage lane to the matching service page. | Candidate for a route-local handoff |
 | Sales administration | Keep CRM changes traceable and reversible. | `/blog/outsourcing-philippines-crm-field-governance` | Give a buyer a sales-administration next step after field rules and ownership are clear. | Candidate for a route-local handoff |
-| Finance operations support | Prepare invoice differences without approving payment or changing supplier details. | `/blog/philippines-outsourcing-invoice-exception-preparation` | Move from an evidence packet to a bounded finance-operations staffing discussion. | Candidate for a route-local handoff |
+| Finance operations support | Prepare invoice differences without approving payment or changing supplier details. | `/blog/philippines-outsourcing-invoice-exception-preparation` | Move from an evidence packet to a bounded finance-operations staffing discussion. | Deferred: its separate metadata release is source-delivered but awaiting authorized public verification; do not combine or duplicate work. |
 | Recruitment coordination | Arrange interviews without making selection or employment decisions. | `/blog/outsourcing-philippines-recruitment-scheduling-handoffs` | Connect scheduling requirements to recruitment-coordination support. | Candidate for a route-local handoff |
 | Ecommerce administration | Reconcile order states without promising delivery or a refund. | `/blog/philippines-outsourcing-order-status-reconciliation` | Route a reader from reconciliation controls to ecommerce administration support. | Candidate for a route-local handoff |
 | Project coordination | Prepare dated risk evidence while the project owner retains tradeoff decisions. | `/blog/outsourcing-philippines-project-risk-evidence-packets` | Connect a reviewable risk packet to project-coordination support. | Candidate for a route-local handoff |
@@ -22,16 +22,18 @@
 
 ## First execution candidate
 
-**Route:** `/blog/philippines-outsourcing-invoice-exception-preparation`  
-**Destination:** `/services/finance-operations-support`  
-**Reader need:** The guide already explains the evidence and approval boundary for an invoice mismatch. A reader who has defined that queue may need help staffing the preparation work, rather than a generic outsourcing overview.
+**Route:** `/blog/philippines-outsourcing-calendar-coordination-controls`
+**Destination:** `/services/executive-administration`
+**Reader need:** The guide separates scheduling from accepting a commitment. A reader who has written the calendar-change rules may need a Philippines-based executive-administration lane that works from those rules instead of a generic back-office path.
+
+Fresh local artifact review on September 24, 2026 found exactly one canonical artifact for each route and one sitemap location for each. The source route has no `/services/executive-administration` href inside `<main>`; its existing generic Back-Office Operations link does not answer this narrower next question.
 
 Before changing this public route, confirm all of the following from a clean, synchronized baseline:
 
-1. The related-links block does not already contain the finance-operations destination in the route-local article.
+1. The typed `relatedLinks` record can add the executive-administration destination without removing the existing buyer-guide or Back-Office Operations paths.
 2. The destination still has the Philippines-only service scope and a working canonical route.
 3. The article's real modified date, Article JSON-LD date, Open Graph metadata, and sitemap contract can be verified after the build.
-4. The handoff copy keeps payment approval, bank-detail changes, tax treatment, and supplier allegations with the authorized owner.
+4. The handoff copy keeps commitment approval, protected-calendar changes, sensitive meeting context, and final owner decisions with the authorized owner.
 
 ## Metadata prerequisite status — 2026-09-14
 
