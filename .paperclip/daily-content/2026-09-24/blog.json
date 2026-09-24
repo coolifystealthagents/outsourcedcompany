@@ -9,7 +9,7 @@
   "baseSha": "7cc7da00ec2e4d36f55a4faae7bb814d7d3f9a92",
   "contentCommit": "cc0bef756ad023b6f45dd11bb8839a02b2ed4e7d",
   "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2",
-  "deploymentStatus": "pending",
+  "deploymentStatus": "deployment_pending_public_verification; Coolify API returned 401 and six bounded public checks over one minute returned 404 for a new route",
   "validation": {
     "typescript": "pass",
     "productionBuild": "pass",
