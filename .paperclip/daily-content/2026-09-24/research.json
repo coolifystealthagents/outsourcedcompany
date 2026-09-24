@@ -1,0 +1,29 @@
+{
+  "routine": "daily-research",
+  "required": 5,
+  "publicationDate": "2026-09-24",
+  "siteTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "b11bfa45e1142264c494260ba72e598f7c22121a",
+  "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2 configured for OutsourcedCompany.com",
+  "deploymentConfigurationNote": "COOLIFY_BRANCH reports master, but the GitHub repository has no master branch; main is the verified production branch.",
+  "runDeploymentEvidence": "Pending push, deployment, and public verification.",
+  "sourceCheckedDate": "2026-09-24",
+  "sources": [
+    "https://www.gao.gov/products/gao-25-107721",
+    "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+    "https://www.ftc.gov/business-guidance/resources/start-security-guide-business",
+    "https://privacy.gov.ph/data-privacy-act/",
+    "https://aapor.org/standards-and-ethics/transparency-initiative/"
+  ],
+  "articles": [
+    {"family":"executive-administration-research","topic":"meeting action ownership","slug":"philippines-outsourcing-meeting-action-ownership-study","contentHash":"5114e6284788707142ff90d9a1682b635c326c3d86e89340d75d5ddb8ad1bba8","publicationDate":"2026-09-24","commitSha":"2b55dc0e8f1cfd6428374fbd91603fe9a89e425a","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-meeting-action-ownership-study","deploymentEvidence":"Pending public verification.","verifiedAt":null},
+    {"family":"recruitment-coordination-research","topic":"job requisition approval lineage","slug":"philippines-outsourcing-job-requisition-approval-lineage-study","contentHash":"d65273c85486ef2c543366b5d533090733dd4fdc1a6b273ca8c80deac3f7f03f","publicationDate":"2026-09-24","commitSha":"2b55dc0e8f1cfd6428374fbd91603fe9a89e425a","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-job-requisition-approval-lineage-study","deploymentEvidence":"Pending public verification.","verifiedAt":null},
+    {"family":"ecommerce-administration-research","topic":"order cancellation authorization","slug":"philippines-outsourcing-order-cancellation-authorization-study","contentHash":"203a579002f3b5a2c1c38711dd6b7661932c05dec12d80b698a8b3c4175b19db","publicationDate":"2026-09-24","commitSha":"2b55dc0e8f1cfd6428374fbd91603fe9a89e425a","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-order-cancellation-authorization-study","deploymentEvidence":"Pending public verification.","verifiedAt":null},
+    {"family":"quality-assurance-research","topic":"defect recurrence control","slug":"philippines-outsourcing-defect-recurrence-control-study","contentHash":"c06235c76517a26bd6c5de5032e272e35782fa42528ebbbd32321a7070e62b7f","publicationDate":"2026-09-24","commitSha":"2b55dc0e8f1cfd6428374fbd91603fe9a89e425a","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-defect-recurrence-control-study","deploymentEvidence":"Pending public verification.","verifiedAt":null},
+    {"family":"back-office-operations-research","topic":"record disposition authorization","slug":"philippines-outsourcing-record-disposition-authorization-study","contentHash":"82bdcce4a3c9123ad9f278ec0a9d8aab3d9d92b9ca319c0aa1973459bb04226b","publicationDate":"2026-09-24","commitSha":"2b55dc0e8f1cfd6428374fbd91603fe9a89e425a","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-record-disposition-authorization-study","deploymentEvidence":"Pending public verification.","verifiedAt":null}
+  ],
+  "validation": {"articleCount":5,"minimumWords":1200,"typecheck":"passed","cleanBuild":"passed","liveVerified":0,"status":"deployment_pending"},
+  "firstLiveObservedAt": null
+}
