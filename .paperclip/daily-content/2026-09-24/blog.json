@@ -1,0 +1,213 @@
+{
+  "run": "OUTA-71",
+  "family": "blog",
+  "required": 12,
+  "publicationDate": "2026-09-24",
+  "timezone": "Etc/UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "b11bfa45e1142264c494260ba72e598f7c22121a",
+  "contentCommit": null,
+  "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2",
+  "deploymentStatus": "pending",
+  "validation": {
+    "typescript": "pass",
+    "productionBuild": "pass",
+    "staticRoutes": 12,
+    "minimumArticleWords": 900
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "contract deliverable receipt tracking",
+      "slug": "philippines-outsourcing-contract-deliverable-receipt-register",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "0e49d7ffeb95d628cce03cadf7a7b42e0b32b201ef1ba7ced19fd293694cd7c9",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-contract-deliverable-receipt-register",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "board packet source verification",
+      "slug": "philippines-outsourcing-board-packet-source-verification",
+      "sources": [
+        "https://www.archives.gov/records-mgmt",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "0d62e2292a9a4b52d77a1aff9881070a14120aaad01b61ea22a73d25f5ba9bc5",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-board-packet-source-verification",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "customer callback commitment tracking",
+      "slug": "philippines-outsourcing-customer-callback-commitment-log",
+      "sources": [
+        "https://www.ftc.gov/business-guidance",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "d461126cf569293bf55df82e45c0d1a74b6de561994217005239a102a4d26e76",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-customer-callback-commitment-log",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "deal desk quote input preparation",
+      "slug": "philippines-outsourcing-deal-desk-quote-input-packet",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "7e78988e9d0419d7bef3a6293868a9a22ac6162c56238b6ddd6d57dfa38358c1",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-deal-desk-quote-input-packet",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "unmatched bank transaction evidence preparation",
+      "slug": "philippines-outsourcing-bank-reconciliation-unmatched-transaction-packet",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "47c60b58faba02ef94146a7dff725addd945adaf28d1fbcd813af37532b0100a",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-bank-reconciliation-unmatched-transaction-packet",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "candidate interview availability normalization",
+      "slug": "philippines-outsourcing-candidate-interview-availability-normalization",
+      "sources": [
+        "https://www.eeoc.gov/prohibited-employment-policiespractices",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "60f61dbae5c16caf8c38ceb0f8725ea47ad7cc29caaeb45efda50c59cc6a8224",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-candidate-interview-availability-normalization",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "content claim substantiation tracking",
+      "slug": "philippines-outsourcing-content-claim-substantiation-register",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "d5c105777b3b90c47db81283bc035c3460ec44439d7166d32e6afdf2b6893eb6",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-content-claim-substantiation-register",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "catalog variant relationship auditing",
+      "slug": "philippines-outsourcing-catalog-variant-relationship-audit",
+      "sources": [
+        "https://www.ftc.gov/business-guidance/advertising-marketing",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "616625707a47ce1c956e51d214be460f4525db4426bcea3df5823d4ec4e90a14",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-catalog-variant-relationship-audit",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "project decision evidence logging",
+      "slug": "philippines-outsourcing-project-decision-log-evidence",
+      "sources": [
+        "https://csrc.nist.gov/projects/risk-management/about-rmf",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "7df7e86095b3756c91ecf7eff3e4a92ad86ccf9a16181fdd542576f1a96d39b0",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-project-decision-log-evidence",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "master data change request intake",
+      "slug": "philippines-outsourcing-master-data-change-request-intake",
+      "sources": [
+        "https://csrc.nist.gov/projects/data-security",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "83dde1f4d7fe37e192c04af3e9c4c07b145fe3e614224e18641d171a9cf86d96",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-master-data-change-request-intake",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "vendor contact authority tracking",
+      "slug": "philippines-outsourcing-vendor-contact-authority-register",
+      "sources": [
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "78daf7f92fb142a4367cd5de1f4495b3cdb205597aa5054a40b9fb8c9a4424ca",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-vendor-contact-authority-register",
+      "verificationTime": null,
+      "verification": "pending"
+    },
+    {
+      "family": "blog",
+      "topic": "test data refresh evidence preparation",
+      "slug": "philippines-outsourcing-test-data-refresh-evidence",
+      "sources": [
+        "https://csrc.nist.gov/Projects/ssdf",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "f63522b16e81ce724a87be49d563198420bfb72855a5231b6c1533dd655d793e",
+      "publicationDate": "2026-09-24",
+      "commitSha": null,
+      "deploymentEvidence": "pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-test-data-refresh-evidence",
+      "verificationTime": null,
+      "verification": "pending"
+    }
+  ]
+}
