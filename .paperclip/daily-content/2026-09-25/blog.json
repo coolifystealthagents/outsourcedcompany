@@ -1,0 +1,202 @@
+{
+  "run": "OUTA-74/OUTA-73 combined recovery",
+  "family": "blog",
+  "required": 12,
+  "publicationDate": "2026-09-25",
+  "timezone": "Etc/UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "8427d18fe6fcaa941ca10e448eb2c0e989a6ad50",
+  "contentCommit": "PENDING_COMMIT_SHA",
+  "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2 (browser operator owned)",
+  "deploymentStatus": "not submitted by routine; browser operator owns the single deployment",
+  "remoteSha": "PENDING_REMOTE_SHA",
+  "validation": {
+    "typescript": "pass",
+    "productionBuild": "pass",
+    "staticRoutes": 12,
+    "minimumArticleWords": 900
+  },
+  "entries": [
+    {
+      "family": "blog",
+      "topic": "sop acceptance testing",
+      "slug": "philippines-outsourcing-sop-acceptance-testing",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "52ac20cc4555cf0adfc4132418536f52925e51edcf6386e506e1d3e7dc75e154",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-sop-acceptance-testing",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "invoice approval queue controls",
+      "slug": "philippines-outsourcing-invoice-approval-queue-controls",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "7b3e58a767600a40071d05fe0c8660edc4cb12db2eaa2f0012e621b295d497a8",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-invoice-approval-queue-controls",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "customer complaint evidence packet",
+      "slug": "philippines-outsourcing-customer-complaint-evidence-packet",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "94bf663e2f5d7a6f84100859c5ca3915447d1e94b4900bbd143f82430ecfa977",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-customer-complaint-evidence-packet",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "crm duplicate record resolution",
+      "slug": "philippines-outsourcing-crm-duplicate-record-resolution",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "766a43dec5f0c8f77dd38133173ae67cc34133914870c667aec114c8434ac85d",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-crm-duplicate-record-resolution",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "reference check workflow",
+      "slug": "philippines-outsourcing-reference-check-workflow",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "1dd959e38b4e3c48a55c4fa2522bcd557cbc76019238ea6d6badc29b1c7ead4d",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-reference-check-workflow",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "return reason normalization",
+      "slug": "philippines-outsourcing-return-reason-normalization",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "8e9d8fa162f03a76bb4cd7a498338a49b0f99d4e4bc95406253865170987fd51",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-return-reason-normalization",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "payroll variance investigation",
+      "slug": "philippines-outsourcing-payroll-variance-investigation",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "0be984d3798d2a4bde3f741fcfbd882b36e87d75b90e223f4b25fcd9aae1f069",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-payroll-variance-investigation",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "vendor onboarding document check",
+      "slug": "philippines-outsourcing-vendor-onboarding-document-check",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "ecd707e2678b0fd81adf8bbd82ab4efda799ec14eccbaa71bad49752a636010b",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-vendor-onboarding-document-check",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "lead routing exception review",
+      "slug": "philippines-outsourcing-lead-routing-exception-review",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "8d6da6fd2d28f6b6d9a07ecdf45adb2d86f255abb8be90422ef8e485a66361b5",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-lead-routing-exception-review",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "knowledge base stale article audit",
+      "slug": "philippines-outsourcing-knowledge-base-stale-article-audit",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "2da8107e77e8714d52dc29cd6f69a1b8ef77defec8d3b901dce869b7b656d8ba",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-knowledge-base-stale-article-audit",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "project dependency readiness tracking",
+      "slug": "philippines-outsourcing-project-dependency-readiness-tracking",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "b1859dddbcdb7241ac62b7c4cfedd125fd47b3965668ddcc488d9518eb6364a4",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-project-dependency-readiness-tracking",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "blog",
+      "topic": "referral status follow up",
+      "slug": "philippines-outsourcing-referral-status-follow-up",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "62ef804b8a863f5c60a1e7b3a83a84208d21a01f360f07d6240a855feea7a956",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-referral-status-follow-up",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    }
+  ]
+}
