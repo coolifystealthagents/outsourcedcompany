@@ -1,0 +1,97 @@
+{
+  "run": "OUTA-74/OUTA-73 combined recovery",
+  "family": "research",
+  "required": 5,
+  "publicationDate": "2026-09-25",
+  "timezone": "Etc/UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "8427d18fe6fcaa941ca10e448eb2c0e989a6ad50",
+  "contentCommit": "PENDING_COMMIT_SHA",
+  "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2 (browser operator owned)",
+  "deploymentStatus": "not submitted by routine; browser operator owns the single deployment",
+  "remoteSha": "PENDING_REMOTE_SHA",
+  "validation": {
+    "typescript": "pass",
+    "productionBuild": "pass",
+    "staticRoutes": 5,
+    "minimumArticleWords": 1200
+  },
+  "articles": [
+    {
+      "family": "research",
+      "topic": "customer complaint escalation evidence study",
+      "slug": "philippines-outsourcing-customer-complaint-escalation-evidence-study",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "818b4ef497777f4c9296b8f3162ba5a745fc9eb9fd0bbd573bb8aa296f7c2d0a",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-customer-complaint-escalation-evidence-study",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "research",
+      "topic": "crm lead assignment exception study",
+      "slug": "philippines-outsourcing-crm-lead-assignment-exception-study",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "21c279c5be10867e3a1afb284ed2536aa350e37543d09d13337fc22c882ec52d",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-crm-lead-assignment-exception-study",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "research",
+      "topic": "project dependency escalation study",
+      "slug": "philippines-outsourcing-project-dependency-escalation-study",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "ef66691e7d22c71d4cdbecea1868f1c92ef0d33dbb91954dca6d5b70b38231c0",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-project-dependency-escalation-study",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "research",
+      "topic": "data export access evidence study",
+      "slug": "philippines-outsourcing-data-export-access-evidence-study",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "b3ed03ed3ea55ec04f1b2a4d0d6f792c574359ba279afb0f16f8108504d56265",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-data-export-access-evidence-study",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    },
+    {
+      "family": "research",
+      "topic": "invoice credit authorization evidence study",
+      "slug": "philippines-outsourcing-invoice-credit-authorization-evidence-study",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "contentHash": "5a23189cd6fc6f30dcb783a480a627e9763881a888213f856a0a79d715cdaf6c",
+      "publicationDate": "2026-09-25",
+      "commitSha": "PENDING_COMMIT_SHA",
+      "deploymentEvidence": "Browser operator deployment pending for combined production SHA.",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-invoice-credit-authorization-evidence-study",
+      "verificationTime": null,
+      "verification": "repository_build_verified_public_check_user_owned"
+    }
+  ]
+}
