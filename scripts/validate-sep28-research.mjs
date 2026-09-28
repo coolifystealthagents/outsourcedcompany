@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 
 const manifest = JSON.parse(fs.readFileSync('.paperclip/daily-content/2026-09-28/research.json', 'utf8'));
 const batch = fs.readFileSync('app/article-research-batch-2026-09-28.ts', 'utf8');
@@ -13,6 +14,8 @@ for (const article of manifest.articles) {
   const htmlPath = path.join('.next/server/app/research', `${article.slug}.html`);
   if (!fs.existsSync(htmlPath)) throw new Error(`Missing built page: ${article.slug}`);
   const html = fs.readFileSync(htmlPath, 'utf8');
+  const contentHash = createHash('sha256').update(html).digest('hex');
+  if (contentHash !== article.contentHash) throw new Error(`Rendered content hash mismatch: ${article.slug}`);
   const articleHtml = html.match(/<article[^>]*>([\s\S]*?)<div class="card"><h2>Sources<\/h2>/)?.[1] ?? '';
   const text = articleHtml.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
   const words = text.split(/\s+/).filter(Boolean);
