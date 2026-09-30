@@ -73,7 +73,7 @@ const generatedRouteSourceRecords = topics.map((t) => ({
 
 export const blogPosts2026_08_23 = topics.map((t, i) => ({ slug: t.slug, title: t.title, excerpt: t.excerpt, minutes: 14 + (i % 3) }));
 export const blogDetails2026_08_23 = Object.fromEntries(topics.map((t, i) => [t.slug, {
-  updated: '2026-08-23', datePublished: '2026-08-23', canonical: `https://outsourcedcompany.com/blog/${t.slug}`,
+  updated: t.slug === 'philippines-outsourcing-calendar-coordination-controls' ? '2026-09-30' : '2026-08-23', datePublished: '2026-08-23', canonical: `https://outsourcedcompany.com/blog/${t.slug}`,
   marker: `august-23-2026-blog-${String(i + 1).padStart(2, '0')}`, takeaway: t.takeaway,
   comparison: [{ weak: `We can just handle ${t.angle}.`, strong: `The specialist prepares ${t.angle} and stops at the written owner boundary.` }, { weak: 'Urgency means skipping the evidence check.', strong: 'Urgency changes the route, not the evidence standard.' }, { weak: 'A green status proves the work is finished.', strong: 'The status names what was checked and what still needs an owner.' }],
   sections: t.headings.map((heading, n) => ({ heading, body: [paragraphs(t)[n], paragraphs(t)[n + 1] || paragraphs(t)[0]] })),
@@ -81,5 +81,5 @@ export const blogDetails2026_08_23 = Object.fromEntries(topics.map((t, i) => [t.
   sources: [{ name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework', note: 'Reference for identifying, protecting, detecting, responding, and recovering within an owned process.' }],
   sourcesNumbered: false,
   faqs: [{ question: `What belongs in outsourced ${t.angle}?`, answer: `${t.takeaway} The role records and routes evidence; the accountable owner decides.` }, { question: 'When should the specialist stop?', answer: `Stop when evidence is missing, sources conflict, authority is unclear, or the case would require ${t.boundary}.` }],
-  relatedLinks: [{ label: 'Read the Philippines outsourcing buyer guide', href: '/blog/outsource-to-the-philippines-guide' }, { label: 'See back-office operations support', href: '/services/back-office-operations' }]
+  relatedLinks: [{ label: 'Read the Philippines outsourcing buyer guide', href: '/blog/outsource-to-the-philippines-guide' }, { label: 'See back-office operations support', href: '/services/back-office-operations' }, ...(t.slug === 'philippines-outsourcing-calendar-coordination-controls' ? [{ label: 'Plan a Philippines executive administration lane', href: '/services/executive-administration' }] : [])]
 }])) as Record<string, any>;

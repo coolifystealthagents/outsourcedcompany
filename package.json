@@ -18,7 +18,8 @@
     ,"validate:sep24-blog": "node scripts/validate-sep24-blog.mjs"
     ,"validate:sep25-research": "node scripts/validate-sep25-research.mjs"
     ,"validate:sep25-blog": "node scripts/validate-sep25-blog.mjs"
-    ,"validate:sep28-research": "node scripts/validate-sep28-research.mjs"
+    ,"validate:sep28-research": "node scripts/validate-sep28-research.mjs",
+    "test:calendar-executive-handoff": "node tests/calendar-executive-handoff.test.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.6",
