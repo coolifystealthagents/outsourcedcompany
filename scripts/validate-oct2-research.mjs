@@ -11,7 +11,11 @@ for (const article of manifest.articles) {
   const articleHtml = html.match(/<article[^>]*>([\s\S]*?)<div class="card"><h2>Sources<\/h2>/)?.[1] ?? '';
   if (createHash('sha256').update(articleHtml).digest('hex') !== article.contentHash) throw new Error(`Hash mismatch: ${article.slug}`);
   if (!html.includes(`https://outsourcedcompany.com/research/${article.slug}`) || !html.includes('2026-10-02') || !html.includes('operations-meeting.jpg')) throw new Error(`Route metadata failure: ${article.slug}`);
-  const text = articleHtml.replace(/<[^>]+>/g, ' ').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+  const visibleArticleHtml = articleHtml
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<(?:nav|header|footer|aside)\b[^>]*>[\s\S]*?<\/(?:nav|header|footer|aside)>/gi, ' ');
+  const text = visibleArticleHtml.replace(/<[^>]+>/g, ' ').replace(/&[^;]+;/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
   const words = text.split(/\s+/).filter(Boolean);
   if (words.length < 1200) throw new Error(`Short body: ${article.slug}`);
   for (const match of articleHtml.matchAll(/<p>([\s\S]*?)<\/p>/g)) { const p = match[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim(); if (p.length > 80) { const seen = paragraphs.get(p) ?? new Set(); seen.add(article.slug); paragraphs.set(p, seen); } }
