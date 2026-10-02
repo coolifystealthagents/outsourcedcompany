@@ -35,6 +35,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Build a marketing asset expiration register with outsourced support',
   excerpt: 'Find public asset instances, connect claims and offers to approved validity windows, and verify takedown without outsourcing legal or campaign decisions.',
   minutes: 11,
+}, {
+  slug: 'philippines-outsourcing-interview-panel-availability-reconciliation',
+  title: 'Reconcile interview panel availability with outsourced recruiting coordination',
+  excerpt: 'Coordinate approved panel roles, stated time zones, candidate windows, and schedule changes without outsourcing selection or accommodation decisions.',
+  minutes: 11,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -415,6 +420,59 @@ const assetExpirationSections: Section[] = [
   },
 ];
 
+const panelAvailabilitySections: Section[] = [
+  {
+    heading: 'Schedule the approved roles, not whoever looks free',
+    body: [
+      `An interview plan should name the purpose of the stage and the roles that must participate. A calendar showing an open hour does not authorize a recruiting coordinator to replace a required interviewer, add a senior observer, or decide that one perspective is unnecessary. Before delegating coordination, the recruiting owner should approve the panel roles, eligible people, sequence, duration, format, notice rule, and fallback path. The Philippines-based specialist can reconcile availability inside that design.`,
+      `Use a stage record with candidate ID, requisition, interview purpose, required panel roles, approved panelists, duration, sequencing constraints, candidate windows, stated time zones, availability sources, proposed instant, conflicts, confirmation events, and recruiting owner. Keep candidate identity separate from calendar notes where possible. The record should explain why a participant belongs on the panel without exposing private calendar subjects or unsupported judgments about the candidate.`,
+    ],
+  },
+  {
+    heading: 'Make time-zone identity explicit',
+    body: [
+      `Ask each participant or approved source for an IANA time zone or location rule rather than a bare abbreviation such as CST. Record the original stated window and the exact UTC instant proposed. Calendar software can display local time, but the coordination record should preserve the conversion used at confirmation. Daylight-saving changes, travel, and temporary working locations can make a familiar offset wrong.`,
+      `Test the conversion across the interview date, not today's date. A window offered weeks earlier may cross a clock change before the meeting occurs. If an email and calendar invitation disagree, stop and resolve the instant with participants; do not assume the calendar is controlling. Include the local date as well as time because an early Philippines shift can correspond to the prior calendar day elsewhere.`,
+    ],
+  },
+  {
+    heading: 'Reconcile constraints without revealing calendars',
+    body: [
+      `The coordinator normally needs free and busy windows, not the title of every private appointment. Collect availability through the approved scheduling tool or bounded response and retain only what the process requires. When a panelist declines, record the conflict state and next permitted action without asking for personal details. Access to executive calendars should be limited to the people and fields needed for this queue.`,
+      `A useful conflict table separates hard requirements from preferences: required panel role, candidate-offered window, interviewer availability, sequence dependency, minimum notice, approved working-hour boundary, and unresolved owner question. The coordinator can propose instants satisfying all fixed rules. The role cannot decide that a candidate should interview outside an offered window, pressure an employee to disclose a conflict, or favor one candidate because their schedule is easier.`,
+    ],
+  },
+  {
+    heading: 'Route panel and accommodation questions',
+    body: [
+      `Suppose a required interviewer is unavailable and a scheduling assistant suggests a substitute who is not on the approved panel list. The coordinator should preserve the conflict, identify the required role, and ask the recruiting owner whether an approved alternative exists. The coordinator cannot appoint the substitute, remove the stage, or delay one candidate more than others based on an improvised rule.`,
+      `Accommodation requests need a restricted, approved route. Record only the minimum scheduling information the recruiting process requires and avoid asking for diagnosis or unnecessary personal details. The coordinator may offer options already approved by the responsible owner. Decisions about accommodations, essential interview requirements, candidate treatment, or legal obligations remain with authorized recruiting, people, or legal owners.`,
+    ],
+  },
+  {
+    heading: 'Confirm one instant to every participant',
+    body: [
+      `A confirmation should include the exact calendar event, local display generated by the approved tool, duration, format, joining details, stage purpose, and support contact. Verify that required attendees accepted or that the recruiting owner approved the documented fallback. A tentative hold is not confirmation, and an accepted invitation does not prove the attendee remains eligible for the panel.`,
+      `Avoid copying candidate materials into the calendar description when access can be provided through a permissioned recruiting system. Check guest permissions, video-room settings, recording defaults, and forwarded invitation behavior. The coordinator should not enable recording or transcription unless the company has approved the purpose, notice, access, and retention. Preserve event identifiers so later changes attach to the same interview history.`,
+      `Build a final pre-meeting check for the coordinator rather than relying on memory. Confirm the candidate received the correct event, every required role is covered, the meeting link opens under the intended permissions, and no superseded hold remains active. When an attendee has not responded by the approved checkpoint, use the named reminder or backup route. Do not interpret silence as attendance or invite an unapproved observer simply to protect the slot.`,
+    ],
+  },
+  {
+    heading: 'Preserve changes without creating candidate conclusions',
+    body: [
+      `When an interview changes, record who requested it, the reason category permitted by policy, original instant, new options, notices, confirmations, and current event ID. Do not overwrite the first arrangement or summarize a candidate's reschedule as lack of interest. Operational reports should distinguish candidate-requested, interviewer-requested, owner-requested, system, emergency, and unresolved changes without converting them into hiring signals.`,
+      `If two interviewers exchange recommendations while asking the coordinator to find another meeting, keep evaluation content in the approved recruiting system and route the scheduling need alone. The administrator must not reconcile scores, draft a consensus, change a stage, or tell the candidate an outcome. Scheduling records should demonstrate fair process administration, not become an unofficial evaluation file.`,
+    ],
+  },
+  {
+    heading: 'Pilot with difficult calendar shapes',
+    body: [
+      `Use scenarios with a daylight-saving boundary, overnight Philippines shift, multi-stage sequence, absent required role, candidate reschedule, private executive hold, approved accommodation, and video-room failure. Ask the specialist to preserve stated windows, identify one UTC instant, protect calendar privacy, choose only approved fallbacks, and stop at panel or candidate decisions. Review every proposed event before sending.`,
+      `Track time to viable options, conversion corrections, unapproved-panel catches, confirmation coverage, changes by attributable category, notice-rule exceptions, and unresolved owner questions. Do not reward speed that pushes candidates outside their windows. Expand when another reviewer can reconstruct every scheduled instant and changes follow the same rules. OutsourcedCompany.com can help scope the Philippines-based recruiting coordination role while selection, panel composition, accommodations, evaluation, and outcomes remain internal.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -576,5 +634,26 @@ export const blogDetails2026_10_02 = {
       { question: 'Should expired assets be deleted?', answer: 'Follow the approved retention rule. Public removal and controlled archival retention are separate actions.' },
     ],
     relatedLinks: [{ label: 'Explore marketing operations support', href: '/services/marketing-operations' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-interview-panel-availability-reconciliation': {
+    updated: '2026-10-02', datePublished: '2026-10-02', marker: 'daily-blog-2026-10-02-interview-panel-availability-reconciliation',
+    takeaway: 'Reconcile approved panel roles and candidate windows to one confirmed instant while keeping panel, accommodation, evaluation, and selection decisions internal.',
+    comparison: [
+      { weak: 'Book whoever is available.', strong: 'Schedule only approved people who satisfy the required panel roles, or route the missing-role decision.' },
+      { weak: 'Let the calendar handle time zones.', strong: 'Preserve stated zones, test the interview date, and confirm one exact instant to every participant.' },
+    ],
+    sections: panelAvailabilitySections,
+    script: ['Which roles and people are approved for this stage?', 'What time zone and source govern each offered window?', 'Which scheduling details can be retained without exposing private calendars?', 'Who decides substitutes, accommodations, stage changes, and outcomes?'],
+    sources: [
+      { name: 'EEOC: Prohibited Employment Policies and Practices', note: 'Official guidance relevant to fair employment practices.', url: 'https://www.eeoc.gov/prohibited-employment-policiespractices' },
+      { name: 'U.S. Department of Labor: Recordkeeping and Reporting', note: 'Official recordkeeping resource; applicable duties depend on the arrangement and jurisdiction.', url: 'https://www.dol.gov/general/topic/wages/wagesrecordkeeping' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official privacy resource relevant to candidate and calendar information.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Can the coordinator replace an unavailable interviewer?', answer: 'Only with an alternative already approved for the required panel role. Otherwise route the decision to the recruiting owner.' },
+      { question: 'Should private calendar details be copied into the schedule record?', answer: 'No. Retain the availability or conflict state needed for coordination, not unrelated appointment details.' },
+      { question: 'Can rescheduling affect candidate evaluation?', answer: 'The coordinator must not draw or record that conclusion. Preserve the attributable operational change and leave evaluation to authorized interviewers.' },
+    ],
+    relatedLinks: [{ label: 'Explore recruitment coordination support', href: '/services/recruitment-coordination' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
