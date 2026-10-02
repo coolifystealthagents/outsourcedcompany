@@ -19,22 +19,22 @@ The production baseline was fetched before selection. Candidate phrases and adja
 ## Blog inventory: exactly 12
 
 1. `philippines-outsourcing-sales-commission-statement-preparation` — sales administration; prepares traceable statements while compensation-rule decisions remain internal.
-2. `philippines-outsourcing-executive-meeting-action-register` — executive administration; turns approved decisions into owned, dated actions without inventing commitments.
+2. `philippines-outsourcing-recurring-report-distribution-control` — executive administration; controls recipients, versions, approvals, and delivery evidence for recurring management reports.
 3. `philippines-outsourcing-carrier-damage-claim-evidence` — ecommerce administration; assembles shipment, packaging, photo, and carrier evidence without admitting liability.
 4. `philippines-outsourcing-cash-forecast-input-collection` — finance operations support; collects source inputs while treasury assumptions and funding choices remain internal.
-5. `philippines-outsourcing-supplier-insurance-certificate-tracking` — vendor administration; tracks documents and expiries without deciding coverage adequacy.
+5. `philippines-outsourcing-vendor-performance-review-evidence` — vendor administration; assembles period-specific service evidence without scoring or renewing the vendor.
 6. `philippines-outsourcing-support-ticket-taxonomy-maintenance` — customer experience support; maintains controlled labels without rewriting service policy.
 7. `philippines-outsourcing-marketing-asset-expiration-register` — marketing operations; prevents expired claims and offers from remaining in circulation.
-8. `philippines-outsourcing-candidate-offer-document-checklist` — recruitment coordination; checks packet completeness while selection and employment terms remain internal.
-9. `philippines-outsourcing-project-change-request-intake` — project coordination; records scope, dependency, cost, and schedule evidence without approving change.
+8. `philippines-outsourcing-interview-panel-availability-reconciliation` — recruitment coordination; reconciles stated availability and interview requirements without selecting candidates or panelists.
+9. `philippines-outsourcing-project-review-comment-resolution-register` — project coordination; links review comments to responses and accepted evidence without approving deliverables.
 10. `philippines-outsourcing-product-bundle-setup-verification` — ecommerce administration; verifies component, price, inventory, and storefront configuration.
-11. `philippines-outsourcing-master-data-merge-request-preparation` — data management; prepares duplicate-record evidence while merge authority remains controlled.
+11. `philippines-outsourcing-regression-test-data-reset-log` — quality assurance support; documents approved test-data resets without changing production data or test outcomes.
 12. `philippines-outsourcing-goodwill-credit-approval-log` — customer experience support; records requests and approvals without granting discretionary credits.
 
 ## Research handoff inventory: exactly 5
 
 1. `philippines-outsourcing-commission-dispute-patterns-research`
-2. `philippines-outsourcing-action-register-closure-reliability-research`
+2. `philippines-outsourcing-recurring-report-delivery-integrity-research`
 3. `philippines-outsourcing-shipment-damage-evidence-completeness-research`
 4. `philippines-outsourcing-cash-forecast-input-timeliness-research`
 5. `philippines-outsourcing-support-taxonomy-drift-research`
