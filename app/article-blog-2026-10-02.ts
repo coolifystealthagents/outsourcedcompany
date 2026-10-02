@@ -15,6 +15,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Prepare carrier damage claim evidence with outsourced ecommerce support',
   excerpt: 'Connect the customer report, order, parcel, packing record, photographs, carrier rules, and owner decision without outsourcing liability or remedy choices.',
   minutes: 12,
+}, {
+  slug: 'philippines-outsourcing-cash-forecast-input-collection',
+  title: 'Outsource cash forecast input collection without outsourcing treasury decisions',
+  excerpt: 'Collect time-stamped cash inputs and assumptions from accountable owners while keeping probability, payment timing, funding, and disbursement choices internal.',
+  minutes: 12,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -187,6 +192,58 @@ const carrierDamageSections: Section[] = [
   },
 ];
 
+const cashForecastSections: Section[] = [
+  {
+    heading: 'Define the forecast question before collecting numbers',
+    body: [
+      `Cash forecasting is not one universal spreadsheet. A thirteen-week liquidity view answers a different question from a daily payment run or an annual budget. Before delegating input collection, the finance owner should set the horizon, time bucket, entities, currencies, bank accounts, cutoff, and intended decision. The Philippines-based specialist can operate that definition. The specialist should not decide which horizon makes the company look safer, move a payment into another week, or treat a budget figure as expected cash without an approved rule.`,
+      `Map the contributors and their evidence. Opening cash may come from bank data; customer receipts from accounts receivable and named account owners; payroll from the approved payroll calendar; taxes from the responsible adviser or internal owner; vendor payments from accounts payable; financing from authorized treasury records. Record where each input starts, when it is considered current, who may revise it, and what happens when it is missing. This prevents a coordinator from becoming the unofficial owner of every assumption.`,
+    ],
+  },
+  {
+    heading: 'Put an as-of time on every input',
+    body: [
+      `A workbook dated Friday may combine a bank balance from Thursday, receivables from Wednesday, and a sales estimate created the prior month. Labeling all three “current” hides meaningful differences. Each input needs its source, source period, observed time, time zone, owner, and extraction method. If a feed is delayed, retain the last successful event and display its age. Do not refresh the header while leaving the underlying value untouched.`,
+      `Use a freshness rule appropriate to the input rather than one threshold for everything. Bank positions may require a daily check while rent follows an approved schedule. The finance owner defines those tolerances. The specialist can flag a value outside its rule and request an update, but cannot roll it forward as though nothing changed. A missing response remains a visible owner hold; it should not be replaced with zero or copied from the prior period unless a documented method permits that treatment.`,
+    ],
+  },
+  {
+    heading: 'Separate contractual dates from judgment',
+    body: [
+      `A due date is evidence, not a prediction that cash will move that day. For receivables, preserve the invoice due date, dispute state, customer commitment if attributable, historical payment information permitted by policy, and the account owner's forecast assumption. For payables, keep the invoice date, contractual due date, approval state, hold, and authorized planned payment date. The collection role links these fields; it does not decide that an important customer will pay early or that a supplier can wait.`,
+      `Consider a large renewal included by sales in the coming week while billing shows no issued invoice and the customer has disputed a prior charge. The specialist should present those facts together, mark the assumption owner, and ask for a decision. Removing the renewal because it looks optimistic would be a treasury judgment. Keeping it as certain would be equally unsupported. The owner can approve a scenario, probability convention, or exclusion, and the record should preserve who made that choice and when.`,
+    ],
+  },
+  {
+    heading: 'Design an input register that survives review',
+    body: [
+      `Use a stable row or item identifier with entity, account or category, source record, source date, forecast bucket, amount, currency, assumption type, owner, confidence basis if approved, dependency, exception, approval state, and later actual event. Keep native currency beside any translated value and record the authorized rate source and date. Do not bury conversions or signs inside formulas that only one analyst understands.`,
+      `Version the forecast rather than overwriting it during the week. A frozen version should show the inputs available at cutoff and the decisions made from them. Later updates belong in another version with a reason and owner. This allows management to distinguish changed facts from preparation error. It also prevents hindsight from making an earlier forecast appear more accurate than it was. Links should open the controlling record when permissions allow, while copied sensitive details stay out of general trackers.`,
+    ],
+  },
+  {
+    heading: 'Route exceptions without moving money',
+    body: [
+      `Define exception states such as source unavailable, stale input, currency missing, duplicate candidate, amount conflict, date conflict, approval pending, owner response pending, and out-of-scope request. Each state needs a destination and next checkpoint. The specialist can assemble the evidence and identify the decision required. The role cannot contact a bank, approve a disbursement, change a vendor payment, draw financing, alter payroll, or represent the forecast as a promise.`,
+      `Urgency should follow an approved rule. A projected shortfall within a stated decision window may require immediate treasury routing, while an immaterial missing note may wait for the normal review. The finance owner defines materiality and escalation. Avoid giving the specialist broad instructions to “use judgment” about cash pressure. A clear trigger, named primary and backup owner, minimum evidence packet, and return field are safer and faster than private messages that never update the forecast record.`,
+    ],
+  },
+  {
+    heading: 'Use actual events to diagnose the process',
+    body: [
+      `After the period closes, link forecast inputs to actual bank, receipt, payroll, tax, or payment events. Classify differences before discussing accuracy: timing shift, amount change, cancelled event, new event, duplicate, currency effect, stale source, owner-assumption change, or preparation error. A single variance percentage cannot explain whether the process failed. Large favorable and unfavorable differences both deserve reconstruction when they cross the approved review threshold.`,
+      `Measure input coverage, freshness-rule compliance, owner response time, unresolved exceptions, version changes, and variance by reason. Report denominators and keep scenario forecasts separate. Do not rank contributors without accounting for the kinds of inputs they own; scheduled rent is easier to forecast than disputed customer receipts. The purpose is to repair sources, handoffs, and assumption ownership, not to claim that an administrator caused or prevented liquidity outcomes.`,
+    ],
+  },
+  {
+    heading: 'Pilot one horizon through a full close',
+    body: [
+      `Start with one entity and one approved horizon. In the first week, map sources, cutoffs, owners, currencies, freshness rules, and exception routes. Next, reconstruct a prior forecast using only evidence available at its historical cutoff. Include a disputed receipt, delayed bank feed, irregular payment, multi-currency item, and missing owner response. Review whether the specialist preserves uncertainty instead of forcing a clean number.`,
+      `Run a shadow forecast alongside the finance owner before opening live access. Compare populations, source times, assumptions, exceptions, and later actuals. Expand only when another reviewer can reproduce inputs and every consequential choice remains attributable to an owner. OutsourcedCompany.com can help translate that tested queue into a Philippines-based finance operations support role. Treasury policy, probability judgments, funding, payment approval, bank contact, and final forecast use remain with the company.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -260,5 +317,28 @@ export const blogDetails2026_10_02 = {
       { question: 'Does a carrier decision determine the customer remedy?', answer: 'Not necessarily. Track both workflows separately and follow the company’s approved customer policy and owner decisions.' },
     ],
     relatedLinks: [{ label: 'Explore ecommerce administration support', href: '/services/ecommerce-administration' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-cash-forecast-input-collection': {
+    updated: '2026-10-02',
+    datePublished: '2026-10-02',
+    marker: 'daily-blog-2026-10-02-cash-forecast-input-collection',
+    takeaway: 'Delegate the collection and provenance of forecast inputs while keeping assumptions, probabilities, payment timing, financing, and cash decisions with accountable finance owners.',
+    comparison: [
+      { weak: 'Use the latest value in each worksheet.', strong: 'Record the controlling source, as-of time, freshness rule, owner, and approved assumption for every input.' },
+      { weak: 'Smooth unusual items so the forecast is useful.', strong: 'Preserve uncertainty, route the decision, and keep each frozen forecast version available for later variance review.' },
+    ],
+    sections: cashForecastSections,
+    script: ['What decision and horizon does this forecast support?', 'Which source and owner control every input class?', 'How are stale or missing inputs shown without inventing zeroes?', 'Who may approve assumptions, payments, financing, and bank actions?'],
+    sources: [
+      { name: 'U.S. Small Business Administration: Manage Your Finances', note: 'Official small-business financial-management guidance.', url: 'https://www.sba.gov/business-guide/manage-your-business/manage-your-finances' },
+      { name: 'IRS: Recordkeeping', note: 'Official recordkeeping guidance relevant to retaining support for business transactions.', url: 'https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official privacy resource relevant to financial and personal information.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Can an outsourced specialist decide how likely a receipt is?', answer: 'Only by applying an explicit approved rule. Judgment about probability, scenario treatment, or exclusion remains with the finance owner.' },
+      { question: 'Should missing inputs be copied from last period?', answer: 'Only when a documented owner-approved method says so. Otherwise show the missing source, responsible owner, and decision state.' },
+      { question: 'What proves the process is improving?', answer: 'Review source coverage, freshness, owner response, exception age, and variance reasons against later actual events rather than relying on one accuracy percentage.' },
+    ],
+    relatedLinks: [{ label: 'Explore finance operations support', href: '/services/finance-operations-support' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
