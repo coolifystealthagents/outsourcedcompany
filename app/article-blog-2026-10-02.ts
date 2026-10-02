@@ -45,6 +45,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Run a project review comment resolution register with outsourced coordination',
   excerpt: 'Link each review comment to its exact version, response evidence, and reviewer decision without allowing a coordinator to approve deliverables.',
   minutes: 11,
+}, {
+  slug: 'philippines-outsourcing-product-bundle-setup-verification',
+  title: 'Verify product bundle setup with outsourced ecommerce administration',
+  excerpt: 'Test approved bundle components, pricing, inventory, cart, fulfillment, and return behavior without outsourcing commercial or release decisions.',
+  minutes: 12,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -531,6 +536,59 @@ const reviewCommentSections: Section[] = [
   },
 ];
 
+const bundleVerificationSections: Section[] = [
+  {
+    heading: 'Start from an approved bundle specification',
+    body: [
+      `A bundle is more than a storefront title and combined price. It connects a parent product to component SKUs, inventory rules, taxes, discounts, fulfillment instructions, customer claims, and return behavior. Before delegating verification, the ecommerce owner should approve a specification naming each of those choices. A Philippines-based administrator can compare implementation with that source. The role should not select components, invent a price, or decide how scarce inventory is allocated.`,
+      `Record the bundle ID, specification version, owner, effective market and channel, component identifiers and quantities, price and currency, tax class supplied by the approved source, inventory rule, promotion interactions, fulfillment mapping, return rule, content approval, test environment, and release owner. If the storefront uses different identifiers from the warehouse, preserve the mapping and its owner instead of relying on similar product names.`,
+    ],
+  },
+  {
+    heading: 'Verify parent and component identity',
+    body: [
+      `Open the configured parent and trace every component to the catalog and fulfillment records. Check variant, size, color, pack quantity, unit of measure, status, and market eligibility. A correct-looking image can hide a component mapped to an obsolete or single-item SKU. Test whether changing a component variant alters the parent configuration as the specification intends.`,
+      `Consider a three-item bundle whose storefront price is correct, but one component draws from a dedicated bundle stock pool while the approved rule says all units share ordinary inventory. The verifier records both identifiers, observed decrement behavior, and specification rule. The specialist does not switch the stock mapping, reserve inventory, or declare which rule is commercially preferable. The configuration owner decides and authorizes the correction.`,
+    ],
+  },
+  {
+    heading: 'Test price, discount, and tax paths separately',
+    body: [
+      `Check the displayed price, cart price, checkout total, currency, tax treatment returned by the approved system, and order record. Then test the promotion combinations listed in the specification: bundle discount, sitewide code, loyalty benefit, subscription, free shipping, or exclusion. Do not infer that discounts should stack because the platform permits it. Preserve the rule and observed result for each case.`,
+      `Use controlled test accounts and avoid real payment movement unless the owner has approved a safe test method. Record rounding at line and order level, especially when a bundle price is allocated across components for tax, return, or accounting purposes. The administrator can identify a difference; finance, tax, legal, or commercial owners determine the correct treatment. Never change production pricing merely to make a test pass.`,
+      `Check how the offer appears before the cart as well. Search cards, collection pages, structured product data, comparison widgets, email previews, and localized pages can display a stale price or incomplete qualification even when checkout is correct. Record each approved surface in the matrix. A disclaimer added at checkout does not automatically cure an earlier claim, and the verifier cannot rewrite customer-facing language without content approval.`,
+    ],
+  },
+  {
+    heading: 'Exercise inventory and availability boundaries',
+    body: [
+      `Test the exact availability rule when every component is in stock, one is low, one is out, stock changes between cart and checkout, or a quantity exceeds a component limit. Observe the parent page, cart message, reservation event, order lines, and inventory decrement. A bundle can appear available when the least-stocked component cannot support it, or disappear when a substitution rule was never approved.`,
+      `Keep the starting quantities, event times, test order, and ending quantities so another reviewer can reconstruct the result. Restore test data only through the approved process. The verifier cannot substitute a component, publish a backorder promise, split a shipment, or override a safety stock rule. Unexpected availability belongs in a hold state with the catalog or inventory owner.`,
+    ],
+  },
+  {
+    heading: 'Follow the order into fulfillment',
+    body: [
+      `A successful checkout does not prove the warehouse receives usable work. Verify whether the order carries the parent, components, both, or an assembly instruction as designed. Check quantities, pick representation, packing note, shipping weight, restricted-item rules, and customer-facing shipment record. Use a non-production or approved controlled order and stop before irreversible warehouse or carrier actions unless the test plan authorizes them.`,
+      `If a component is omitted from the pick record while the customer confirmation lists it, preserve both events. The ecommerce administrator should not add a manual warehouse line or tell the customer fulfillment is complete. Link the configuration, test order, warehouse event, evidence, and owner question. The correction must be retested from cart through the affected downstream step.`,
+    ],
+  },
+  {
+    heading: 'Test partial returns and customer records',
+    body: [
+      `Bundles can create difficult return states: one component returned, damaged item replaced, bundle discount reallocated, gift retained, or entire set required. Test only the scenarios approved in the specification and confirm what the customer portal, support tool, warehouse, and order system display. The verifier does not decide a refund amount, return eligibility, restocking treatment, or customer exception.`,
+      `Protect customer and test data. Use named accounts, synthetic identities where approved, and the lowest permissions that support verification. Keep screenshots free of unrelated orders and personal details. Link evidence to stable test events rather than pasting full records into a general tracker. Remove temporary access and clean test artifacts through the documented procedure after acceptance.`,
+    ],
+  },
+  {
+    heading: 'Build a release matrix and retest after change',
+    body: [
+      `Create a matrix covering each channel, market, device class, component state, promotion path, fulfillment representation, and return case required by the owner. For every row record expected rule, observed result, evidence, tester, environment, build or configuration version, defect link, retest, and owner decision. Failed or blocked rows remain visible; a percentage should not hide a missing high-impact path.`,
+      `Pilot one bundle before scaling the lane. Require independent review of component identity, price, inventory, checkout, and fulfillment evidence. After release, perform the approved public smoke checks without creating real customer impact. Expand only when failures lead to controlled corrections and retests. OutsourcedCompany.com can help define the Philippines-based ecommerce administration role while product, price, tax, promotion, inventory, remedy, and release decisions remain internal.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -734,5 +792,26 @@ export const blogDetails2026_10_02 = {
       { question: 'Does a comment authorize a scope change?', answer: 'No. Link it to the approved change-decision path and preserve the review state while accountable owners decide.' },
     ],
     relatedLinks: [{ label: 'Explore project coordination support', href: '/services/project-coordination' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-product-bundle-setup-verification': {
+    updated: '2026-10-02', datePublished: '2026-10-02', marker: 'daily-blog-2026-10-02-product-bundle-setup-verification',
+    takeaway: 'Verify the implemented bundle against an approved specification across storefront and downstream systems while keeping commercial and release authority internal.',
+    comparison: [
+      { weak: 'The bundle page and price look right.', strong: 'Trace component identity, promotions, inventory, checkout, order lines, fulfillment, and approved return cases.' },
+      { weak: 'Fix the mapping and rerun checkout.', strong: 'Preserve the failed version, obtain an authorized correction, and retest from the first affected step through downstream evidence.' },
+    ],
+    sections: bundleVerificationSections,
+    script: ['Which approved specification controls every bundle field?', 'How do parent and component identifiers map across systems?', 'What happens when one component is unavailable or returned?', 'Who decides price, tax, inventory, promotion, remedy, and release?'],
+    sources: [
+      { name: 'FTC: Advertising and Marketing Basics', note: 'Official guidance relevant to product claims and offers.', url: 'https://www.ftc.gov/business-guidance/advertising-marketing' },
+      { name: 'FTC: Mail, Internet, or Telephone Order Merchandise Rule', note: 'Official guidance relevant to shipment representations and obligations.', url: 'https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official privacy resource relevant to customer and test records.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Can the verifier correct a wrong component mapping?', answer: 'Only through an approved change path. Preserve the observed result, route it to the configuration owner, and retest the authorized correction.' },
+      { question: 'Is successful checkout enough?', answer: 'No. Verify order representation, inventory, fulfillment, customer records, and approved return behavior.' },
+      { question: 'Who decides whether discounts stack?', answer: 'The commercial owner defines the rule. The administrator verifies the implementation against that approved rule.' },
+    ],
+    relatedLinks: [{ label: 'Explore ecommerce administration support', href: '/services/ecommerce-administration' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
