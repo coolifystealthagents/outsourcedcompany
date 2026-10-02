@@ -40,6 +40,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Reconcile interview panel availability with outsourced recruiting coordination',
   excerpt: 'Coordinate approved panel roles, stated time zones, candidate windows, and schedule changes without outsourcing selection or accommodation decisions.',
   minutes: 11,
+}, {
+  slug: 'philippines-outsourcing-project-review-comment-resolution-register',
+  title: 'Run a project review comment resolution register with outsourced coordination',
+  excerpt: 'Link each review comment to its exact version, response evidence, and reviewer decision without allowing a coordinator to approve deliverables.',
+  minutes: 11,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -473,6 +478,59 @@ const panelAvailabilitySections: Section[] = [
   },
 ];
 
+const reviewCommentSections: Section[] = [
+  {
+    heading: 'Freeze the thing being reviewed',
+    body: [
+      `A comment such as “fix the total on page six” is meaningful only against a specific document, design, build, dataset, or specification version. Before opening review, record the deliverable identifier, repository location, version or hash, review purpose, reviewers, criteria, comment deadline, and decision owner. A Philippines-based project coordinator can maintain that evidence. The coordinator should not decide that a later file is close enough or that an old comment no longer matters because the layout changed.`,
+      `Keep the reviewed version available under the approved retention rule. If reviewers work in different tools, map annotations back to a stable location such as section ID, page and object, requirement ID, test case, or line reference. Screenshots can explain visual context, but they should link to the actual deliverable. A copied comment without its source can lose attachments, replies, severity cues, or the wording that defined acceptance.`,
+    ],
+  },
+  {
+    heading: 'Make each row one answerable comment',
+    body: [
+      `Long review notes often combine a defect, question, preference, and scope request. Preserve the original note, then split working rows only when each keeps a link to that source. Record comment ID, author, received time, version anchor, category, requested outcome, response owner, due rule, dependency, evidence link, reviewer, decision, duplicate link, reopening, and terminal state. The reviewer or project owner controls any interpretation needed to split ambiguous wording.`,
+      `Use categories that change workflow rather than decorate reports: clarification requested, evidence missing, criterion not met, defect, editorial correction, decision required, possible scope change, duplicate candidate, or out of review scope. A coordinator may apply an unambiguous rule. The role cannot downgrade a defect to preference, turn a question into approval, or label a difficult request out of scope to protect a deadline.`,
+    ],
+  },
+  {
+    heading: 'Separate response from resolution',
+    body: [
+      `An owner response is not proof that the comment is resolved. The register should link the response, changed deliverable version, supporting evidence, and the reviewer’s attributable acceptance or rejection. “Done” in chat may identify a claimed action, but it does not replace a source change and reviewer decision. If the reviewer delegates acceptance, record the approved delegate and basis rather than assuming the coordinator can close it.`,
+      `Suppose a reviewer flags an outdated figure. The response says it was corrected, yet the new file still shows the old value while a spreadsheet contains the update. Preserve all three sources and route the mismatch. The coordinator cannot choose the spreadsheet as controlling, edit the deliverable, or mark the comment complete. The response owner repairs the work; the reviewer accepts it under the defined process.`,
+    ],
+  },
+  {
+    heading: 'Link duplicates without deleting disagreement',
+    body: [
+      `Two comments may point to the same underlying issue, but their requested outcomes can differ. Mark a primary relationship only after checking versions, anchors, authors, and criteria. Keep both original comments and show which response addresses each. Merging them into one row can erase a security concern, accessibility requirement, or stakeholder condition hidden behind similar wording.`,
+      `When reviewers disagree, record the competing readings and ask the designated decision owner a bounded question. The coordinator should not broker a compromise or select the opinion of the most senior participant unless the governance rule grants that authority. The decision record should identify the chosen interpretation, affected comments, approved action, and whether the review criterion itself needs clarification.`,
+    ],
+  },
+  {
+    heading: 'Keep scope decisions outside comment administration',
+    body: [
+      `A review comment can reveal new scope, but it does not automatically authorize it. If the requested outcome changes an approved requirement, cost, timeline, interface, or dependency, link the comment to the company’s change-decision path and place it in a visible hold state. The coordinator maintains traceability between the review and change record. The role does not estimate unverified effort, promise a date, reject the request, or treat silence as approval.`,
+      `The release or deliverable owner decides whether unresolved comments block acceptance. Capture that rule before the final meeting. Avoid a generic “minor comments may remain” instruction unless minor has an observable definition and named owner. The register should show open comments, accepted exceptions, deferred work with approval, and items awaiting a decision, so status cannot become greener through recoding.`,
+      `Carry approved deferred comments into a named downstream record with an owner, due rule, and link back to the reviewed version. A note copied into meeting minutes without that relationship can vanish after acceptance. At the next checkpoint, verify the downstream item still represents the original condition and decision. The coordinator reports missing ownership; the coordinator does not declare that acceptance permanently waived the concern.`,
+    ],
+  },
+  {
+    heading: 'Control access to review material',
+    body: [
+      `Review artifacts may contain unreleased product details, customer records, security findings, commercial terms, or personal information. Give the coordination role access only to the review spaces and metadata needed. Use secure links instead of copying sensitive passages into general trackers. When an external reviewer participates, verify the approved artifact, audience, channel, and access expiry before sharing.`,
+      `Separate permissions to comment, edit the deliverable, accept changes, change criteria, and publish. Named accounts and event history allow later reconstruction. A coordinator who can edit both the response and reviewer decision undermines the control even if no misuse occurs. Remove temporary access after the review and retain evidence according to the approved project and records rules.`,
+    ],
+  },
+  {
+    heading: 'Pilot a full review cycle, including reopening',
+    body: [
+      `Use a closed historical review containing a clear correction, ambiguous note, duplicate pair, scope request, missing evidence, reviewer disagreement, and reopened comment. Ask the specialist to build the register, anchor every row, route decisions, and reconstruct closure. A second reviewer should follow each accepted comment from original wording to changed version and approval without relying on private messages.`,
+      `Track anchor coverage, response evidence, reviewer-decision coverage, duplicate links, scope holds, reopening, unresolved age, and comments carried to release. Sample accepted items as well as exceptions. Expand when status follows evidence rather than optimism and owners trust the register at a decision meeting. OutsourcedCompany.com can help scope the Philippines-based project coordination role while scope, criteria, acceptance, release, budget, and schedule decisions stay internal.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -655,5 +713,26 @@ export const blogDetails2026_10_02 = {
       { question: 'Can rescheduling affect candidate evaluation?', answer: 'The coordinator must not draw or record that conclusion. Preserve the attributable operational change and leave evaluation to authorized interviewers.' },
     ],
     relatedLinks: [{ label: 'Explore recruitment coordination support', href: '/services/recruitment-coordination' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-project-review-comment-resolution-register': {
+    updated: '2026-10-02', datePublished: '2026-10-02', marker: 'daily-blog-2026-10-02-project-review-comment-resolution-register',
+    takeaway: 'Connect each comment to the reviewed version, response evidence, and reviewer decision while leaving scope and acceptance authority with accountable owners.',
+    comparison: [
+      { weak: 'Close the comment when the owner says it is done.', strong: 'Link the response and changed version, then retain the reviewer’s attributable acceptance.' },
+      { weak: 'Merge similar comments to clean the register.', strong: 'Preserve original wording and link duplicates only after checking anchors, criteria, and requested outcomes.' },
+    ],
+    sections: reviewCommentSections,
+    script: ['Which exact deliverable version and location does the comment address?', 'What evidence demonstrates the response?', 'Who accepts resolution or decides disagreement?', 'Which requests require a separate scope or release decision?'],
+    sources: [
+      { name: 'NIST Risk Management Framework', note: 'Official risk-management resource relevant to controlled decisions and evidence.', url: 'https://csrc.nist.gov/projects/risk-management/about-rmf' },
+      { name: 'ISO: Plain language', note: 'Official overview of plain-language principles relevant to clear review records.', url: 'https://www.iso.org/plain-language' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official privacy resource relevant to review materials containing personal information.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Can the coordinator close a comment after the owner responds?', answer: 'Only if the approved process explicitly makes that response sufficient. Normally the designated reviewer must accept the linked evidence.' },
+      { question: 'How should duplicate comments be handled?', answer: 'Retain both originals, link the relationship, and show how the response and decision address each requested outcome.' },
+      { question: 'Does a comment authorize a scope change?', answer: 'No. Link it to the approved change-decision path and preserve the review state while accountable owners decide.' },
+    ],
+    relatedLinks: [{ label: 'Explore project coordination support', href: '/services/project-coordination' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
