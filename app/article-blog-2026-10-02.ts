@@ -5,6 +5,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Outsource sales commission statement preparation without outsourcing pay decisions',
   excerpt: 'Build traceable commission statements from approved plans and source transactions while keeping plan interpretation, disputes, payroll approval, and payment with accountable owners.',
   minutes: 12,
+}, {
+  slug: 'philippines-outsourcing-recurring-report-distribution-control',
+  title: 'Control recurring report distribution with outsourced executive administration',
+  excerpt: 'Keep management reports tied to an approved version, role-based recipient list, protected delivery channel, and inspectable release record.',
+  minutes: 11,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -66,6 +71,65 @@ const commissionSections: Section[] = [
   },
 ];
 
+const reportDistributionSections: Section[] = [
+  {
+    heading: 'Treat distribution as a controlled release',
+    body: [
+      `A recurring report is not ready to send merely because the calendar says Friday. It may contain a draft forecast, employee detail, customer data, security findings, or an executive conclusion that changed after the last review. The delegated job is to release one approved artifact to an approved audience through an approved channel. The role does not decide whether the figures are right or whether a new recipient should see them. That distinction turns a familiar email chore into a bounded executive administration queue.`,
+      `Begin by inventorying reports that actually recur: the weekly operating pack, monthly finance summary, service review, board update, hiring report, or risk digest. For each one, name the business owner, normal cutoff, source location, classification, approval event, audience rule, delivery method, and correction path. Do not copy last month's recipient line into a procedure. People change roles, temporary advisers leave, and distribution needs can narrow even when the report title stays the same.`,
+    ],
+  },
+  {
+    heading: 'Define the artifact before checking the audience',
+    body: [
+      `Give every release a report identifier, reporting period, version, as-of time, and owner. The source owner should mark the exact file approved for release. File names such as final, final-two, or updated are not reliable controls. Prefer a versioned repository event or approval record that links to the immutable artifact. If the owner replaces a page after approval, treat the replacement as a new version requiring the stated review rather than quietly swapping the attachment.`,
+      `The cutoff also needs meaning. A report labeled through September may contain sources refreshed at different times. The distribution record should preserve the report's stated as-of date and the approval time without implying that every underlying system was current to the minute. If a source owner says a number remains provisional, record that status in the release evidence and route the question. An administrator must not remove the qualifier to make the pack appear complete.`,
+    ],
+  },
+  {
+    heading: 'Authorize recipients by role and purpose',
+    body: [
+      `Maintain a recipient register with person or approved group, organizational role, report entitlement, purpose, start date, review date, approving owner, and removal event. A recurring release should resolve its audience from that register at send time. An address appearing on a prior email proves only that it received an earlier version; it does not create continuing authority. Group addresses require an owner and membership review because the sender may not see who sits behind the alias.`,
+      `Consider a manager who moved to another division but remains on a manually maintained mailing list. The coordinator can compare the current register with the directory event, place the release on hold for that recipient, and ask the report owner whether access still applies. The coordinator cannot assume the move is harmless or delete the person's access across systems. The resulting decision, register change, approver, and effective time should remain connected to the release.`,
+    ],
+  },
+  {
+    heading: 'Match the channel to the approved handling rule',
+    body: [
+      `The same report can require different delivery controls for internal executives, an external adviser, and a service provider. Record whether the approved path is a permissioned workspace, secure portal, encrypted message, or ordinary corporate email. If a recipient asks for a spreadsheet instead of the approved PDF, that is a format and exposure change. Route it to the data or report owner; do not satisfy the request because the numbers appear identical. Hidden tabs, formulas, comments, and underlying rows may disclose more than the released view.`,
+      `Use named accounts where possible and avoid public links. Check link scope, expiry, download permissions, and whether forwarding changes access. The specialist should not copy the file into a personal drive to solve a permissions problem. When delivery fails, preserve the event and reason, then use the approved fallback. A bounced message or access-denied event is not permission to send the attachment through a less controlled channel.`,
+    ],
+  },
+  {
+    heading: 'Make the release event reconstructable',
+    body: [
+      `A useful release log connects report ID, period, approved version, classification, source owner, approval evidence, resolved audience, channel, release operator, sent time, delivery failures, and final state. It should prove what was released rather than merely that a scheduled task ran. Where the platform supplies message or access events, retain their stable references. Screenshots can help explain an exception but should not replace searchable system evidence.`,
+      `Before release, use a two-part check. First compare the file hash or repository version with the approval. Then compare resolved recipients with the current register and examine any additions, removals, external domains, or personal addresses. A second reviewer should inspect high-sensitivity reports and every exception. This review is about artifact and audience control, not proofreading conclusions or evaluating executive performance.`,
+    ],
+  },
+  {
+    heading: 'Correct a report without erasing the first release',
+    body: [
+      `Suppose the owner discovers that one chart used an outdated source after the report was sent. Keep the original release record. The owner decides whether correction is necessary, approves a revised artifact, identifies the audience, and supplies the response wording when needed. The coordinator can prepare the replacement release, link it to the first version, and verify delivery. The coordinator cannot decide that the difference is immaterial or describe the correction as cosmetic without authorization.`,
+      `A correction log should state the affected report and version, discovered time, issue description supplied by the owner, decision, replacement version, approval, recipients, release event, and acknowledgment requirement. Do not recall or delete the first artifact unless the platform procedure and owner permit it. Preserving sequence lets reviewers see which audience received which information and whether downstream work relied on the earlier version.`,
+    ],
+  },
+  {
+    heading: 'Protect the register and the report itself',
+    body: [
+      `Distribution work requires enough access to resolve recipients and release approved files, but it rarely requires permission to edit report content or manage the entire directory. Separate content editing, audience approval, sending, and access administration. Review permissions when the report owner, coordinator, or backup changes. Use a documented emergency path for an absent owner instead of allowing administrators to widen the audience to keep a schedule.`,
+      `Minimize copied data in the distribution tracker. Report identifiers, versions, classifications, recipient roles, and secure evidence links are normally safer than pasted report contents. Retention should follow the company's approved schedule and any contractual duties. NIST Cybersecurity Framework 2.0 offers a current risk-management reference, while the Philippine National Privacy Commission publishes the Data Privacy Act; accountable owners must determine how those and other requirements apply to the actual report and recipients.`,
+    ],
+  },
+  {
+    heading: 'Test one cycle before handing over the send',
+    body: [
+      `Run the first cycle in shadow mode. Let the specialist identify the proposed artifact, approval, recipients, channel, and exceptions without releasing anything. Compare the result with the owner's intended release. Include a changed-role recipient, external-domain request, failed link, late approval, and corrected version. Repair the register and instructions wherever two reviewers reach different answers. Then open a limited live release with same-day owner review.`,
+      `Measure approved releases, audience exceptions, wrong-version catches, delivery failures, corrections, unresolved owner questions, and recipient-register reviews due. Sample successful releases as well as exceptions; a clean dashboard can hide an outdated group membership. Expansion is justified when releases are reproducible, additions reliably require approval, corrections retain history, and backups use the same rules. OutsourcedCompany.com can help define that Philippines-based executive administration role while the company keeps content approval and audience authority.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -93,5 +157,28 @@ export const blogDetails2026_10_02 = {
       { question: 'Should the specialist send statements directly to payroll?', answer: 'Only through a documented handoff after the designated owner has approved the completed statement and exceptions.' },
     ],
     relatedLinks: [{ label: 'Explore sales administration support', href: '/services/sales-administration' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-recurring-report-distribution-control': {
+    updated: '2026-10-02',
+    datePublished: '2026-10-02',
+    marker: 'daily-blog-2026-10-02-recurring-report-distribution-control',
+    takeaway: 'Treat each recurring report as a controlled release: one approved artifact, a current role-based audience, a permitted channel, and evidence that preserves corrections.',
+    comparison: [
+      { weak: 'Send the latest file to last month’s list.', strong: 'Resolve the approved version and current recipient register independently for every release.' },
+      { weak: 'Use another channel when the secure link fails.', strong: 'Record the failure and use only the owner-approved fallback without widening access.' },
+    ],
+    sections: reportDistributionSections,
+    script: ['Which event identifies the artifact approved for release?', 'Who approves recipient additions, format changes, and external delivery?', 'How are changed roles and group memberships removed?', 'Can a correction be traced to both the first and replacement releases?'],
+    sources: [
+      { name: 'NIST Cybersecurity Framework 2.0', note: 'Current official risk-management framework relevant to access and information protection.', url: 'https://www.nist.gov/cyberframework' },
+      { name: 'U.S. National Archives: Records Management', note: 'Official records-management resources relevant to controlled records and disposition.', url: 'https://www.archives.gov/records-mgmt' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official Philippine privacy-law resource.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Can the coordinator add someone copied on a prior report?', answer: 'No. A prior message is not continuing authorization. Resolve recipients from the current approved register.' },
+      { question: 'What if an approved report changes after sending?', answer: 'Keep the first release, obtain an owner decision and approval for the replacement, then link the corrected release and its audience to the original.' },
+      { question: 'Should the tracker contain the report data?', answer: 'Usually no. Keep identifiers, versions, classifications, statuses, and secure evidence links rather than duplicating sensitive contents.' },
+    ],
+    relatedLinks: [{ label: 'Explore executive administration support', href: '/services/executive-administration' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
