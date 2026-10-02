@@ -7,7 +7,7 @@
   "repository": "coolifystealthagents/outsourcedcompany",
   "productionBranch": "main",
   "baseSha": "7de9430a3394c42681b7d6bf765fb1bd1b8711d7",
-  "remoteSha": "PENDING_COMBINED_SHA",
+  "remoteSha": "PENDING_SOLE_PUSH_SHA",
   "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2 (browser operator owned)",
   "deploymentStatus": "not submitted by routine; browser operator owns deployment",
   "articles": [
@@ -21,7 +21,7 @@
       ],
       "contentHash": "960f81fa9f88dfd9267f3bd4def5236341695277adc79325d21429172eada19b",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-sales-commission-statement-preparation",
       "verificationTime": null
@@ -37,7 +37,7 @@
       ],
       "contentHash": "86be2b62d8342ebfbade733663a5a9dc77e7976723916b8858f21776056d6378",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-recurring-report-distribution-control",
       "verificationTime": null
@@ -53,7 +53,7 @@
       ],
       "contentHash": "2db04a8b24ed89d19b3746f31a33c0c73fe56133155c7639368658937da9868e",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-carrier-damage-claim-evidence",
       "verificationTime": null
@@ -69,7 +69,7 @@
       ],
       "contentHash": "3df9ea6144cf77fbe9cb81a3c5d9125f1bba03e61f0e20910b503caf17ed3868",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-cash-forecast-input-collection",
       "verificationTime": null
@@ -85,7 +85,7 @@
       ],
       "contentHash": "9e5f5be9121113c24c8d89d4066d92ac98bf8ab53ec16715227da1b90b4f0379",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-vendor-performance-review-evidence",
       "verificationTime": null
@@ -101,7 +101,7 @@
       ],
       "contentHash": "3be4909e34378d00c68a1daa74f7bf403a9024f61cb2377baf91331776fab6e0",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-support-ticket-taxonomy-maintenance",
       "verificationTime": null
@@ -117,7 +117,7 @@
       ],
       "contentHash": "c50db41ec7267cceee6ee5b35f9d3ffc0c19e8276a300e5919d307e37e6f0ad5",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-marketing-asset-expiration-register",
       "verificationTime": null
@@ -133,7 +133,7 @@
       ],
       "contentHash": "d79ce78afff2adc1a78e497c385a1e50ebf2426337caffddd64e4236359b876a",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-interview-panel-availability-reconciliation",
       "verificationTime": null
@@ -149,7 +149,7 @@
       ],
       "contentHash": "ca0de608fc0d7b8f515b432809b4d032ae965c73a3e8f159b40c9674eba9f09e",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-project-review-comment-resolution-register",
       "verificationTime": null
@@ -165,7 +165,7 @@
       ],
       "contentHash": "412d744e377f04c138f41fe43e336fd5571f8a16ed4efb66409ac681ed853d02",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-product-bundle-setup-verification",
       "verificationTime": null
@@ -181,7 +181,7 @@
       ],
       "contentHash": "e32b3795fbbde37e386b3000b1764ab09ef814b691c4d96ae42e355038f897b6",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-regression-test-data-reset-log",
       "verificationTime": null
@@ -197,10 +197,11 @@
       ],
       "contentHash": "1f59c4e013154aa6bdb5f92f28f71530a38b067d01ee9924651e1a5881d8bd4e",
       "publicationDate": "2026-10-02",
-      "commitSha": "PENDING_COMBINED_SHA",
+      "commitSha": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59",
       "deploymentEvidence": "browser operator pending",
       "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-goodwill-credit-approval-log",
       "verificationTime": null
     }
-  ]
+  ],
+  "contentCommit": "d058ba003b1215dd2fd4c61bdc0d7c06469f4a59"
 }
