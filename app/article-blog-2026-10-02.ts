@@ -20,6 +20,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Outsource cash forecast input collection without outsourcing treasury decisions',
   excerpt: 'Collect time-stamped cash inputs and assumptions from accountable owners while keeping probability, payment timing, funding, and disbursement choices internal.',
   minutes: 12,
+}, {
+  slug: 'philippines-outsourcing-vendor-performance-review-evidence',
+  title: 'Prepare vendor performance review evidence without outsourcing the score',
+  excerpt: 'Assemble period-specific service evidence and expose denominator differences while keeping contract interpretation, scoring, renewal, and corrective action internal.',
+  minutes: 11,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -244,6 +249,58 @@ const cashForecastSections: Section[] = [
   },
 ];
 
+const vendorReviewSections: Section[] = [
+  {
+    heading: 'Turn each review question into observable evidence',
+    body: [
+      `A vendor review often arrives as a blank scorecard with headings such as quality, timeliness, responsiveness, and partnership. Those words do not tell an administrator what to collect. Before delegating preparation, the contract or service owner should translate each question into a defined population, event, source, period, calculation, permitted exclusion, and decision owner. The Philippines-based specialist can then assemble evidence consistently. The specialist should not decide what the agreement means or assign a favorable score because stakeholders appear satisfied.`,
+      `Start with the decision the review supports. A monthly operating conversation may need exception patterns and open actions, while a renewal review may require longer history and approved contractual measures. Freeze the period and agreement version before extracting data. If an amendment took effect midway through the period, preserve both versions and ask the owner how to treat the transition. Quietly applying the newest rule to older events rewrites performance history.`,
+    ],
+  },
+  {
+    heading: 'Define the denominator before calculating a rate',
+    body: [
+      `A claim of 98 percent on-time service is meaningless until the eligible units and clock are known. Record what counts as a request, when timing begins, which terminal event stops it, how pauses work, and which items are excluded. Show the raw eligible count, successful count, exclusions by reason, missing-history count, and resulting rate. Never accept a dashboard percentage as source evidence when its population cannot be reproduced.`,
+      `Suppose the vendor counts tickets closed during the month, while the buyer counts tickets received during the month. Reopened work and month-end backlog will move the two results differently even when both calculations are arithmetically correct. The specialist should reconstruct both definitions on a sample, document the divergence, and route it. Choosing the result closer to the target is not an administrative decision. The owner must identify the controlling definition and whether the comparison needs a restated series.`,
+    ],
+  },
+  {
+    heading: 'Connect service events to accepted outcomes',
+    body: [
+      `Completion timestamps alone can reward work that another team returns. Link the vendor event to buyer acceptance, correction, reopening, or downstream rejection where the approved measure requires it. Use stable service, order, ticket, deliverable, or invoice identifiers. A text match on names and dates may create false joins. When acceptance happens outside the vendor platform, retain the attributable buyer record and observation time rather than copying an unsupported status into the source.`,
+      `Separate vendor-caused states from observed operational states unless an owner has approved attribution. An item can wait because buyer evidence is missing, a system is unavailable, the vendor lacks capacity, or a policy decision remains open. The preparation record should show the state history and accountable next action. It should not convert every delay into vendor fault or remove owner-waiting time merely to improve the result. Attribution and contract consequences remain owner decisions.`,
+    ],
+  },
+  {
+    heading: 'Build an evidence book, not a persuasive deck',
+    body: [
+      `Organize the review around a register containing vendor, agreement and version, obligation or review question, period, eligible unit, source event, denominator rule, exception, evidence link, buyer owner, vendor response, decision, and follow-up date. Summaries should link to reproducible tables and a sampled case index. Preserve missing sources and contradictory records. A blank or disputed field is more honest than a confident narrative whose calculation cannot be reopened.`,
+      `Keep presentation separate from approval. The outsourced administrator may format an owner-approved conclusion and check that tables match their source. The role cannot soften a finding, select favorable examples, infer contractual breach, or recommend renewal. If an executive asks for one headline score, retain the component definitions and limitations beside it. Aggregation can hide that one measure covers hundreds of routine events while another covers two high-impact failures.`,
+    ],
+  },
+  {
+    heading: 'Handle the vendor response as evidence with an owner',
+    body: [
+      `Give the vendor a defined channel and deadline for factual corrections or context when the buyer's process permits it. Record the response unchanged, link the affected measure or case, and distinguish new source evidence from explanation. The administrator can verify that identifiers open and fields are complete. The administrator cannot accept the explanation, negotiate a target, waive a failure, or mark an action complete on the vendor's assertion alone.`,
+      `Disputes need a decision trail: original measure, vendor position, buyer source, accountable owner, decision, any restatement, notice, and effective period. Do not erase the first result after correction. Reviewers need to see whether a change fixed a data error, clarified the rule, or reflected a commercial decision. Repeated disputes about the same definition may show that the scorecard or contract handoff needs repair rather than that either side is manipulating the result.`,
+    ],
+  },
+  {
+    heading: 'Protect confidential and personal information',
+    body: [
+      `Service evidence can contain customer records, employee names, security events, prices, or contract terms. Give the preparation role the narrowest source access that supports the approved questions. Use identifiers and controlled links in the review register rather than copying full tickets or contracts. Redact review samples only through the approved procedure and preserve an authorized source. Shared drives and emailed workbooks can quietly broaden access beyond the review team.`,
+      `Maintain separate permissions for extraction, source correction, score approval, vendor communication, and contract action. Review access when the vendor team, buyer owner, or review administrator changes. NIST supply-chain risk-management resources provide a current framework for considering supplier risk, but they do not score this vendor. The company must interpret its agreement, legal duties, privacy rules, and commercial choices through accountable owners.`,
+    ],
+  },
+  {
+    heading: 'Pilot one period and sample both sides of the result',
+    body: [
+      `Reconstruct one closed period before preparing a live review. Include ordinary accepted work, a reopened item, a buyer hold, a vendor delay, a missing event history, a changed agreement rule, and a disputed exclusion. Have a second reviewer reproduce the denominator and trace every exceptional case. Return findings with specific causes: population mismatch, clock error, wrong version, unsupported exclusion, broken join, missing acceptance, attribution leap, or unauthorized conclusion.`,
+      `For the first live cycle, review every disputed or high-impact case and sample both passes and failures. Track definition coverage, source completeness, reproducibility, missing histories, restatements, owner waiting, actions, and reopened items. Expand the lane only when the evidence book survives independent review and decisions remain attributable. OutsourcedCompany.com can help define the Philippines-based vendor administration role while scoring, contract interpretation, remedies, renewal, and final vendor communication stay internal.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -340,5 +397,28 @@ export const blogDetails2026_10_02 = {
       { question: 'What proves the process is improving?', answer: 'Review source coverage, freshness, owner response, exception age, and variance reasons against later actual events rather than relying on one accuracy percentage.' },
     ],
     relatedLinks: [{ label: 'Explore finance operations support', href: '/services/finance-operations-support' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-vendor-performance-review-evidence': {
+    updated: '2026-10-02',
+    datePublished: '2026-10-02',
+    marker: 'daily-blog-2026-10-02-vendor-performance-review-evidence',
+    takeaway: 'Delegate reproducible evidence assembly, not the interpretation, scoring, negotiation, remedy, or renewal decision.',
+    comparison: [
+      { weak: 'Copy the vendor dashboard into the review.', strong: 'Freeze the period and rule, reconstruct the eligible population, and expose counts, exclusions, missing histories, and acceptance events.' },
+      { weak: 'Resolve disagreements before executives see the scorecard.', strong: 'Preserve both evidence positions and route the defined question to the accountable agreement owner.' },
+    ],
+    sections: vendorReviewSections,
+    script: ['What population and event define each measure?', 'Which agreement version controls each part of the review period?', 'Can another reviewer reproduce the denominator and exclusions?', 'Who interprets the contract, assigns scores, and decides remedies or renewal?'],
+    sources: [
+      { name: 'NIST: Cybersecurity Supply Chain Risk Management', note: 'Official resources for considering supplier-related risk within an accountable risk process.', url: 'https://csrc.nist.gov/projects/cyber-supply-chain-risk-management' },
+      { name: 'U.S. Small Business Administration: Manage Your Business', note: 'Official small-business operations guidance relevant to vendor management.', url: 'https://www.sba.gov/business-guide/manage-your-business' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official privacy resource relevant to personal information in service evidence.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Can the outsourced administrator score the vendor?', answer: 'No. The role can calculate an approved unambiguous measure, but interpretation, scoring, remedies, negotiation, and renewal remain with authorized owners.' },
+      { question: 'Why preserve exclusions and missing histories?', answer: 'They reveal whether the reported denominator can be reproduced and prevent an incomplete population from appearing conclusive.' },
+      { question: 'Should reopened work count as completed?', answer: 'Use the buyer-approved definition and show reopening separately. The administrator should not choose the treatment.' },
+    ],
+    relatedLinks: [{ label: 'Explore vendor administration support', href: '/services/vendor-administration' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
