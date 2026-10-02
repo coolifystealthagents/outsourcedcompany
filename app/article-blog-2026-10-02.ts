@@ -30,6 +30,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Maintain a support ticket taxonomy with outsourced customer experience staff',
   excerpt: 'Version support labels, preserve customer wording, test coding ambiguity, and protect downstream reporting without outsourcing policy or remedy decisions.',
   minutes: 11,
+}, {
+  slug: 'philippines-outsourcing-marketing-asset-expiration-register',
+  title: 'Build a marketing asset expiration register with outsourced support',
+  excerpt: 'Find public asset instances, connect claims and offers to approved validity windows, and verify takedown without outsourcing legal or campaign decisions.',
+  minutes: 11,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -358,6 +363,58 @@ const taxonomySections: Section[] = [
   },
 ];
 
+const assetExpirationSections: Section[] = [
+  {
+    heading: 'Track live instances, not just master files',
+    body: [
+      `An approved campaign file can appear in an email, landing page, partner portal, scheduled social post, sales deck, marketplace listing, downloadable PDF, or cached search result. Updating the master does not remove those instances. The operating unit for expiration control is therefore one public or distributable placement tied to an approved claim, offer, disclosure, and validity window. A Philippines-based marketing operations specialist can maintain that map without deciding what the company may claim or how long an offer should run.`,
+      `Begin with the channels the company controls and the repositories where teams obtain assets. Record the stable asset identifier, master version, claim or offer, approval reference, effective and expiry times, time zone, audience, locale, channel, instance URL or placement ID, owner, scheduled events, and final state. A filename is not enough because copied files can retain the same name after their contents diverge.`,
+    ],
+  },
+  {
+    heading: 'Connect every deadline to an accountable approval',
+    body: [
+      `Expiration can come from an offer end date, licensed image term, partner agreement, product availability, regulatory disclosure, evidence review, or internal campaign decision. Preserve the source and owner for that date. Do not infer that an undated asset remains approved forever or that a new campaign automatically extends an older claim. The approval register should say which versions, channels, locales, and audience conditions it covers.`,
+      `Use explicit time zones and distinguish the last permitted display time from the planned removal time. A promotion ending at midnight in one market may still be visible elsewhere if the platform schedules in UTC. Test the platform conversion before launch and store the resulting event time. If the approval wording and scheduler disagree, hold the placement and ask the owner; the administrator cannot choose the more convenient interpretation.`,
+    ],
+  },
+  {
+    heading: 'Discover copies outside the obvious campaign path',
+    body: [
+      `Search the content management system, asset library, marketing automation tools, social scheduler, ecommerce platform, partner folders, and sales enablement repository. Use URLs, asset IDs, destination links, claim phrases, image fingerprints where approved, and campaign tags to find instances. Ask channel owners about manual uploads and evergreen automations. The register should distinguish confirmed live, scheduled, draft, archived, inaccessible, and unknown placements.`,
+      `Consider a partner PDF advertising an offer that ended while the main landing page now redirects to a new campaign. The specialist records the partner instance, approval window, partner owner, observed file, and removal request state. The specialist cannot silently edit the PDF, promise that the expired terms will be honored, or decide that the redirect cures the old document. Those questions go to marketing, legal, commercial, or customer owners according to the company’s map.`,
+    ],
+  },
+  {
+    heading: 'Prepare takedown work before the deadline',
+    body: [
+      `For each instance, define the authorized action: unpublish, replace, disable scheduling, remove from navigation, expire a link, update a marketplace record, or request partner removal. Name a primary owner and backup, the earliest action time, proof expected, and escalation point. Preparing these instructions in advance prevents a coordinator from improvising under deadline pressure. Replacement creative must have its own approval; an expired asset is not permission to publish the nearest available file.`,
+      `Treat access failures as exceptions rather than reasons to mark work complete. If a specialist can see but not remove an asset, the record should preserve the location and route it to the channel owner. If a platform lacks scheduling, use the approved manual checkpoint. If a partner controls the placement, retain the attributable request, acknowledgment, follow-up time, and observed public state. A sent request is not a completed takedown.`,
+    ],
+  },
+  {
+    heading: 'Verify removal from the audience’s view',
+    body: [
+      `Verification should revisit the exact instance through an appropriate public or test path. Check the response, rendered text and image, redirect destination, cached variant where relevant, scheduled queue, and mobile or localized version. Record the verifier, time, time zone, method, and evidence. A content-management status saying unpublished may not prove that a cached page, CDN object, email automation, or partner copy is no longer reachable.`,
+      `Do not confuse archival retention with public availability. The company may need to retain approvals and released assets for records purposes while removing audience access. Store archives in the authorized repository with their release history and classification. The specialist cannot delete required records to make discovery cleaner or expose an archive through a public link to prove it exists. Owners set retention and access rules.`,
+    ],
+  },
+  {
+    heading: 'Handle late discoveries and customer contact',
+    body: [
+      `When an expired asset remains public, capture first observation, instance, content, audience exposure evidence available, owner, removal action, and verification. Preserve facts without estimating how many people saw it unless a defined data source supports that count. Route customer questions through approved service guidance. The marketing administrator should not promise an expired offer, deny it, admit a violation, or write a public correction.`,
+      `After removal, identify why the instance was missing from the register: copied outside the library, lost owner, incomplete channel inventory, failed schedule, locale gap, partner delay, or verification failure. Repair that control and search for sibling copies. A single late PDF may indicate an entire partner folder outside the release process. The useful outcome is broader visibility, not blame assigned from one discovery.`,
+    ],
+  },
+  {
+    heading: 'Pilot one campaign across its full lifecycle',
+    body: [
+      `Choose a campaign with several channels, a real expiry, a localized variant, and one external placement. Build the register before launch, test scheduled events, verify each live instance, execute the approved takedown, and check public removal. Include a failed permission, rescheduled post, replaced file, and partner delay. Review whether evidence shows the exact version and placement rather than only task completion.`,
+      `Track registered versus discovered instances, owner coverage, approval linkage, pre-deadline readiness, takedown completion, public verification, late discoveries, and unresolved age. Sample placements marked complete. Expand when copies reliably enter the register and expired material disappears through an attributable path. OutsourcedCompany.com can help scope the Philippines-based marketing operations role while claims, disclosures, campaign choices, customer remedies, and legal decisions stay internal.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -498,5 +555,26 @@ export const blogDetails2026_10_02 = {
       { question: 'Does agreement prove the taxonomy is correct?', answer: 'No. Review source evidence, definition validity, important disagreements, and whether both coders could share the same mistaken interpretation.' },
     ],
     relatedLinks: [{ label: 'Explore customer experience support', href: '/services/customer-experience-support' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-marketing-asset-expiration-register': {
+    updated: '2026-10-02', datePublished: '2026-10-02', marker: 'daily-blog-2026-10-02-marketing-asset-expiration-register',
+    takeaway: 'Map every live asset instance to its approval and validity window, then verify removal without letting the coordinator extend claims or improvise replacement content.',
+    comparison: [
+      { weak: 'Archive the expired master file.', strong: 'Find each public, scheduled, localized, partner, and downloadable instance and assign an approved takedown action.' },
+      { weak: 'Mark complete when the platform says unpublished.', strong: 'Revisit the audience-facing instance and record rendered-content, redirect, cache, and schedule evidence.' },
+    ],
+    sections: assetExpirationSections,
+    script: ['Which approval and validity window govern each placement?', 'Where can teams or partners copy the asset?', 'What evidence proves audience access ended?', 'Who decides claims, disclosures, replacements, remedies, and retention?'],
+    sources: [
+      { name: 'FTC: Advertising and Marketing Basics', note: 'Official business guidance relevant to advertising claims and offers.', url: 'https://www.ftc.gov/business-guidance/advertising-marketing' },
+      { name: 'FTC: Endorsement Guides', note: 'Official guidance relevant where assets contain endorsements or testimonials.', url: 'https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official privacy resource relevant to audience and campaign records.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Is removing the master asset enough?', answer: 'No. Track and verify every live, scheduled, downloadable, localized, and partner-controlled instance.' },
+      { question: 'Can the coordinator extend an offer to finish a campaign?', answer: 'No. Any extension, replacement, claim, disclosure, or remedy requires the designated owner’s approval.' },
+      { question: 'Should expired assets be deleted?', answer: 'Follow the approved retention rule. Public removal and controlled archival retention are separate actions.' },
+    ],
+    relatedLinks: [{ label: 'Explore marketing operations support', href: '/services/marketing-operations' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
