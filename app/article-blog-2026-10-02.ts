@@ -25,6 +25,11 @@ export const blogPosts2026_10_02 = [{
   title: 'Prepare vendor performance review evidence without outsourcing the score',
   excerpt: 'Assemble period-specific service evidence and expose denominator differences while keeping contract interpretation, scoring, renewal, and corrective action internal.',
   minutes: 11,
+}, {
+  slug: 'philippines-outsourcing-support-ticket-taxonomy-maintenance',
+  title: 'Maintain a support ticket taxonomy with outsourced customer experience staff',
+  excerpt: 'Version support labels, preserve customer wording, test coding ambiguity, and protect downstream reporting without outsourcing policy or remedy decisions.',
+  minutes: 11,
 }] as const;
 
 const commissionSections: Section[] = [
@@ -301,6 +306,58 @@ const vendorReviewSections: Section[] = [
   },
 ];
 
+const taxonomySections: Section[] = [
+  {
+    heading: 'Give every label an operating purpose',
+    body: [
+      `A support taxonomy should help someone route work, find recurring friction, or review a defined customer experience question. Labels collected because they sound useful soon overlap and drift. Before delegating maintenance, the customer experience owner should state what each label controls and what it must not imply. “Refund request” can describe what a customer asked for without approving a refund. “Safety signal” can trigger an urgent route without concluding that a product caused harm.`,
+      `Inventory labels in the help desk, macros, automations, dashboards, quality forms, and exports. Record the owner, definition, inclusion examples, exclusions, allowed combinations, effective date, retired successor, routing effect, and reports that consume it. Similar names in different tools may not mean the same thing. The specialist can map those differences; the specialist cannot merge them because a cleaner list would be easier to administer.`,
+    ],
+  },
+  {
+    heading: 'Preserve the customer’s words beside the code',
+    body: [
+      `A label is an interpretation of a record, not the record itself. Keep the original message in the approved case system and store the taxonomy version with the assigned code. When the relevant evidence is one passage in a long exchange, identify that passage without deleting the surrounding context. Do not rewrite “I was charged after I cancelled” as a generic billing question merely because the approved code list lacks a precise category.`,
+      `Use an explicit uncodable or owner-review state. Forcing every ticket into an existing category makes the dashboard complete at the cost of accuracy. An uncodable item should capture the candidate codes, conflict, evidence span, coder, and question for the taxonomy owner. Repeated uncodable patterns may justify a new definition, a routing change, or no taxonomy change at all. The owner decides after reviewing purpose and downstream effects.`,
+    ],
+  },
+  {
+    heading: 'Write inclusion and exclusion tests',
+    body: [
+      `Definitions should tell coders what observable evidence is sufficient. For “charged after cancellation,” inclusion might require a recorded cancellation request and a later charge event tied to the same account. Exclusions might cover a pending authorization, charge before the request, or a different account. Those exclusions do not decide whether the customer deserves a remedy; they keep one reporting label tied to one defined event shape.`,
+      `Build examples from redacted real cases: a direct match, a near miss, a multi-issue message, missing evidence, sarcasm or ambiguous language, and a case whose urgent route overrides ordinary coding. State whether multiple labels are permitted and whether one must be primary. If primary coding affects routing or reporting, define who may choose it. Avoid instructions to select the “main problem” unless the evidence rule says how.`,
+    ],
+  },
+  {
+    heading: 'Test independent coding before changing the codebook',
+    body: [
+      `Give two reviewers the same stratified sample, source snapshot, and codebook version. Ask them to code independently and record evidence, confidence, and any stop reason. Compare exact agreement, multi-label differences, uncodable rates, and disagreements by label. A single agreement percentage can hide that routine delivery questions are stable while sensitive complaint categories are not. Preserve the first readings before discussion.`,
+      `Classify disagreement as unclear definition, overlapping categories, missing evidence, coder error, source visibility, or owner decision. Repair the cause that the evidence supports. A better example can address a boundary problem; training can address a demonstrated reading error; a new owner rule can resolve a policy gap. Do not force consensus and then report the consensus result as independent reliability.`,
+    ],
+  },
+  {
+    heading: 'Version changes and protect historical meaning',
+    body: [
+      `A taxonomy change needs a proposal, reason, affected labels, examples, downstream consumers, approval, effective time, migration rule, and rollback path. Adding or renaming a code can break routing, dashboards, service commitments, saved searches, and quality sampling. The maintenance role inventories those dependencies and prepares test cases. It does not decide that reporting continuity is less important than a simpler label set.`,
+      `Choose whether historical tickets retain the code used at event time or receive an approved backfill. If backfilling, preserve the original code, new code, rule version, actor, time, and evidence. Sample changes before running them broadly. A keyword replacement is not a safe migration when customer language has several meanings. Reports spanning versions should state whether results were restated and which definition controls each period.`,
+    ],
+  },
+  {
+    heading: 'Keep coding separate from customer decisions',
+    body: [
+      `The specialist may assign labels under an approved rule, flag ambiguity, link duplicates, and route exceptions. The role must not decide liability, fraud, legal meaning, customer intent, safety response, compensation, refund, policy exception, or final communication. Put those limits into the codebook where the difficult case occurs. A category called “fraud” can encourage an unsupported conclusion; “fraud-review signal” with observable triggers better preserves the owner boundary.`,
+      `Restrict access to the minimum customer information needed for coding and routing. Use named accounts and retain change history. Do not copy customer messages into a taxonomy spreadsheet when a secure case link and evidence span will do. The Philippine National Privacy Commission’s Data Privacy Act is an official reference, but accountable owners must set the applicable handling, retention, legal, and contractual rules.`,
+    ],
+  },
+  {
+    heading: 'Monitor drift without chasing the dashboard',
+    body: [
+      `Sample new tickets by channel, issue family, coder, automation path, and exception state. Track uncodable rate, independent agreement, corrected codes, routing reversals, multi-label frequency, version coverage, and missing source evidence. Changes in customer mix or products can move label shares without a coding problem. Conversely, stable shares can hide agents copying defaults. Review cases, not percentages alone.`,
+      `Begin with one support queue and a frozen codebook. Recode a historical sample, repair definitions, then open a small live batch with same-day review. Expand only when ordinary cases are consistent, ambiguous cases stop safely, and reports identify the rule version. OutsourcedCompany.com can help define the Philippines-based customer experience support role while policy, safety, liability, remedy, and taxonomy approval remain with the company.`,
+    ],
+  },
+];
+
 export const blogDetails2026_10_02 = {
   'philippines-outsourcing-sales-commission-statement-preparation': {
     updated: '2026-10-02',
@@ -420,5 +477,26 @@ export const blogDetails2026_10_02 = {
       { question: 'Should reopened work count as completed?', answer: 'Use the buyer-approved definition and show reopening separately. The administrator should not choose the treatment.' },
     ],
     relatedLinks: [{ label: 'Explore vendor administration support', href: '/services/vendor-administration' }, { label: 'Request an operations brief', href: '/contact-us' }],
+  },
+  'philippines-outsourcing-support-ticket-taxonomy-maintenance': {
+    updated: '2026-10-02', datePublished: '2026-10-02', marker: 'daily-blog-2026-10-02-support-ticket-taxonomy-maintenance',
+    takeaway: 'Maintain versioned, evidence-based labels while preserving customer language and keeping policy, liability, safety, and remedy decisions with accountable owners.',
+    comparison: [
+      { weak: 'Every ticket must fit one category.', strong: 'Provide an uncodable state, retain candidate codes and evidence, and route the definition question.' },
+      { weak: 'Rename labels and update the dashboard.', strong: 'Map routing, automation, sampling, saved-search, and historical-report dependencies before approving a versioned change.' },
+    ],
+    sections: taxonomySections,
+    script: ['What decision or report does each label support?', 'Which evidence includes and excludes a case?', 'How are disagreements and uncodable cases preserved?', 'Who approves definitions, routing effects, policy conclusions, and customer remedies?'],
+    sources: [
+      { name: 'NIST: Data Integrity', note: 'Official resources relevant to preserving trustworthy data and change history.', url: 'https://csrc.nist.gov/projects/data-security' },
+      { name: 'AAPOR Transparency Initiative', note: 'Transparency principles relevant to reporting definitions, methods, and limitations.', url: 'https://aapor.org/standards-and-ethics/transparency-initiative/' },
+      { name: 'Philippine National Privacy Commission: Data Privacy Act of 2012', note: 'Official privacy resource relevant to customer case information.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+    ],
+    faqs: [
+      { question: 'Should every ticket receive exactly one label?', answer: 'No. Use the approved multi-label rule and retain an uncodable path when evidence does not support a current definition.' },
+      { question: 'Can the specialist create a new category?', answer: 'The specialist may document a recurring gap and prepare examples, but the accountable taxonomy owner approves definitions and downstream changes.' },
+      { question: 'Does agreement prove the taxonomy is correct?', answer: 'No. Review source evidence, definition validity, important disagreements, and whether both coders could share the same mistaken interpretation.' },
+    ],
+    relatedLinks: [{ label: 'Explore customer experience support', href: '/services/customer-experience-support' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
 } as const;
