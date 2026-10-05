@@ -20,4 +20,4 @@ Maximum pairwise five-word-shingle Jaccard overlap is **0.242%**, between offer-
 
 ## Integrator gates
 
-OUTA-80 must replace provisional date and local-commit placeholders with the true combined commit and first-live date before its sole push; validate source/body paragraph and hash equality after integration; verify the image over HTTP including MIME, signature and decode; check every contextual and authoritative destination; and then rely on the browser operator for exact-SHA deployment. Public verification remains pending by contract.
+OUTA-80 must replace provisional date and local content-commit references with the true combined commit and first-live date before its sole push; validate source/body paragraph and hash equality after integration; verify the image over HTTP including MIME, signature and decode; check every contextual and authoritative destination; and then rely on the browser operator for exact-SHA deployment. Public verification remains pending by contract.
