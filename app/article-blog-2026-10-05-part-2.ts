@@ -131,7 +131,7 @@ const deliverableSections: Section[] = [
   },
 ];
 
-const publicationDate = 'PENDING_PUBLICATION_DATE';
+const publicationDate = '2026-10-05';
 
 export const blogDetails2026_10_05_part2 = {
   'philippines-outsourcing-subscription-cancellation-evidence-packet': {

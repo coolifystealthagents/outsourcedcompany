@@ -116,7 +116,7 @@ const knowledgeRetirementSections: Section[] = [
   },
 ];
 
-const publicationDate = 'PENDING_PUBLICATION_DATE';
+const publicationDate = '2026-10-05';
 
 export const blogDetails2026_10_05_part1 = {
   'philippines-outsourcing-customer-profile-correction-evidence': {

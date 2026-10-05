@@ -131,7 +131,7 @@ const invoiceCompletenessSections: Section[] = [
   },
 ];
 
-const publicationDate = 'PENDING_PUBLICATION_DATE';
+const publicationDate = '2026-10-05';
 
 export const blogDetails2026_10_05_part3 = {
   'philippines-outsourcing-employee-equipment-return-coordination': {
