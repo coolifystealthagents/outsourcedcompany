@@ -37,7 +37,8 @@ function paragraphChunks(body: string | readonly string[]) {
   const paragraphs: readonly string[] = typeof body === 'string' ? [body] : body;
 
   return paragraphs.flatMap((paragraph: string) => {
-    const sentences = paragraph.match(/[^.!?]+[.!?]+(?:["']|$)?|[^.!?]+$/g)?.map((sentence: string) => sentence.trim()) ?? [paragraph];
+    const protectedParagraph = paragraph.replaceAll('OutsourcedCompany.com', 'OutsourcedCompany\uE000com');
+    const sentences = protectedParagraph.match(/[^.!?]+[.!?]+(?:["'”’]|$)?|[^.!?]+$/g)?.map((sentence: string) => sentence.trim().replaceAll('\uE000', '.')) ?? [paragraph];
     const chunks: string[] = [];
 
     let index = 0;

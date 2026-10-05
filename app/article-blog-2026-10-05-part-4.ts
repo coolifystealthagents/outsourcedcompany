@@ -90,7 +90,7 @@ const listingSections: Section[] = [
     body: [
       `Track listings sampled, discrepancies by field and consequence, source-complete corrections, owner waits, successful renders, feed reversions, variant spillover, customer-impact reviews, and reopened cases. Show the eligible listing population and sampling method. A low discrepancy count can mean narrow coverage, while a high count may trace to one mapping defect rather than many editorial errors. Sample apparent passes and compare several variants so inherited mistakes do not evade the review.`,
       `Preserve an impact window for every consequential discrepancy. Record the first supported observation, last known correct state when available, correction time, affected orders or sessions identified by the approved method, and the owner who decides follow-up. Do not estimate exposure from page traffic alone or contact customers without authorization. When the start cannot be established, state that limitation. This window gives commercial, customer, safety, and legal owners a reproducible population without turning the catalog administrator into the decision maker.`,
-      `Pilot with a text field, image, compatibility claim, multi-variant attribute, price or offer, and safety-routed field. Include one channel constraint and one feed reversion. Ask a relief administrator to reconstruct the approved source and customer-facing result. OutsourcedCompany.com can help staff the Philippines-based catalog evidence lane. Your company retains product facts, claims, pricing, promotion, compatibility, safety, warranty, remedies, and release decisions. Expand when corrections survive the normal feed cycle and every public value can be traced to an approved field owner.`,
+      `Pilot with a text field, image, compatibility claim, multi-variant attribute, price or offer, and safety-routed field. Include one channel constraint and one feed reversion. Ask a relief administrator to reconstruct the approved source and customer-facing result. Retest a previously corrected variant after the next full catalog publication, because delayed inheritance can restore a stale value after the first verification. OutsourcedCompany.com can help staff the Philippines-based catalog evidence lane. Your company retains product facts, claims, pricing, promotion, compatibility, safety, warranty, remedies, and release decisions. Expand when corrections survive the normal feed cycle and every public value can be traced to an approved field owner.`,
     ],
   },
 ];
@@ -148,9 +148,9 @@ export const blogDetails2026_10_05_part4 = {
     sections: suppressionSections,
     script: ['What source event and scope created the suppression?', 'Which precedence rule governs conflicting or later events?', 'Which live and derived audiences must change?', 'Who decides consent, categories, legal interpretation, campaigns, and remedies?'],
     sources: [
-      { name: 'FTC: CAN-SPAM Act Compliance Guide for Business', note: 'Official guidance relevant to commercial email and opt-out handling.', url: 'https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business' },
+      { name: 'eCFR: CAN-SPAM Rule', note: 'Official regulatory text relevant to commercial email and opt-out handling.', url: 'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-316' },
       { name: 'NIST Privacy Framework', note: 'Official framework for managing privacy risk and data processing.', url: 'https://www.nist.gov/privacy-framework' },
-      { name: 'Philippine National Privacy Commission: Data Privacy Act', note: 'Official privacy resource relevant to personal information and preferences.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+      { name: 'Lawphil: Republic Act No. 10173', note: 'Official text of the Philippine Data Privacy Act relevant to personal information and preferences.', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html' },
     ],
     faqs: [
       { question: 'Does every opt-out suppress every message?', answer: 'Not automatically. Apply the approved scope and communication-category rules without narrowing the customer’s request.' },
@@ -169,7 +169,7 @@ export const blogDetails2026_10_05_part4 = {
     sections: listingSections,
     script: ['Which authoritative owner and source govern this field?', 'Which variants, locales, and channels inherit the value?', 'What correction and rollback did the owner approve?', 'Who decides claims, compatibility, price, safety, warranty, remedy, and release?'],
     sources: [
-      { name: 'FTC: Advertising and Marketing Basics', note: 'Official guidance relevant to truthful product claims and offers.', url: 'https://www.ftc.gov/business-guidance/advertising-marketing' },
+      { name: 'eCFR: Guides Against Deceptive Pricing', note: 'Official regulatory guidance relevant to truthful product price representations.', url: 'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-233' },
       { name: 'U.S. Consumer Product Safety Commission: Business Guidance', note: 'Official product-safety resources for businesses.', url: 'https://www.cpsc.gov/Business--Manufacturing/Business-Education' },
       { name: 'W3C Web Content Accessibility Guidelines 2.2', note: 'Authoritative accessibility standard relevant to customer-facing content and images.', url: 'https://www.w3.org/TR/WCAG22/' },
     ],
@@ -191,8 +191,8 @@ export const blogDetails2026_10_05_part4 = {
     script: ['Which incident source supports every proposed sentence?', 'Which customers and channels are actually affected?', 'When is the next approved update independent of recovery?', 'Who owns cause, forecasts, security, remedies, notices, and closure?'],
     sources: [
       { name: 'NIST SP 800-61 Rev. 2', note: 'Official incident-handling guidance relevant to coordinated response and communication.', url: 'https://csrc.nist.gov/pubs/sp/800/61/r2/final' },
-      { name: 'CISA: Incident Response', note: 'Official incident-response resources relevant to coordinated organizational action.', url: 'https://www.cisa.gov/topics/cyber-threats-and-advisories/incident-detection-response' },
-      { name: 'FTC: Data Breach Response Guide for Business', note: 'Official business guidance relevant when an incident may involve personal information.', url: 'https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business' },
+      { name: 'CISA: Cyber Threats and Response', note: 'Official incident-response resources relevant to coordinated organizational action.', url: 'https://www.cisa.gov/topics/cyber-threats-and-response' },
+      { name: 'NIST SP 800-61 Rev. 2', note: 'Official incident-handling guidance relevant when an incident may involve information systems.', url: 'https://csrc.nist.gov/pubs/sp/800/61/r2/final' },
     ],
     faqs: [
       { question: 'Can support estimate recovery from engineering activity?', answer: 'No. Publish only an authorized forecast or a factual next-update time.' },

@@ -88,7 +88,7 @@ const returnsInspectionSections: Section[] = [
     heading: 'Audit correspondence from receipt to disposition',
     body: [
       `Useful measures include received units, identity-complete records, missing required views, inspection age, safety stops, owner waiting, disposition reversals, inventory mismatches, remedy mismatches, and reopened customer cases. Report denominators by product class because a mixed queue can make improvement or decline meaningless. Sample apparent passes, not only exceptions. A process can produce consistent forms while repeatedly accepting the wrong serial or using an outdated inspection guide. Review disagreements by cause and repair the identifier, example, permission, or guide instead of treating every difference as a training problem.`,
-      `Pilot with a deliberately varied set: intact item, missing accessory, serial mismatch, carrier-damage allegation, partial multi-item return, and safety stop. Trace each through custody, inspection, owner decision, inventory event, and customer remedy. OutsourcedCompany.com can help staff the Philippines-based evidence and coordination lane. The company keeps authority over refunds, fraud review, warranty interpretation, product safety, resale, repair, disposal, and accounting. The process is ready to expand when relief staff can reconstruct each unit without private explanation and every consequential action points to an attributable owner decision.`,
+      `Pilot with a deliberately varied set: intact item, missing accessory, serial mismatch, carrier-damage allegation, partial multi-item return, and safety stop. Trace each through custody, inspection, owner decision, inventory event, and customer remedy. Reopen one closed sample after adding new evidence to confirm the process preserves the former decision and records the authorized revision separately. OutsourcedCompany.com can help staff the Philippines-based evidence and coordination lane. The company keeps authority over refunds, fraud review, warranty interpretation, product safety, resale, repair, disposal, and accounting. The process is ready to expand when relief staff can reconstruct each unit without private explanation and every consequential action points to an attributable owner decision.`,
     ],
   },
 ];
@@ -144,9 +144,9 @@ export const blogDetails2026_10_05_part2 = {
     sections: cancellationSections,
     script: ['What exact outcome did the customer request?', 'Which clock, terms version, and verification rule apply?', 'Which systems must reflect the authorized outcome?', 'Who decides refunds, retention, exceptions, disputes, and privacy requests?'],
     sources: [
-      { name: 'FTC: Negative Option Rule', note: 'Official rule and related materials concerning recurring offers and cancellation.', url: 'https://www.ftc.gov/legal-library/browse/rules/negative-option-rule' },
-      { name: 'FTC: Advertising and Marketing Basics', note: 'Official business guidance relevant to customer-facing subscription representations.', url: 'https://www.ftc.gov/business-guidance/advertising-marketing' },
-      { name: 'Philippine National Privacy Commission: Data Privacy Act', note: 'Official privacy resource relevant to customer and account information.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+      { name: 'eCFR: Negative Option Rule', note: 'Official regulatory text concerning recurring offers and cancellation.', url: 'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-425' },
+      { name: 'eCFR: Guides Against Deceptive Pricing', note: 'Official regulatory guidance relevant to customer-facing price representations.', url: 'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-233' },
+      { name: 'Lawphil: Republic Act No. 10173', note: 'Official text of the Philippine Data Privacy Act relevant to customer and account information.', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html' },
     ],
     faqs: [
       { question: 'Does cancellation automatically require a refund?', answer: 'No. Record cancellation and remedy as separate states governed by the applicable approved rules and owner decisions.' },
@@ -165,9 +165,9 @@ export const blogDetails2026_10_05_part2 = {
     sections: returnsInspectionSections,
     script: ['How is the physical unit tied to the authorization and parcel?', 'Which observations and images does this product class require?', 'What signals trigger a safety or identity stop?', 'Who decides refund, fraud, warranty, resale, repair, disposal, and inventory treatment?'],
     sources: [
-      { name: 'FTC: Mail, Internet, or Telephone Order Merchandise Rule', note: 'Official business guidance relevant to order fulfillment and customer commitments.', url: 'https://www.ftc.gov/business-guidance/resources/business-guide-ftcs-mail-internet-or-telephone-order-merchandise-rule' },
+      { name: 'eCFR: Mail, Internet, or Telephone Order Merchandise Rule', note: 'Official regulatory text relevant to order fulfillment and customer commitments.', url: 'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435' },
       { name: 'U.S. Consumer Product Safety Commission: Business Guidance', note: 'Official safety resources for businesses handling consumer products.', url: 'https://www.cpsc.gov/Business--Manufacturing/Business-Education' },
-      { name: 'Philippine National Privacy Commission: Data Privacy Act', note: 'Official privacy resource relevant to customer-linked media and records.', url: 'https://privacy.gov.ph/data-privacy-act/' },
+      { name: 'Lawphil: Republic Act No. 10173', note: 'Official text of the Philippine Data Privacy Act relevant to customer-linked media and records.', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html' },
     ],
     faqs: [
       { question: 'Can a photograph prove who caused damage?', answer: 'Usually not. It records visible condition in context; cause and remedy require other evidence and accountable judgment.' },
@@ -188,7 +188,7 @@ export const blogDetails2026_10_05_part2 = {
     sources: [
       { name: 'U.S. National Archives: Records Management', note: 'Official guidance relevant to versioned, attributable business records.', url: 'https://www.archives.gov/records-mgmt' },
       { name: 'NIST Risk Management Framework', note: 'Official framework relevant to controlled decisions, accountability, and evidence.', url: 'https://csrc.nist.gov/projects/risk-management/about-rmf' },
-      { name: 'ISO: Plain language', note: 'Official overview relevant to clear working descriptions and review communication.', url: 'https://www.iso.org/plain-language' },
+      { name: 'Digital.gov: Plain Language Guide', note: 'Official U.S. government guidance relevant to clear working descriptions and review communication.', url: 'https://digital.gov/guides/plain-language' },
     ],
     faqs: [
       { question: 'Can the coordinator mark a deliverable accepted?', answer: 'Only when recording an attributable decision from the authorized acceptance owner; the coordinator does not make that judgment.' },
