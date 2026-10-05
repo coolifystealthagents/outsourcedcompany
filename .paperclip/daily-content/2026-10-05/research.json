@@ -1,22 +1,106 @@
 {
-  "run": "OUTA-79 October 5 combined release Research handoff",
-  "family": "research",
-  "required": 5,
-  "cycleLabel": "2026-10-05",
+  "cycle": "2026-10-05",
   "publicationDate": "2026-10-05",
-  "publicationDateStatus": "provisional; OUTA-80 must reconcile to actual first live verification before the sole push",
   "timezone": "Etc/UTC",
   "repository": "coolifystealthagents/outsourcedcompany",
   "productionBranch": "main",
   "baseSha": "90663845b24b84d5da7e34a4d64d33d3aee8c48a",
-  "contentCommit": "4d0278eb4603a7ee1cc9fc280282f8a4eade64d1",
+  "contentCommit": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+  "remoteSha": "PENDING_SOLE_PUSH_SHA",
   "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2 (browser operator owned)",
-  "deploymentStatus": "Research handoff only; not pushed or deployed",
+  "deploymentStatus": "not submitted; browser operator owns deployment",
+  "family": "research",
+  "required": 5,
   "articles": [
-    {"family":"research","topic":"accounts-payable duplicate-invoice review","slug":"philippines-outsourcing-duplicate-invoice-review-research","bodyWords":1324,"sources":["https://www.gao.gov/greenbook","https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final","https://privacy.gov.ph/data-privacy-act/","https://www.ipp.gov/"],"contentHash":"79f00f62e0a5423dd46ef7e7a7a0d88aec34148504078e8fe43165deb0fd17a7","publicationDate":"2026-10-05","commitSha":"4d0278eb4603a7ee1cc9fc280282f8a4eade64d1","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-duplicate-invoice-review-research","verification":"local_render_validated_handoff_pending"},
-    {"family":"research","topic":"recruitment offer-approval latency","slug":"philippines-outsourcing-offer-approval-latency-research","bodyWords":1240,"sources":["https://www.gao.gov/greenbook","https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final","https://privacy.gov.ph/data-privacy-act/","https://www.eeoc.gov/prohibited-employment-policiespractices"],"contentHash":"a22a631845408fb4f4acbe5bed8fccd45a99a488619f1a3dbea38283ccd80d6a","publicationDate":"2026-10-05","commitSha":"4d0278eb4603a7ee1cc9fc280282f8a4eade64d1","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-offer-approval-latency-research","verification":"local_render_validated_handoff_pending"},
-    {"family":"research","topic":"vendor insurance-certificate exception readiness","slug":"philippines-outsourcing-vendor-insurance-certificate-exception-research","bodyWords":1204,"sources":["https://www.gao.gov/greenbook","https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final","https://privacy.gov.ph/data-privacy-act/","https://www.dfs.ny.gov/apps_and_licensing/insurance_companies/certificates_of_insurance"],"contentHash":"20c70ff9c2689190387b594ca185b63b28bf0791fe439e714ffb3edc0dd9e764","publicationDate":"2026-10-05","commitSha":"4d0278eb4603a7ee1cc9fc280282f8a4eade64d1","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-vendor-insurance-certificate-exception-research","verification":"local_render_validated_handoff_pending"},
-    {"family":"research","topic":"product-return disposition consistency","slug":"philippines-outsourcing-return-disposition-consistency-research","bodyWords":1247,"sources":["https://www.gao.gov/greenbook","https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final","https://privacy.gov.ph/data-privacy-act/","https://www.cpsc.gov/Business--Manufacturing/Business-Education"],"contentHash":"091382bd7f45ac360030c3194151223e75800f63e4dd4f224ceaeb72e4a86c18","publicationDate":"2026-10-05","commitSha":"4d0278eb4603a7ee1cc9fc280282f8a4eade64d1","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-return-disposition-consistency-research","verification":"local_render_validated_handoff_pending"},
-    {"family":"research","topic":"project dependency-date reliability","slug":"philippines-outsourcing-dependency-date-reliability-research","bodyWords":1259,"sources":["https://www.gao.gov/greenbook","https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final","https://privacy.gov.ph/data-privacy-act/","https://csrc.nist.gov/projects/risk-management/about-rmf"],"contentHash":"4df01a73231f2c9a153c102c638b630143fb4b90be9c9d279faed321bb625229","publicationDate":"2026-10-05","commitSha":"4d0278eb4603a7ee1cc9fc280282f8a4eade64d1","liveUrl":"https://outsourcedcompany.com/research/philippines-outsourcing-dependency-date-reliability-research","verification":"local_render_validated_handoff_pending"}
+    {
+      "family": "research",
+      "topic": "Can duplicate-invoice review be prepared without transferring payment authority?",
+      "slug": "philippines-outsourcing-duplicate-invoice-review-research",
+      "sources": [
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.ipp.gov/"
+      ],
+      "bodyWords": 1282,
+      "contentHash": "3adc78511e41bdf53af4dbd4bc296ea99cd506dbdb239a6604a5ed2f9d702152",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-duplicate-invoice-review-research",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Where does offer approval time actually accumulate?",
+      "slug": "philippines-outsourcing-offer-approval-latency-research",
+      "sources": [
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.eeoc.gov/prohibited-employment-policiespractices"
+      ],
+      "bodyWords": 1205,
+      "contentHash": "ed53b2cde69272629b2f00be81ddfff8bedad8ca3ea461da51513a554a127190",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-offer-approval-latency-research",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "When is a vendor insurance-certificate exception ready for owner review?",
+      "slug": "philippines-outsourcing-vendor-insurance-certificate-exception-research",
+      "sources": [
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.dfs.ny.gov/apps_and_licensing/insurance_companies/certificates_of_insurance"
+      ],
+      "bodyWords": 1265,
+      "contentHash": "ee4cf4ae4dc7f9f35a459ae9903fcd24f7a8c62b1ab0d86da8515e842137d854",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-vendor-insurance-certificate-exception-research",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Are product-return dispositions supported by consistent evidence?",
+      "slug": "philippines-outsourcing-return-disposition-consistency-research",
+      "sources": [
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://www.cpsc.gov/Business--Manufacturing/Business-Education"
+      ],
+      "bodyWords": 1211,
+      "contentHash": "dfc67c91298dc3ef614b55363493851ad39414085cf003295a1a51e220c51096",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-return-disposition-consistency-research",
+      "verificationTime": null
+    },
+    {
+      "family": "research",
+      "topic": "Can project dependency dates survive evidence-based handoff?",
+      "slug": "philippines-outsourcing-dependency-date-reliability-research",
+      "sources": [
+        "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html",
+        "https://csrc.nist.gov/projects/risk-management/about-rmf"
+      ],
+      "bodyWords": 1221,
+      "contentHash": "840f0115a67076cea423bb748dc6ca5ee723f34bc0c623af378afa72e58a1935",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/research/philippines-outsourcing-dependency-date-reliability-research",
+      "verificationTime": null
+    }
   ]
 }

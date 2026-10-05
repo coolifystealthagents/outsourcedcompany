@@ -1,0 +1,220 @@
+{
+  "cycle": "2026-10-05",
+  "publicationDate": "2026-10-05",
+  "timezone": "Etc/UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "baseSha": "90663845b24b84d5da7e34a4d64d33d3aee8c48a",
+  "contentCommit": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+  "remoteSha": "PENDING_SOLE_PUSH_SHA",
+  "deploymentResource": "Coolify3 application o13azcn9e2t9zki35hl07dt2 (browser operator owned)",
+  "deploymentStatus": "not submitted; browser operator owns deployment",
+  "family": "blog",
+  "required": 12,
+  "articles": [
+    {
+      "family": "blog",
+      "topic": "Prepare customer profile corrections without outsourcing identity decisions",
+      "slug": "philippines-outsourcing-customer-profile-correction-evidence",
+      "sources": [
+        "https://www.identitytheft.gov/",
+        "https://www.nist.gov/privacy-framework",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+      ],
+      "bodyWords": 910,
+      "contentHash": "e3fdf40206e129f188a0f8b0d763ff3c4431050af3c92eb1d72d1edf16297d5a",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-customer-profile-correction-evidence",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Track supplier insurance certificates without outsourcing coverage decisions",
+      "slug": "philippines-outsourcing-supplier-insurance-certificate-tracking",
+      "sources": [
+        "https://csrc.nist.gov/projects/cyber-supply-chain-risk-management",
+        "https://www.sba.gov/business-guide/manage-your-business",
+        "https://www.archives.gov/records-mgmt"
+      ],
+      "bodyWords": 911,
+      "contentHash": "b976b3f3245171dcda8f76c9679bec44f4e75891938fc9f39043269a00920273",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-supplier-insurance-certificate-tracking",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Retire stale knowledge-base articles with outsourced content operations",
+      "slug": "philippines-outsourcing-knowledge-base-article-retirement",
+      "sources": [
+        "https://designsystem.digital.gov/documentation/",
+        "https://www.w3.org/TR/WCAG22/",
+        "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+      ],
+      "bodyWords": 918,
+      "contentHash": "4d9dfa186e48117c4a940060981bf551d5854d2307cc915f869e346961398358",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-knowledge-base-article-retirement",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Prepare subscription cancellation evidence without outsourcing remedy decisions",
+      "slug": "philippines-outsourcing-subscription-cancellation-evidence-packet",
+      "sources": [
+        "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-425",
+        "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-233",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+      ],
+      "bodyWords": 908,
+      "contentHash": "bd9f5198a73860deea1fab4dc8d7db62d8e22294bf060e89ff9247436a83a16d",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-subscription-cancellation-evidence-packet",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Capture returns inspection evidence with outsourced ecommerce support",
+      "slug": "philippines-outsourcing-returns-inspection-evidence-capture",
+      "sources": [
+        "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435",
+        "https://www.cpsc.gov/Business--Manufacturing/Business-Education",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+      ],
+      "bodyWords": 908,
+      "contentHash": "3514ffe9c5364102f5b7cf24863efd2b13bb12610aa2044de0739f7c8525ee04",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-returns-inspection-evidence-capture",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Run a contract deliverable acceptance register with outsourced coordination",
+      "slug": "philippines-outsourcing-contract-deliverable-acceptance-register",
+      "sources": [
+        "https://www.archives.gov/records-mgmt",
+        "https://csrc.nist.gov/projects/risk-management/about-rmf",
+        "https://digital.gov/guides/plain-language"
+      ],
+      "bodyWords": 902,
+      "contentHash": "494bd8c1d95c979ebb4464e6422f9ec18db0ca2b28ce84dee7996daac9516864",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-contract-deliverable-acceptance-register",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Coordinate employee equipment returns without outsourcing sensitive decisions",
+      "slug": "philippines-outsourcing-employee-equipment-return-coordination",
+      "sources": [
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.dol.gov/agencies/whd/fact-sheets/16-flsa-wage-deductions",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+      ],
+      "bodyWords": 905,
+      "contentHash": "b32443289ede4f3e507e4dd7e3116a6a0ae8e0141ee4aa5b845d8846c984b1f3",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-employee-equipment-return-coordination",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Prepare order-hold release packets with outsourced ecommerce support",
+      "slug": "philippines-outsourcing-order-hold-release-packet",
+      "sources": [
+        "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435",
+        "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+        "https://pages.nist.gov/800-63-4/"
+      ],
+      "bodyWords": 905,
+      "contentHash": "9fe945dd89c71a05ee696f773752c5a383dc58efbbdf83fbe7d98e9230af465e",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-order-hold-release-packet",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Check invoice supporting-document completeness without approving spend",
+      "slug": "philippines-outsourcing-invoice-supporting-document-completeness",
+      "sources": [
+        "https://www.irs.gov/businesses/small-businesses-self-employed/recordkeeping",
+        "https://www.archives.gov/records-mgmt",
+        "https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"
+      ],
+      "bodyWords": 910,
+      "contentHash": "adef028de83db8bf9fa2b51bb07aec256649d6b47fb972824c6df7b0672e6387",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-invoice-supporting-document-completeness",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Synchronize marketing suppression lists with outsourced operations support",
+      "slug": "philippines-outsourcing-marketing-suppression-list-synchronization",
+      "sources": [
+        "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-316",
+        "https://www.nist.gov/privacy-framework",
+        "https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html"
+      ],
+      "bodyWords": 926,
+      "contentHash": "83882a92c98bef0c3a85449cb3e49899b0be972b9380d40ef99ac1170eb71b57",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-marketing-suppression-list-synchronization",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Resolve marketplace listing discrepancies without inventing product facts",
+      "slug": "philippines-outsourcing-marketplace-listing-attribute-discrepancy",
+      "sources": [
+        "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-233",
+        "https://www.cpsc.gov/Business--Manufacturing/Business-Education",
+        "https://www.w3.org/TR/WCAG22/"
+      ],
+      "bodyWords": 911,
+      "contentHash": "649eef3136ed7d3057f4a4b8e5bcdaf51b259579b881497d4add1f7e527c949b",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-marketplace-listing-attribute-discrepancy",
+      "verificationTime": null
+    },
+    {
+      "family": "blog",
+      "topic": "Coordinate customer updates during a service outage with outsourced support",
+      "slug": "philippines-outsourcing-service-outage-customer-update-coordination",
+      "sources": [
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final",
+        "https://www.cisa.gov/topics/cyber-threats-and-response",
+        "https://csrc.nist.gov/pubs/sp/800/61/r2/final"
+      ],
+      "bodyWords": 972,
+      "contentHash": "c7852a0f1b39ef641a8fbf280b4d4590f0502007cd7ac55cdc9037e58d01998f",
+      "publicationDate": "2026-10-05",
+      "commitSha": "18f441126c574b549374d40f1bb8bfc57df96ef3",
+      "deploymentEvidence": "browser operator pending",
+      "liveUrl": "https://outsourcedcompany.com/blog/philippines-outsourcing-service-outage-customer-update-coordination",
+      "verificationTime": null
+    }
+  ]
+}
