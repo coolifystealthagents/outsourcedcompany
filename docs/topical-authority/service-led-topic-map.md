@@ -9,7 +9,7 @@
 | Back-office operations | Set up a repeatable operations queue with written owner limits. | `/research/philippines-outsourcing-onboarding-evidence-sufficiency` | Explain how a buyer can move from a reviewed handoff sample to a narrowly scoped operations lane. | Delivered locally; non-duplicable (rendered source: `c45f5413f9824eb15c13e813477f0a4cab060ab0`) |
 | Back-office operations research | Test whether a handoff record gives the next reviewer enough source-linked information to act. | `/research/philippines-outsourcing-september-14-handoff-field-utility-study` | After a buyer registers one recurring queue and its evidence rules, offer the existing Back-Office Operations service as the next staffing discussion. | Delivered locally; public verification pending (rendered source: `f54953fc40da5ab35e155d9ea51158b3ae532da7`). |
 | Executive administration | Coordinate meetings without creating commitments by accident. | `/blog/philippines-outsourcing-calendar-coordination-controls` | Help a reader turn calendar controls into an executive administration brief. | Delivered locally; public verification pending (rendered source: `9df34c4f321519a0b0c135ce1eb5feca885a9f63`) |
-| Customer experience support | Triage a customer complaint while preserving remedy and safety decisions for the owner. | `/research/philippines-outsourcing-customer-complaint-triage` | Send readers who need a staffed triage lane to the matching service page. | Verified absent locally; selected for record-level handoff review |
+| Customer experience support | Triage a customer complaint while preserving remedy and safety decisions for the owner. | `/research/philippines-outsourcing-customer-complaint-triage` | Send readers who need a staffed triage lane to the matching service page. | Delivered locally; public verification pending (rendered source: `90663845b24b84d5da7e34a4d64d33d3aee8c48a`) |
 | Sales administration | Keep CRM changes traceable and reversible. | `/blog/outsourcing-philippines-crm-field-governance` | Give a buyer a sales-administration next step after field rules and ownership are clear. | Candidate for a route-local handoff |
 | Finance operations support | Prepare invoice differences without approving payment or changing supplier details. | `/blog/philippines-outsourcing-invoice-exception-preparation` | Move from an evidence packet to a bounded finance-operations staffing discussion. | Deferred: its separate metadata release is source-delivered but awaiting authorized public verification; do not combine or duplicate work. |
 | Recruitment coordination | Arrange interviews without making selection or employment decisions. | `/blog/outsourcing-philippines-recruitment-scheduling-handoffs` | Connect scheduling requirements to recruitment-coordination support. | Candidate for a route-local handoff |
@@ -20,20 +20,15 @@
 | Quality assurance support | Find the cause of a repeated operating error without treating a sample as a judgment about a worker. | `/research/philippines-outsourcing-exception-aging-evidence` | Help readers apply an exception-age review before choosing a QA support lane. | Delivered locally; non-duplicable (rendered source: `c45f5413f9824eb15c13e813477f0a4cab060ab0`) |
 | Marketing operations | Keep knowledge guidance current through source, reviewer, and effective-date checks. | `/blog/outsourcing-philippines-knowledge-article-maintenance` | Connect a controlled content-maintenance queue to marketing-operations support. | Candidate for a route-local handoff |
 
-## First execution candidate
+## Customer-experience handoff reconciliation — 2026-10-07
 
 **Route:** `/research/philippines-outsourcing-customer-complaint-triage`
 **Destination:** `/services/customer-experience-support`
-**Reader need:** The study helps an operations lead decide whether complaint intake has enough evidence and an escalation path. A reader who needs a staffed triage lane can then review the Philippines-based customer-experience service without handing remedy, safety, or final customer decisions to the support role.
+**Reader need:** The study helps an operations lead decide whether complaint intake has enough evidence and an escalation path. Readers who need a staffed triage lane can review the Philippines-based customer-experience service without giving remedy, safety, or final customer decisions to the support role.
 
-Fresh local artifact review on October 2, 2026 found one canonical artifact and one sitemap location for each route. The source route has zero `/services/customer-experience-support` anchors inside `<main>`, so this is a verified-absent candidate rather than a duplicate-CTA opportunity.
+Fresh local production artifacts confirm the rendered source commit `90663845b24b84d5da7e34a4d64d33d3aee8c48a` contains one task-specific Customer Experience Support link inside the source `<main>`. Both source and destination have one self-canonical artifact and sitemap location. The rendered handoff keeps refunds, legal and safety concerns, account sanctions, public responses, accessibility accommodations, and new promises with the internal owner.
 
-Before changing this public route, confirm all of the following from a clean, synchronized baseline:
-
-1. The typed research record supports a data-owned customer-experience destination without a slug-specific renderer exception.
-2. The destination still has the Philippines-only service scope, a route-specific canonical URL, matching Open Graph URL, and a sitemap entry.
-3. The article's real modified date, visible updated label where the template supports it, Article JSON-LD date, Open Graph metadata, and sitemap contract can be verified after the build.
-4. The handoff copy limits the role to intake, evidence collection, classification, and escalation; the authorized owner keeps remedies, safety decisions, and final customer commitments.
+This pair is delivered and non-duplicable. Its public state remains `deployment_pending_public_verification / public_stale`: the prior cache-busted apex and www probes had the expected H1 and canonical but not the new marker, href, or October 4 modified date. No repository-approved deployment target exists, so do not infer one or recreate this CTA.
 
 ## Metadata prerequisite status — 2026-09-14
 
