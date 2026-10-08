@@ -1,0 +1,83 @@
+{
+  "runDate": "2026-10-08",
+  "publicationDate": "2026-10-08",
+  "publicationTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "requiredBlogCount": 12,
+  "requiredResearchCount": 5,
+  "family": "research",
+  "requiredCount": 5,
+  "articles": [
+    {
+      "slug": "philippines-outsourcing-cross-functional-handoff-acceptance-study",
+      "title": "When does a cross-functional outsourced handoff become accepted?",
+      "bodyWords": 1223,
+      "contentHash": "4bfed56c5fd7d4ddbecfe0df7990bfab8d5be1395d0fd95af9fe0f10b8de38e7",
+      "image": "/images/operations-meeting.jpg",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/securebydesign",
+        "https://privacy.gov.ph/",
+        "https://www.w3.org/TR/WCAG22/"
+      ]
+    },
+    {
+      "slug": "philippines-outsourcing-supplier-change-evidence-study",
+      "title": "Which evidence makes a supplier master change decision-ready?",
+      "bodyWords": 1243,
+      "contentHash": "5b4833c8079ad4c23c0b6b4cccc5550814a9647c7e98cb3f231790a8773862e8",
+      "image": "/images/operations-meeting.jpg",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/securebydesign",
+        "https://privacy.gov.ph/",
+        "https://www.w3.org/TR/WCAG22/"
+      ]
+    },
+    {
+      "slug": "philippines-outsourcing-customer-checkpoint-delivery-study",
+      "title": "Do outsourced customer checkpoints arrive with a real next action?",
+      "bodyWords": 1245,
+      "contentHash": "0f7ac81edd221aa2e75f83dca6a7582878896048ef51c2026c2d7bdad435516e",
+      "image": "/images/operations-meeting.jpg",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/securebydesign",
+        "https://privacy.gov.ph/",
+        "https://www.w3.org/TR/WCAG22/"
+      ]
+    },
+    {
+      "slug": "philippines-outsourcing-access-revocation-evidence-study",
+      "title": "How can a buyer prove outsourced access was revoked?",
+      "bodyWords": 1244,
+      "contentHash": "94b7ca8029e71948eb852b1eec8b60a3923ed9a7ec31721e9fcb2243021c504d",
+      "image": "/images/operations-meeting.jpg",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/securebydesign",
+        "https://privacy.gov.ph/",
+        "https://www.w3.org/TR/WCAG22/"
+      ]
+    },
+    {
+      "slug": "philippines-outsourcing-operating-exception-aging-study",
+      "title": "Which outsourced operating exceptions age without accountable ownership?",
+      "bodyWords": 1223,
+      "contentHash": "38cedb413b55b54a3aa87a224599400eea348ac6f2f0764eeb5482b24b6d9886",
+      "image": "/images/operations-meeting.jpg",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.cisa.gov/securebydesign",
+        "https://privacy.gov.ph/",
+        "https://www.w3.org/TR/WCAG22/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "runDate": "2026-10-08",
+  "publicationDate": "2026-10-08",
+  "publicationTimezone": "UTC",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "productionBranch": "main",
+  "requiredBlogCount": 12,
+  "requiredResearchCount": 5,
+  "family": "blog",
+  "requiredCount": 12,
+  "articles": [
+    {
+      "slug": "philippines-outsourcing-customer-handoff-acceptance",
+      "title": "Verify Acceptance in Outsourced Customer Handoffs",
+      "bodyWords": 1857,
+      "contentHash": "52de8b1a236ce6c92fa23b9fa442aaf8a6666c6f0a2998f250131d88dcd01509",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-supplier-master-change-custody",
+      "title": "Control Custody for Supplier Master Changes",
+      "bodyWords": 2029,
+      "contentHash": "6d33a5b062c2be36ec3c32ffcb80e47b4e5e1198792c1e2d1725f640063df562",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-outsourced-invoice-exception-register",
+      "title": "Build an Invoice Exception Register for Outsourced Operations",
+      "bodyWords": 1887,
+      "contentHash": "eb68b578e68320770aaada3e9ef4a97da8496be7c021adce0e38e0b3f042f8fa",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-recruitment-interview-scheduling-boundary",
+      "title": "Set Boundaries for Outsourced Interview Scheduling",
+      "bodyWords": 1896,
+      "contentHash": "e6fa916de40744ca3cf4fce1bfdd560feae0aac1b39592bc5e01c80dd2c1d3ae",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-marketing-claim-source-register",
+      "title": "Maintain a Source Register for Outsourced Marketing Claims",
+      "bodyWords": 1874,
+      "contentHash": "bdee81754fd55fcfa1f1328aa29a729f8433d87296c67494e33b72995aa55daf",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-ecommerce-order-amendment-lineage",
+      "title": "Preserve Lineage for Ecommerce Order Amendments",
+      "bodyWords": 1857,
+      "contentHash": "e5d7a13129db58619e40ce2e6e98f4db521b3dbfc71fafe60ec9d65dcb4dd8b2",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-crm-duplicate-merge-approval",
+      "title": "Require Approval Before Outsourced CRM Record Merges",
+      "bodyWords": 1885,
+      "contentHash": "6ebf2cb4259324e80ea137f52b42478cdd1956f848dfb9c4d8f462f8de144bf2",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-project-status-evidence-checkpoint",
+      "title": "Use Evidence Checkpoints in Outsourced Project Status Reports",
+      "bodyWords": 1887,
+      "contentHash": "3c0dea5d463bf0f8e7aa4f6ff8396a935a4b20c06c37380d59afd2a31e85fc96",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-vendor-escalation-packet-standard",
+      "title": "Standardize Vendor Escalation Packets for Outsourced Teams",
+      "bodyWords": 1872,
+      "contentHash": "f98917372e3fc82fe8258454fec36d37f6830844992f21a491d2787904497405",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-data-export-retention-check",
+      "title": "Check Retention Before an Outsourced Data Export",
+      "bodyWords": 1859,
+      "contentHash": "2fa7f70c74df33ee8b890684872986eb8d5c2c51195c4fd167a6b3ae360b3f08",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-back-office-shift-handoff-register",
+      "title": "Use a Register for Back-Office Shift Handoffs",
+      "bodyWords": 1859,
+      "contentHash": "9193104361d299c1a11bc13613609e5537a5cc0299c31304a4f2cd914a6d0dfc",
+      "image": "/images/operations-meeting.jpg"
+    },
+    {
+      "slug": "philippines-outsourcing-outsourcing-access-removal-reconciliation",
+      "title": "Reconcile Access Removal After an Outsourcing Change",
+      "bodyWords": 1885,
+      "contentHash": "7d842c94eb7a256ffdfc5c1f8eeea3140f5f88a0a24dc8551446cff147fc2bb7",
+      "image": "/images/operations-meeting.jpg"
+    }
+  ]
+}
