@@ -172,14 +172,14 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </div>)}
           </section> : null}
 
-          <section className="cards" style={{ gridTemplateColumns: 'repeat(auto-fit,minmax(240px,1fr))', margin: '24px 0' }} aria-label="Weak and useful provider answers">
+          {Array.isArray(details.comparison) && details.comparison.length > 0 ? <section className="cards" style={{ gridTemplateColumns: 'repeat(auto-fit,minmax(240px,1fr))', margin: '24px 0' }} aria-label="Weak and useful provider answers">
             {details.comparison.map((row: any) => <div className="card" key={row.weak}>
               <p className="eyebrow">Weak answer</p>
               <p>"{row.weak}"</p>
               <p className="eyebrow">Useful answer</p>
               <p><strong>{row.strong}</strong></p>
             </div>)}
-          </section>
+          </section> : null}
 
           <div className="card">
             {details.sections.map((section: any) => <section key={section.heading} style={{ marginBottom: 22 }}>
