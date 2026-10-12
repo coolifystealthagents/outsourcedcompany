@@ -1,0 +1,140 @@
+{
+  "site": "OutsourcedCompany.com",
+  "date": "2026-10-12",
+  "blog": [
+    {
+      "slug": "philippines-outsourcing-cross-functional-request-intake",
+      "title": "Route Cross-Functional Requests Through One Outsourced Intake",
+      "route": "/blog/philippines-outsourcing-cross-functional-request-intake",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-cross-functional-request-intake.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-shared-services-coverage-calendar",
+      "title": "Build a Shared Services Coverage Calendar With Safe Fallbacks",
+      "route": "/blog/philippines-outsourcing-shared-services-coverage-calendar",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-shared-services-coverage-calendar.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-product-publish-approval-queue",
+      "title": "Control a Product Publish Approval Queue Across Outsourced Teams",
+      "route": "/blog/philippines-outsourcing-product-publish-approval-queue",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-product-publish-approval-queue.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-sales-quote-source-packet",
+      "title": "Prepare Sales Quote Source Packets Without Approving Commercial Terms",
+      "route": "/blog/philippines-outsourcing-sales-quote-source-packet",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-sales-quote-source-packet.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-customer-refund-exception-packet",
+      "title": "Assemble Customer Refund Exception Packets for Owner Decisions",
+      "route": "/blog/philippines-outsourcing-customer-refund-exception-packet",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-customer-refund-exception-packet.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-purchase-order-change-custody",
+      "title": "Preserve Custody for Purchase Order Changes in Outsourced Operations",
+      "route": "/blog/philippines-outsourcing-purchase-order-change-custody",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-purchase-order-change-custody.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-employee-leave-document-routing",
+      "title": "Route Employee Leave Documents Without Making Eligibility Decisions",
+      "route": "/blog/philippines-outsourcing-employee-leave-document-routing",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-employee-leave-document-routing.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-executive-action-reconciliation",
+      "title": "Reconcile Executive Meeting Actions Without Inventing Commitments",
+      "route": "/blog/philippines-outsourcing-executive-action-reconciliation",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-executive-action-reconciliation.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-marketing-asset-expiry-tracker",
+      "title": "Track Marketing Asset Expiry Across Channels and Owners",
+      "route": "/blog/philippines-outsourcing-marketing-asset-expiry-tracker",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-marketing-asset-expiry-tracker.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-marketplace-listing-rollback",
+      "title": "Design a Marketplace Listing Rollback for Outsourced Ecommerce Teams",
+      "route": "/blog/philippines-outsourcing-marketplace-listing-rollback",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-marketplace-listing-rollback.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-it-asset-return-custody",
+      "title": "Maintain IT Asset Return Custody for Distributed Teams",
+      "route": "/blog/philippines-outsourcing-it-asset-return-custody",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-it-asset-return-custody.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-facilities-vendor-handoff",
+      "title": "Standardize Facilities Vendor Handoffs Without Expanding Site Access",
+      "route": "/blog/philippines-outsourcing-facilities-vendor-handoff",
+      "source": "app/article-blog-2026-10-12.ts",
+      "thumbnail": "/oct12/company-blog/philippines-outsourcing-facilities-vendor-handoff.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "philippines-outsourcing-queue-fragmentation-study",
+      "title": "Queue Fragmentation Across Outsourced Company Functions",
+      "route": "/research/philippines-outsourcing-queue-fragmentation-study",
+      "source": "app/article-research-batch-2026-10-12.ts",
+      "thumbnail": "/oct12/company-research/philippines-outsourcing-queue-fragmentation-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-manager-clarification-load-study",
+      "title": "Manager Clarification Load in Outsourced Operations",
+      "route": "/research/philippines-outsourcing-manager-clarification-load-study",
+      "source": "app/article-research-batch-2026-10-12.ts",
+      "thumbnail": "/oct12/company-research/philippines-outsourcing-manager-clarification-load-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-source-completeness-decision-latency-study",
+      "title": "Source Completeness and Decision Latency in Outsourced Work",
+      "route": "/research/philippines-outsourcing-source-completeness-decision-latency-study",
+      "source": "app/article-research-batch-2026-10-12.ts",
+      "thumbnail": "/oct12/company-research/philippines-outsourcing-source-completeness-decision-latency-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-backup-readiness-independence-study",
+      "title": "Independent Backup Readiness for Outsourced Company Work",
+      "route": "/research/philippines-outsourcing-backup-readiness-independence-study",
+      "source": "app/article-research-batch-2026-10-12.ts",
+      "thumbnail": "/oct12/company-research/philippines-outsourcing-backup-readiness-independence-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-rework-displacement-study",
+      "title": "Rework Displacement Between Outsourced and Internal Teams",
+      "route": "/research/philippines-outsourcing-rework-displacement-study",
+      "source": "app/article-research-batch-2026-10-12.ts",
+      "thumbnail": "/oct12/company-research/philippines-outsourcing-rework-displacement-study.webp"
+    }
+  ],
+  "registries": [
+    "app/data.ts"
+  ],
+  "routes": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexes": [
+    "app/blog/page.tsx",
+    "app/blog/page/[page]/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sitemap": "app/sitemap.xml/route.ts"
+}
