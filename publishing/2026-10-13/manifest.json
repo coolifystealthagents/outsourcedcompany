@@ -1,0 +1,143 @@
+{
+  "site": "OutsourcedCompany.com",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "branch": "main",
+  "baseSha": "7693f1f9b1ea9a7f4f018ca40c7acdf5198f293c",
+  "date": "2026-10-13",
+  "blog": [
+    {
+      "slug": "philippines-outsourcing-supplier-onboarding-readiness",
+      "title": "Prepare Supplier Onboarding Readiness Without Approving Vendors",
+      "route": "/blog/philippines-outsourcing-supplier-onboarding-readiness",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-supplier-onboarding-readiness.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-customer-complaint-evidence-handoff",
+      "title": "Build a Customer Complaint Evidence Handoff With Safe Boundaries",
+      "route": "/blog/philippines-outsourcing-customer-complaint-evidence-handoff",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-customer-complaint-evidence-handoff.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-subscription-downgrade-source-control",
+      "title": "Control Subscription Downgrades With Verified Source Records",
+      "route": "/blog/philippines-outsourcing-subscription-downgrade-source-control",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-subscription-downgrade-source-control.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-inventory-transfer-acceptance",
+      "title": "Verify Inventory Transfer Acceptance Across Distributed Teams",
+      "route": "/blog/philippines-outsourcing-inventory-transfer-acceptance",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-inventory-transfer-acceptance.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-employee-directory-correction",
+      "title": "Route Employee Directory Corrections Without Changing HR Policy",
+      "route": "/blog/philippines-outsourcing-employee-directory-correction",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-employee-directory-correction.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-executive-dashboard-variance-note",
+      "title": "Prepare Executive Dashboard Variance Notes Without Explaining Results",
+      "route": "/blog/philippines-outsourcing-executive-dashboard-variance-note",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-executive-dashboard-variance-note.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-campaign-audience-suppression",
+      "title": "Apply Campaign Audience Suppression With Privacy-Safe Evidence",
+      "route": "/blog/philippines-outsourcing-campaign-audience-suppression",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-campaign-audience-suppression.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-marketplace-return-disposition",
+      "title": "Prepare Marketplace Return Disposition Packets for Owner Review",
+      "route": "/blog/philippines-outsourcing-marketplace-return-disposition",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-marketplace-return-disposition.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-device-warranty-claim-custody",
+      "title": "Maintain Device Warranty Claim Custody Across Teams",
+      "route": "/blog/philippines-outsourcing-device-warranty-claim-custody",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-device-warranty-claim-custody.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-facilities-badge-expiry",
+      "title": "Track Facilities Badge Expiry Without Granting Site Access",
+      "route": "/blog/philippines-outsourcing-facilities-badge-expiry",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-facilities-badge-expiry.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-vendor-insurance-certificate-queue",
+      "title": "Operate a Vendor Insurance Certificate Queue Without Assessing Coverage",
+      "route": "/blog/philippines-outsourcing-vendor-insurance-certificate-queue",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-vendor-insurance-certificate-queue.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-travel-approval-evidence-packet",
+      "title": "Prepare Travel Approval Evidence Without Authorizing Spend",
+      "route": "/blog/philippines-outsourcing-travel-approval-evidence-packet",
+      "source": "app/article-blog-2026-10-13.ts",
+      "thumbnail": "/oct13/company-blog/philippines-outsourcing-travel-approval-evidence-packet.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "philippines-outsourcing-handoff-owner-ambiguity-study",
+      "title": "Handoff Owner Ambiguity Across Outsourced Company Functions",
+      "route": "/research/philippines-outsourcing-handoff-owner-ambiguity-study",
+      "source": "app/article-research-batch-2026-10-13.ts",
+      "thumbnail": "/oct13/company-research/philippines-outsourcing-handoff-owner-ambiguity-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-source-revision-propagation-study",
+      "title": "Source Revision Propagation in Outsourced Operations",
+      "route": "/research/philippines-outsourcing-source-revision-propagation-study",
+      "source": "app/article-research-batch-2026-10-13.ts",
+      "thumbnail": "/oct13/company-research/philippines-outsourcing-source-revision-propagation-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-approval-wait-segmentation-study",
+      "title": "Approval Wait Segmentation in Outsourced Work",
+      "route": "/research/philippines-outsourcing-approval-wait-segmentation-study",
+      "source": "app/article-research-batch-2026-10-13.ts",
+      "thumbnail": "/oct13/company-research/philippines-outsourcing-approval-wait-segmentation-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-backup-access-readiness-study",
+      "title": "Backup Access Readiness for Outsourced Company Work",
+      "route": "/research/philippines-outsourcing-backup-access-readiness-study",
+      "source": "app/article-research-batch-2026-10-13.ts",
+      "thumbnail": "/oct13/company-research/philippines-outsourcing-backup-access-readiness-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-downstream-rework-discoverability-study",
+      "title": "Downstream Rework Discoverability Between Outsourced and Internal Teams",
+      "route": "/research/philippines-outsourcing-downstream-rework-discoverability-study",
+      "source": "app/article-research-batch-2026-10-13.ts",
+      "thumbnail": "/oct13/company-research/philippines-outsourcing-downstream-rework-discoverability-study.webp"
+    }
+  ],
+  "registries": [
+    "app/data.ts"
+  ],
+  "routes": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexes": [
+    "app/blog/page.tsx",
+    "app/blog/page/[page]/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sitemap": "app/sitemap.xml/route.ts"
+}
