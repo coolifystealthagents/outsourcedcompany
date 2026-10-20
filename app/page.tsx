@@ -1,8 +1,6 @@
 import { Footer, Header, JsonLd } from './components';
 import { blogPosts, services, site, staffingProcess } from './data';
 
-const serviceNumber = (index: number) => String(index + 1).padStart(2, '0');
-
 export default function Home() {
   const siteUrl = `https://${site.domain.toLowerCase()}`;
   const schema = {
@@ -26,7 +24,7 @@ export default function Home() {
 
   return <>
     <Header />
-    <main className="ops-home" data-design="philippines-operations-brief-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
+    <main id="main-content" className="ops-home" data-design="philippines-operations-brief-2026-07" data-gi-rollout="two-illustration-packs-one-icon-pack">
       <JsonLd data={schema} />
 
       <section className="ops-hero">
@@ -36,7 +34,7 @@ export default function Home() {
             <h1>Build the operating brief. Then hire Filipino talent.</h1>
             <p className="lead">Sort the work, name the approval limits, and decide how the first batch gets checked. That gives a Filipino hire something better than a vague job description.</p>
             <div className="actions">
-              <a className="btn primary" href="/contact">Request an operations brief</a>
+              <a className="btn primary" href="/contact-us">Request an operations brief</a>
               <a className="text-link" href="#functions">Browse the function files <span aria-hidden="true">↘</span></a>
             </div>
             <p className="routing-note">Outsourced Company is an independent information site. Requests may be passed to a staffing partner that recruits and hires only in the Philippines.</p>
@@ -48,7 +46,7 @@ export default function Home() {
               <span className="photo-label">Working session / role scope</span>
             </div>
             <aside className="handoff-sheet" aria-label="Example handoff sheet">
-              <div className="sheet-top"><span>OC / 01</span><span>Draft brief</span></div>
+              <div className="sheet-top"><span>Operational handoff</span><span>Draft brief</span></div>
               <h2>Start with one queue</h2>
               <ul>
                 <li><img src="/icons/getillustrations/blueprint-business-icons-svg/role-file.svg" alt="Documented role file"/><span>Owner</span><b>Named before access</b></li>
@@ -77,8 +75,8 @@ export default function Home() {
           <p>Good first roles have visible work and a clear finish line. If a task depends on founder judgment every hour, it probably is not ready to hand off.</p>
         </div>
         <div className="function-files">
-          {services.map((service, index) => <a className="function-file" href={`/services/${service.slug}`} key={service.slug}>
-            <div className="file-number">{serviceNumber(index)}</div>
+          {services.map((service) => <a className="function-file" href={`/services/${service.slug}`} key={service.slug}>
+            <div className="function-kind">Service</div>
             <div>
               <h3>{service.title}</h3>
               <p>{service.desc}</p>
@@ -133,8 +131,8 @@ export default function Home() {
             <a className="text-link" href="/blog">Open all guides <span aria-hidden="true">↗</span></a>
           </div>
           <div className="note-stack">
-            {blogPosts.slice(0, 3).map((post, index) => <a href={`/blog/${post.slug}`} key={post.slug}>
-              <span>{serviceNumber(index)}</span>
+            {blogPosts.slice(0, 3).map((post) => <a href={`/blog/${post.slug}`} key={post.slug}>
+              <span>Guide</span>
               <div><strong>{post.title}</strong><p>{post.excerpt}</p></div>
               <b>{post.minutes} min</b>
             </a>)}
@@ -149,7 +147,7 @@ export default function Home() {
         </div>
         <div>
           <p>Share the recurring work, tools, schedule, and decisions that stay with your team. A Philippines-focused staffing partner may follow up with a practical role scope.</p>
-          <a className="btn primary" href="/contact">Request an operations brief</a>
+          <a className="btn primary" href="/contact-us">Request an operations brief</a>
         </div>
       </section>
     </main>

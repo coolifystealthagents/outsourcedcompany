@@ -1,38 +1,16 @@
-import type { Metadata } from "next";
-import { Header, Footer } from "../components";
-import { site, services } from "../data";
-import StandardContactForm from "./StandardContactForm";
-import styles from "./contact.module.css";
-
-
-const pageUrl = "https://outsourcedcompany.com/contact-us";
-const prep = [
-  "The function, tasks, and finished examples",
-  "Systems, coverage hours, and access boundaries",
-  "Decision owners, service levels, and review rhythm",
-];
-
-
-export const metadata: Metadata = {
-  title: "Contact Outsourced Company | Plan Business Support",
-  description: "Plan outsourced business support around clear functions, accountable handoffs, controlled access, and owner review.",
-  alternates: { canonical: pageUrl },
-  robots: { index: true, follow: true },
-  openGraph: { title: "Contact Outsourced Company", description: "Turn a business function into a controlled outsourcing brief.", url: pageUrl, type: "website" },
-};
-
-
-export default function ContactUsPage() {
-  return <><Header/><main className={styles.page}>
-    <section className={styles.hero}><div className={styles.shellGrid}>
-      <div><p className={styles.eyebrow}>Build a practical outsourcing brief</p><h1>Decide what to outsource—and what stays with your team.</h1><p className={styles.lead}>Tell us which function is absorbing time, which outcomes matter, and where approvals belong. We’ll prepare a focused consultation around a controlled support role.</p><div className={styles.checks}>{prep.map(item => <span key={item}>✓ {item}</span>)}</div><a className={styles.powered} href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Powered by StealthAgents ↗</a></div>
-      <div id="consultation-form"><StandardContactForm endpoint="/api/contact" encoding="form"/></div>
-    </div></section>
-    <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>Prepare the conversation</p><h2>Start with one business function and its real work.</h2><div className={styles.cards}>{prep.map((item, index) => <article key={item}><b>0{index + 1}</b><h3>{item}</h3><p>Concrete inputs and examples make responsibilities, quality, and handoffs easier to assess.</p></article>)}</div></div></section>
-    <section className={`${styles.section} ${styles.soft}`}><div className={styles.shellGrid}><div><p className={styles.kicker}>Function map</p><h2>Scope support around an accountable outcome.</h2><p className={styles.sub}>Start with bounded recurring work and a named internal reviewer. Keep strategy, contractual authority, regulated judgment, and sensitive exceptions with qualified owners.</p><a className={styles.textLink} href="#consultation-form">Build my outsourcing brief →</a></div><div className={styles.tags}>{services.slice(0, 8).map(service => <span key={service.slug}>{service.title}</span>)}</div></div></section>
-    <section className={`${styles.section} ${styles.about}`}><div className={styles.shellGrid}><img src={site.serviceImage} alt={site.alt}/><div><p className={styles.kicker}>The staffing partner</p><h2>About Stealth Agents</h2><p>Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p><a className={styles.textLink} href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Powered by StealthAgents ↗</a></div></div></section>
-    <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>Control the handoff</p><h2>Three foundations for a dependable launch.</h2><div className={styles.cards}><article><h3>Clear ownership</h3><p>Name who provides inputs, checks output, and decides exceptions.</p></article><article><h3>Visible evidence</h3><p>Require links, notes, or records that make completed work reviewable.</p></article><article><h3>Measured expansion</h3><p>Stabilize one function before adding access or adjacent responsibilities.</p></article></div></div></section>
-    <section className={styles.final}><div className={styles.shell}><h2>Ready to scope the right support?</h2><p>Share the function, workload, tools, and approval boundaries you need covered.</p><a href="#consultation-form">Book a free consultation</a></div></section>
-  </main><Footer/></>;
-}
-
+import type { Metadata } from 'next';
+import { Header, Footer } from '../components';
+import { services } from '../data';
+import { TestimonialsRail } from '../booking-components';
+import StandardContactForm from './StandardContactForm';
+import styles from './contact.module.css';
+const pageUrl='https://outsourcedcompany.com/contact-us';
+const prep=['A recurring queue and representative examples','Systems, coverage hours, and minimum access','Decision owners, exceptions, and review rhythm'];
+export const metadata:Metadata={title:'Contact Outsourced Company | Plan Business Support',description:'Prepare a Philippines-based business support brief around clear work, controlled access, and accountable owner review.',alternates:{canonical:pageUrl},robots:{index:true,follow:true},openGraph:{title:'Contact Outsourced Company',description:'Turn one business function into a controlled outsourcing brief.',url:pageUrl,type:'website'}};
+export default function ContactUsPage(){return <><Header/><main id="main-content" className={styles.page}>
+  <section className={styles.hero}><div className={styles.shellGrid}><div className={styles.heroCopy}><p className={styles.eyebrow}>Philippines staffing intake</p><h1>Define the work before the hiring begins.</h1><p className={styles.lead}>Tell us which repeat queue needs support, what good work looks like, and which decisions must stay with your team. We will use those details to discuss a bounded role, not an open-ended promise.</p><div className={styles.checks}>{prep.map(item=><span key={item}>✓ {item}</span>)}</div><TestimonialsRail compact/></div><div id="consultation-form"><StandardContactForm endpoint="/api/contact" encoding="form"/></div></div></section>
+  <section className={`${styles.section} ${styles.team}`}><div className={styles.shellGrid}><figure><img className={styles.teamImage} src="/brand/stealth-agents-team-bacolod.png" alt="StealthAgents operations team in the Bacolod office" data-brand="stealthagents-team" width="619" height="402"/><figcaption>Official team, Bacolod</figcaption></figure><div><p className={styles.kicker}>Staffing partner</p><img className={styles.partnerLogo} src="/brand/stealth-agents-logo-black.png" alt="StealthAgents logo" data-brand="stealthagents-logo" width="300" height="76"/><h2>People supported by a defined operating plan.</h2><p>Outsourced Company helps you prepare the role context. StealthAgents supports the staffing conversation once the work, permissions, and owner responsibilities are clear.</p><a className={styles.textLink} href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Visit the official StealthAgents website ↗</a></div></div></section>
+  <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>Operational handoff canvas</p><h2>Bring evidence from one real workflow.</h2><div className={styles.cards}>{prep.map(item=><article key={item}><h3>{item}</h3><p>Concrete inputs help separate repeatable support work from decisions that require an accountable internal owner.</p></article>)}</div></div></section>
+  <section className={`${styles.section} ${styles.soft}`}><div className={styles.shellGrid}><div><p className={styles.kicker}>Function map</p><h2>Start narrow enough to review.</h2><p className={styles.sub}>A useful first scope names the queue, schedule, systems, completion evidence, and exception path. Strategy, contractual authority, regulated judgment, and sensitive exceptions stay with qualified owners.</p><a className={styles.textLink} href="#consultation-form">Build the intake brief →</a></div><div className={styles.tags}>{services.map(service=><a href={`/services/${service.slug}`} key={service.slug}>{service.title}</a>)}</div></div></section>
+  <section className={styles.final}><div className={styles.shell}><h2>Ready to map the first queue?</h2><p>Share the workload, tools, schedule, examples, and approval boundaries you want covered.</p><a href="#consultation-form">Open the contact form</a></div></section>
+</main><Footer/></>}

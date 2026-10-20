@@ -10,7 +10,7 @@ export default function Blog() {
   return (
     <>
       <Header />
-      <main className="section">
+      <main id="main-content" className="section">
         <div className="container">
           <p className="eyebrow">Philippines staffing blog</p>
           <h1>Practical role and handoff guides.</h1>

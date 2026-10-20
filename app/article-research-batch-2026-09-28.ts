@@ -83,7 +83,7 @@ const studies: Study[] = [
     boundary: 'Consent validity, statutory interpretation, identity resolution exceptions, transactional-message classification, campaign purpose, remediation, legal notice, and risk acceptance remain with authorized owners.',
     risks: 'Sending tools can sync slowly, aliases may hide identity links, transactional and marketing messages can share infrastructure, system inventories can be incomplete, and delivery logs may lag.',
     conclusion: 'Delegate suppression operations only when the request, identity rule, system scope, platform events, later-send checks, and exception authority remain connected.',
-    related: [{ label: 'Marketing operations support', href: '/services/marketing-operations-support' }, { label: 'Research index', href: '/research' }, { label: 'Request an operations brief', href: '/contact-us' }],
+    related: [{ label: 'Marketing operations support', href: '/services/marketing-operations' }, { label: 'Research index', href: '/research' }, { label: 'Request an operations brief', href: '/contact-us' }],
   },
   {
     slug: 'knowledge-article-retirement-study',

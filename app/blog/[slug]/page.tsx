@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
+import { ArticleSidebar, type TocItem } from '../../article-sidebar';
 import { allBlogPosts, blogDetails, guideDetails, site } from '../../data';
 
 const base = `https://${site.domain.toLowerCase()}`;
 const readerDate = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const formatReaderDate = (value: string) => readerDate.format(new Date(`${value}T00:00:00Z`));
+const headingId = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
 export function generateStaticParams() {
   return allBlogPosts.map((post) => ({ slug: post.slug }));
@@ -113,6 +115,13 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
 
   const details = blogDetails[slug as keyof typeof blogDetails] as any;
   const guide = guideDetails[slug as keyof typeof guideDetails] as any;
+  const toc: TocItem[] = details ? [
+    { id: 'short-answer', label: 'The short answer' },
+    ...(details.sections ?? []).map((section: any) => ({ id: headingId(section.heading), label: section.heading })),
+    { id: 'sales-call-questions', label: 'Questions for the sales call' },
+    { id: 'sources', label: 'Sources' },
+    { id: 'common-questions', label: 'Common questions' },
+  ] : [{ id: 'short-answer', label: 'The short answer' }, { id: 'prepare', label: 'What to prepare' }, { id: 'team-questions', label: 'Questions for your team' }];
   const url = `${base}/blog/${post.slug}`;
   const schema = {
     '@context': 'https://schema.org',
@@ -148,8 +157,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   };
 
   return <>
-    <Header hideCommercialTerms />
-    <main className="section">
+    <Header />
+    <main id="main-content" className="section">
       <JsonLd data={schema} />
       <article className="container guide-article" data-article-marker={details?.marker}>
         <p className="eyebrow">Philippines staffing guide</p>
@@ -157,8 +166,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
         <p className="lead">{post.excerpt}</p>
         {details?.image ? <img src={details.image} alt={`${post.title} operations illustration`} width="1536" height="1024" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : ['2026-09-04', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-14', '2026-09-18', '2026-09-22', '2026-09-23', '2026-09-24', '2026-10-02', '2026-10-05'].includes(details?.updated) ? <img src="/images/operations-meeting.jpg" alt="Operations teammates reviewing documented evidence together" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : null}
 
+        <div className="article-layout"><ArticleSidebar items={toc} family="Blog guide" updated={details?.updated ? visiblePublishedDate(details.updated) : undefined} related={details?.relatedLinks}/><div className="article-reading">
         {details ? <>
-          <section className="card">
+          <section className="card" id="short-answer">
             <p className="eyebrow"><time dateTime={details.updated}>Published {formatReaderDate(details.updated)}</time></p>
             <h2>The short answer</h2>
             <p>{details.takeaway}</p>
@@ -182,7 +192,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           </section> : null}
 
           <div className="card">
-            {details.sections.map((section: any) => <section key={section.heading} style={{ marginBottom: 22 }}>
+            {details.sections.map((section: any) => <section id={headingId(section.heading)} key={section.heading} style={{ marginBottom: 22 }}>
               <h2>{section.heading}</h2>
               {paragraphChunks(section.body).map((paragraph, index) => <p className="article-narrative" key={`${section.heading}-${index}`}>{paragraph}</p>)}
             </section>)}
@@ -221,19 +231,19 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             </div>)}</div>
           </section> : null}
 
-          <section className="card">
+          <section className="card" id="sales-call-questions">
             <h2>Questions to copy for the sales call</h2>
             <ul className="list article-scripts">{details.script.map((line: string) => <li key={line}>"{line}"</li>)}</ul>
           </section>
 
-          <section className="card">
+          <section className="card" id="sources">
             <h2>Sources</h2>
             {details.sourcesNumbered
               ? <ol className="list numbered-sources">{details.sources.map((source: any) => <li key={source.url}><a className="source-link" href={source.url} rel="noreferrer">{source.name}</a>: {source.note}</li>)}</ol>
               : <ul className="list">{details.sources.map((source: any) => <li key={source.url}><a className="source-link" href={source.url} rel="noreferrer">{source.name}</a>: {source.note}</li>)}</ul>}
           </section>
 
-          <section className="card">
+          <section className="card" id="common-questions">
             <h2>Common questions</h2>
             {details.faqs.map((faq: any) => <div key={faq.question} style={{ marginBottom: 18 }}><h3>{faq.question}</h3><p>{faq.answer}</p></div>)}
           </section>
@@ -243,16 +253,17 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
             <ul className="list related-links">{details.relatedLinks.map((link: any) => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul>
           </nav> : null}
         </> : guide ? <section className="card">
-          <h2>The short answer</h2>
+          <h2 id="short-answer">The short answer</h2>
           <p>{guide.answer}</p>
-          <h2>What to prepare</h2>
+          <h2 id="prepare">What to prepare</h2>
           <ul>{guide.prepare.map((item: string) => <li key={item}>{item}</li>)}</ul>
-          <h2>Questions for your team</h2>
+          <h2 id="team-questions">Questions for your team</h2>
           <ul>{guide.questions.map((item: string) => <li key={item}>{item}</li>)}</ul>
         </section> : null}
+        </div></div>
       </article>
       <CTA />
     </main>
-    <Footer hideCommercialTerms />
+    <Footer />
   </>;
 }

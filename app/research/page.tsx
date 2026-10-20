@@ -12,7 +12,7 @@ export default function Research() {
   return (
     <>
       <Header />
-      <main className="section">
+      <main id="main-content" className="section">
         <div className="container">
           <p className="eyebrow">Philippines staffing research</p>
           <h1>Research for better role decisions.</h1>

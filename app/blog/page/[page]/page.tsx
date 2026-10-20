@@ -23,7 +23,7 @@ export default async function BlogPage({
   return (
     <>
       <Header />
-      <main className="section">
+      <main id="main-content" className="section">
         <div className="container">
           <p className="eyebrow">Philippines staffing blog</p>
           <h1>Blog page {number}</h1>

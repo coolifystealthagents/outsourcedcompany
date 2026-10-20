@@ -143,8 +143,8 @@ export const philippinesOutsourcingBusinessContinuityPlan = {
   ],
   relatedLinks: [
     { label: 'Read the Philippines outsourcing buyer guide', href: '/blog/outsource-to-the-philippines-guide' },
-    { label: 'Plan the company function first', href: '/blog/outsourced-company-planning' },
-    { label: 'Use the first-week outsourcing checklist', href: '/blog/outsourced-company-onboarding-checklist' },
+    { label: 'Plan the company function first', href: '/blog/outsource-to-the-philippines-guide' },
+    { label: 'Use a queue-specific launch guide', href: '/blog/call-center-outsourcing-philippines' },
     { label: 'See back-office operations support', href: '/services/back-office-operations' },
     { label: 'See data management support', href: '/services/data-management' },
   ],
