@@ -26,6 +26,6 @@ assert.ok(css.includes('.service-toc{position:sticky;top:105px'), 'service TOC m
 assert.ok(css.includes('.service-detail-section{scroll-margin-top:105px'), 'service anchors must clear the sticky header');
 assert.ok(css.includes('.article-sidebar{position:sticky'), 'complete sidebar must follow desktop scrolling');
 assert.ok(css.includes('.article-reading section[id],.article-reading .card[id],.article-reading aside[id]{scroll-margin-top:105px}'), 'nested article anchors must clear the desktop sticky header');
-assert.ok(css.includes('@media(max-width:940px)') && css.includes('.article-reading section[id],.article-reading .card[id],.article-reading aside[id]{scroll-margin-top:165px}'), 'nested article anchors must clear the header at its wrapped breakpoint');
+assert.ok(css.includes('@media(max-width:940px)') && css.includes('.article-reading section[id],.article-reading .card[id],.article-reading aside[id],.article-reading :where(h1,h2,h3)[id]{scroll-margin-top:165px}'), 'nested and heading article anchors must clear the header at its wrapped breakpoint');
 assert.ok(css.includes('@media(max-width:940px)') && css.includes('.article-sidebar{position:static'), 'sidebar must return to normal flow when the header wraps');
 console.log('V3 editorial and route-shell contract passed');
