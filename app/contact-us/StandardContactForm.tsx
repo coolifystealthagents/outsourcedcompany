@@ -16,12 +16,17 @@ const countryCodes = [
 ];
 
 async function trackAcceptedLead(payload: Record<string, unknown>) {
-  const tracker = (window as TrackerWindow).acrTracker?.trackLead;
-  if (!tracker) return;
-  await Promise.race([
-    Promise.resolve(tracker(payload)),
-    new Promise<void>(resolve => window.setTimeout(resolve, TRACKER_DEADLINE_MS)),
-  ]);
+  const trackerClient = (window as TrackerWindow).acrTracker;
+  if (!trackerClient?.trackLead) return;
+  let timer: number | undefined;
+  const deadline = new Promise<void>(resolve => {
+    timer = window.setTimeout(resolve, TRACKER_DEADLINE_MS);
+  });
+  try {
+    await Promise.race([Promise.resolve(trackerClient.trackLead(payload)), deadline]);
+  } finally {
+    if (timer !== undefined) window.clearTimeout(timer);
+  }
 }
 
 export default function StandardContactForm({ endpoint = "/api/submit-lead", encoding = "json" }: Props) {
