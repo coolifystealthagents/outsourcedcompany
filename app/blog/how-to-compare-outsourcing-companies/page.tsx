@@ -11,7 +11,7 @@ const toc: TocItem[] = [
   { id: 'scorecard', label: 'Use a decision scorecard' },
   { id: 'questions', label: 'Buyer questions' },
 ];
-export const metadata: Metadata = { title, description, alternates: { canonical: '/blog/top-50-outsourcing-companies' } };
+export const metadata: Metadata = { title, description, alternates: { canonical: '/blog/how-to-compare-outsourcing-companies' } };
 
 export default function ComparisonArticle(){
   return <><Header/><main id="main-content" className="article-shell"><article>

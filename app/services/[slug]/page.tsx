@@ -8,7 +8,7 @@ export function generateStaticParams() { return serviceDetails.map(service => ({
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params; const service = getServiceDetail(slug);
   if (!service) return { title: 'Service not found' };
-  return { title: `${service.title} | Outsourced Company`, description: service.summary, alternates: { canonical: `/services/${service.slug}` }, openGraph: { title: service.title, description: service.summary, url: `${base}/services/${service.slug}`, type: 'website' } };
+  return { title: service.title, description: service.summary, alternates: { canonical: `/services/${service.slug}` }, openGraph: { title: service.title, description: service.summary, url: `${base}/services/${service.slug}`, type: 'website' } };
 }
 
 function ListSection({ id, title, items }: { id: string; title: string; items: readonly string[] }) {

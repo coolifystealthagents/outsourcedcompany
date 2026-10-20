@@ -14,6 +14,8 @@ const serviceData = read('app/service-details.ts');
 const booking = read('app/booking-components.tsx');
 const config = read('next.config.mjs');
 const thankYou = read('app/thank-you/page.tsx');
+const contactApi = read('app/api/contact/route.ts');
+const comparisonGuide = read('app/blog/how-to-compare-outsourcing-companies/page.tsx');
 const whatsNext = read('app/thanks-whats-next/page.tsx');
 const registry = JSON.parse(read('design-registry.json'));
 
@@ -45,11 +47,17 @@ assert.match(booking, /prefers-reduced-motion/);
 
 assert.doesNotMatch(form, /if \(tracker\)[\s\S]{0,180}location\.assign/);
 assert.equal((form.match(/trackLead\?\.\(payload\)/g) || []).length, 1);
-assert.equal((form.match(/location\.assign\("\/thank-you"\)/g) || []).length, 1);
+assert.match(form, /redirectUrl\.searchParams\.get\("lead"\) !== "accepted"/);
+assert.match(form, /await Promise\.resolve\([\s\S]*trackLead/);
+assert.match(form, /location\.assign\(`\$\{redirectUrl\.pathname\}\$\{redirectUrl\.search\}`\)/);
+assert.match(contactApi, /text\(form,'company'[^\n]+text\(form,'companyName'/);
+assert.match(contactApi, /text\(form,'referral'[^\n]+text\(form,'referralSpecify'/);
+assert.match(contactApi, /\/thank-you\?lead=accepted/);
 
 assert.match(config, /source:\s*["']\/contact["']/);
 assert.match(config, /destination:\s*["']\/contact-us["']/);
 assert.match(config, /permanent:\s*true/);
+assert.match(thankYou, /lead !== 'accepted'\) redirect\('\/contact-us'\)/);
 assert.match(thankYou, /https:\/\/go\.oncehub\.com\/StealthAgentsTeam\?brdr=1pxd8d8d8&amp;dt=&amp;em=1&amp;Si=1/);
 assert.doesNotMatch(thankYou, /Step 2|one step away/i);
 assert.match(whatsNext, /id="main-content"/);
@@ -66,6 +74,8 @@ const commercialFiles = ['app/components.tsx', 'app/page.tsx', 'app/services/[sl
 for (const file of commercialFiles) assert.doesNotMatch(read(file), /href="\/contact"/, `${file} has legacy contact CTA`);
 const claims = [components, home, contact, servicePage, booking, thankYou, whatsNext].join('\n');
 assert.doesNotMatch(claims, /35\+\s*industries|Forbes|top[ -]rated/i);
+assert.match(comparisonGuide, /canonical: '\/blog\/how-to-compare-outsourcing-companies'/);
+assert.doesNotMatch(comparisonGuide, /top 50|compare 50/i);
 
 assert.equal(registry.designVariance, 8);
 assert.equal(registry.motion, 4);

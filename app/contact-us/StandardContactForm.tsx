@@ -3,7 +3,7 @@
 import { useEffect, useState, type FormEvent } from "react";
 
 type Props = { endpoint?: string; encoding?: "json" | "form" };
-type TrackerWindow = Window & { acrTracker?: { trackLead?: (payload: Record<string, unknown>) => void } };
+type TrackerWindow = Window & { acrTracker?: { trackLead?: (payload: Record<string, unknown>) => void | Promise<void> } };
 
 const companySizes = ["1-5", "5-10", "11-50", "51-250", "251-1k", "1k+"];
 const positions = ["Just 1 Position", "2-5 Positions", "6-10 Positions", "11-50 Positions", "51-100 Positions", "101-500 Positions", "501-1,000 Positions", "Over 1,000 Positions"];
@@ -57,8 +57,12 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
         : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) };
       const response = await fetch(endpoint, request);
       if (!response.ok) throw new Error("Lead endpoint rejected the request");
-      try { (window as TrackerWindow).acrTracker?.trackLead?.(payload); } catch {}
-      window.location.assign("/thank-you");
+      const redirectUrl = new URL(response.url, window.location.origin);
+      if (redirectUrl.origin !== window.location.origin || redirectUrl.pathname !== "/thank-you" || redirectUrl.searchParams.get("lead") !== "accepted") {
+        throw new Error("Lead endpoint did not confirm delivery");
+      }
+      try { await Promise.resolve((window as TrackerWindow).acrTracker?.trackLead?.(payload)); } catch {}
+      window.location.assign(`${redirectUrl.pathname}${redirectUrl.search}`);
     } catch {
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);

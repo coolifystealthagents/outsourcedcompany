@@ -22,6 +22,8 @@ for (const [name, source] of Object.entries({blog, research, aug19, aug20})) {
 }
 assert.ok(sidebar.includes('Table of contents'));
 assert.ok(sidebar.includes('IntersectionObserver'), 'TOC must track active headings');
+assert.ok(css.includes('.service-toc{position:sticky;top:105px'), 'service TOC must clear the sticky header');
+assert.ok(css.includes('.service-detail-section{scroll-margin-top:105px'), 'service anchors must clear the sticky header');
 assert.ok(css.includes('.article-sidebar{position:sticky'), 'complete sidebar must follow desktop scrolling');
 assert.ok(css.includes('@media(max-width:900px)') && css.includes('.article-sidebar{position:static'), 'sidebar must return to normal flow on narrow screens');
 console.log('V3 editorial and route-shell contract passed');
