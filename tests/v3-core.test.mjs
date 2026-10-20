@@ -63,6 +63,7 @@ assert.match(contactApi, /const referralDetail = text\(form, 'referralSpecify'/)
 assert.match(contactApi, /referralDetail \? `\$\{referralChoice \|\| 'Other'\}: \$\{referralDetail\}`/);
 assert.match(contactApi, /\/thank-you\?lead=accepted/);
 
+assert.match(config, /key:\s*["']x-forwarded-proto["'][^\n]+value:\s*["']http["'][^\n]+destination:\s*["']https:\/\/outsourcedcompany\.com\/:path\*["']/);
 assert.match(config, /source:\s*["']\/contact["']/);
 assert.match(config, /destination:\s*["']\/contact-us["']/);
 assert.match(config, /permanent:\s*true/);
