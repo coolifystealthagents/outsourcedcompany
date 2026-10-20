@@ -8,11 +8,21 @@ type TrackerWindow = Window & { acrTracker?: { trackLead?: (payload: Record<stri
 const companySizes = ["1-5", "5-10", "11-50", "51-250", "251-1k", "1k+"];
 const positions = ["Just 1 Position", "2-5 Positions", "6-10 Positions", "11-50 Positions", "51-100 Positions", "101-500 Positions", "501-1,000 Positions", "Over 1,000 Positions"];
 const referrals = ["Google", "Email", "LinkedIn", "Reddit", "X / Twitter", "Referral", "ChatGPT / AI", "Outbound Outreach", "Other"];
+const TRACKER_DEADLINE_MS = 1500;
 const countryCodes = [
   ["🇺🇸", "+1"], ["🇨🇦", "+1"], ["🇮🇩", "+62"], ["🇵🇭", "+63"], ["🇬🇧", "+44"],
   ["🇦🇺", "+61"], ["🇳🇿", "+64"], ["🇸🇬", "+65"], ["🇮🇳", "+91"], ["🇦🇪", "+971"],
   ["🇲🇽", "+52"], ["🇧🇷", "+55"], ["🇿🇦", "+27"], ["🇩🇪", "+49"], ["🇫🇷", "+33"],
 ];
+
+async function trackAcceptedLead(payload: Record<string, unknown>) {
+  const tracker = (window as TrackerWindow).acrTracker?.trackLead;
+  if (!tracker) return;
+  await Promise.race([
+    Promise.resolve(tracker(payload)),
+    new Promise<void>(resolve => window.setTimeout(resolve, TRACKER_DEADLINE_MS)),
+  ]);
+}
 
 export default function StandardContactForm({ endpoint = "/api/submit-lead", encoding = "json" }: Props) {
   const [submitting, setSubmitting] = useState(false);
@@ -61,7 +71,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
       if (redirectUrl.origin !== window.location.origin || redirectUrl.pathname !== "/thank-you" || redirectUrl.searchParams.get("lead") !== "accepted") {
         throw new Error("Lead endpoint did not confirm delivery");
       }
-      try { await Promise.resolve((window as TrackerWindow).acrTracker?.trackLead?.(payload)); } catch {}
+      try { await trackAcceptedLead(payload); } catch {}
       window.location.assign(`${redirectUrl.pathname}${redirectUrl.search}`);
     } catch {
       setError("We could not submit your request. Please try again.");

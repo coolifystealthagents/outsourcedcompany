@@ -46,12 +46,20 @@ assert.match(booking, /animation:/);
 assert.match(booking, /prefers-reduced-motion/);
 
 assert.doesNotMatch(form, /if \(tracker\)[\s\S]{0,180}location\.assign/);
-assert.equal((form.match(/trackLead\?\.\(payload\)/g) || []).length, 1);
+assert.match(form, /const TRACKER_DEADLINE_MS = 1500/);
+assert.match(form, /Promise\.race\(\[/);
+assert.match(form, /Promise\.resolve\(tracker\(payload\)\)/);
+assert.match(form, /window\.setTimeout\(resolve, TRACKER_DEADLINE_MS\)/);
 assert.match(form, /redirectUrl\.searchParams\.get\("lead"\) !== "accepted"/);
-assert.match(form, /await Promise\.resolve\([\s\S]*trackLead/);
+assert.match(form, /try \{ await trackAcceptedLead\(payload\); \} catch \{\}/);
 assert.match(form, /location\.assign\(`\$\{redirectUrl\.pathname\}\$\{redirectUrl\.search\}`\)/);
-assert.match(contactApi, /text\(form,'company'[^\n]+text\(form,'companyName'/);
-assert.match(contactApi, /text\(form,'referral'[^\n]+text\(form,'referralSpecify'/);
+assert.match(contactApi, /request\.body\?\.getReader\(\)/);
+assert.match(contactApi, /total > MAX_BODY_BYTES/);
+assert.match(contactApi, /reader\.cancel\('Request body exceeds limit'\)/);
+assert.match(contactApi, /text\(form, 'company'[^\n]+text\(form, 'companyName'/);
+assert.match(contactApi, /const referralChoice = text\(form, 'referral'/);
+assert.match(contactApi, /const referralDetail = text\(form, 'referralSpecify'/);
+assert.match(contactApi, /referralDetail \? `\$\{referralChoice \|\| 'Other'\}: \$\{referralDetail\}`/);
 assert.match(contactApi, /\/thank-you\?lead=accepted/);
 
 assert.match(config, /source:\s*["']\/contact["']/);
