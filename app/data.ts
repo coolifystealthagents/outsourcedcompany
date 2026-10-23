@@ -139,8 +139,12 @@ export const blogPosts = [
     "excerpt": "Choose the first role, compare Philippines staffing partners, protect access, and run a 30-day launch you can check.",
     "minutes": 11
   },] as const;
-export const allBlogPosts = [...blogPosts2026_10_13, ...blogPosts2026_10_12, ...blogPosts2026_10_08, ...blogPosts2026_10_05_part1, ...blogPosts2026_10_05_part2, ...blogPosts2026_10_05_part3, ...blogPosts2026_10_05_part4, ...blogPosts2026_10_02, ...blogPosts2026_09_28, ...blogPosts2026_09_25, ...blogPosts2026_09_24, ...blogPosts2026_09_23, ...blogPosts2026_09_22, ...blogPosts2026_09_18, ...blogPosts2026_09_14, ...blogPosts2026_09_10, ...blogPosts2026_09_09, ...blogPosts2026_09_08, ...blogPosts2026_09_07, ...blogPosts2026_09_04, ...blogPosts2026_09_02, ...blogPosts2026_09_01, ...blogPosts2026_08_31, ...blogPosts2026_08_23, ...blogRepairPosts2026_08_21, ...blogBatch2026_08_20RepairPosts, ...blogControlRoom2026_08_19Posts, ...blogBatch2026_08_17Posts, ...blogBatch2026_08_14Posts, ...blogBatch2026_08_13Posts, ...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
-export const allResearchPosts = (researchPosts as readonly any[]).concat(researchPosts2026_10_13, researchPosts2026_10_12, researchPosts2026_10_08, researchPosts2026_10_05, researchPosts2026_10_02, researchPosts2026_09_28, researchPosts2026_09_25, researchPosts2026_09_24, researchPosts2026_09_22, researchPosts2026_09_18, researchPosts2026_09_14, researchPosts2026_09_10, researchPosts2026_09_09, researchPosts2026_09_08, researchPosts2026_09_07, researchPosts2026_09_04, researchPosts2026_09_03, researchPosts2026_09_02, researchPosts2026_09_01, researchPosts2026_08_31, researchPosts2026_08_23, researchPosts2026_08_21, researchPosts2026_08_19, researchPosts2026_08_17, researchPosts2026_08_14, researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability, researchPosts2026_08_13).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
+import { blogPosts2026_10_22, blogDetails2026_10_22 } from './oct22-blog';
+import { researchPosts2026_10_22 } from './oct22-research';
+
+export const allBlogPosts = [
+  ...blogPosts2026_10_22,...blogPosts2026_10_13, ...blogPosts2026_10_12, ...blogPosts2026_10_08, ...blogPosts2026_10_05_part1, ...blogPosts2026_10_05_part2, ...blogPosts2026_10_05_part3, ...blogPosts2026_10_05_part4, ...blogPosts2026_10_02, ...blogPosts2026_09_28, ...blogPosts2026_09_25, ...blogPosts2026_09_24, ...blogPosts2026_09_23, ...blogPosts2026_09_22, ...blogPosts2026_09_18, ...blogPosts2026_09_14, ...blogPosts2026_09_10, ...blogPosts2026_09_09, ...blogPosts2026_09_08, ...blogPosts2026_09_07, ...blogPosts2026_09_04, ...blogPosts2026_09_02, ...blogPosts2026_09_01, ...blogPosts2026_08_31, ...blogPosts2026_08_23, ...blogRepairPosts2026_08_21, ...blogBatch2026_08_20RepairPosts, ...blogControlRoom2026_08_19Posts, ...blogBatch2026_08_17Posts, ...blogBatch2026_08_14Posts, ...blogBatch2026_08_13Posts, ...blogBatch2026_08_11Posts, ...blogBatch2026_08_10Posts, ...blogBatch2026_08_10Run2Posts, ...blogPosts, ...batchBlogPosts] as const;
+export const allResearchPosts = (researchPosts as readonly any[]).concat(researchPosts2026_10_22, researchPosts2026_10_13, researchPosts2026_10_12, researchPosts2026_10_08, researchPosts2026_10_05, researchPosts2026_10_02, researchPosts2026_09_28, researchPosts2026_09_25, researchPosts2026_09_24, researchPosts2026_09_22, researchPosts2026_09_18, researchPosts2026_09_14, researchPosts2026_09_10, researchPosts2026_09_09, researchPosts2026_09_08, researchPosts2026_09_07, researchPosts2026_09_04, researchPosts2026_09_03, researchPosts2026_09_02, researchPosts2026_09_01, researchPosts2026_08_31, researchPosts2026_08_23, researchPosts2026_08_21, researchPosts2026_08_19, researchPosts2026_08_17, researchPosts2026_08_14, researchPosts2026_08_08, researchPosts2026_08_09, researchPosts2026_08_10, researchPosts2026_08_10_run2, researchPosts2026_08_11, philippinesOutsourcingSubprocessorAccountability, researchPosts2026_08_13).sort((a, b) => b.updated.localeCompare(a.updated) || a.slug.localeCompare(b.slug));
 
 export const guideDetails = {
   "outsourced-company-planning": {
@@ -191,6 +195,7 @@ export const guideDetails = {
 } as const;
 
 export const blogDetails = {
+  ...blogDetails2026_10_22,
   ...blogDetails2026_10_13,
   ...blogDetails2026_10_12,
   ...blogDetails2026_10_08,

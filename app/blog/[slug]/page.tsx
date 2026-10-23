@@ -192,8 +192,8 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           </section> : null}
 
           <div className="card">
-            {details.sections.map((section: any) => <section id={headingId(section.heading)} key={section.heading} style={{ marginBottom: 22 }}>
-              <h2>{section.heading}</h2>
+            {details.sections.map((section: any) => <section key={section.heading} style={{ marginBottom: 22 }}>
+              <h2 id={headingId(section.heading)}>{section.heading}</h2>
               {paragraphChunks(section.body).map((paragraph, index) => <p className="article-narrative" key={`${section.heading}-${index}`}>{paragraph}</p>)}
             </section>)}
           </div>
