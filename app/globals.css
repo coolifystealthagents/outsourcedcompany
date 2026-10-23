@@ -135,3 +135,17 @@
   .article-toc-disclosure > nav { display: block !important; }
   .article-toc-disclosure > summary { pointer-events: none; }
 }
+/* OutsourcedCompany 2026-10-22 incremental sticky fix.
+ * Apply after the batch's base sticky patch (already committed) to:
+ *  1. stop html/body overflow-x hidden from breaking position: sticky
+ *  2. clear the 112px mobile header with the compact ToC bar
+ */
+html, body { overflow-x: clip; }
+
+@media (max-width: 940px) {
+  .article-toc-disclosure { top: 120px; }
+  .article-reading section[id],
+  .article-reading :where(h1, h2, h3)[id],
+  .article-reading .card[id],
+  .article-reading aside[id] { scroll-margin-top: 184px; }
+}
