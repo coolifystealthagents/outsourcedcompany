@@ -6,73 +6,73 @@ export const blogPosts2026_10_25 = [
     "slug": "outsourcedcompany-build-a-client-intake-intake-record-that-survives-review",
     "title": "Build a client intake intake record that survives review",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: client intake without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-map-the-source-of-truth-for-team-roster",
     "title": "Map the source of truth for team roster",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: team roster without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-onboard-a-va-into-team-roster-in-the-first-week",
     "title": "Onboard a VA into team roster in the first week",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: team roster without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-report-quality-review-without-vanity-metrics",
     "title": "Report quality review without vanity metrics",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: quality review without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-review-access-before-changing-client-report",
     "title": "Review access before changing client report",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: client report without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-run-a-weekly-review-for-client-intake",
     "title": "Run a weekly review for client intake",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: client intake without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-run-an-exception-queue-for-quality-review",
     "title": "Run an exception queue for quality review",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: quality review without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-sample-quality-for-access-change-without-guessing",
     "title": "Sample quality for access change without guessing",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: access change without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-set-approval-boundaries-around-timekeeping",
     "title": "Set approval boundaries around timekeeping",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: timekeeping without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-standardize-offboarding-updates-across-the-team",
     "title": "Standardize offboarding updates across the team",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: offboarding without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-write-a-handoff-protocol-for-task-queue",
     "title": "Write a handoff protocol for task queue",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: task queue without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   },
   {
     "slug": "outsourcedcompany-write-an-sop-for-task-queue-that-people-use",
     "title": "Write an SOP for task queue that people use",
     "excerpt": "A source-bounded outsourced operations guide for outsourcing company operators: task queue without unsupported decisions.",
-    "minutes": 4
+    "published": "2026-10-25", "minutes": 4
   }
 ];
 
