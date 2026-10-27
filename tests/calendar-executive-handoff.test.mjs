@@ -5,7 +5,7 @@ const source = readFileSync(new URL('../app/article-blog-2026-08-23.ts', import.
 const slug = 'philippines-outsourcing-calendar-coordination-controls';
 const target = '/services/executive-administration';
 
-assert.ok(source.includes(`updated: t.slug === '${slug}' ? '2026-09-30' : '2026-08-23'`), 'the calendar route must own its refreshed modified date without changing its publication date');
+assert.match(source, /updated: t\.slug === 'philippines-outsourcing-calendar-coordination-controls' \? '2026-09-30' :(?: t\.slug === '[^']+' \? '[^']+' :)* '2026-08-23'/, 'the calendar route must own its refreshed modified date without changing its publication date');
 assert.ok(source.includes("datePublished: '2026-08-23'"), 'the August 23 publication date must remain intact');
 assert.ok(source.includes(`t.slug === '${slug}' ? [{ label: 'Plan a Philippines executive administration lane', href: '${target}' }] : []`), 'the calendar route must provide its task-specific executive-administration handoff');
 assert.ok(source.includes("{ label: 'See back-office operations support', href: '/services/back-office-operations' }"), 'the existing back-office route must remain available');
