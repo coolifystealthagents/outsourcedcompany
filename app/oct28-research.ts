@@ -7,14 +7,14 @@ export const researchPosts2026_10_28 = [
     "datePublished": "2026-10-28",
     "displayDate": "October 28, 2026",
     "image": "/oct28/outsourcedcompany-measuring-decision-latency-in-client-intake.png",
-    "imageAlt": "Measuring decision latency in client intake \u2014 Outsourced Company, published October 28, 2026",
+    "imageAlt": "Measuring decision latency in client intake — Outsourced Company, published October 28, 2026",
     "body": [
       "Write the primary question and one supporting question, then stop; a long list of questions usually hides an undefined unit. Exclude a reopened case only when the reopening did not create a new requirement; keep the exclusion count and reason. The definitions should be short enough to use at the queue and precise enough to defend in a review with client sponsor. The protocol should be short enough for an operator to follow and specific enough for a reviewer to repeat. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 client intake exception log should show the reason code, owner, and release decision.",
       "State the observation window, the sites or teams included, and the exclusions before collecting the first case. The unit definition should be stable enough that two reviewers can classify the same case the same way. Define the start event, the stop event, the pause rule, and the treatment of a missing team roster before collecting data. State whether the study covers one team, one client, or all cases in the defined service. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 client intake recovery test should record the restore point and the quality review pass rate result.",
       "Include cases opened before the window but closed inside it only when the protocol says they belong to the population. Report the number of cases that could not be classified and the reason, rather than forcing them into a category. If the definition of timekeeping exception rate changes, keep the old and new values side by side for the transition period. If a request was reopened after the window, keep it in the original population and report the later event separately. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Outsourced Company should name the client intake source, the owner, and the next review time.",
       "Test the unit definition on a case that crosses owners, a case that is still open, and a case that was reopened. Define whether a request that generates several task record updates is one case or several before counting begins. The definition should make it possible to classify a case without asking the person who did the work. Keep a list of requests closed as duplicates and show which case survived. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for client intake should show the source version and the offshore worker decision.",
       "Name the owner who can declare a case complete, and record that role in the data dictionary. Do not store sensitive content in the analysis file when a reference to the approved repository is enough. A duplicate request is a separate intake event even when it points to the same underlying need; record the link. Define whether the measure counts requests, cases, or destination updates, and use that unit consistently. Use the same note in the case file and the study extract; do not create a second version in a personal document. The client intake review at Outsourced Company should state whether the task record was current on October 28.",
-      "Define the controlled event as the moment a request for client intake becomes work, not the moment someone starts typing a note. Record the source system, the record identifier, the extraction time, and the reviewer for every extracted value. A correction is a change to a closed record; a clarification that does not change the record is a note, not a correction. A definition that depends on the reviewer\u2019s memory is not reproducible enough for this study. Keep the measurement note short enough to read with the case and specific enough to support the reported rework rate. The October 28 client intake note should distinguish a missing quality review from a confirmed negative.",
+      "Define the controlled event as the moment a request for client intake becomes work, not the moment someone starts typing a note. Record the source system, the record identifier, the extraction time, and the reviewer for every extracted value. A correction is a change to a closed record; a clarification that does not change the record is a note, not a correction. A definition that depends on the reviewer’s memory is not reproducible enough for this study. Keep the measurement note short enough to read with the case and specific enough to support the reported rework rate. The October 28 client intake note should distinguish a missing quality review from a confirmed negative.",
       "If the source is a document, record the page or field; if the source is a system, record the record identifier and extraction time. Record the extraction time separately from the event time so a late entry is visible. Run a five-case pilot before the full sample and revise any field that two reviewers interpret differently. Do not use a zero or an empty string to represent missing evidence. Link the observation to the exact field in the timekeeping system and to the quality review that supports it. The team lead decision on client intake should be dated October 28 and linked to the quality review.",
       "Each case needs the source, the observation time, the field supported, the owner, and the reviewer. Give every case a study key that is not the client name, member number, or candidate email. Record the data extraction date and the version of the access management console used for the population count. A case key should remain stable if the case moves between owners or changes status. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 client intake close should name the destination field, the approver, and the quality review pass rate check.",
       "Mark missing, unavailable, and confirmed negative values separately; collapsing them hides the difference between no evidence and evidence of absence. Keep the identity crosswalk in the approved system and restrict it to the review owner. Use one row per case and one column per required field; do not bury evidence in a long free-text note. Use a separate field for reviewer notes so the coded values stay comparable. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 client intake exception log should show the reason code, owner, and release decision.",
@@ -47,7 +47,7 @@ export const researchPosts2026_10_28 = [
         "heading": "Definitions and measures",
         "body": [
           "Name the owner who can declare a case complete, and record that role in the data dictionary. Do not store sensitive content in the analysis file when a reference to the approved repository is enough. A duplicate request is a separate intake event even when it points to the same underlying need; record the link. Define whether the measure counts requests, cases, or destination updates, and use that unit consistently. Use the same note in the case file and the study extract; do not create a second version in a personal document. The client intake review at Outsourced Company should state whether the task record was current on October 28.",
-          "Define the controlled event as the moment a request for client intake becomes work, not the moment someone starts typing a note. Record the source system, the record identifier, the extraction time, and the reviewer for every extracted value. A correction is a change to a closed record; a clarification that does not change the record is a note, not a correction. A definition that depends on the reviewer\u2019s memory is not reproducible enough for this study. Keep the measurement note short enough to read with the case and specific enough to support the reported rework rate. The October 28 client intake note should distinguish a missing quality review from a confirmed negative."
+          "Define the controlled event as the moment a request for client intake becomes work, not the moment someone starts typing a note. Record the source system, the record identifier, the extraction time, and the reviewer for every extracted value. A correction is a change to a closed record; a clarification that does not change the record is a note, not a correction. A definition that depends on the reviewer’s memory is not reproducible enough for this study. Keep the measurement note short enough to read with the case and specific enough to support the reported rework rate. The October 28 client intake note should distinguish a missing quality review from a confirmed negative."
         ]
       },
       {
@@ -90,7 +90,7 @@ export const researchPosts2026_10_28 = [
     ],
     "sources": [
       {
-        "label": "U.S. Department of Labor \u2014 recordkeeping",
+        "label": "U.S. Department of Labor — recordkeeping",
         "href": "https://www.dol.gov/agencies/whd/recordkeeping"
       },
       {
@@ -98,14 +98,29 @@ export const researchPosts2026_10_28 = [
         "href": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration — manage your business",
         "href": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
         "label": "U.S. Government Accountability Office",
         "href": "https://www.gao.gov/"
       }
-    ]
+    ],
+    "related": [
+      {
+        "label": "Testing evidence retention across team roster corrections",
+        "href": "/research/outsourcedcompany-testing-evidence-retention-across-team-roster-corrections"
+      },
+      {
+        "label": "Estimating exception spillover in task queue",
+        "href": "/research/outsourcedcompany-estimating-exception-spillover-in-task-queue"
+      },
+      {
+        "label": "Auditing backup-owner coverage for quality review",
+        "href": "/research/outsourcedcompany-auditing-backup-owner-coverage-for-quality-review"
+      }
+    ],
+    "cta": "Review the method with the operating owner before expanding the lane."
   },
   {
     "slug": "outsourcedcompany-testing-evidence-retention-across-team-roster-corrections",
@@ -115,7 +130,7 @@ export const researchPosts2026_10_28 = [
     "datePublished": "2026-10-28",
     "displayDate": "October 28, 2026",
     "image": "/oct28/outsourcedcompany-testing-evidence-retention-across-team-roster-corrections.png",
-    "imageAlt": "Testing evidence retention across team roster corrections \u2014 Outsourced Company, published October 28, 2026",
+    "imageAlt": "Testing evidence retention across team roster corrections — Outsourced Company, published October 28, 2026",
     "body": [
       "The protocol does not estimate an industry benchmark; it produces a local description that outsourcing company operators can review. If one request produces several task record updates, define whether the unit is the request or each update before sampling. Define age from the first recorded request, not from the first time someone remembered to open the case. Keep the protocol with the team roster batch so the next reviewer can see what was measured. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Outsourced Company should name the team roster source, the owner, and the next review time.",
       "The scope is one defined population of team roster cases observed from first request through verified close in the team roster. A count without a denominator is not a measurement, especially when the queue changes size during the day. Define age from the first recorded request, not from the first time someone remembered to open the case. The protocol should be short enough for an operator to follow and specific enough for a reviewer to repeat. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for team roster should show the source version and the team lead decision.",
@@ -202,7 +217,7 @@ export const researchPosts2026_10_28 = [
         "href": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration — manage your business",
         "href": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -210,10 +225,25 @@ export const researchPosts2026_10_28 = [
         "href": "https://www.gao.gov/"
       },
       {
-        "label": "U.S. Department of Labor \u2014 recordkeeping",
+        "label": "U.S. Department of Labor — recordkeeping",
         "href": "https://www.dol.gov/agencies/whd/recordkeeping"
       }
-    ]
+    ],
+    "related": [
+      {
+        "label": "Measuring decision latency in client intake",
+        "href": "/research/outsourcedcompany-measuring-decision-latency-in-client-intake"
+      },
+      {
+        "label": "Estimating exception spillover in task queue",
+        "href": "/research/outsourcedcompany-estimating-exception-spillover-in-task-queue"
+      },
+      {
+        "label": "Auditing backup-owner coverage for quality review",
+        "href": "/research/outsourcedcompany-auditing-backup-owner-coverage-for-quality-review"
+      }
+    ],
+    "cta": "Review the method with the operating owner before expanding the lane."
   },
   {
     "slug": "outsourcedcompany-estimating-exception-spillover-in-task-queue",
@@ -223,7 +253,7 @@ export const researchPosts2026_10_28 = [
     "datePublished": "2026-10-28",
     "displayDate": "October 28, 2026",
     "image": "/oct28/outsourcedcompany-estimating-exception-spillover-in-task-queue.png",
-    "imageAlt": "Estimating exception spillover in task queue \u2014 Outsourced Company, published October 28, 2026",
+    "imageAlt": "Estimating exception spillover in task queue — Outsourced Company, published October 28, 2026",
     "body": [
       "State the observation window, the sites or teams included, and the exclusions before collecting the first case. The unit definition should be stable enough that two reviewers can classify the same case the same way. Write the primary measure and one supporting measure; a measure without a denominator or observation window is not ready. The protocol should be short enough for an operator to follow and specific enough for a reviewer to repeat. Use the same note in the case file and the study extract; do not create a second version in a personal document. The task queue review at Outsourced Company should state whether the timekeeping exception was current on October 28.",
       "The question should name the unit, the start event, the stop event, and the decision the result is meant to inform. Record the opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. Distinguish an administrative pause from a failure: a pause waits for a named decision, while a failure leaves the next action unowned. Record the exclusions in advance so a difficult case cannot be removed after the result is known. Keep the measurement note short enough to read with the case and specific enough to support the reported access closure. The October 28 task queue note should distinguish a missing client report from a confirmed negative.",
@@ -306,7 +336,7 @@ export const researchPosts2026_10_28 = [
     ],
     "sources": [
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration — manage your business",
         "href": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
@@ -314,14 +344,29 @@ export const researchPosts2026_10_28 = [
         "href": "https://www.gao.gov/"
       },
       {
-        "label": "U.S. Department of Labor \u2014 recordkeeping",
+        "label": "U.S. Department of Labor — recordkeeping",
         "href": "https://www.dol.gov/agencies/whd/recordkeeping"
       },
       {
         "label": "NIST Cybersecurity Framework",
         "href": "https://www.nist.gov/cyberframework"
       }
-    ]
+    ],
+    "related": [
+      {
+        "label": "Measuring decision latency in client intake",
+        "href": "/research/outsourcedcompany-measuring-decision-latency-in-client-intake"
+      },
+      {
+        "label": "Testing evidence retention across team roster corrections",
+        "href": "/research/outsourcedcompany-testing-evidence-retention-across-team-roster-corrections"
+      },
+      {
+        "label": "Auditing backup-owner coverage for quality review",
+        "href": "/research/outsourcedcompany-auditing-backup-owner-coverage-for-quality-review"
+      }
+    ],
+    "cta": "Review the method with the operating owner before expanding the lane."
   },
   {
     "slug": "outsourcedcompany-auditing-backup-owner-coverage-for-quality-review",
@@ -331,14 +376,14 @@ export const researchPosts2026_10_28 = [
     "datePublished": "2026-10-28",
     "displayDate": "October 28, 2026",
     "image": "/oct28/outsourcedcompany-auditing-backup-owner-coverage-for-quality-review.png",
-    "imageAlt": "Auditing backup-owner coverage for quality review \u2014 Outsourced Company, published October 28, 2026",
+    "imageAlt": "Auditing backup-owner coverage for quality review — Outsourced Company, published October 28, 2026",
     "body": [
       "State the observation window, the sites or teams included, and the exclusions before collecting the first case. State how duplicate requests are identified and whether they are merged, linked, or counted separately. Define age from the first recorded request, not from the first time someone remembered to open the case. The protocol should be short enough for an operator to follow and specific enough for a reviewer to repeat. Link the observation to the exact field in the timekeeping system and to the client intake that supports it. The offshore worker decision on quality review should be dated October 28 and linked to the client intake.",
       "This protocol asks how quality review can be described from the operational record in outsourced operations without turning a completion count into a quality claim. A count without a denominator is not a measurement, especially when the queue changes size during the day. Distinguish an administrative pause from a failure: a pause waits for a named decision, while a failure leaves the next action unowned. State whether the study covers one team, one client, or all cases in the defined service. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 quality review close should name the destination field, the approver, and the client report timeliness check.",
       "A population that changes size during the day should be reported with the start, end, and net change, not only the closing total. A denominator that changes during the window should be reported separately for each period. A correction should be classified by the original case and by the correction event, with both dates retained. Keep a list of requests closed as duplicates and show which case survived. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 quality review exception log should show the reason code, owner, and release decision.",
       "The unit is one quality review case, from the opening request to the verified close, and linked events stay with that case. Report the number of cases that could not be classified and the reason, rather than forcing them into a category. The start event should be the first recorded request, not the first time the team opened the case. A case that never received an owner still belongs in the population; do not drop it because it is difficult to classify. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 quality review recovery test should record the restore point and the task cycle time result.",
       "If the definition of completion changes, keep the old and new rules side by side for the transition period. Record the version of the task record and the reporting dashboard snapshot used for each case. Before collection, test the definitions on a missing task record, a reopened case, and a handoff. Define whether the measure counts requests, cases, or destination updates, and use that unit consistently. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Outsourced Company should name the quality review source, the owner, and the next review time.",
-      "A pause should have a reason, an owner, and a review date; otherwise it is an unowned case with a different label. Record the version of the quality review and the client service portal snapshot used for each case. Use the same status vocabulary in the queue, the evidence extract, and the report so a case does not change category. A definition that depends on the reviewer\u2019s memory is not reproducible enough for this study. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for quality review should show the source version and the client sponsor decision.",
+      "A pause should have a reason, an owner, and a review date; otherwise it is an unowned case with a different label. Record the version of the quality review and the client service portal snapshot used for each case. Use the same status vocabulary in the queue, the evidence extract, and the report so a case does not change category. A definition that depends on the reviewer’s memory is not reproducible enough for this study. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for quality review should show the source version and the client sponsor decision.",
       "The data dictionary should name the allowed values for status, exception reason, owner, and close evidence. Record the extraction time separately from the event time so a late entry is visible. Run a five-case pilot before the full sample and revise any field that two reviewers interpret differently. Record the source location, not just the file name, so a reviewer can reopen the exact evidence. Use the same note in the case file and the study extract; do not create a second version in a personal document. The quality review review at Outsourced Company should state whether the quality review was current on October 28.",
       "Keep free-text notes separate from coded fields so the analysis does not depend on inconsistent wording. Use a controlled list for exception reasons; do not let free text become the analysis category. Store sensitive evidence in the approved repository and keep only the reference in the analysis file. Define who may change a coded value and how the change is logged. Keep the measurement note short enough to read with the case and specific enough to support the reported client report timeliness. The October 28 quality review note should distinguish a missing timekeeping exception from a confirmed negative.",
       "Mark missing, unavailable, and confirmed negative values separately; collapsing them hides the difference between no evidence and evidence of absence. Name the required fields for each article type and mark conditional fields in the dictionary. Record the data extraction date and the version of the team roster used for the population count. Record the source location, not just the file name, so a reviewer can reopen the exact evidence. Link the observation to the exact field in the team roster and to the client report that supports it. The offshore worker decision on quality review should be dated October 28 and linked to the client report.",
@@ -371,7 +416,7 @@ export const researchPosts2026_10_28 = [
         "heading": "Definitions and measures",
         "body": [
           "If the definition of completion changes, keep the old and new rules side by side for the transition period. Record the version of the task record and the reporting dashboard snapshot used for each case. Before collection, test the definitions on a missing task record, a reopened case, and a handoff. Define whether the measure counts requests, cases, or destination updates, and use that unit consistently. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Outsourced Company should name the quality review source, the owner, and the next review time.",
-          "A pause should have a reason, an owner, and a review date; otherwise it is an unowned case with a different label. Record the version of the quality review and the client service portal snapshot used for each case. Use the same status vocabulary in the queue, the evidence extract, and the report so a case does not change category. A definition that depends on the reviewer\u2019s memory is not reproducible enough for this study. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for quality review should show the source version and the client sponsor decision."
+          "A pause should have a reason, an owner, and a review date; otherwise it is an unowned case with a different label. Record the version of the quality review and the client service portal snapshot used for each case. Use the same status vocabulary in the queue, the evidence extract, and the report so a case does not change category. A definition that depends on the reviewer’s memory is not reproducible enough for this study. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for quality review should show the source version and the client sponsor decision."
         ]
       },
       {
@@ -418,7 +463,7 @@ export const researchPosts2026_10_28 = [
         "href": "https://www.gao.gov/"
       },
       {
-        "label": "U.S. Department of Labor \u2014 recordkeeping",
+        "label": "U.S. Department of Labor — recordkeeping",
         "href": "https://www.dol.gov/agencies/whd/recordkeeping"
       },
       {
@@ -426,10 +471,25 @@ export const researchPosts2026_10_28 = [
         "href": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration — manage your business",
         "href": "https://www.sba.gov/business-guide/manage-your-business"
       }
-    ]
+    ],
+    "related": [
+      {
+        "label": "Measuring decision latency in client intake",
+        "href": "/research/outsourcedcompany-measuring-decision-latency-in-client-intake"
+      },
+      {
+        "label": "Testing evidence retention across team roster corrections",
+        "href": "/research/outsourcedcompany-testing-evidence-retention-across-team-roster-corrections"
+      },
+      {
+        "label": "Estimating exception spillover in task queue",
+        "href": "/research/outsourcedcompany-estimating-exception-spillover-in-task-queue"
+      }
+    ],
+    "cta": "Review the method with the operating owner before expanding the lane."
   },
   {
     "slug": "outsourcedcompany-testing-whether-timekeeping-audit-samples-detect-silent-gaps",
@@ -439,7 +499,7 @@ export const researchPosts2026_10_28 = [
     "datePublished": "2026-10-28",
     "displayDate": "October 28, 2026",
     "image": "/oct28/outsourcedcompany-testing-whether-timekeeping-audit-samples-detect-silent-gaps.png",
-    "imageAlt": "Testing whether timekeeping audit samples detect silent gaps \u2014 Outsourced Company, published October 28, 2026",
+    "imageAlt": "Testing whether timekeeping audit samples detect silent gaps — Outsourced Company, published October 28, 2026",
     "body": [
       "State the observation window, the sites or teams included, and the exclusions before collecting the first case. The unit definition should be stable enough that two reviewers can classify the same case the same way. Write the primary measure and one supporting measure; a measure without a denominator or observation window is not ready. Name the population, the observation window, and the systems included in the extraction. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 timekeeping exception log should show the reason code, owner, and release decision.",
       "A useful scope is narrow enough to reproduce and specific enough to show whether unowned task is being detected. A count without a denominator is not a measurement, especially when the queue changes size during the day. A case is complete only when the reporting dashboard shows the approved destination value and the quality review supports it. If the study is exploratory, label it exploratory and do not present the result as a stable baseline. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 timekeeping recovery test should record the restore point and the rework rate result.",
@@ -522,7 +582,7 @@ export const researchPosts2026_10_28 = [
     ],
     "sources": [
       {
-        "label": "U.S. Department of Labor \u2014 recordkeeping",
+        "label": "U.S. Department of Labor — recordkeeping",
         "href": "https://www.dol.gov/agencies/whd/recordkeeping"
       },
       {
@@ -530,13 +590,28 @@ export const researchPosts2026_10_28 = [
         "href": "https://www.nist.gov/cyberframework"
       },
       {
-        "label": "U.S. Small Business Administration \u2014 manage your business",
+        "label": "U.S. Small Business Administration — manage your business",
         "href": "https://www.sba.gov/business-guide/manage-your-business"
       },
       {
         "label": "U.S. Government Accountability Office",
         "href": "https://www.gao.gov/"
       }
-    ]
+    ],
+    "related": [
+      {
+        "label": "Measuring decision latency in client intake",
+        "href": "/research/outsourcedcompany-measuring-decision-latency-in-client-intake"
+      },
+      {
+        "label": "Testing evidence retention across team roster corrections",
+        "href": "/research/outsourcedcompany-testing-evidence-retention-across-team-roster-corrections"
+      },
+      {
+        "label": "Estimating exception spillover in task queue",
+        "href": "/research/outsourcedcompany-estimating-exception-spillover-in-task-queue"
+      }
+    ],
+    "cta": "Review the method with the operating owner before expanding the lane."
   }
 ];
