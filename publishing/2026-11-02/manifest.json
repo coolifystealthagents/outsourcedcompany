@@ -1,0 +1,93 @@
+{
+  "site": "OutsourcedCompany.com",
+  "repository": "coolifystealthagents/outsourcedcompany",
+  "branch": "main",
+  "date": "2026-11-02",
+  "blog": [
+    {
+      "slug": "philippines-outsourcing-purchase-order-split-approval",
+      "title": "Review Split Purchase Orders Without Approving Spend",
+      "route": "/blog/philippines-outsourcing-purchase-order-split-approval",
+      "source": "app/article-blog-2026-11-02.ts",
+      "thumbnail": "/nov2/company-blog/philippines-outsourcing-purchase-order-split-approval.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-credit-hold-evidence-packet",
+      "title": "Assemble Credit Hold Evidence Without Releasing Accounts",
+      "route": "/blog/philippines-outsourcing-credit-hold-evidence-packet",
+      "source": "app/article-blog-2026-11-02.ts",
+      "thumbnail": "/nov2/company-blog/philippines-outsourcing-credit-hold-evidence-packet.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-regulatory-correspondence-register",
+      "title": "Register Regulatory Correspondence Without Interpreting Rules",
+      "route": "/blog/philippines-outsourcing-regulatory-correspondence-register",
+      "source": "app/article-blog-2026-11-02.ts",
+      "thumbnail": "/nov2/company-blog/philippines-outsourcing-regulatory-correspondence-register.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-vendor-due-diligence-file",
+      "title": "Maintain a Vendor Due Diligence File Without Scoring Risk",
+      "route": "/blog/philippines-outsourcing-vendor-due-diligence-file",
+      "source": "app/article-blog-2026-11-02.ts",
+      "thumbnail": "/nov2/company-blog/philippines-outsourcing-vendor-due-diligence-file.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-service-credit-reconciliation",
+      "title": "Reconcile SLA Service Credits Without Approving Refunds",
+      "route": "/blog/philippines-outsourcing-service-credit-reconciliation",
+      "source": "app/article-blog-2026-11-02.ts",
+      "thumbnail": "/nov2/company-blog/philippines-outsourcing-service-credit-reconciliation.webp"
+    }
+  ],
+  "research": [
+    {
+      "slug": "philippines-outsourcing-queue-age-anomaly-study",
+      "title": "Queue Age Anomalies in Outsourced Back-Office Work",
+      "route": "/research/philippines-outsourcing-queue-age-anomaly-study",
+      "source": "app/article-research-batch-2026-11-02.ts",
+      "thumbnail": "/nov2/company-research/philippines-outsourcing-queue-age-anomaly-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-owner-switch-cost-study",
+      "title": "Owner Switch Cost in Outsourced Exception Handling",
+      "route": "/research/philippines-outsourcing-owner-switch-cost-study",
+      "source": "app/article-research-batch-2026-11-02.ts",
+      "thumbnail": "/nov2/company-research/philippines-outsourcing-owner-switch-cost-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-missing-evidence-clustering-study",
+      "title": "Where Missing Evidence Clusters in Outsourced Queues",
+      "route": "/research/philippines-outsourcing-missing-evidence-clustering-study",
+      "source": "app/article-research-batch-2026-11-02.ts",
+      "thumbnail": "/nov2/company-research/philippines-outsourcing-missing-evidence-clustering-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-destination-confirmation-lag-study",
+      "title": "Destination Confirmation Lag After Outsourced Completion",
+      "route": "/research/philippines-outsourcing-destination-confirmation-lag-study",
+      "source": "app/article-research-batch-2026-11-02.ts",
+      "thumbnail": "/nov2/company-research/philippines-outsourcing-destination-confirmation-lag-study.webp"
+    },
+    {
+      "slug": "philippines-outsourcing-exception-reason-code-drift-study",
+      "title": "Reason Code Drift in Outsourced Exception Logs",
+      "route": "/research/philippines-outsourcing-exception-reason-code-drift-study",
+      "source": "app/article-research-batch-2026-11-02.ts",
+      "thumbnail": "/nov2/company-research/philippines-outsourcing-exception-reason-code-drift-study.webp"
+    }
+  ],
+  "registries": [
+    "app/data.ts"
+  ],
+  "routes": [
+    "app/blog/[slug]/page.tsx",
+    "app/research/[slug]/page.tsx"
+  ],
+  "indexes": [
+    "app/blog/page.tsx",
+    "app/blog/page/[page]/page.tsx",
+    "app/research/page.tsx"
+  ],
+  "sitemap": "app/sitemap.xml/route.ts"
+}
