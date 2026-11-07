@@ -1,34 +1,34 @@
 export const blogPosts2026_11_07 = [
   {
-    "slug": "outsourcedcompany-delegation-charter-before-a-second-task",
+    "slug": "outsourcedcompany-write-a-delegation-charter-before-adding-a-second-task-to-an-outsourced-role",
     "title": "Write a delegation charter before adding a second task to an outsourced role",
     "excerpt": "A second task changes authority, evidence, and review load. Use a short charter to define scope, stop rules, and an exit test before the work expands.",
     "minutes": 10,
     "published": "2026-11-07"
   },
   {
-    "slug": "outsourcedcompany-refund-credit-stop-rule-support-desk",
+    "slug": "outsourcedcompany-design-a-refund-and-credit-stop-rule-for-an-outsourced-support-desk",
     "title": "Design a refund and credit stop rule for an outsourced support desk",
     "excerpt": "Refunds, credits, and replacements carry different risks. Give a delegated support desk clear thresholds, holding states, and evidence rules before it touches money.",
     "minutes": 10,
     "published": "2026-11-07"
   },
   {
-    "slug": "outsourcedcompany-purchase-request-packet-routing",
+    "slug": "outsourcedcompany-prepare-a-purchase-request-packet-an-outsourced-assistant-can-route",
     "title": "Prepare a purchase request packet an outsourced assistant can route",
     "excerpt": "A routed purchase request fails when the packet is incomplete. Define the fields, evidence, and authority path before an assistant sends it to procurement.",
     "minutes": 9,
     "published": "2026-11-07"
   },
   {
-    "slug": "outsourcedcompany-missed-deadline-delegated-queue",
+    "slug": "outsourcedcompany-handle-a-missed-deadline-in-a-delegated-queue-without-hiding-it",
     "title": "Handle a missed deadline in a delegated queue without hiding it",
     "excerpt": "A missed deadline is a signal about the process, not a reason to hide the work. Use a factual recovery note, one control change, and a repeat-miss review.",
     "minutes": 9,
     "published": "2026-11-07"
   },
   {
-    "slug": "outsourcedcompany-research-source-log-market-scanning",
+    "slug": "outsourcedcompany-write-a-research-source-log-for-delegated-market-scanning",
     "title": "Write a research source log for delegated market scanning",
     "excerpt": "A summary hides where the claims came from. A source log lets an assistant scan a market while keeping each claim, date, and access path reviewable.",
     "minutes": 9,
@@ -37,12 +37,12 @@ export const blogPosts2026_11_07 = [
 ];
 
 export const blogDetails2026_11_07 = {
-  "outsourcedcompany-delegation-charter-before-a-second-task": {
+  "outsourcedcompany-write-a-delegation-charter-before-adding-a-second-task-to-an-outsourced-role": {
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
-    "marker": "november-7-2026-outsourcedcompany-delegation-charter-before-a-second-task",
+    "marker": "november-7-2026-outsourcedcompany-write-a-delegation-charter-before-adding-a-second-task-to-an-outsourced-role",
     "takeaway": "Add a second task only after the charter states what the role may decide, what evidence the task must leave, and which decisions still return to the owner. A short written test prevents quiet scope creep.",
-    "image": "/nov7/company-blog/outsourcedcompany-delegation-charter-before-a-second-task.webp",
+    "image": "/nov7/company-blog/outsourcedcompany-write-a-delegation-charter-before-adding-a-second-task-to-an-outsourced-role.webp",
     "sections": [
       {
         "heading": "Why a second task needs a charter",
@@ -146,12 +146,12 @@ export const blogDetails2026_11_07 = {
       }
     ]
   },
-  "outsourcedcompany-refund-credit-stop-rule-support-desk": {
+  "outsourcedcompany-design-a-refund-and-credit-stop-rule-for-an-outsourced-support-desk": {
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
-    "marker": "november-7-2026-outsourcedcompany-refund-credit-stop-rule-support-desk",
+    "marker": "november-7-2026-outsourcedcompany-design-a-refund-and-credit-stop-rule-for-an-outsourced-support-desk",
     "takeaway": "A money stop rule works when it separates refund, credit, and replacement, sets an amount the coordinator may approve, and names the person who decides above it. Test the rule with real adverse cases before the queue goes live.",
-    "image": "/nov7/company-blog/outsourcedcompany-refund-credit-stop-rule-support-desk.webp",
+    "image": "/nov7/company-blog/outsourcedcompany-design-a-refund-and-credit-stop-rule-for-an-outsourced-support-desk.webp",
     "sections": [
       {
         "heading": "Start from the money decision, not the script",
@@ -255,12 +255,12 @@ export const blogDetails2026_11_07 = {
       }
     ]
   },
-  "outsourcedcompany-purchase-request-packet-routing": {
+  "outsourcedcompany-prepare-a-purchase-request-packet-an-outsourced-assistant-can-route": {
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
-    "marker": "november-7-2026-outsourcedcompany-purchase-request-packet-routing",
+    "marker": "november-7-2026-outsourcedcompany-prepare-a-purchase-request-packet-an-outsourced-assistant-can-route",
     "takeaway": "Give the assistant a fixed packet: requester, item, amount, budget line, quote, and needed date. Route by written authority, return incomplete requests with a named missing field, and review the routing log monthly.",
-    "image": "/nov7/company-blog/outsourcedcompany-purchase-request-packet-routing.webp",
+    "image": "/nov7/company-blog/outsourcedcompany-prepare-a-purchase-request-packet-an-outsourced-assistant-can-route.webp",
     "sections": [
       {
         "heading": "What the packet is for",
@@ -364,12 +364,12 @@ export const blogDetails2026_11_07 = {
       }
     ]
   },
-  "outsourcedcompany-missed-deadline-delegated-queue": {
+  "outsourcedcompany-handle-a-missed-deadline-in-a-delegated-queue-without-hiding-it": {
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
-    "marker": "november-7-2026-outsourcedcompany-missed-deadline-delegated-queue",
+    "marker": "november-7-2026-outsourcedcompany-handle-a-missed-deadline-in-a-delegated-queue-without-hiding-it",
     "takeaway": "Make the miss visible early, separate cause from person, send a factual recovery note, and change one control at a time. Track repeat misses by task so the fix addresses the process rather than the symptom.",
-    "image": "/nov7/company-blog/outsourcedcompany-missed-deadline-delegated-queue.webp",
+    "image": "/nov7/company-blog/outsourcedcompany-handle-a-missed-deadline-in-a-delegated-queue-without-hiding-it.webp",
     "sections": [
       {
         "heading": "Make the miss visible first",
@@ -473,12 +473,12 @@ export const blogDetails2026_11_07 = {
       }
     ]
   },
-  "outsourcedcompany-research-source-log-market-scanning": {
+  "outsourcedcompany-write-a-research-source-log-for-delegated-market-scanning": {
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
-    "marker": "november-7-2026-outsourcedcompany-research-source-log-market-scanning",
+    "marker": "november-7-2026-outsourcedcompany-write-a-research-source-log-for-delegated-market-scanning",
     "takeaway": "Record the question before the search, capture a source and access date for every claim, grade the evidence, and keep open doubts visible. The log turns delegated scanning into something a decision owner can check.",
-    "image": "/nov7/company-blog/outsourcedcompany-research-source-log-market-scanning.webp",
+    "image": "/nov7/company-blog/outsourcedcompany-write-a-research-source-log-for-delegated-market-scanning.webp",
     "sections": [
       {
         "heading": "Why a source log beats a summary",

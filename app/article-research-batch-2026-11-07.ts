@@ -1,12 +1,12 @@
 export const researchPosts2026_11_07 = [
   {
-    "slug": "outsourcedcompany-response-time-targets-support-behavior",
+    "slug": "outsourcedcompany-how-response-time-targets-distort-outsourced-support-behavior",
     "title": "How response-time targets distort outsourced support behavior",
     "excerpt": "A close look at what a first-response target actually rewards, the cases it can hide, and a reporting mix that keeps speed from crowding out resolution.",
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
     "displayDate": "November 7, 2026",
-    "image": "/nov7/company-research/outsourcedcompany-response-time-targets-support-behavior.webp",
+    "image": "/nov7/company-research/outsourcedcompany-how-response-time-targets-distort-outsourced-support-behavior.webp",
     "imageAlt": "A support coordinator reviewing a queue on a desktop monitor",
     "body": [
       "A first-response target is easy to draw on a chart and easy to explain to a client. It measures the time between a customer message and the first reply, which feels like a direct measure of attentiveness. The trouble is that the clock stops before the work is done. A coordinator can meet the target with a holding reply that resolves nothing, and the report will look healthy while the customer waits for a second answer.",
@@ -98,13 +98,13 @@ export const researchPosts2026_11_07 = [
     "cta": "Bring one support queue and its last month of response and resolution records to a bounded review."
   },
   {
-    "slug": "outsourcedcompany-sampling-outsourced-data-entry-accuracy",
+    "slug": "outsourcedcompany-a-sampling-method-for-checking-outsourced-data-entry-accuracy",
     "title": "A sampling method for checking outsourced data-entry accuracy",
     "excerpt": "A practical protocol for sampling completed data-entry records, defining an error, and reporting accuracy with a denominator a reviewer can defend.",
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
     "displayDate": "November 7, 2026",
-    "image": "/nov7/company-research/outsourcedcompany-sampling-outsourced-data-entry-accuracy.webp",
+    "image": "/nov7/company-research/outsourcedcompany-a-sampling-method-for-checking-outsourced-data-entry-accuracy.webp",
     "imageAlt": "A reviewer comparing printed records with entries on a laptop",
     "body": [
       "Data-entry accuracy is often reported as a percentage with no visible method. A manager pulls a few records, finds one mistake, and announces an error rate that cannot be reproduced. The number may be right, but the reader has no way to tell. A defensible accuracy review starts with the population, the sampling rule, and the definition of an error, and only then produces a percentage.",
@@ -198,13 +198,13 @@ export const researchPosts2026_11_07 = [
     "cta": "Bring one data-entry queue and its completion log to a bounded accuracy sample."
   },
   {
-    "slug": "outsourcedcompany-duplicate-tools-offshore-administration",
+    "slug": "outsourcedcompany-the-real-cost-of-duplicate-tools-in-offshore-administrative-work",
     "title": "The real cost of duplicate tools in offshore administrative work",
     "excerpt": "When two systems hold the same record, the coordinator pays the tax. A method for finding duplicate tools, pricing the reconciliation work, and choosing one owner.",
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
     "displayDate": "November 7, 2026",
-    "image": "/nov7/company-research/outsourcedcompany-duplicate-tools-offshore-administration.webp",
+    "image": "/nov7/company-research/outsourcedcompany-the-real-cost-of-duplicate-tools-in-offshore-administrative-work.webp",
     "imageAlt": "Two laptops and paper records on a shared office desk",
     "body": [
       "Duplicate tools rarely arrive as a deliberate strategy. A team adopts a project board, then a spreadsheet, then a shared inbox because each solves a local problem. The offshore coordinator is asked to keep all three in sync, and the work of reconciliation becomes invisible. The cost does not appear as a software bill. It appears as time spent copying, checking, and explaining which record is current.",
@@ -299,13 +299,13 @@ export const researchPosts2026_11_07 = [
     "cta": "Bring one administrative queue and its tool map to a bounded reconciliation review."
   },
   {
-    "slug": "outsourcedcompany-task-batching-outsourced-operations",
+    "slug": "outsourcedcompany-why-task-batching-breaks-down-in-outsourced-operations",
     "title": "Why task batching breaks down in outsourced operations",
     "excerpt": "Batching looks efficient on a calendar. In a delegated queue it can hide delays, create stale work, and make handoffs harder. A method for deciding what to batch.",
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
     "displayDate": "November 7, 2026",
-    "image": "/nov7/company-research/outsourcedcompany-task-batching-outsourced-operations.webp",
+    "image": "/nov7/company-research/outsourcedcompany-why-task-batching-breaks-down-in-outsourced-operations.webp",
     "imageAlt": "A wall clock and stacked paper trays in a quiet office",
     "body": [
       "Batching is appealing because it reduces switching. Instead of answering messages one at a time, a coordinator sets aside a block and works through a list. The logic is sound for some kinds of work. The trouble begins when a batch is treated as a delivery promise, and a request that arrived at nine in the morning waits for a block that starts at four.",
@@ -400,13 +400,13 @@ export const researchPosts2026_11_07 = [
     "cta": "Bring one delegated queue and two weeks of arrival and completion timestamps to a bounded batching review."
   },
   {
-    "slug": "outsourcedcompany-ramp-curve-outsourced-hire",
+    "slug": "outsourcedcompany-measuring-the-ramp-curve-of-a-new-outsourced-hire",
     "title": "Measuring the ramp curve of a new outsourced hire",
     "excerpt": "A new hire's first month is a curve, not a pass-fail test. Measure time to proficiency with staged checkpoints, reviewed samples, and honest limits.",
     "updated": "2026-11-07",
     "datePublished": "2026-11-07",
     "displayDate": "November 7, 2026",
-    "image": "/nov7/company-research/outsourcedcompany-ramp-curve-outsourced-hire.webp",
+    "image": "/nov7/company-research/outsourcedcompany-measuring-the-ramp-curve-of-a-new-outsourced-hire.webp",
     "imageAlt": "A new employee reviewing a training binder beside a laptop",
     "body": [
       "A new outsourced hire is often judged in two moments: the first week, when everything is new, and the first month, when the owner expects full output. The space between those moments is where the real learning happens, and it is usually unmeasured. A ramp curve fills that gap by showing how independence grows across a series of defined checkpoints. The goal is to see the shape of the learning, not to force it into a straight line.",
