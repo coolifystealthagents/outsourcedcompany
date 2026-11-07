@@ -149,3 +149,32 @@ html, body { overflow-x: clip; }
   .article-reading .card[id],
   .article-reading aside[id] { scroll-margin-top: 184px; }
 }
+
+/* 2026-11-06 ToC repair: desktop links stack vertically; mobile disclosure stays in flow. */
+.article-toc-disclosure nav a { display: block; }
+@media (min-width: 941px) {
+  .article-toc-disclosure a { font-size: 14px; line-height: 1.45; padding: 8px 6px; }
+}
+@media (max-width: 940px) {
+  .article-toc-disclosure {
+    position: sticky;
+    top: 120px;
+    left: auto;
+    right: auto;
+    z-index: 40;
+    margin: 0 0 18px;
+    max-height: 52px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .article-toc-disclosure[open] {
+    position: static;
+    max-height: none;
+    overflow: visible;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 940px) {
+  /* Let the compact ToC stick for the full article, not just the sidebar's content height. */
+  .article-sidebar { display: contents; }
+}
