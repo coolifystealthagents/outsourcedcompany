@@ -1,12 +1,12 @@
 export const researchPosts2026_11_06 = [
   {
-    "slug": "outsourcedcompany-measuring-rework-outsourced-administrative-queues",
+    "slug": "outsourcedcompany-measuring-rework-in-outsourced-administrative-queues",
     "title": "Measuring rework in outsourced administrative queues",
     "excerpt": "A descriptive protocol for defining, sampling, and reporting rework in outsourced administrative queues, with explicit denominators and limits.",
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
     "displayDate": "November 6, 2026",
-    "image": "/nov6/company-research/outsourcedcompany-measuring-rework-outsourced-administrative-queues.webp",
+    "image": "/nov6/company-research/outsourcedcompany-measuring-rework-in-outsourced-administrative-queues.webp",
     "imageAlt": "Documents and notes used to review rework in an administrative queue",
     "body": [
       "Rework is one of the few quality measures a small operations team can collect without a new dashboard, yet it is often reported without a definition. Two managers can agree that a queue has too much rework and still count different things. One counts reopened tickets, another counts corrected entries, and a third counts anything the owner had to touch twice. The disagreement is not about the data. It is about the unit of analysis. This review states the unit first so the rest of the method can be read against it.",
@@ -100,13 +100,13 @@ export const researchPosts2026_11_06 = [
     "cta": "Bring one administrative queue and its completion log to a bounded rework review."
   },
   {
-    "slug": "outsourcedcompany-cost-of-undocumented-process-exceptions",
+    "slug": "outsourcedcompany-the-cost-of-undocumented-process-exceptions-in-offshore-teams",
     "title": "The cost of undocumented process exceptions in offshore teams",
     "excerpt": "How undocumented exceptions accumulate cost in offshore operations, how to make them visible, and which measures support a defensible estimate.",
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
     "displayDate": "November 6, 2026",
-    "image": "/nov6/company-research/outsourcedcompany-cost-of-undocumented-process-exceptions.webp",
+    "image": "/nov6/company-research/outsourcedcompany-the-cost-of-undocumented-process-exceptions-in-offshore-teams.webp",
     "imageAlt": "Notebook and pen on a desk used to record process exceptions",
     "body": [
       "Every operating process has exceptions, and most teams handle them well enough in the moment. The cost appears later, when the person who handled the case is unavailable and the record shows only that the item was completed. An undocumented exception transfers knowledge from the company to an individual, and that transfer has a price even when it is invisible in the monthly accounts. That transfer is the reason an exception log belongs beside the queue rather than in a manager's memory.",
@@ -200,13 +200,13 @@ export const researchPosts2026_11_06 = [
     "cta": "Bring one queue, its written procedure, and its exception log to a bounded cost review."
   },
   {
-    "slug": "outsourcedcompany-shift-overlap-handoff-quality-philippines",
+    "slug": "outsourcedcompany-how-shift-overlap-affects-handoff-quality-in-philippines-based-support",
     "title": "How shift overlap affects handoff quality in Philippines-based support",
     "excerpt": "A descriptive look at overlap windows, handoff records, and the measures that show whether a Philippines-based support team can transfer work cleanly.",
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
     "displayDate": "November 6, 2026",
-    "image": "/nov6/company-research/outsourcedcompany-shift-overlap-handoff-quality-philippines.webp",
+    "image": "/nov6/company-research/outsourcedcompany-how-shift-overlap-affects-handoff-quality-in-philippines-based-support.webp",
     "imageAlt": "Team reviewing a wall of notes during a shift handoff",
     "body": [
       "Shift overlap is often sold as a scheduling feature, but it is really a handoff design decision. The hours two teams share determine how many open questions can be resolved before one group leaves. A long overlap with no handoff record still produces lost context, while a short overlap with a clear record can work for routine queues. The schedule alone cannot compensate for a record that says nothing.",
@@ -301,13 +301,13 @@ export const researchPosts2026_11_06 = [
     "cta": "Bring one cross-shift queue and its handoff record to a bounded review."
   },
   {
-    "slug": "outsourcedcompany-access-reviews-outsourced-staff-evidence-cadence",
+    "slug": "outsourcedcompany-access-reviews-for-outsourced-staff-evidence-and-cadence",
     "title": "Access reviews for outsourced staff: evidence and cadence",
     "excerpt": "A practical protocol for reviewing outsourced staff access, recording the evidence, choosing a cadence, and closing accounts when a role ends.",
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
     "displayDate": "November 6, 2026",
-    "image": "/nov6/company-research/outsourcedcompany-access-reviews-outsourced-staff-evidence-cadence.webp",
+    "image": "/nov6/company-research/outsourcedcompany-access-reviews-for-outsourced-staff-evidence-and-cadence.webp",
     "imageAlt": "Binder and notebook used to record an access review",
     "body": [
       "An access review is a comparison between the permissions a person needs and the permissions the systems say they have. The comparison sounds simple until the reviewer tries to find a current list. Accounts are created in one tool, roles are described in another, and the actual permissions may be inherited from a group nobody remembers creating. The reviewer needs a source that reflects the current state, not last quarter's export.",
@@ -403,13 +403,13 @@ export const researchPosts2026_11_06 = [
     "cta": "Bring one role inventory and its current access export to a bounded review."
   },
   {
-    "slug": "outsourcedcompany-turnover-risk-signals-outsourced-staffing",
+    "slug": "outsourcedcompany-turnover-risk-signals-in-outsourced-staffing-engagements",
     "title": "Turnover risk signals in outsourced staffing engagements",
     "excerpt": "How to read turnover risk in an outsourced staffing engagement without surveillance, using engagement-level signals, public labor data, and honest limits.",
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
     "displayDate": "November 6, 2026",
-    "image": "/nov6/company-research/outsourcedcompany-turnover-risk-signals-outsourced-staffing.webp",
+    "image": "/nov6/company-research/outsourcedcompany-turnover-risk-signals-in-outsourced-staffing-engagements.webp",
     "imageAlt": "Team working together at a shared table in an office",
     "body": [
       "Turnover in an outsourced role rarely appears as a single event. It usually shows up first as a change in questions, a slower handoff, or a task that suddenly needs more review. By the time a resignation is announced, the client has often absorbed several weeks of small signals without naming them. Name the signal early so the provider can respond before the work slips.",

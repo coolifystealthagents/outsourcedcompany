@@ -1,34 +1,34 @@
 export const blogPosts2026_11_06 = [
   {
-    "slug": "outsourcedcompany-shared-inbox-to-ticketed-queue",
+    "slug": "outsourcedcompany-when-a-shared-inbox-should-become-a-ticketed-queue",
     "title": "When a shared inbox should become a ticketed queue",
     "excerpt": "A practical test for deciding whether delegated support work belongs in a shared inbox or a tracked queue, with migration steps and review rules.",
     "minutes": 9,
     "published": "2026-11-06"
   },
   {
-    "slug": "outsourcedcompany-first-week-scorecard-outsourced-coordinator",
+    "slug": "outsourcedcompany-write-a-first-week-scorecard-for-a-new-outsourced-coordinator",
     "title": "Write a first-week scorecard for a new outsourced coordinator",
     "excerpt": "Five observable measures, a short review conversation, and a fair way to judge a new coordinator's first week without confusing speed with judgment.",
     "minutes": 10,
     "published": "2026-11-06"
   },
   {
-    "slug": "outsourcedcompany-meeting-notes-ownership-delegated-scheduling",
+    "slug": "outsourcedcompany-set-meeting-notes-ownership-before-you-delegate-scheduling",
     "title": "Set meeting notes ownership before you delegate scheduling",
     "excerpt": "Scheduling and minutes are different jobs. Define the note format, decision owners, and sensitive-meeting limits before handing either task to an assistant.",
     "minutes": 9,
     "published": "2026-11-06"
   },
   {
-    "slug": "outsourcedcompany-keep-in-house-outsourced-bookkeeping-support",
+    "slug": "outsourcedcompany-what-to-keep-in-house-when-you-outsource-bookkeeping-support",
     "title": "What to keep in-house when you outsource bookkeeping support",
     "excerpt": "Draw the bookkeeping boundary around authority rather than difficulty, with concrete tasks that can move and decisions that should stay with the owner.",
     "minutes": 11,
     "published": "2026-11-06"
   },
   {
-    "slug": "outsourcedcompany-escalation-ladder-outsourced-support-desk",
+    "slug": "outsourcedcompany-design-an-escalation-ladder-for-an-outsourced-support-desk",
     "title": "Design an escalation ladder for an outsourced support desk",
     "excerpt": "Replace a vague two-level escalation path with named triggers, clocks, owners, and a tested adverse case that keeps consequential decisions in-house.",
     "minutes": 10,
@@ -37,12 +37,12 @@ export const blogPosts2026_11_06 = [
 ];
 
 export const blogDetails2026_11_06 = {
-  "outsourcedcompany-shared-inbox-to-ticketed-queue": {
+  "outsourcedcompany-when-a-shared-inbox-should-become-a-ticketed-queue": {
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
-    "marker": "november-6-2026-outsourcedcompany-shared-inbox-to-ticketed-queue",
+    "marker": "november-6-2026-outsourcedcompany-when-a-shared-inbox-should-become-a-ticketed-queue",
     "takeaway": "Move to a queue only when duplicate replies, lost requests, or missing ownership cost more than the structure a queue adds. Pilot one sender group and keep the fields small.",
-    "image": "/nov6/company-blog/outsourcedcompany-shared-inbox-to-ticketed-queue.webp",
+    "image": "/nov6/company-blog/outsourcedcompany-when-a-shared-inbox-should-become-a-ticketed-queue.webp",
     "sections": [
       {
         "heading": "Start with the failure mode, not the tool",
@@ -141,12 +141,12 @@ export const blogDetails2026_11_06 = {
       }
     ]
   },
-  "outsourcedcompany-first-week-scorecard-outsourced-coordinator": {
+  "outsourcedcompany-write-a-first-week-scorecard-for-a-new-outsourced-coordinator": {
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
-    "marker": "november-6-2026-outsourcedcompany-first-week-scorecard-outsourced-coordinator",
+    "marker": "november-6-2026-outsourcedcompany-write-a-first-week-scorecard-for-a-new-outsourced-coordinator",
     "takeaway": "A first-week scorecard should measure observable work, separate speed from judgment, and end in a short conversation with one written improvement.",
-    "image": "/nov6/company-blog/outsourcedcompany-first-week-scorecard-outsourced-coordinator.webp",
+    "image": "/nov6/company-blog/outsourcedcompany-write-a-first-week-scorecard-for-a-new-outsourced-coordinator.webp",
     "sections": [
       {
         "heading": "What a first-week scorecard is for",
@@ -245,12 +245,12 @@ export const blogDetails2026_11_06 = {
       }
     ]
   },
-  "outsourcedcompany-meeting-notes-ownership-delegated-scheduling": {
+  "outsourcedcompany-set-meeting-notes-ownership-before-you-delegate-scheduling": {
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
-    "marker": "november-6-2026-outsourcedcompany-meeting-notes-ownership-delegated-scheduling",
+    "marker": "november-6-2026-outsourcedcompany-set-meeting-notes-ownership-before-you-delegate-scheduling",
     "takeaway": "Scheduling and minutes are separate jobs. Give note ownership a format, a decision field, and a sensitive-meeting limit before delegating either task.",
-    "image": "/nov6/company-blog/outsourcedcompany-meeting-notes-ownership-delegated-scheduling.webp",
+    "image": "/nov6/company-blog/outsourcedcompany-set-meeting-notes-ownership-before-you-delegate-scheduling.webp",
     "sections": [
       {
         "heading": "Scheduling is not the same job as minutes",
@@ -349,12 +349,12 @@ export const blogDetails2026_11_06 = {
       }
     ]
   },
-  "outsourcedcompany-keep-in-house-outsourced-bookkeeping-support": {
+  "outsourcedcompany-what-to-keep-in-house-when-you-outsource-bookkeeping-support": {
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
-    "marker": "november-6-2026-outsourcedcompany-keep-in-house-outsourced-bookkeeping-support",
+    "marker": "november-6-2026-outsourcedcompany-what-to-keep-in-house-when-you-outsource-bookkeeping-support",
     "takeaway": "Outsource bookkeeping tasks, not financial authority. Keep approvals, bank access, and judgment calls with the owner, and move data entry only behind a reviewed evidence trail.",
-    "image": "/nov6/company-blog/outsourcedcompany-keep-in-house-outsourced-bookkeeping-support.webp",
+    "image": "/nov6/company-blog/outsourcedcompany-what-to-keep-in-house-when-you-outsource-bookkeeping-support.webp",
     "sections": [
       {
         "heading": "The line is authority, not difficulty",
@@ -458,12 +458,12 @@ export const blogDetails2026_11_06 = {
       }
     ]
   },
-  "outsourcedcompany-escalation-ladder-outsourced-support-desk": {
+  "outsourcedcompany-design-an-escalation-ladder-for-an-outsourced-support-desk": {
     "updated": "2026-11-06",
     "datePublished": "2026-11-06",
-    "marker": "november-6-2026-outsourcedcompany-escalation-ladder-outsourced-support-desk",
+    "marker": "november-6-2026-outsourcedcompany-design-an-escalation-ladder-for-an-outsourced-support-desk",
     "takeaway": "A working escalation ladder names triggers, clocks, and owners. Test it with an adverse case and keep consequential decisions with the internal team.",
-    "image": "/nov6/company-blog/outsourcedcompany-escalation-ladder-outsourced-support-desk.webp",
+    "image": "/nov6/company-blog/outsourcedcompany-design-an-escalation-ladder-for-an-outsourced-support-desk.webp",
     "sections": [
       {
         "heading": "Why a two-level ladder fails",
