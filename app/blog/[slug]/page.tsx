@@ -161,7 +161,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     <main id="main-content" className="section">
       <JsonLd data={schema} />
       <article className="container guide-article" data-article-marker={details?.marker}>
-        <p className="eyebrow">Philippines staffing guide</p>
+        <p className="eyebrow">Philippines staffing guide · Published <time dateTime={details?.datePublished ?? details?.updated ?? (post as typeof post & { published?: string }).published}>{visiblePublishedDate(details?.datePublished ?? details?.updated ?? (post as typeof post & { published?: string }).published ?? '2026-11-07')}</time></p>
         <h1>{post.title}</h1>
         <p className="lead">{post.excerpt}</p>
         {details?.image ? <img src={details.image} alt={`${post.title} operations illustration`} width="1536" height="1024" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : ['2026-09-04', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-14', '2026-09-18', '2026-09-22', '2026-09-23', '2026-09-24', '2026-10-02', '2026-10-05'].includes(details?.updated) ? <img src="/images/operations-meeting.jpg" alt="Operations teammates reviewing documented evidence together" style={{ width: '100%', height: 'auto', borderRadius: 12, margin: '1.5rem 0' }} /> : null}
