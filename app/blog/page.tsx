@@ -22,9 +22,19 @@ export default function Blog() {
             {posts.map((p) => {
               const details = blogDetails[
                 p.slug as keyof typeof blogDetails
-              ] as { updated?: string } | undefined;
+              ] as { updated?: string; image?: string } | undefined;
               return (
-                <a className="card" href={`/blog/${p.slug}`} key={p.slug}>
+                <a className="card article-card" href={`/blog/${p.slug}`} key={p.slug}>
+                  {details?.image ? (
+                    <img
+                      className="card-thumb"
+                      src={details.image}
+                      alt={p.title}
+                      width={1200}
+                      height={630}
+                      loading="lazy"
+                    />
+                  ) : null}
                   <h2>{p.title}</h2>
                   <p>{p.excerpt}</p>
                   {details?.updated ? (

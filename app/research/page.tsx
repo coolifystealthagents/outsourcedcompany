@@ -22,14 +22,24 @@ export default function Research() {
           </p>
           <div className="cards">
             {allResearchPosts.map((p) => (
-              <a className="card" href={`/research/${p.slug}`} key={p.slug}>
+              <a className="card article-card" href={`/research/${p.slug}`} key={p.slug}>
+                {p.image ? (
+                  <img
+                    className="card-thumb"
+                    src={p.image}
+                    alt={p.title}
+                    width={1200}
+                    height={630}
+                    loading="lazy"
+                  />
+                ) : null}
                 <h2>{p.title}</h2>
                 <p>{p.excerpt}</p>
                 <time dateTime={p.updated}>Published {formatDate(p.updated)}</time>
               </a>
             ))}
             {today.map((p) => (
-              <a className="card" href={`/research/${p.slug}`} key={p.slug}>
+              <a className="card article-card" href={`/research/${p.slug}`} key={p.slug}>
                 <h2>{p.title}</h2>
                 <p>{p.description}</p>
                 <span>Updated August 20, 2026</span>
