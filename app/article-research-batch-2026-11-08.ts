@@ -194,13 +194,13 @@ export const researchPosts2026_11_08 = [
     "cta": "Map one delegated role and the repairs it performs outside the written scope."
   },
   {
-    "slug": "outsourcedcompany-planning-outsourced-coverage-around-arrival-peaks",
+    "slug": "outsourcedcompany-planning-outsourced-coverage-around-arrival-peaks-not-averages",
     "title": "Planning outsourced coverage around arrival peaks, not averages",
     "excerpt": "An average contact volume hides the hours that break a queue. Read the arrival pattern, separate wait from handle time, and build coverage around the peaks that matter.",
     "updated": "2026-11-08",
     "datePublished": "2026-11-08",
     "displayDate": "November 8, 2026",
-    "image": "/nov8/company-research/outsourcedcompany-planning-outsourced-coverage-around-arrival-peaks.webp",
+    "image": "/nov8/company-research/outsourcedcompany-planning-outsourced-coverage-around-arrival-peaks-not-averages.webp",
     "imageAlt": "An operations desk with monitors showing a queue during a busy period",
     "body": [
       "A coverage plan built on a daily average will look reasonable and fail on the busiest hour. One hundred contacts across an eight-hour day sounds like twelve or thirteen an hour, which may fit a small team. If forty of those contacts arrive between nine and eleven in the morning, the team needs a different plan for that window. The average describes the day; the peak describes the experience. Plan for the hour the customer actually feels.",
@@ -287,13 +287,13 @@ export const researchPosts2026_11_08 = [
     "cta": "Review one queue's arrival pattern and the coverage block that actually matches it."
   },
   {
-    "slug": "outsourcedcompany-how-to-read-a-provider-quality-report",
+    "slug": "outsourcedcompany-how-to-read-a-provider-quality-report-without-overtrusting-the-score",
     "title": "How to read a provider quality report without overtrusting the score",
     "excerpt": "A quality score compresses many decisions into one number. Ask about the sample, the error definition, the reviewer, and the rework before using it to compare periods.",
     "updated": "2026-11-08",
     "datePublished": "2026-11-08",
     "displayDate": "November 8, 2026",
-    "image": "/nov8/company-research/outsourcedcompany-how-to-read-a-provider-quality-report.webp",
+    "image": "/nov8/company-research/outsourcedcompany-how-to-read-a-provider-quality-report-without-overtrusting-the-score.webp",
     "imageAlt": "A printed quality report and notes on a desk beside a computer",
     "body": [
       "A quality report usually arrives as a percentage. Ninety-six percent accurate sounds reassuring, and a drop to ninety-one percent sounds alarming. The number is useful only if the reader knows what was counted, who counted it, and what the score was meant to predict. Without those answers, the percentage is a mood rather than a measurement. Ask for the working, not just the result.",
@@ -380,13 +380,13 @@ export const researchPosts2026_11_08 = [
     "cta": "Bring one provider quality report and its sample method to a bounded review."
   },
   {
-    "slug": "outsourcedcompany-where-checklists-stop-working-in-outsourced-compliance",
+    "slug": "outsourcedcompany-where-checklists-stop-working-in-outsourced-compliance-work",
     "title": "Where checklists stop working in outsourced compliance work",
     "excerpt": "A checklist is good at memory and sequence, not judgment. Learn the failure modes, the escalation layer, and the cases where a decision table or a second reviewer fits better.",
     "updated": "2026-11-08",
     "datePublished": "2026-11-08",
     "displayDate": "November 8, 2026",
-    "image": "/nov8/company-research/outsourcedcompany-where-checklists-stop-working-in-outsourced-compliance.webp",
+    "image": "/nov8/company-research/outsourcedcompany-where-checklists-stop-working-in-outsourced-compliance-work.webp",
     "imageAlt": "A compliance checklist and highlighted documents on an office desk",
     "body": [
       "A checklist is one of the most useful tools in delegated work. It carries the steps that a person might forget, makes a sequence visible, and gives a reviewer something concrete to compare with the record. For repeatable compliance tasks, that combination is hard to beat. The trouble starts when the team treats the checklist as a substitute for judgment. The tool is useful up to that boundary and dangerous past it.",
