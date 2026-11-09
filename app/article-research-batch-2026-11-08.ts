@@ -1,12 +1,12 @@
 export const researchPosts2026_11_08 = [
   {
-    "slug": "outsourcedcompany-how-much-reviewer-time-an-outsourced-queue-consumes",
+    "slug": "outsourcedcompany-how-much-reviewer-time-an-outsourced-queue-actually-consumes",
     "title": "How much reviewer time an outsourced queue actually consumes",
     "excerpt": "Reviewer hours are the hidden cost of delegation. A simple model separates sampling, escalation decisions, rework checks, and meetings before a new task enters the queue.",
     "updated": "2026-11-08",
     "datePublished": "2026-11-08",
     "displayDate": "November 8, 2026",
-    "image": "/nov8/company-research/outsourcedcompany-how-much-reviewer-time-an-outsourced-queue-consumes.webp",
+    "image": "/nov8/company-research/outsourcedcompany-how-much-reviewer-time-an-outsourced-queue-actually-consumes.webp",
     "imageAlt": "A reviewer comparing printed records beside a laptop in an office",
     "body": [
       "Most outsourcing plans budget for the person doing the work and forget the person checking it. The worker's hours appear in the contract, while the reviewer's hours disappear into a manager's week. That omission makes a queue look cheaper than it is and hides the point where added volume stops being manageable. Reviewer time is a real constraint, and it should be estimated before the first task moves. A written estimate is easier to revisit than a vague feeling of overload.",
