@@ -186,3 +186,11 @@ html, body { overflow-x: clip; }
 .cards .article-card p { margin: 0 22px 14px; color: var(--muted); line-height: 1.55; }
 .cards .article-card span, .cards .article-card time { margin: 0 22px 18px; color: var(--muted); font-size: 0.85rem; }
 .cards .article-card span + span, .cards .article-card p + span, .cards .article-card p + time { margin-top: auto; }
+
+/* 2026-11-08 mobile reading gutters: keep article text off the viewport edge. */
+@media (max-width: 940px) {
+  .guide-article { padding-inline: 18px; }
+}
+@media (max-width: 620px) {
+  .guide-article { padding-inline: 15px; }
+}
