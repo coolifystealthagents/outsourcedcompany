@@ -65,7 +65,7 @@ export async function POST(request: NextRequest) {
   const declaredLength = Number(request.headers.get('content-length') || 0);
   const origin = request.headers.get('origin');
   if (
-    (origin && origin !== request.nextUrl.origin) ||
+    (origin && origin !== 'https://outsourcedcompany.com' && origin !== 'https://www.outsourcedcompany.com') ||
     !Number.isFinite(declaredLength) ||
     declaredLength < 0 ||
     declaredLength > MAX_BODY_BYTES ||
@@ -132,5 +132,5 @@ export async function POST(request: NextRequest) {
   }
 
   void sendLeadFallbackToMattermost({ name, email, phone, business, message, companySize, positions, referral, pageUrl, userAgent: request.headers.get('user-agent') || '' });
-  return NextResponse.redirect(new URL('/thank-you?lead=accepted', request.url), 303);
+  if (request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ok:true,redirect:'/thank-you?lead=accepted'}, {headers:{'cache-control':'no-store'}});return NextResponse.redirect(new URL('/thank-you?lead=accepted', 'https://outsourcedcompany.com'), 303);
 }

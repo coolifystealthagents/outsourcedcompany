@@ -15,20 +15,6 @@ const countryCodes = [
   ["🇲🇽", "+52"], ["🇧🇷", "+55"], ["🇿🇦", "+27"], ["🇩🇪", "+49"], ["🇫🇷", "+33"],
 ];
 
-async function trackAcceptedLead(payload: Record<string, unknown>) {
-  const trackerClient = (window as TrackerWindow).acrTracker;
-  if (!trackerClient?.trackLead) return;
-  let timer: number | undefined;
-  const deadline = new Promise<void>(resolve => {
-    timer = window.setTimeout(resolve, TRACKER_DEADLINE_MS);
-  });
-  try {
-    await Promise.race([Promise.resolve(trackerClient.trackLead(payload)), deadline]);
-  } finally {
-    if (timer !== undefined) window.clearTimeout(timer);
-  }
-}
-
 export default function StandardContactForm({ endpoint = "/api/submit-lead", encoding = "json" }: Props) {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -68,16 +54,13 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
     setError("");
     try {
       const request = encoding === "form"
-        ? { method: "POST", body: new URLSearchParams(payload) }
+        ? { method: "POST", headers: { Accept: "application/json" }, body: new URLSearchParams(payload) }
         : { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) };
       const response = await fetch(endpoint, request);
       if (!response.ok) throw new Error("Lead endpoint rejected the request");
-      const redirectUrl = new URL(response.url, window.location.origin);
-      if (redirectUrl.origin !== window.location.origin || redirectUrl.pathname !== "/thank-you" || redirectUrl.searchParams.get("lead") !== "accepted") {
-        throw new Error("Lead endpoint did not confirm delivery");
-      }
-      try { await trackAcceptedLead(payload); } catch {}
-      window.location.assign(`${redirectUrl.pathname}${redirectUrl.search}`);
+      const receipt = await response.json();
+      if (receipt?.ok !== true) throw new Error("Lead endpoint did not confirm delivery");
+      window.location.assign("/thank-you?lead=accepted");
     } catch {
       setError("We could not submit your request. Please try again.");
       setSubmitting(false);
@@ -87,7 +70,7 @@ export default function StandardContactForm({ endpoint = "/api/submit-lead", enc
   return (
     <div className="sa-form-card">
       <h2>Tell us about the work you want to hand off</h2>
-      <form action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
+      <form data-acr-managed="react" action={endpoint} method="post" onSubmit={submit} id="contactPageForm" data-acr-handled="1">
         <input className="sa-hp" name="website_url" type="hidden" tabIndex={-1} autoComplete="off" aria-label="Leave this field empty" />
         <div className="sa-grid">
           <label>First Name *<input name="firstName" required autoComplete="given-name" /></label>
