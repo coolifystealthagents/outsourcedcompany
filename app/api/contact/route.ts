@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { sendLeadFallbackToMattermost } from '../../lib/lead-fallback-mattermost';
 
 const MAX_BODY_BYTES = 64_000;
 const MAX_FIELD_LENGTH = 4_000;
@@ -131,6 +130,6 @@ export async function POST(request: NextRequest) {
     return errorPage(502);
   }
 
-  void sendLeadFallbackToMattermost({ name, email, phone, business, message, companySize, positions, referral, pageUrl, userAgent: request.headers.get('user-agent') || '' });
+
   if (request.headers.get('accept')?.includes('application/json')) return NextResponse.json({ok:true,redirect:'/thank-you?lead=accepted'}, {headers:{'cache-control':'no-store'}});return NextResponse.redirect(new URL('/thank-you?lead=accepted', 'https://outsourcedcompany.com'), 303);
 }
