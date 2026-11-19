@@ -6,12 +6,14 @@ export type TocItem = { id: string; label: string };
 
 export function ArticleSidebar({ items, family, updated, related }: { items: TocItem[]; family: string; updated?: string; related?: { href: string; label: string }[] }) {
   const [active, setActive] = useState(items[0]?.id ?? '');
+  const [tocOpen, setTocOpen] = useState(false);
   const tocRef = useRef<HTMLDetailsElement>(null);
   useEffect(() => {
     const query = window.matchMedia('(max-width: 940px)');
     const sync = () => {
       const node = tocRef.current;
       if (node) node.open = !query.matches;
+      setTocOpen(Boolean(node?.open) && query.matches);
     };
     sync();
     query.addEventListener('change', sync);
@@ -29,11 +31,15 @@ export function ArticleSidebar({ items, family, updated, related }: { items: Toc
   }, [items]);
 
   return <aside className="article-sidebar" aria-label="Article navigation and details">
-    <details ref={tocRef} className="article-toc-disclosure" open onToggle={(event) => {
+    <button type="button" className="article-toc-bar" aria-expanded={tocOpen} aria-controls="article-toc-panel" onClick={() => {
+      const node = tocRef.current;
+      if (!node) return;
+      node.open = !node.open;
+      setTocOpen(node.open);
+    }}>Table of contents<span aria-hidden="true">{tocOpen ? '-' : '+'}</span></button>
+    <details ref={tocRef} id="article-toc-panel" className="article-toc-disclosure" open onToggle={(event) => {
       const node = event.currentTarget;
-      if (node.open && window.matchMedia('(max-width: 940px)').matches) {
-        requestAnimationFrame(() => window.scrollTo({ top: node.getBoundingClientRect().top + window.scrollY - 130, behavior: 'smooth' }));
-      }
+      if (window.matchMedia('(max-width: 940px)').matches) setTocOpen(node.open);
     }}><summary>Table of contents</summary>
       <nav aria-label="Table of contents">{items.map(item => <a key={item.id} href={`#${item.id}`} onClick={(event) => { const d = event.currentTarget.closest('details'); if (d) d.removeAttribute('open'); }} aria-current={active === item.id ? 'location' : undefined}>{item.label}</a>)}</nav>
     </details>

@@ -194,3 +194,50 @@ html, body { overflow-x: clip; }
 @media (max-width: 620px) {
   .guide-article { padding-inline: 15px; }
 }
+
+/* 2026-11-19 mobile ToC: compact sticky bar controls an in-flow disclosure. */
+.article-toc-bar { display: none; }
+@media (max-width: 940px) {
+  .article-toc-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    position: sticky;
+    top: 120px;
+    z-index: 40;
+    width: 100%;
+    margin: 0 0 12px;
+    padding: 14px 16px;
+    background: #fffaf2;
+    border: 1px solid var(--line, #d8cfc0);
+    border-radius: 8px;
+    box-shadow: 0 8px 18px rgba(15, 44, 40, 0.12);
+    font-family: var(--display);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ink-deep, #173a35);
+    text-align: left;
+    cursor: pointer;
+  }
+  .article-toc-bar:focus-visible {
+    outline: 3px solid var(--brick, #9b4327);
+    outline-offset: 2px;
+  }
+  .article-toc-disclosure,
+  .article-toc-disclosure[open] {
+    position: static;
+    left: auto;
+    right: auto;
+    max-height: none;
+    overflow: visible;
+    margin: 0 0 18px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .article-toc-disclosure > summary { display: none; }
+  .article-toc-disclosure nav { margin-top: 0; }
+}
