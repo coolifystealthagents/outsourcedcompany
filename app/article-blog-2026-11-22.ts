@@ -86,6 +86,53 @@ export const blogDetails2026_11_22 = {
           "Set the date for the first service review and the data the desk will bring. Include the volume, the response time, the quality sample, and the open risks. Ask the client owner to confirm the scope has not changed. Onboarding ends when both sides agree the desk is operating, not when the contract is signed."
         ]
       }
+    ],
+    "script": [
+      "What is the current scope, and who owns the decision?",
+      "Which evidence shows the request arrived and who approved it?",
+      "Which systems were updated, and when was each confirmed?",
+      "Which items are still open past the promised date?"
+    ],
+    "sources": [
+      {
+        "name": "FTC: Protecting Personal Information",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security",
+        "note": "Official business guidance on handling consumer and client information."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Risk-based privacy practices referenced in the record design."
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/cyber-essentials",
+        "note": "Small business operational and access guidance."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who owns this process?",
+        "answer": "The client-side service owner confirms the policy and the escalation authority, while the desk maintains the record and the evidence."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the request, the approval, the system update, and the confirmation in one place so a later reviewer can follow the decision."
+      },
+      {
+        "question": "When should it be reviewed?",
+        "answer": "Review it at the next service meeting and after any change in policy, ownership, or system."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "See operations support",
+        "href": "/services/operations-support"
+      },
+      {
+        "label": "Read the shift handover guide",
+        "href": "/blog/outsourcedcompany-write-a-shift-handover-log-for-an-outsourced-data-entry-team"
+      }
     ]
   },
   "outsourcedcompany-write-a-shift-handover-log-for-an-outsourced-data-entry-team": {
@@ -136,6 +183,53 @@ export const blogDetails2026_11_22 = {
           "The outgoing operator writes the log before leaving and the incoming operator confirms it at the start of the shift. The confirmation is a short reply that names the first action. If the incoming operator disagrees with the state, resolve it before the work continues. The log is a handshake, not a broadcast.",
           "Review the log at the end of the week for repeated exceptions and waiting items. A recurring exception may need a source fix or a clearer rule. A waiting item that never moves may need an escalation. Use the log to improve the process, not only to transfer work."
         ]
+      }
+    ],
+    "script": [
+      "What is the current scope, and who owns the decision?",
+      "Which evidence shows the request arrived and who approved it?",
+      "Which systems were updated, and when was each confirmed?",
+      "Which items are still open past the promised date?"
+    ],
+    "sources": [
+      {
+        "name": "FTC: Protecting Personal Information",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security",
+        "note": "Official business guidance on handling consumer and client information."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Risk-based privacy practices referenced in the record design."
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/cyber-essentials",
+        "note": "Small business operational and access guidance."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who owns this process?",
+        "answer": "The client-side service owner confirms the policy and the escalation authority, while the desk maintains the record and the evidence."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the request, the approval, the system update, and the confirmation in one place so a later reviewer can follow the decision."
+      },
+      {
+        "question": "When should it be reviewed?",
+        "answer": "Review it at the next service meeting and after any change in policy, ownership, or system."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "See operations support",
+        "href": "/services/operations-support"
+      },
+      {
+        "label": "Read the shift handover guide",
+        "href": "/blog/outsourcedcompany-write-a-shift-handover-log-for-an-outsourced-data-entry-team"
       }
     ]
   },
@@ -188,6 +282,53 @@ export const blogDetails2026_11_22 = {
           "Change one part of the policy or the desk script and measure the next period. If late returns drive most exceptions, the delivery estimate may need work. If goodwill credits cluster around one agent, the boundary may be unclear. The log should reduce exceptions, not only document them."
         ]
       }
+    ],
+    "script": [
+      "What is the current scope, and who owns the decision?",
+      "Which evidence shows the request arrived and who approved it?",
+      "Which systems were updated, and when was each confirmed?",
+      "Which items are still open past the promised date?"
+    ],
+    "sources": [
+      {
+        "name": "FTC: Protecting Personal Information",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security",
+        "note": "Official business guidance on handling consumer and client information."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Risk-based privacy practices referenced in the record design."
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/cyber-essentials",
+        "note": "Small business operational and access guidance."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who owns this process?",
+        "answer": "The client-side service owner confirms the policy and the escalation authority, while the desk maintains the record and the evidence."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the request, the approval, the system update, and the confirmation in one place so a later reviewer can follow the decision."
+      },
+      {
+        "question": "When should it be reviewed?",
+        "answer": "Review it at the next service meeting and after any change in policy, ownership, or system."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "See operations support",
+        "href": "/services/operations-support"
+      },
+      {
+        "label": "Read the shift handover guide",
+        "href": "/blog/outsourcedcompany-write-a-shift-handover-log-for-an-outsourced-data-entry-team"
+      }
     ]
   },
   "outsourcedcompany-write-a-client-billing-dispute-intake-note-for-an-outsourced-finance-desk": {
@@ -239,6 +380,53 @@ export const blogDetails2026_11_22 = {
           "Review the disputes each month by category and client. A recurring rate dispute may need a clearer quote, while a recurring delivery dispute may need a service review. Share the pattern with the account and finance owners. The intake note should improve the next invoice, not only resolve the last one."
         ]
       }
+    ],
+    "script": [
+      "What is the current scope, and who owns the decision?",
+      "Which evidence shows the request arrived and who approved it?",
+      "Which systems were updated, and when was each confirmed?",
+      "Which items are still open past the promised date?"
+    ],
+    "sources": [
+      {
+        "name": "FTC: Protecting Personal Information",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security",
+        "note": "Official business guidance on handling consumer and client information."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Risk-based privacy practices referenced in the record design."
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/cyber-essentials",
+        "note": "Small business operational and access guidance."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who owns this process?",
+        "answer": "The client-side service owner confirms the policy and the escalation authority, while the desk maintains the record and the evidence."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the request, the approval, the system update, and the confirmation in one place so a later reviewer can follow the decision."
+      },
+      {
+        "question": "When should it be reviewed?",
+        "answer": "Review it at the next service meeting and after any change in policy, ownership, or system."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "See operations support",
+        "href": "/services/operations-support"
+      },
+      {
+        "label": "Read the shift handover guide",
+        "href": "/blog/outsourcedcompany-write-a-shift-handover-log-for-an-outsourced-data-entry-team"
+      }
     ]
   },
   "outsourcedcompany-build-a-knowledge-base-article-review-cadence-for-an-outsourced-support-desk": {
@@ -289,6 +477,53 @@ export const blogDetails2026_11_22 = {
           "Report the number of articles reviewed, overdue, corrected, and retired. Add the most-used articles and the ones with no owner. Send the report to the service owner and the desk lead. The trend shows whether the cadence is working.",
           "Review the cadence itself each quarter. If reviews are always late, the list may be too long or the owners too few. If no article is ever retired, the review may be too soft. Change one part and measure the next quarter. The cadence should keep the base small, current, and trusted."
         ]
+      }
+    ],
+    "script": [
+      "What is the current scope, and who owns the decision?",
+      "Which evidence shows the request arrived and who approved it?",
+      "Which systems were updated, and when was each confirmed?",
+      "Which items are still open past the promised date?"
+    ],
+    "sources": [
+      {
+        "name": "FTC: Protecting Personal Information",
+        "url": "https://www.ftc.gov/business-guidance/privacy-security",
+        "note": "Official business guidance on handling consumer and client information."
+      },
+      {
+        "name": "NIST Privacy Framework",
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Risk-based privacy practices referenced in the record design."
+      },
+      {
+        "name": "CISA Cyber Essentials",
+        "url": "https://www.cisa.gov/cyber-essentials",
+        "note": "Small business operational and access guidance."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who owns this process?",
+        "answer": "The client-side service owner confirms the policy and the escalation authority, while the desk maintains the record and the evidence."
+      },
+      {
+        "question": "What evidence should be kept?",
+        "answer": "Keep the request, the approval, the system update, and the confirmation in one place so a later reviewer can follow the decision."
+      },
+      {
+        "question": "When should it be reviewed?",
+        "answer": "Review it at the next service meeting and after any change in policy, ownership, or system."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "label": "See operations support",
+        "href": "/services/operations-support"
+      },
+      {
+        "label": "Read the shift handover guide",
+        "href": "/blog/outsourcedcompany-write-a-shift-handover-log-for-an-outsourced-data-entry-team"
       }
     ]
   }
