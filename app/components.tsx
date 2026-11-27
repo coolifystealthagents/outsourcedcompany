@@ -16,7 +16,7 @@ function ParentAttribution({ location }: { location: 'header' | 'footer' }) {
   </a>;
 }
 
-function LegacyHeader(){ return <header className="nav">
+function LegacyHeader(){ return <header data-site-header="sticky" className="nav">
   <a className="skip-link" href="#main-content">Skip to content</a>
   <div className="nav-inner">
     <a className="logo" href="/" aria-label={`${site.brand} home`}><LogoMark/></a>
@@ -25,7 +25,7 @@ function LegacyHeader(){ return <header className="nav">
   </div>
 </header>; }
 
-function LegacyFooter(){ return <footer className="legit-footer"><div className="footer-grid"><div className="footer-brand"><a className="footer-logo" href="/" aria-label={`${site.brand} home`}><span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="Outsourced Company logo"/><span className="logo-name">{site.brand}</span></span></a><p>Plan Philippines-based business support with role scope, access boundaries, and review steps written clearly.</p><ParentAttribution location="footer"/></div><div><h2>Services</h2><div className="footer-links">{services.slice(0,6).map((s:any)=><a href={`/services/${s.slug}`} key={s.slug}>{s.title}</a>)}</div></div><div><h2>Explore</h2><div className="footer-links"><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact-us">Contact Us</a><a href="/privacy">Privacy policy</a></div></div></div><div className="footer-bottom"><span>© {year} {site.brand}. All rights reserved.</span><span>Philippines-focused role planning</span></div></footer>; }
+function LegacyFooter(){ return <footer data-site-footer="true" className="legit-footer"><div className="footer-grid"><div className="footer-brand"><a className="footer-logo" href="/" aria-label={`${site.brand} home`}><span className="logo-mark-wrap"><img className="logo-img" src="/logo.svg" alt="Outsourced Company logo"/><span className="logo-name">{site.brand}</span></span></a><p>Plan Philippines-based business support with role scope, access boundaries, and review steps written clearly.</p><ParentAttribution location="footer"/></div><div><h2>Services</h2><div className="footer-links">{services.slice(0,6).map((s:any)=><a href={`/services/${s.slug}`} key={s.slug}>{s.title}</a>)}</div></div><div><h2>Explore</h2><div data-footer-menu="true" className="footer-links"><a href="/services">Services</a><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact-us">Contact Us</a><a href="/privacy">Privacy policy</a></div></div></div><div className="footer-bottom"><span>© {year} {site.brand}. All rights reserved.</span><span>Philippines-focused role planning</span></div></footer>; }
 
 export function CTA(){ return <section className="final-cta"><p className="eyebrow">Philippines staffing intake</p><h2>Define the position before hiring begins.</h2><p>Share the tasks, tools, schedule, and approval limits for your Filipino team member. The intake turns those details into a practical staffing brief.</p><a className="btn primary" href="/contact-us">Contact Us</a></section>; }
 

@@ -27,7 +27,7 @@ export function TestimonialsRail({ compact = false }: { compact?: boolean }) {
       <p>Verified client perspective</p>
       <h2 id="stealthagents-reviews-heading">StealthAgents reviews</h2>
     </div>
-    <div className="review-rail-viewport" tabIndex={0} aria-label="StealthAgents client reviews. Focus or hover to pause motion.">
+    <div className="review-rail-viewport" tabIndex={0} aria-label="StealthAgents client reviews. Focus to pause motion.">
       <div className="review-rail-track">
         {stealthAgentsReviews.map(review => <article className="review-card" key={review.id} data-review-id={review.id}>
           <div className="review-stars"><span aria-hidden="true">★★★★★</span><span className="sr-only">5 out of 5 stars</span></div>
@@ -41,7 +41,7 @@ export function TestimonialsRail({ compact = false }: { compact?: boolean }) {
     <style jsx>{`
       .review-rail{display:grid;gap:14px;min-width:0}.review-rail-heading p{margin:0;color:#a62228;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.review-rail-heading h2{margin:4px 0 0;font-size:clamp(22px,2.2vw,32px)}
       .review-rail-viewport{overflow:hidden;outline:none;border-radius:18px}.review-rail-viewport:focus-visible{box-shadow:0 0 0 3px #2c5d85}
-      .review-rail-track{display:flex;width:max-content;gap:14px;animation:reviewRail 70s linear infinite}.review-rail-viewport:hover .review-rail-track,.review-rail-viewport:focus .review-rail-track,.review-rail-viewport:focus-within .review-rail-track{animation-play-state:paused}
+      .review-rail-track{display:flex;width:max-content;gap:14px;animation:reviewRail 70s linear infinite}.review-rail-viewport:focus .review-rail-track,.review-rail-viewport:focus-within .review-rail-track{animation-play-state:paused}
       .review-card{width:min(330px,76vw);flex:0 0 auto;box-sizing:border-box;padding:18px;border:1px solid #ded7ce;border-radius:16px;background:#fff;color:#20252b;box-shadow:0 8px 24px rgba(21,31,39,.08)}.review-stars{color:#d49a13;letter-spacing:.08em}.review-card h3{margin:9px 0 7px;font-size:17px}.review-card blockquote{margin:0;line-height:1.55;font-size:14px}.review-card p{display:flex;flex-direction:column;gap:2px;margin:12px 0 0;font-size:13px}.review-card p span{color:#66717b}.review-source{margin:0;font-size:12px;color:#66717b}.review-source a{color:inherit}.review-rail-compact .review-card{width:min(290px,74vw)}
       @keyframes reviewRail{from{transform:translateX(0)}to{transform:translateX(calc(-100% + min(330px,76vw)))}}
       @media(prefers-reduced-motion:reduce){.review-rail-viewport{overflow-x:auto}.review-rail-track{width:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));animation:none}.review-card{width:auto}.review-rail-compact .review-card{width:auto}}
